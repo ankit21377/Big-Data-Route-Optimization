@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0' FileName="Imperial_Coaches_Ltd_DCH4_2026-06-08_13-12-49.xml" SchemaVersion="2.4">
+
+<StopPoints><AnnotatedStopPointRef><StopPointRef>040000002518</StopPointRef><CommonName>Seer Green Parish Hall</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002512</StopPointRef><CommonName>Seer Green Princess Marina Centre</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002506</StopPointRef><CommonName>Chalfont St Giles White Hart PH Three Households AM</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002500</StopPointRef><CommonName>Chalfont St Giles The Green</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002483</StopPointRef><CommonName>Chalfont St Giles The Wheelhouse</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002475</StopPointRef><CommonName>Chalfont Common Misbourne Avenue</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002481</StopPointRef><CommonName>Chalfont St Giles Kings Road Gorelands Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000000389</StopPointRef><CommonName>Dr Challoners High School</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000000468</StopPointRef><CommonName>Chalfont St Giles Kings Road Gorelands Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002482</StopPointRef><CommonName>Chalfont St Giles The Wheelhouse</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002501</StopPointRef><CommonName>Chalfont St Giles The Green</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002507</StopPointRef><CommonName>Chalfont St Giles White Hart PH Three Households PM</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002511</StopPointRef><CommonName>Seer Green Princess Marina Centre</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002517</StopPointRef><CommonName>Seer Green Parish Hall</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+  
+  <RouteSection id='routeSection_DCH4_AM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <RouteLink id='routeSection_DCH4_AM_1'><From><StopPointRef>040000002518</StopPointRef></From><To><StopPointRef>040000002512</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_2'><From><StopPointRef>040000002512</StopPointRef></From><To><StopPointRef>040000002506</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_3'><From><StopPointRef>040000002506</StopPointRef></From><To><StopPointRef>040000002500</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_4'><From><StopPointRef>040000002500</StopPointRef></From><To><StopPointRef>040000002483</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_5'><From><StopPointRef>040000002483</StopPointRef></From><To><StopPointRef>040000002475</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_6'><From><StopPointRef>040000002475</StopPointRef></From><To><StopPointRef>040000002481</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_AM_7'><From><StopPointRef>040000002481</StopPointRef></From><To><StopPointRef>040000000389</StopPointRef></To></RouteLink>
+  </RouteSection>
+  <RouteSection id='routeSection_DCH4_PM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <RouteLink id='routeSection_DCH4_PM_1'><From><StopPointRef>040000000389</StopPointRef></From><To><StopPointRef>040000000468</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_2'><From><StopPointRef>040000000468</StopPointRef></From><To><StopPointRef>040000002475</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_3'><From><StopPointRef>040000002475</StopPointRef></From><To><StopPointRef>040000002482</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_4'><From><StopPointRef>040000002482</StopPointRef></From><To><StopPointRef>040000002501</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_5'><From><StopPointRef>040000002501</StopPointRef></From><To><StopPointRef>040000002507</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_6'><From><StopPointRef>040000002507</StopPointRef></From><To><StopPointRef>040000002511</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCH4_PM_7'><From><StopPointRef>040000002511</StopPointRef></From><To><StopPointRef>040000002517</StopPointRef></To></RouteLink>
+  </RouteSection>
+</RouteSections>
+
+<Routes>
+  
+  <Route id='route_DCH4_AM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <Description>Seer Green Parish Hall - Dr Challoners High School</Description>
+    <RouteSectionRef>routeSection_DCH4_AM</RouteSectionRef>
+  </Route>
+  <Route id='route_DCH4_PM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <Description>Dr Challoners High School - Seer Green Parish Hall</Description>
+    <RouteSectionRef>routeSection_DCH4_PM</RouteSectionRef>
+  </Route>
+</Routes>
+
+<JourneyPatternSections>
+  
+<JourneyPatternSection id='JPS_DCH4_AM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_DCH4_AM_1'>
+  <From SequenceNumber='1'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002518</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='2'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002512</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_1</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_2'>
+  <From SequenceNumber='2'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002512</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='3'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002506</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_2</RouteLinkRef>
+  <RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_3'>
+  <From SequenceNumber='3'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002506</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='4'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002500</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_3</RouteLinkRef>
+  <RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_4'>
+  <From SequenceNumber='4'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002500</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='5'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002483</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_4</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_5'>
+  <From SequenceNumber='5'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002483</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='6'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002475</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_5</RouteLinkRef>
+  <RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_6'>
+  <From SequenceNumber='6'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002475</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='7'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002481</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_6</RouteLinkRef>
+  <RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_AM_7'>
+  <From SequenceNumber='7'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002481</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='8'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000000389</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_AM_7</RouteLinkRef>
+  <RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+<JourneyPatternSection id='JPS_DCH4_PM' CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_DCH4_PM_1'>
+  <From SequenceNumber='1'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000000389</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='2'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000000468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_1</RouteLinkRef>
+  <RunTime>PT840S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_2'>
+  <From SequenceNumber='2'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000000468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='3'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002475</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_2</RouteLinkRef>
+  <RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_3'>
+  <From SequenceNumber='3'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002475</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='4'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002482</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_3</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_4'>
+  <From SequenceNumber='4'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002482</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='5'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002501</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_4</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_5'>
+  <From SequenceNumber='5'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002501</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='6'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002507</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_5</RouteLinkRef>
+  <RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_6'>
+  <From SequenceNumber='6'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002507</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='7'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002511</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_6</RouteLinkRef>
+  <RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCH4_PM_7'>
+  <From SequenceNumber='7'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002511</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='8'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002517</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCH4_PM_7</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators>
+  <Operator id="IPCO">
+    <NationalOperatorCode>IPCO</NationalOperatorCode>
+    <OperatorCode>IPCO</OperatorCode>
+    <OperatorShortName>Imperial Coaches Ltd</OperatorShortName>
+    <LicenceNumber>PH1117946</LicenceNumber>
+  </Operator>
+</Operators>
+
+<Services>
+  <Service CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <ServiceCode>PH1117946:7</ServiceCode>
+    <Lines>
+      <Line id="IPCO:PH1117946:7:DCH4">
+        <LineName>DCH4</LineName>
+        <OutboundDescription>
+          <Origin>Seer Green Parish Hall</Origin>
+          <Destination>Dr Challoners High School</Destination>
+          <Description>Seer Green Parish Hall - Dr Challoners High School</Description>
+        </OutboundDescription>
+        <InboundDescription>
+          <Origin>Dr Challoners High School</Origin>
+          <Destination>Seer Green Parish Hall</Destination>
+          <Description>Dr Challoners High School - Seer Green Parish Hall</Description>
+        </InboundDescription>
+      </Line>
+    </Lines>
+    <OperatingPeriod>
+      <StartDate>2025-09-05</StartDate>
+      <EndDate>2027-07-20</EndDate>
+    </OperatingPeriod>
+
+    <RegisteredOperatorRef>IPCO</RegisteredOperatorRef>
+
+    <StopRequirements>
+      <NoNewStopsRequired/>
+    </StopRequirements>
+
+    <Mode>bus</Mode>
+    <PublicUse>false</PublicUse>
+    <Description>Seer Green Parish Hall - Dr Challoners High School</Description>
+
+    <StandardService>
+      <Origin>Seer Green Parish Hall</Origin>
+      <Destination>Dr Challoners High School</Destination>
+      
+<JourneyPattern id='JP_DCH4_AM'>
+  <DestinationDisplay>Dr Challoners High School</DestinationDisplay>
+  <OperatorRef>IPCO</OperatorRef>
+  <Direction>outbound</Direction>
+  <RouteRef>route_DCH4_AM</RouteRef>
+  <JourneyPatternSectionRefs>JPS_DCH4_AM</JourneyPatternSectionRefs>
+</JourneyPattern>
+<JourneyPattern id='JP_DCH4_PM'>
+  <DestinationDisplay>Seer Green Parish Hall</DestinationDisplay>
+  <OperatorRef>IPCO</OperatorRef>
+  <Direction>inbound</Direction>
+  <RouteRef>route_DCH4_PM</RouteRef>
+  <JourneyPatternSectionRefs>JPS_DCH4_PM</JourneyPatternSectionRefs>
+</JourneyPattern>
+    </StandardService>
+  </Service>
+</Services>
+
+<VehicleJourneys>
+  
+  <VehicleJourney CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <OperatorRef>IPCO</OperatorRef>
+    <Operational>
+      
+      <TicketMachine>
+        <JourneyCode>VJ_524</JourneyCode>
+      </TicketMachine>
+    </Operational>
+    <OperatingProfile>
+      <RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+      <SpecialDaysOperation>
+        
+        <DaysOfNonOperation><DateRange><StartDate>2026-07-20</StartDate><EndDate>2026-07-24</EndDate></DateRange><DateRange><StartDate>2026-07-27</StartDate><EndDate>2026-07-31</EndDate></DateRange><DateRange><StartDate>2026-08-03</StartDate><EndDate>2026-08-07</EndDate></DateRange><DateRange><StartDate>2026-08-10</StartDate><EndDate>2026-08-14</EndDate></DateRange><DateRange><StartDate>2026-08-17</StartDate><EndDate>2026-08-21</EndDate></DateRange><DateRange><StartDate>2026-08-24</StartDate><EndDate>2026-08-28</EndDate></DateRange><DateRange><StartDate>2026-08-31</StartDate><EndDate>2026-09-03</EndDate></DateRange><DateRange><StartDate>2026-10-19</StartDate><EndDate>2026-10-23</EndDate></DateRange><DateRange><StartDate>2026-10-26</StartDate><EndDate>2026-10-30</EndDate></DateRange><DateRange><StartDate>2026-12-18</StartDate><EndDate>2026-12-18</EndDate></DateRange><DateRange><StartDate>2026-12-21</StartDate><EndDate>2026-12-25</EndDate></DateRange><DateRange><StartDate>2026-12-28</StartDate><EndDate>2027-01-01</EndDate></DateRange><DateRange><StartDate>2027-01-04</StartDate><EndDate>2027-01-04</EndDate></DateRange><DateRange><StartDate>2027-02-15</StartDate><EndDate>2027-02-19</EndDate></DateRange><DateRange><StartDate>2027-03-26</StartDate><EndDate>2027-03-26</EndDate></DateRange><DateRange><StartDate>2027-03-29</StartDate><EndDate>2027-04-02</EndDate></DateRange><DateRange><StartDate>2027-04-05</StartDate><EndDate>2027-04-09</EndDate></DateRange><DateRange><StartDate>2027-04-12</StartDate><EndDate>2027-04-12</EndDate></DateRange><DateRange><StartDate>2027-05-03</StartDate><EndDate>2027-05-03</EndDate></DateRange><DateRange><StartDate>2027-05-31</StartDate><EndDate>2027-06-04</EndDate></DateRange><DateRange><StartDate>2027-06-28</StartDate><EndDate>2027-06-28</EndDate></DateRange></DaysOfNonOperation>
+      </SpecialDaysOperation>
+      <BankHolidayOperation>
+        <DaysOfNonOperation>
+          <ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/>
+        </DaysOfNonOperation>
+      </BankHolidayOperation>
+    </OperatingProfile>
+    <VehicleJourneyCode>VJ_524</VehicleJourneyCode>
+    <ServiceRef>PH1117946:7</ServiceRef>
+    <LineRef>IPCO:PH1117946:7:DCH4</LineRef>
+    <JourneyPatternRef>JP_DCH4_AM</JourneyPatternRef>
+    <DepartureTime>07:49:00</DepartureTime>
+  </VehicleJourney>
+  <VehicleJourney CreationDateTime='2026-06-08T13:12:49' ModificationDateTime='2026-06-08T13:12:49' Modification='new' RevisionNumber='0'>
+    <OperatorRef>IPCO</OperatorRef>
+    <Operational>
+      
+      <TicketMachine>
+        <JourneyCode>VJ_525</JourneyCode>
+      </TicketMachine>
+    </Operational>
+    <OperatingProfile>
+      <RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+      <SpecialDaysOperation>
+        
+        <DaysOfNonOperation><DateRange><StartDate>2026-07-20</StartDate><EndDate>2026-07-24</EndDate></DateRange><DateRange><StartDate>2026-07-27</StartDate><EndDate>2026-07-31</EndDate></DateRange><DateRange><StartDate>2026-08-03</StartDate><EndDate>2026-08-07</EndDate></DateRange><DateRange><StartDate>2026-08-10</StartDate><EndDate>2026-08-14</EndDate></DateRange><DateRange><StartDate>2026-08-17</StartDate><EndDate>2026-08-21</EndDate></DateRange><DateRange><StartDate>2026-08-24</StartDate><EndDate>2026-08-28</EndDate></DateRange><DateRange><StartDate>2026-08-31</StartDate><EndDate>2026-09-03</EndDate></DateRange><DateRange><StartDate>2026-10-19</StartDate><EndDate>2026-10-23</EndDate></DateRange><DateRange><StartDate>2026-10-26</StartDate><EndDate>2026-10-30</EndDate></DateRange><DateRange><StartDate>2026-12-18</StartDate><EndDate>2026-12-18</EndDate></DateRange><DateRange><StartDate>2026-12-21</StartDate><EndDate>2026-12-25</EndDate></DateRange><DateRange><StartDate>2026-12-28</StartDate><EndDate>2027-01-01</EndDate></DateRange><DateRange><StartDate>2027-01-04</StartDate><EndDate>2027-01-04</EndDate></DateRange><DateRange><StartDate>2027-02-15</StartDate><EndDate>2027-02-19</EndDate></DateRange><DateRange><StartDate>2027-03-26</StartDate><EndDate>2027-03-26</EndDate></DateRange><DateRange><StartDate>2027-03-29</StartDate><EndDate>2027-04-02</EndDate></DateRange><DateRange><StartDate>2027-04-05</StartDate><EndDate>2027-04-09</EndDate></DateRange><DateRange><StartDate>2027-04-12</StartDate><EndDate>2027-04-12</EndDate></DateRange><DateRange><StartDate>2027-05-03</StartDate><EndDate>2027-05-03</EndDate></DateRange><DateRange><StartDate>2027-05-31</StartDate><EndDate>2027-06-04</EndDate></DateRange><DateRange><StartDate>2027-06-28</StartDate><EndDate>2027-06-28</EndDate></DateRange></DaysOfNonOperation>
+      </SpecialDaysOperation>
+      <BankHolidayOperation>
+        <DaysOfNonOperation>
+          <ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/>
+        </DaysOfNonOperation>
+      </BankHolidayOperation>
+    </OperatingProfile>
+    <VehicleJourneyCode>VJ_525</VehicleJourneyCode>
+    <ServiceRef>PH1117946:7</ServiceRef>
+    <LineRef>IPCO:PH1117946:7:DCH4</LineRef>
+    <JourneyPatternRef>JP_DCH4_PM</JourneyPatternRef>
+    <DepartureTime>15:40:00</DepartureTime>
+  </VehicleJourney>
+</VehicleJourneys>
+
+</TransXChange>

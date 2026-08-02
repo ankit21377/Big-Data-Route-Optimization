@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2020-03-31T15:47:19" ModificationDateTime="2026-07-16T13:15:28" Modification="revise" RevisionNumber="200" FileName="OXBC_BV01_OXBCPH000572773BV1_20250525_-_2107743.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340000117STN</StopPointRef>
+      <CommonName>Bicester, Bicester North Railway Station</CommonName>
+      <Location>
+        <Longitude>-1.150760</Longitude>
+        <Latitude>51.903620</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340001734APP</StopPointRef>
+      <CommonName>Bicester, Bicester Village Station</CommonName>
+      <Location>
+        <Longitude>-1.149740</Longitude>
+        <Latitude>51.892810</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340003163BSV</StopPointRef>
+      <CommonName>Bicester, Bicester Village</CommonName>
+      <Location>
+        <Longitude>-1.159150</Longitude>
+        <Latitude>51.893120</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>340000117STN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340001734APP</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>340001734APP</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340003163BSV</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>340003163BSV</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340000117STN</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>340000117STN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>340001734APP</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT8M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>340001734APP</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>340003163BSV</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>340003163BSV</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>340000117STN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>OXBC</NationalOperatorCode>
+      <OperatorCode>CSLB</OperatorCode>
+      <OperatorShortName>Oxford Bus</OperatorShortName>
+      <LicenceNumber>PH0005727</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PH0005727:73</ServiceCode>
+      <Lines>
+        <Line id="OXBC:PH0005727:73:BV1">
+          <LineName>BV1</LineName>
+          <OutboundDescription>
+            <Description>Bicester North Station to Bicester North Station</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Bicester North Station to Bicester North Station</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-05-25</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Bicester North Station</Origin>
+        <Destination>Bicester North Station</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Bicester, Bicester North Railway Station</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3001</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3003</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3005</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3007</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3009</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3011</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3013</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3015</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3017</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3019</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_10</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3021</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_11</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3023</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_12</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3025</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_13</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3027</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_14</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3029</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_15</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3031</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_16</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3033</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_17</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>17:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3035</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_18</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>17:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3037</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_19</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>18:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3039</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_20</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>18:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3041</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_21</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>19:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3043</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_22</VehicleJourneyCode>
+      <ServiceRef>PH0005727:73</ServiceRef>
+      <LineRef>OXBC:PH0005727:73:BV1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>19:35:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2019-03-18T12:41:15" ModificationDateTime="2026-07-07T07:15:43" Modification="revise" RevisionNumber="148" FileName="DAGC_316_DAGCPC1090231150316_20230401_-_1596722.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>0600CO069</StopPointRef>
+      <CommonName>The Commons</CommonName>
+      <Location>
+        <Longitude>-2.362510</Longitude>
+        <Latitude>53.144963</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>0600CO5083</StopPointRef>
+      <CommonName>Princess Drive</CommonName>
+      <Location>
+        <Longitude>-2.371468</Longitude>
+        <Latitude>53.148773</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>0600CO5080</StopPointRef>
+      <CommonName>Cookesmere Lane</CommonName>
+      <Location>
+        <Longitude>-2.370528</Longitude>
+        <Latitude>53.150709</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>0600CO069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0600CO5080</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>0600CO5080</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0600CO5083</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>0600CO5083</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0600CO069</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>0600CO069</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>0600CO5080</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>0600CO5080</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>0600CO5083</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="2">
+          <StopPointRef>0600CO5083</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>0600CO069</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>DAGC</NationalOperatorCode>
+      <OperatorCode>DAGC</OperatorCode>
+      <OperatorShortName>D&amp;G Bus Ltd</OperatorShortName>
+      <LicenceNumber>PC1090231</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC1090231:150</ServiceCode>
+      <Lines>
+        <Line id="DAGC:PC1090231:150:316">
+          <LineName>316</LineName>
+          <OutboundDescription>
+            <Description>Sandbach to Cookesmere Lane</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Cookesmere Lane to Sandbach</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-04-01</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationOfKingCharlesIII</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>StateFuneralOfQueenElizabeth</Description>
+              <Date>2022-09-19</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>QueensJubilee2022</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Sandbach</Origin>
+        <Destination>Cookesmere Lane</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Cookesmere Lane</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>The Commons</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>401</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>403</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>405</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>402</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>10:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>404</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:29:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>406</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PC1090231:150</ServiceRef>
+      <LineRef>DAGC:PC1090231:150:316</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>13:19:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

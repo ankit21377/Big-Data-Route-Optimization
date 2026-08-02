@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-11T17:59:31' Modification='revise' RevisionNumber='7' FileName="Harpurs Coaches Ltd 2025276 2025-07-11 17-59.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>109000009186</StopPointRef><CommonName>Sikh Temple</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009298</StopPointRef><CommonName>Lower Dale Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009310</StopPointRef><CommonName>Swinburne Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009176</StopPointRef><CommonName>Grafton Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009592</StopPointRef><CommonName>Troon Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009590</StopPointRef><CommonName>Community School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109052867</StopPointRef><CommonName>Buller Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009297</StopPointRef><CommonName>Lower Dale Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000009185</StopPointRef><CommonName>Sikh Temple</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_128' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-07-11T17:43:46' Modification='revise' RevisionNumber='7'>
+<RouteLink id='routeSection_128_1'><From><StopPointRef>109000009186</StopPointRef></From><To><StopPointRef>109000009298</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_128_2'><From><StopPointRef>109000009298</StopPointRef></From><To><StopPointRef>109000009310</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_128_3'><From><StopPointRef>109000009310</StopPointRef></From><To><StopPointRef>109000009176</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_128_4'><From><StopPointRef>109000009176</StopPointRef></From><To><StopPointRef>109000009592</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_129' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-07-11T17:44:02' Modification='revise' RevisionNumber='7'>
+<RouteLink id='routeSection_129_1'><From><StopPointRef>109000009590</StopPointRef></From><To><StopPointRef>109000009185</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_128' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-07-11T17:43:46' Modification='revise' RevisionNumber='7'><Description>Sikh Temple - Troon Close</Description><RouteSectionRef>routeSection_128</RouteSectionRef></Route>
+<Route id='route_129' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-07-11T17:44:03' Modification='revise' RevisionNumber='7'><Description>Community School  - Sikh Temple</Description><RouteSectionRef>routeSection_129</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_159' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-11T17:59:31' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_159_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>109000009186</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>109000009298</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_128_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_159_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>109000009298</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>109000009310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_128_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_159_3'>
+<From SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>109000009310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>109000009176</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_128_3</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_159_4'>
+<From SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>109000009176</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>109000009592</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_128_4</RouteLinkRef><RunTime>PT1200S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_160' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-11T17:59:31' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_160_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>109000009590</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109000009185</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_129_1</RouteLinkRef><RunTime>PT1800S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HASO"><NationalOperatorCode>HASO</NationalOperatorCode><OperatorCode>HASO</OperatorCode><OperatorShortName>Harpurs Coaches Ltd</OperatorShortName><LicenceNumber>PC1019835</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-11T17:59:31' Modification='revise' RevisionNumber='7'>
+<ServiceCode>PC1019835:12</ServiceCode><Lines><Line id="HASO:PC1019835:12:276"><LineName>276</LineName><OutboundDescription><Origin>Sikh Temple</Origin><Destination>Troon Close</Destination><Description>Sikh Temple - Troon Close</Description></OutboundDescription><InboundDescription><Origin>Community School </Origin><Destination>Sikh Temple</Destination><Description>Community School  - Sikh Temple</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2009-02-02</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HASO</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>Community School  - Sikh Temple</Description>
+
+<StandardService>
+<Origin>Community School </Origin>
+<Destination>Sikh Temple</Destination>
+<JourneyPattern id='JP_159'><DestinationDisplay>199</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>outbound</Direction><RouteRef>route_128</RouteRef><JourneyPatternSectionRefs>JPS_159</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_160'><DestinationDisplay>199</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>inbound</Direction><RouteRef>route_129</RouteRef><JourneyPatternSectionRefs>JPS_160</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-11T17:59:27' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_482</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_482</VehicleJourneyCode>
+<ServiceRef>PC1019835:12</ServiceRef><LineRef>HASO:PC1019835:12:276</LineRef>
+<JourneyPatternRef>JP_159</JourneyPatternRef>
+<DepartureTime>07:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-11T17:59:31' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_483</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_483</VehicleJourneyCode>
+<ServiceRef>PC1019835:12</ServiceRef><LineRef>HASO:PC1019835:12:276</LineRef>
+<JourneyPatternRef>JP_160</JourneyPatternRef>
+<DepartureTime>15:30:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

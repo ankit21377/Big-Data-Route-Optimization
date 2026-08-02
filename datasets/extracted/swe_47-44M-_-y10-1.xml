@@ -1,0 +1,2964 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<TransXChange CreationDateTime="2022-08-03T09:43:47" ModificationDateTime="2026-03-20T15:07:03" Modification="revise" FileName="swe_47-44M-_-y10-1.xml" RevisionNumber="19" SchemaVersion="2.4" xml:lang="en" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+	<StopPoints>
+		<AnnotatedStopPointRef>
+			<StopPointRef>460000110</StopPointRef>
+			<CommonName>Esmead</CommonName>
+			<Indicator>NW-bound</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10675</StopPointRef>
+			<CommonName>Rail Station Forecourt A</CommonName>
+			<Indicator>NW-bound</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10663</StopPointRef>
+			<CommonName>Town Bridge</CommonName>
+			<Indicator>NE-bound</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10683</StopPointRef>
+			<CommonName>Town Bridge</CommonName>
+			<Indicator>SE-bound</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10676</StopPointRef>
+			<CommonName>Wiltshire College</CommonName>
+			<Indicator>opp</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10682</StopPointRef>
+			<CommonName>Cocklebury Road</CommonName>
+			<Indicator>N-bound</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10681</StopPointRef>
+			<CommonName>Gales Close</CommonName>
+			<Indicator>SE-bound</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>460000514</StopPointRef>
+			<CommonName>Newall Tuck Road</CommonName>
+			<Indicator>NE-bound</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>4600WIA10677</StopPointRef>
+			<CommonName>Primary School</CommonName>
+			<Indicator>nr</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>460000513</StopPointRef>
+			<CommonName>Riverside Drive</CommonName>
+			<Indicator>SW-bound</Indicator>
+			<LocalityName>Chippenham</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>460000515</StopPointRef>
+			<CommonName>Seymour Road</CommonName>
+			<Indicator>NW-bound</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>460000516</StopPointRef>
+			<CommonName>Downham Mead</CommonName>
+			<Indicator>NW-bound</Indicator>
+			<LocalityName>Monkton Park</LocalityName>
+			<LocalityQualifier>Wiltshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+	</StopPoints>
+	<RouteSections>
+		<RouteSection id="RS_47-44M-_-y10-1-O-1">
+			<RouteLink id="RL_47-44M-_-y10-1-O-1-1">
+				<From>
+					<StopPointRef>4600WIA10663</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10675</StopPointRef>
+				</To>
+				<Distance>489</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.11788</Longitude>
+							<Latitude>51.459174</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117797</Longitude>
+							<Latitude>51.459211</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117622</Longitude>
+							<Latitude>51.459286</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117558</Longitude>
+							<Latitude>51.459313</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117323</Longitude>
+							<Latitude>51.459408</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117342</Longitude>
+							<Latitude>51.459464</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117345</Longitude>
+							<Latitude>51.459476</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117351</Longitude>
+							<Latitude>51.45949</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117361</Longitude>
+							<Latitude>51.459504</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117707</Longitude>
+							<Latitude>51.459955</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117797</Longitude>
+							<Latitude>51.460051</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118135</Longitude>
+							<Latitude>51.46046</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11819</Longitude>
+							<Latitude>51.460539</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118213</Longitude>
+							<Latitude>51.460573</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118316</Longitude>
+							<Latitude>51.46072</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118094</Longitude>
+							<Latitude>51.460808</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118054</Longitude>
+							<Latitude>51.460829</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117752</Longitude>
+							<Latitude>51.46098</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116788</Longitude>
+							<Latitude>51.46145</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116736</Longitude>
+							<Latitude>51.461474</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11668</Longitude>
+							<Latitude>51.461497</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116618</Longitude>
+							<Latitude>51.461517</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116584</Longitude>
+							<Latitude>51.461525</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116546</Longitude>
+							<Latitude>51.461534</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116482</Longitude>
+							<Latitude>51.461547</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116443</Longitude>
+							<Latitude>51.461553</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116354</Longitude>
+							<Latitude>51.461564</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116254</Longitude>
+							<Latitude>51.461578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116136</Longitude>
+							<Latitude>51.461593</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116063</Longitude>
+							<Latitude>51.461609</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115976</Longitude>
+							<Latitude>51.461629</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11543</Longitude>
+							<Latitude>51.461791</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115253</Longitude>
+							<Latitude>51.461845</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115081</Longitude>
+							<Latitude>51.461897</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115207</Longitude>
+							<Latitude>51.46203</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-1-2">
+				<From>
+					<StopPointRef>4600WIA10675</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10682</StopPointRef>
+				</To>
+				<Distance>887</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.115207</Longitude>
+							<Latitude>51.46203</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115313</Longitude>
+							<Latitude>51.462141</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115323</Longitude>
+							<Latitude>51.462156</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115325</Longitude>
+							<Latitude>51.462173</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11532</Longitude>
+							<Latitude>51.46219</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115296</Longitude>
+							<Latitude>51.462209</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115218</Longitude>
+							<Latitude>51.462241</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115133</Longitude>
+							<Latitude>51.462273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115106</Longitude>
+							<Latitude>51.462278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115078</Longitude>
+							<Latitude>51.462278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11507</Longitude>
+							<Latitude>51.462275</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115044</Longitude>
+							<Latitude>51.462266</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115019</Longitude>
+							<Latitude>51.46225</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11478</Longitude>
+							<Latitude>51.461997</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114561</Longitude>
+							<Latitude>51.462088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114361</Longitude>
+							<Latitude>51.462186</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114099</Longitude>
+							<Latitude>51.462323</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113896</Longitude>
+							<Latitude>51.462433</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113716</Longitude>
+							<Latitude>51.462528</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113545</Longitude>
+							<Latitude>51.462624</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112983</Longitude>
+							<Latitude>51.462923</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112836</Longitude>
+							<Latitude>51.463004</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112677</Longitude>
+							<Latitude>51.463092</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11248</Longitude>
+							<Latitude>51.463202</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11181</Longitude>
+							<Latitude>51.463574</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111739</Longitude>
+							<Latitude>51.463602</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111704</Longitude>
+							<Latitude>51.463615</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111413</Longitude>
+							<Latitude>51.463759</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111282</Longitude>
+							<Latitude>51.463801</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111092</Longitude>
+							<Latitude>51.463796</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110856</Longitude>
+							<Latitude>51.463767</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110244</Longitude>
+							<Latitude>51.463704</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110168</Longitude>
+							<Latitude>51.463697</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.109677</Longitude>
+							<Latitude>51.463651</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.109563</Longitude>
+							<Latitude>51.46364</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.109463</Longitude>
+							<Latitude>51.463631</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.109113</Longitude>
+							<Latitude>51.463599</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108415</Longitude>
+							<Latitude>51.463533</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108163</Longitude>
+							<Latitude>51.463508</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108019</Longitude>
+							<Latitude>51.463491</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107643</Longitude>
+							<Latitude>51.463446</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10752</Longitude>
+							<Latitude>51.463426</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107411</Longitude>
+							<Latitude>51.463407</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107106</Longitude>
+							<Latitude>51.463344</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107023</Longitude>
+							<Latitude>51.463327</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106627</Longitude>
+							<Latitude>51.463242</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106412</Longitude>
+							<Latitude>51.463195</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106235</Longitude>
+							<Latitude>51.463162</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106036</Longitude>
+							<Latitude>51.463128</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105732</Longitude>
+							<Latitude>51.463081</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105469</Longitude>
+							<Latitude>51.463047</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104875</Longitude>
+							<Latitude>51.462977</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104764</Longitude>
+							<Latitude>51.463104</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104746</Longitude>
+							<Latitude>51.463125</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104623</Longitude>
+							<Latitude>51.463247</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104593</Longitude>
+							<Latitude>51.463273</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-1-3">
+				<From>
+					<StopPointRef>4600WIA10682</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10681</StopPointRef>
+				</To>
+				<Distance>147</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.104593</Longitude>
+							<Latitude>51.463273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104456</Longitude>
+							<Latitude>51.463391</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104388</Longitude>
+							<Latitude>51.463459</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104331</Longitude>
+							<Latitude>51.463524</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10426</Longitude>
+							<Latitude>51.463628</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104213</Longitude>
+							<Latitude>51.46371</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104178</Longitude>
+							<Latitude>51.46375</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104148</Longitude>
+							<Latitude>51.46377</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104111</Longitude>
+							<Latitude>51.46378</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104075</Longitude>
+							<Latitude>51.46379</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104041</Longitude>
+							<Latitude>51.463794</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103998</Longitude>
+							<Latitude>51.463793</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103914</Longitude>
+							<Latitude>51.463782</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103896</Longitude>
+							<Latitude>51.463778</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103752</Longitude>
+							<Latitude>51.463749</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103552</Longitude>
+							<Latitude>51.463696</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103029</Longitude>
+							<Latitude>51.463553</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-1-4">
+				<From>
+					<StopPointRef>4600WIA10681</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>460000513</StopPointRef>
+				</To>
+				<Distance>539</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.103029</Longitude>
+							<Latitude>51.463553</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102975</Longitude>
+							<Latitude>51.463538</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102181</Longitude>
+							<Latitude>51.463299</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102043</Longitude>
+							<Latitude>51.463253</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101948</Longitude>
+							<Latitude>51.463215</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101843</Longitude>
+							<Latitude>51.46316</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101753</Longitude>
+							<Latitude>51.463104</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101678</Longitude>
+							<Latitude>51.463052</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101607</Longitude>
+							<Latitude>51.462986</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101557</Longitude>
+							<Latitude>51.462932</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101522</Longitude>
+							<Latitude>51.462885</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101483</Longitude>
+							<Latitude>51.462814</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101455</Longitude>
+							<Latitude>51.462736</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101437</Longitude>
+							<Latitude>51.462662</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101435</Longitude>
+							<Latitude>51.462589</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101445</Longitude>
+							<Latitude>51.462515</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10149</Longitude>
+							<Latitude>51.462426</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101543</Longitude>
+							<Latitude>51.462343</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101062</Longitude>
+							<Latitude>51.462191</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100828</Longitude>
+							<Latitude>51.462073</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100589</Longitude>
+							<Latitude>51.461918</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100489</Longitude>
+							<Latitude>51.461873</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100181</Longitude>
+							<Latitude>51.461732</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.099701</Longitude>
+							<Latitude>51.46152</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.099365</Longitude>
+							<Latitude>51.461381</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.099259</Longitude>
+							<Latitude>51.461333</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.0991</Longitude>
+							<Latitude>51.461278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.099366</Longitude>
+							<Latitude>51.460999</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.099699</Longitude>
+							<Latitude>51.460682</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100032</Longitude>
+							<Latitude>51.460356</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100169</Longitude>
+							<Latitude>51.460248</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-1-5">
+				<From>
+					<StopPointRef>460000513</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>460000514</StopPointRef>
+				</To>
+				<Distance>781</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.100169</Longitude>
+							<Latitude>51.460248</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100349</Longitude>
+							<Latitude>51.460106</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100446</Longitude>
+							<Latitude>51.460039</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.100717</Longitude>
+							<Latitude>51.459834</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101038</Longitude>
+							<Latitude>51.459611</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101364</Longitude>
+							<Latitude>51.459462</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.101956</Longitude>
+							<Latitude>51.459225</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102548</Longitude>
+							<Latitude>51.458851</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102926</Longitude>
+							<Latitude>51.458633</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102952</Longitude>
+							<Latitude>51.458577</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102986</Longitude>
+							<Latitude>51.458494</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103025</Longitude>
+							<Latitude>51.458418</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103068</Longitude>
+							<Latitude>51.458348</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103115</Longitude>
+							<Latitude>51.458297</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103161</Longitude>
+							<Latitude>51.458256</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103211</Longitude>
+							<Latitude>51.458219</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103268</Longitude>
+							<Latitude>51.458191</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103317</Longitude>
+							<Latitude>51.458175</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103371</Longitude>
+							<Latitude>51.45816</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103429</Longitude>
+							<Latitude>51.458148</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103527</Longitude>
+							<Latitude>51.458129</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103618</Longitude>
+							<Latitude>51.458115</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103736</Longitude>
+							<Latitude>51.4581</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103854</Longitude>
+							<Latitude>51.45809</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103895</Longitude>
+							<Latitude>51.458089</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103993</Longitude>
+							<Latitude>51.458097</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104064</Longitude>
+							<Latitude>51.458106</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104131</Longitude>
+							<Latitude>51.458118</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10419</Longitude>
+							<Latitude>51.45813</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104257</Longitude>
+							<Latitude>51.458146</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104608</Longitude>
+							<Latitude>51.45825</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104549</Longitude>
+							<Latitude>51.458343</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104527</Longitude>
+							<Latitude>51.458385</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104513</Longitude>
+							<Latitude>51.458417</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104504</Longitude>
+							<Latitude>51.458445</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104499</Longitude>
+							<Latitude>51.458477</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.1045</Longitude>
+							<Latitude>51.458504</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104505</Longitude>
+							<Latitude>51.45853</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104512</Longitude>
+							<Latitude>51.458561</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104525</Longitude>
+							<Latitude>51.458591</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104553</Longitude>
+							<Latitude>51.458626</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104705</Longitude>
+							<Latitude>51.458818</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104783</Longitude>
+							<Latitude>51.45892</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104923</Longitude>
+							<Latitude>51.459176</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105074</Longitude>
+							<Latitude>51.45939</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105139</Longitude>
+							<Latitude>51.459557</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105199</Longitude>
+							<Latitude>51.45971</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105211</Longitude>
+							<Latitude>51.459799</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105159</Longitude>
+							<Latitude>51.459795</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105104</Longitude>
+							<Latitude>51.459799</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105048</Longitude>
+							<Latitude>51.45981</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104992</Longitude>
+							<Latitude>51.459822</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104852</Longitude>
+							<Latitude>51.459861</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104701</Longitude>
+							<Latitude>51.459908</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104449</Longitude>
+							<Latitude>51.459996</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104233</Longitude>
+							<Latitude>51.460089</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104052</Longitude>
+							<Latitude>51.460175</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103871</Longitude>
+							<Latitude>51.460272</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103716</Longitude>
+							<Latitude>51.460381</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103703</Longitude>
+							<Latitude>51.460391</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103624</Longitude>
+							<Latitude>51.46045</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103476</Longitude>
+							<Latitude>51.460574</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103322</Longitude>
+							<Latitude>51.460704</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103257</Longitude>
+							<Latitude>51.460781</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+		</RouteSection>
+		<RouteSection id="RS_47-44M-_-y10-1-O-2">
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-6">
+				<From>
+					<StopPointRef>460000514</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>460000515</StopPointRef>
+				</To>
+				<Distance>282</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.103257</Longitude>
+							<Latitude>51.460781</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103104</Longitude>
+							<Latitude>51.460959</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103018</Longitude>
+							<Latitude>51.46106</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102973</Longitude>
+							<Latitude>51.461112</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10246</Longitude>
+							<Latitude>51.461723</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102352</Longitude>
+							<Latitude>51.461852</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.102592</Longitude>
+							<Latitude>51.461929</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.103899</Longitude>
+							<Latitude>51.462308</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104275</Longitude>
+							<Latitude>51.462415</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-7">
+				<From>
+					<StopPointRef>460000515</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>460000516</StopPointRef>
+				</To>
+				<Distance>308</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.104275</Longitude>
+							<Latitude>51.462415</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10445</Longitude>
+							<Latitude>51.462465</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104491</Longitude>
+							<Latitude>51.462475</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.10481</Longitude>
+							<Latitude>51.462543</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.104984</Longitude>
+							<Latitude>51.462569</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105079</Longitude>
+							<Latitude>51.462583</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105274</Longitude>
+							<Latitude>51.462073</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105385</Longitude>
+							<Latitude>51.461783</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105552</Longitude>
+							<Latitude>51.461343</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105585</Longitude>
+							<Latitude>51.461183</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105621</Longitude>
+							<Latitude>51.461</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105646</Longitude>
+							<Latitude>51.460831</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105658</Longitude>
+							<Latitude>51.460652</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105767</Longitude>
+							<Latitude>51.460655</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105851</Longitude>
+							<Latitude>51.460659</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.105933</Longitude>
+							<Latitude>51.460672</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106031</Longitude>
+							<Latitude>51.460702</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106061</Longitude>
+							<Latitude>51.460715</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-8">
+				<From>
+					<StopPointRef>460000516</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10677</StopPointRef>
+				</To>
+				<Distance>165</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.106061</Longitude>
+							<Latitude>51.460715</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106132</Longitude>
+							<Latitude>51.460744</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106221</Longitude>
+							<Latitude>51.460791</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106314</Longitude>
+							<Latitude>51.460856</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106454</Longitude>
+							<Latitude>51.460979</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.106783</Longitude>
+							<Latitude>51.460819</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107196</Longitude>
+							<Latitude>51.460577</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.107748</Longitude>
+							<Latitude>51.460214</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-9">
+				<From>
+					<StopPointRef>4600WIA10677</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>460000110</StopPointRef>
+				</To>
+				<Distance>218</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.107748</Longitude>
+							<Latitude>51.460214</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108105</Longitude>
+							<Latitude>51.459979</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108179</Longitude>
+							<Latitude>51.459943</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108263</Longitude>
+							<Latitude>51.459914</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108343</Longitude>
+							<Latitude>51.459898</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108418</Longitude>
+							<Latitude>51.459893</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.1085</Longitude>
+							<Latitude>51.459895</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108584</Longitude>
+							<Latitude>51.459904</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108652</Longitude>
+							<Latitude>51.459922</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108706</Longitude>
+							<Latitude>51.459939</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.108752</Longitude>
+							<Latitude>51.459963</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11007</Longitude>
+							<Latitude>51.460828</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-10">
+				<From>
+					<StopPointRef>460000110</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10676</StopPointRef>
+				</To>
+				<Distance>296</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.11007</Longitude>
+							<Latitude>51.460828</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11014</Longitude>
+							<Latitude>51.460873</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110499</Longitude>
+							<Latitude>51.461111</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110521</Longitude>
+							<Latitude>51.461126</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110756</Longitude>
+							<Latitude>51.46128</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.110884</Longitude>
+							<Latitude>51.461362</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111021</Longitude>
+							<Latitude>51.461445</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111102</Longitude>
+							<Latitude>51.461488</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111176</Longitude>
+							<Latitude>51.461525</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111259</Longitude>
+							<Latitude>51.461562</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111326</Longitude>
+							<Latitude>51.461588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111389</Longitude>
+							<Latitude>51.46161</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111446</Longitude>
+							<Latitude>51.461628</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111523</Longitude>
+							<Latitude>51.461651</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111596</Longitude>
+							<Latitude>51.461669</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111664</Longitude>
+							<Latitude>51.461683</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111718</Longitude>
+							<Latitude>51.461694</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111759</Longitude>
+							<Latitude>51.4617</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111808</Longitude>
+							<Latitude>51.461706</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111863</Longitude>
+							<Latitude>51.46171</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111922</Longitude>
+							<Latitude>51.461713</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.111987</Longitude>
+							<Latitude>51.461715</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112155</Longitude>
+							<Latitude>51.461712</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112196</Longitude>
+							<Latitude>51.461712</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112227</Longitude>
+							<Latitude>51.461709</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112256</Longitude>
+							<Latitude>51.461706</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112407</Longitude>
+							<Latitude>51.461681</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112475</Longitude>
+							<Latitude>51.461675</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112531</Longitude>
+							<Latitude>51.461672</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112577</Longitude>
+							<Latitude>51.461675</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112628</Longitude>
+							<Latitude>51.461682</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112687</Longitude>
+							<Latitude>51.461695</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112746</Longitude>
+							<Latitude>51.461715</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.1128</Longitude>
+							<Latitude>51.461738</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112859</Longitude>
+							<Latitude>51.461775</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112899</Longitude>
+							<Latitude>51.46181</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112932</Longitude>
+							<Latitude>51.461854</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.112982</Longitude>
+							<Latitude>51.461927</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113021</Longitude>
+							<Latitude>51.461992</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113056</Longitude>
+							<Latitude>51.46204</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113094</Longitude>
+							<Latitude>51.462079</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113133</Longitude>
+							<Latitude>51.462111</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113311</Longitude>
+							<Latitude>51.46224</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+			<RouteLink id="RL_47-44M-_-y10-1-O-2-11">
+				<From>
+					<StopPointRef>4600WIA10676</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>4600WIA10683</StopPointRef>
+				</To>
+				<Distance>566</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-2.113311</Longitude>
+							<Latitude>51.46224</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113451</Longitude>
+							<Latitude>51.462342</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113678</Longitude>
+							<Latitude>51.462501</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113716</Longitude>
+							<Latitude>51.462528</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.113896</Longitude>
+							<Latitude>51.462433</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114099</Longitude>
+							<Latitude>51.462323</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114361</Longitude>
+							<Latitude>51.462186</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.114561</Longitude>
+							<Latitude>51.462088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11478</Longitude>
+							<Latitude>51.461997</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115081</Longitude>
+							<Latitude>51.461897</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115253</Longitude>
+							<Latitude>51.461845</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11543</Longitude>
+							<Latitude>51.461791</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.115976</Longitude>
+							<Latitude>51.461629</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116063</Longitude>
+							<Latitude>51.461609</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116136</Longitude>
+							<Latitude>51.461593</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116254</Longitude>
+							<Latitude>51.461578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116354</Longitude>
+							<Latitude>51.461564</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116443</Longitude>
+							<Latitude>51.461553</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116482</Longitude>
+							<Latitude>51.461547</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116546</Longitude>
+							<Latitude>51.461534</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116584</Longitude>
+							<Latitude>51.461525</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116618</Longitude>
+							<Latitude>51.461517</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11668</Longitude>
+							<Latitude>51.461497</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116736</Longitude>
+							<Latitude>51.461474</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.116788</Longitude>
+							<Latitude>51.46145</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117752</Longitude>
+							<Latitude>51.46098</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118054</Longitude>
+							<Latitude>51.460829</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118094</Longitude>
+							<Latitude>51.460808</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118316</Longitude>
+							<Latitude>51.46072</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118213</Longitude>
+							<Latitude>51.460573</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.11819</Longitude>
+							<Latitude>51.460539</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.118135</Longitude>
+							<Latitude>51.46046</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117797</Longitude>
+							<Latitude>51.460051</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117707</Longitude>
+							<Latitude>51.459955</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-2.117414</Longitude>
+							<Latitude>51.459573</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+		</RouteSection>
+	</RouteSections>
+	<Routes>
+		<Route id="R_47-44M-_-y10-1-O-1">
+			<PrivateCode>R_47-44M-_-y10-1-O-1</PrivateCode>
+			<Description>Town Bridge - Newall Tuck Road</Description>
+			<RouteSectionRef>RS_47-44M-_-y10-1-O-1</RouteSectionRef>
+		</Route>
+		<Route id="R_47-44M-_-y10-1-O-2">
+			<PrivateCode>R_47-44M-_-y10-1-O-2</PrivateCode>
+			<Description>Town Bridge - Town Bridge</Description>
+			<RouteSectionRef>RS_47-44M-_-y10-1-O-1</RouteSectionRef>
+			<RouteSectionRef>RS_47-44M-_-y10-1-O-2</RouteSectionRef>
+		</Route>
+	</Routes>
+	<JourneyPatternSections>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-5-O-1">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>4600WIA10663</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-1</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-2</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-3</RouteLinkRef>
+				<RunTime>PT22S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-4</RouteLinkRef>
+				<RunTime>PT1M23S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-5</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-5-O-2">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-6</RouteLinkRef>
+				<RunTime>PT55S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-7">
+				<From SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-7</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-8">
+				<From SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-8</RouteLinkRef>
+				<RunTime>PT33S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-9">
+				<From SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-9</RouteLinkRef>
+				<RunTime>PT42S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-10">
+				<From SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-10</RouteLinkRef>
+				<RunTime>PT58S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-5-O-2-11">
+				<From SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="13">
+					<Activity>setDown</Activity>
+					<StopPointRef>4600WIA10683</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-11</RouteLinkRef>
+				<RunTime>PT1M52S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-4-O-1">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>4600WIA10663</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-1</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-2</RouteLinkRef>
+				<RunTime>PT2M49S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-3</RouteLinkRef>
+				<RunTime>PT28S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-4</RouteLinkRef>
+				<RunTime>PT1M43S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-5</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-4-O-2">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-6</RouteLinkRef>
+				<RunTime>PT55S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-7">
+				<From SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-7</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-8">
+				<From SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-8</RouteLinkRef>
+				<RunTime>PT33S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-9">
+				<From SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-9</RouteLinkRef>
+				<RunTime>PT42S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-10">
+				<From SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-10</RouteLinkRef>
+				<RunTime>PT58S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-4-O-2-11">
+				<From SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="13">
+					<Activity>setDown</Activity>
+					<StopPointRef>4600WIA10683</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-11</RouteLinkRef>
+				<RunTime>PT1M52S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-1-O-1">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-1-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>4600WIA10663</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-1</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-1-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-2</RouteLinkRef>
+				<RunTime>PT3M23S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-1-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-3</RouteLinkRef>
+				<RunTime>PT33S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-1-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-4</RouteLinkRef>
+				<RunTime>PT2M4S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-1-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-5</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-6-O-1">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>4600WIA10663</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-2</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-3</RouteLinkRef>
+				<RunTime>PT22S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-4</RouteLinkRef>
+				<RunTime>PT1M23S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-5</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-6-O-2">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-6</RouteLinkRef>
+				<RunTime>PT46S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-7">
+				<From SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-7</RouteLinkRef>
+				<RunTime>PT50S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-8">
+				<From SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-8</RouteLinkRef>
+				<RunTime>PT27S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-9">
+				<From SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-9</RouteLinkRef>
+				<RunTime>PT36S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-10">
+				<From SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-10</RouteLinkRef>
+				<RunTime>PT48S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-6-O-2-11">
+				<From SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="13">
+					<Activity>setDown</Activity>
+					<StopPointRef>4600WIA10683</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-11</RouteLinkRef>
+				<RunTime>PT1M33S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-3-O-1">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>4600WIA10663</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-1</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<Notes>
+						<Note>
+							<NoteCode>R</NoteCode>
+							<NoteText>Only visits this place by request to driver</NoteText>
+						</Note>
+					</Notes>
+					<StopPointRef>4600WIA10675</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-2</RouteLinkRef>
+				<RunTime>PT1M41S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10682</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-3</RouteLinkRef>
+				<RunTime>PT17S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10681</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-4</RouteLinkRef>
+				<RunTime>PT1M2S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000513</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-1-5</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_47-44M-_-y10-1-3-O-2">
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000514</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-6</RouteLinkRef>
+				<RunTime>PT55S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-7">
+				<From SequenceNumber="7">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000515</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-7</RouteLinkRef>
+				<RunTime>PT1M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-8">
+				<From SequenceNumber="8">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000516</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-8</RouteLinkRef>
+				<RunTime>PT33S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-9">
+				<From SequenceNumber="9">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10677</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-9</RouteLinkRef>
+				<RunTime>PT42S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-10">
+				<From SequenceNumber="10">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>460000110</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-10</RouteLinkRef>
+				<RunTime>PT58S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_47-44M-_-y10-1-3-O-2-11">
+				<From SequenceNumber="11">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>4600WIA10676</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="13">
+					<Activity>setDown</Activity>
+					<StopPointRef>4600WIA10683</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_47-44M-_-y10-1-O-2-11</RouteLinkRef>
+				<RunTime>PT1M52S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+	</JourneyPatternSections>
+	<Operators>
+		<Operator id="OId_FAR">
+			<NationalOperatorCode>FSRV</NationalOperatorCode>
+			<OperatorCode>FAR</OperatorCode>
+			<OperatorShortName>Faresaver</OperatorShortName>
+			<OperatorNameOnLicence>Faresaver</OperatorNameOnLicence>
+			<TradingName>Faresaver</TradingName>
+			<LicenceNumber>PH2023619</LicenceNumber>
+			<LicenceClassification>standardNational</LicenceClassification>
+			<OperatorAddresses>
+				<CorrespondenceAddress>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Vincients Road	</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Bumpers Farm Industrial Estate</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Chippenham	</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Wiltshire	</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">SN14 6QA</Line>
+				</CorrespondenceAddress>
+			</OperatorAddresses>
+		</Operator>
+	</Operators>
+	<Services>
+		<Service RevisionNumber="19" Modification="revise" CreationDateTime="2022-08-03T09:43:47" ModificationDateTime="2026-03-20T15:07:03" Status="active">
+			<ServiceCode>PH2023619:41</ServiceCode>
+			<PrivateCode>47-44M-_-y10-1</PrivateCode>
+			<Lines>
+				<Line id="FSRV:PH2023619:41:44M">
+					<LineName>44M</LineName>
+					<OutboundDescription>
+						<Description>Chippenham Town Bridge - Monkton Park - Chippenham Town Bridge</Description>
+					</OutboundDescription>
+				</Line>
+			</Lines>
+			<OperatingPeriod>
+				<StartDate>2026-07-17</StartDate>
+			</OperatingPeriod>
+			<RegisteredOperatorRef>OId_FAR</RegisteredOperatorRef>
+			<StopRequirements>
+				<NoNewStopsRequired />
+			</StopRequirements>
+			<Mode>bus</Mode>
+			<PublicUse>true</PublicUse>
+			<Description>Chippenham Town Bridge - Monkton Park - Chippenham Town Bridge</Description>
+			<StandardService>
+				<Origin>Town Bridge</Origin>
+				<Destination>Town Bridge</Destination>
+				<JourneyPattern id="JP_47-44M-_-y10-1-5-O-2">
+					<DestinationDisplay>Chippenham (Wilts)</DestinationDisplay>
+					<OperatorRef>OId_FAR</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_47-44M-_-y10-1-O-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-5-O-1</JourneyPatternSectionRefs>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-5-O-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_47-44M-_-y10-1-4-O-2">
+					<DestinationDisplay>Chippenham (Wilts)</DestinationDisplay>
+					<OperatorRef>OId_FAR</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_47-44M-_-y10-1-O-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-4-O-1</JourneyPatternSectionRefs>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-4-O-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_47-44M-_-y10-1-1-O-1">
+					<DestinationDisplay>Monkton Park</DestinationDisplay>
+					<OperatorRef>OId_FAR</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_47-44M-_-y10-1-O-1</RouteRef>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-1-O-1</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_47-44M-_-y10-1-6-O-2">
+					<DestinationDisplay>Chippenham (Wilts)</DestinationDisplay>
+					<OperatorRef>OId_FAR</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_47-44M-_-y10-1-O-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-6-O-1</JourneyPatternSectionRefs>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-6-O-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_47-44M-_-y10-1-3-O-2">
+					<DestinationDisplay>Chippenham (Wilts)</DestinationDisplay>
+					<OperatorRef>OId_FAR</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_47-44M-_-y10-1-O-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-3-O-1</JourneyPatternSectionRefs>
+					<JourneyPatternSectionRefs>JPS_47-44M-_-y10-1-3-O-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+			</StandardService>
+		</Service>
+	</Services>
+	<VehicleJourneys>
+		<VehicleJourney SequenceNumber="2">
+			<PrivateCode>swe-47-44M-_-y10-1-1-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W5</Description>
+					<BlockNumber>W5</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1017</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-1-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-5-O-2</JourneyPatternRef>
+			<DepartureTime>10:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="3">
+			<PrivateCode>swe-47-44M-_-y10-1-2-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W7</Description>
+					<BlockNumber>W7</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1117</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-2-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-5-O-2</JourneyPatternRef>
+			<DepartureTime>11:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="4">
+			<PrivateCode>swe-47-44M-_-y10-1-3-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W6</Description>
+					<BlockNumber>W6</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1217</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-3-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-5-O-2</JourneyPatternRef>
+			<DepartureTime>12:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="1">
+			<PrivateCode>swe-47-44M-_-y10-1-4-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W4</Description>
+					<BlockNumber>W4</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0935</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-4-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-4-O-2</JourneyPatternRef>
+			<DepartureTime>09:35:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="5">
+			<PrivateCode>swe-47-44M-_-y10-1-5-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W5</Description>
+					<BlockNumber>W5</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1317</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-5-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-5-O-2</JourneyPatternRef>
+			<DepartureTime>13:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="6">
+			<PrivateCode>swe-47-44M-_-y10-1-6-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W7</Description>
+					<BlockNumber>W7</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1417</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-6-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-5-O-2</JourneyPatternRef>
+			<DepartureTime>14:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="7">
+			<PrivateCode>swe-47-44M-_-y10-1-7-T0</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W7</Description>
+					<BlockNumber>W7</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1617</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfOperation>
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-7-T0</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-1-O-1</JourneyPatternRef>
+			<DepartureTime>16:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="9">
+			<PrivateCode>swe-47-44M-_-y10-1-1-T2</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W106</Description>
+					<BlockNumber>W106</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1130</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-1-T2</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-6-O-2</JourneyPatternRef>
+			<DepartureTime>11:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="10">
+			<PrivateCode>swe-47-44M-_-y10-1-2-T2</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W105</Description>
+					<BlockNumber>W105</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1235</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-2-T2</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-3-O-2</JourneyPatternRef>
+			<DepartureTime>12:35:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="11">
+			<PrivateCode>swe-47-44M-_-y10-1-3-T2</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>W105</Description>
+					<BlockNumber>W105</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1430</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-3-T2</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-6-O-2</JourneyPatternRef>
+			<DepartureTime>14:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="8">
+			<PrivateCode>swe-47-44M-_-y10-1-4-T2</PrivateCode>
+			<OperatorRef>OId_FAR</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>B118</Description>
+					<BlockNumber>B118</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0930</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_47-44M-_-y10-1-4-T2</VehicleJourneyCode>
+			<ServiceRef>PH2023619:41</ServiceRef>
+			<LineRef>FSRV:PH2023619:41:44M</LineRef>
+			<JourneyPatternRef>JP_47-44M-_-y10-1-6-O-2</JourneyPatternRef>
+			<DepartureTime>09:30:00</DepartureTime>
+		</VehicleJourney>
+	</VehicleJourneys>
+</TransXChange>

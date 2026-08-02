@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-07-22T13:56:45" ModificationDateTime="2026-07-08T15:13:43" Modification="revise" RevisionNumber="108" FileName="AMNO_1913_AMNOPD000047848913_20260103_-_2258173.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E105300</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Location>
+        <Longitude>-2.447910</Longitude>
+        <Latitude>52.675552</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E107100</StopPointRef>
+      <CommonName>International Centre</CommonName>
+      <Location>
+        <Longitude>-2.442758</Longitude>
+        <Latitude>52.673585</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E039200</StopPointRef>
+      <CommonName>Deercote</CommonName>
+      <Location>
+        <Longitude>-2.436378</Longitude>
+        <Latitude>52.673015</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E039300</StopPointRef>
+      <CommonName>Dallamoor</CommonName>
+      <Location>
+        <Longitude>-2.432169</Longitude>
+        <Latitude>52.673624</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E038900</StopPointRef>
+      <CommonName>Duffryn</CommonName>
+      <Location>
+        <Longitude>-2.437111</Longitude>
+        <Latitude>52.675305</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E039500</StopPointRef>
+      <CommonName>Dunsheath</CommonName>
+      <Location>
+        <Longitude>-2.439542</Longitude>
+        <Latitude>52.675862</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E107000</StopPointRef>
+      <CommonName>Matheson House</CommonName>
+      <Location>
+        <Longitude>-2.443701</Longitude>
+        <Latitude>52.676135</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3590E105400</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Location>
+        <Longitude>-2.447910</Longitude>
+        <Latitude>52.675552</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>3590E105300</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E107100</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>3590E107100</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E039200</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>3590E039200</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E039300</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>3590E039300</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E038900</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>3590E038900</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E039500</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_6">
+        <From>
+          <StopPointRef>3590E039500</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E107000</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_7">
+        <From>
+          <StopPointRef>3590E107000</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3590E105300</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3590E105300</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3590E107100</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>3590E107100</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3590E039200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>3590E039200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3590E039300</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>3590E039300</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>3590E038900</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>3590E038900</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>3590E039500</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="6">
+          <StopPointRef>3590E039500</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <StopPointRef>3590E107000</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_6</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_7">
+        <From SequenceNumber="7">
+          <StopPointRef>3590E107000</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>3590E105300</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_7</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>AMNO</NationalOperatorCode>
+      <OperatorCode>AMD</OperatorCode>
+      <OperatorShortName>Arriva West Midlands</OperatorShortName>
+      <LicenceNumber>PD0000478</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PD0000478:489</ServiceCode>
+      <Lines>
+        <Line id="AMNO:PD0000478:489:13">
+          <LineName>13</LineName>
+          <OutboundDescription>
+            <Description>Telford to Hollinswood</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Hollinswood to Telford</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-01-03</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Telford</Origin>
+        <Destination>Hollinswood</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Bus Station</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1007</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1013</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1019</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1025</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1031</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1037</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1043</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1049</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1055</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1061</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_10</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1067</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_11</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1073</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_12</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1079</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_13</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1085</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_14</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1093</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_15</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1099</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_16</VehicleJourneyCode>
+      <ServiceRef>PD0000478:489</ServiceRef>
+      <LineRef>AMNO:PD0000478:489:13</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

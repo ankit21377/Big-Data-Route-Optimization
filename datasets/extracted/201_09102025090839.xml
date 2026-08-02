@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2021-06-04T14:52:22Z" ModificationDateTime="2025-10-09T09:08:36Z" Modification="revise" RevisionNumber="14" FileName="201_09102025090839.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F047400</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F214501</StopPointRef>
+      <CommonName>Dawlish Close</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F050800</StopPointRef>
+      <CommonName>Higham Lane School</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F164972</StopPointRef>
+      <CommonName>Milby Drive</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F164971</StopPointRef>
+      <CommonName>Milby Drive</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F213201</StopPointRef>
+      <CommonName>North Warwickshire College</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F215801</StopPointRef>
+      <CommonName>Pallet Drive</CommonName>
+      <Indicator>Nr</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F215901</StopPointRef>
+      <CommonName>Pallet Drive</CommonName>
+      <Indicator>Nr</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4200F215501</StopPointRef>
+      <CommonName>Windermere Avenue</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Nuneaton</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="150_0">
+      <RouteLink id="150_0_135">
+        <From>
+          <StopPointRef>4200F047400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F214501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_856">
+        <From>
+          <StopPointRef>4200F214501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215801</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_142">
+        <From>
+          <StopPointRef>4200F215801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F164972</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_854">
+        <From>
+          <StopPointRef>4200F164972</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F050800</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_855">
+        <From>
+          <StopPointRef>4200F050800</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F213201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_857">
+        <From>
+          <StopPointRef>4200F213201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_137">
+        <From>
+          <StopPointRef>4200F215501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215901</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="150_0_853">
+        <From>
+          <StopPointRef>4200F215901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F047400</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="43_0">
+      <RouteLink id="43_0_135">
+        <From>
+          <StopPointRef>4200F047400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F214501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_856">
+        <From>
+          <StopPointRef>4200F214501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215801</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_142">
+        <From>
+          <StopPointRef>4200F215801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F164972</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_854">
+        <From>
+          <StopPointRef>4200F164972</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F050800</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_855">
+        <From>
+          <StopPointRef>4200F050800</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F213201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_857">
+        <From>
+          <StopPointRef>4200F213201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_137">
+        <From>
+          <StopPointRef>4200F215501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F215901</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_0_853">
+        <From>
+          <StopPointRef>4200F215901</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4200F047400</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="150_0">
+      <Description>Nuneaton - Nuneaton</Description>
+      <RouteSectionRef>150_0</RouteSectionRef>
+    </Route>
+    <Route id="43_0">
+      <Description>Nuneaton - Nuneaton</Description>
+      <RouteSectionRef>43_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="150_0">
+      <JourneyPatternTimingLink id="150_0_135">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F047400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F214501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_135</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_856">
+        <From SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F214501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215801</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_856</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_142">
+        <From SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215801</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F164972</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_142</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_854">
+        <From SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F164972</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F050800</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_854</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_855">
+        <From SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F050800</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F213201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_855</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_857">
+        <From SequenceNumber="6">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F213201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_857</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_137">
+        <From SequenceNumber="7">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_137</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="150_0_853">
+        <From SequenceNumber="8">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F215901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>4200F047400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>150_0_853</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="43_0">
+      <JourneyPatternTimingLink id="43_0_135">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>4200F047400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F214501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_135</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_856">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F214501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215801</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_856</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_142">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215801</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F164972</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_142</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_854">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F164972</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F050800</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_854</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_855">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F050800</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F213201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_855</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_857">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F213201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_857</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_137">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_137</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_0_853">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4200F215901</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>4200F047400</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_0_853</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>AMGR</NationalOperatorCode>
+      <OperatorCode>AMGR</OperatorCode>
+      <OperatorShortName>AandM Group</OperatorShortName>
+      <OperatorNameOnLicence>AMGR</OperatorNameOnLicence>
+      <TradingName>AMGR</TradingName>
+      <LicenceNumber>PD0001892</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>AandMGroup</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PD0001892:73</ServiceCode>
+      <Lines>
+        <Line id="AMGR:PD0001892:73:201">
+          <LineName>201</LineName>
+          <OutboundDescription>
+            <Description>201</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>201</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2019-04-15</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Nuneaton - Nuneaton</Description>
+      <StandardService>
+        <Origin>Bus Station</Origin>
+        <Destination>Bus  Station</Destination>
+        <JourneyPattern id="150_0">
+          <DestinationDisplay>Bus Station</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>150_0</RouteRef>
+          <JourneyPatternSectionRefs>150_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="43_0">
+          <DestinationDisplay>Bus Station</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>43_0</RouteRef>
+          <JourneyPatternSectionRefs>43_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:40 BUS - BUS</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>201</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-11-30</StartDate>
+              <EndDate>2025-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-02</StartDate>
+              <EndDate>2026-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-11-30</StartDate>
+              <EndDate>2026-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-02</StartDate>
+              <EndDate>2027-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-11-30</StartDate>
+              <EndDate>2027-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PD0001892:73</ServiceRef>
+      <LineRef>AMGR:PD0001892:73:201</LineRef>
+      <JourneyPatternRef>43_0</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:10 BUS - BUS</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>201</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-11-30</StartDate>
+              <EndDate>2025-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-02</StartDate>
+              <EndDate>2026-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-11-30</StartDate>
+              <EndDate>2026-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-02</StartDate>
+              <EndDate>2027-01-02</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-11-30</StartDate>
+              <EndDate>2027-11-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PD0001892:73</ServiceRef>
+      <LineRef>AMGR:PD0001892:73:201</LineRef>
+      <JourneyPatternRef>150_0</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

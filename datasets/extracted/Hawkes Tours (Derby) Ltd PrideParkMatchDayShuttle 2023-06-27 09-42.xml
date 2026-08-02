@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-06-27T09:42:36' Modification='revise' RevisionNumber='1' FileName="Hawkes Tours (Derby) Ltd PrideParkMatchDayShuttle 2023-06-27 09-42.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>109000009364</StopPointRef><CommonName>Pride Parkway Egg</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109054186</StopPointRef><CommonName>Football Stadium</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000022150</StopPointRef><CommonName>Morledge</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_2' CreationDateTime='2023-06-27T09:42:14' ModificationDateTime='2023-06-27T09:42:14' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_2_1'><From><StopPointRef>109000009364</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_2'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_3' CreationDateTime='2023-06-27T09:42:34' ModificationDateTime='2023-06-27T09:42:34' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_3_1'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_2'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_3'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_4'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_5'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_6'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_7'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_2' CreationDateTime='2023-06-27T09:42:14' ModificationDateTime='2023-06-27T09:42:14' Modification='new' RevisionNumber='0'><Description>Pride Parkway Egg - Morledge</Description><RouteSectionRef>routeSection_2</RouteSectionRef></Route>
+<Route id='route_3' CreationDateTime='2023-06-27T09:42:35' ModificationDateTime='2023-06-27T09:42:35' Modification='new' RevisionNumber='0'><Description>Morledge - Football Stadium</Description><RouteSectionRef>routeSection_3</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_1' CreationDateTime='2023-06-27T09:42:36' ModificationDateTime='2023-06-27T09:42:36' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_1_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000009364</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT1800S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_1_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_2' CreationDateTime='2023-06-27T09:42:36' ModificationDateTime='2023-06-27T09:42:36' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_2_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_2</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_3</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_4</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_5</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_6'>
+<From SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_6</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_7</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HWKS"><NationalOperatorCode>HWKS</NationalOperatorCode><OperatorCode>HWKS</OperatorCode><OperatorShortName>Hawkes Tours (Derby) Ltd</OperatorShortName><LicenceNumber>PC1117162</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-06-27T09:42:36' ModificationDateTime='2023-06-27T09:42:36' Modification='new' RevisionNumber='0'>
+<ServiceCode>PC1117162:1</ServiceCode><Lines><Line id="HWKS:PC1117162:1:PrideParkMatchDayShuttle"><LineName>PrideParkMatchDayShuttle</LineName><OutboundDescription><Origin>Pride Parkway Egg</Origin><Destination>Morledge</Destination><Description>Pride Parkway Egg - Morledge</Description></OutboundDescription><InboundDescription><Origin>Morledge</Origin><Destination>Football Stadium</Destination><Description>Morledge - Football Stadium</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-07-31</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HWKS</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Morledge - Football Stadium</Description>
+
+<StandardService>
+<Origin>Morledge</Origin>
+<Destination>Football Stadium</Destination>
+<JourneyPattern id='JP_1'><DestinationDisplay>197</DestinationDisplay><OperatorRef>HWKS</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_2'><DestinationDisplay>202</DestinationDisplay><OperatorRef>HWKS</OperatorRef><Direction>inbound</Direction><RouteRef>route_3</RouteRef><JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-06-27T09:42:14' ModificationDateTime='2023-06-27T09:42:14' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_2</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_1</JourneyPatternRef>
+<DepartureTime>13:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-06-27T09:42:15' ModificationDateTime='2023-06-27T09:42:15' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-08-05</StartDate><EndDate>2023-08-05</EndDate></DateRange><DateRange><StartDate>2023-08-19</StartDate><EndDate>2023-08-19</EndDate></DateRange><DateRange><StartDate>2023-09-09</StartDate><EndDate>2023-09-09</EndDate></DateRange><DateRange><StartDate>2023-09-16</StartDate><EndDate>2023-09-16</EndDate></DateRange><DateRange><StartDate>2023-09-30</StartDate><EndDate>2023-09-30</EndDate></DateRange><DateRange><StartDate>2023-10-14</StartDate><EndDate>2023-10-14</EndDate></DateRange><DateRange><StartDate>2023-11-11</StartDate><EndDate>2023-11-11</EndDate></DateRange><DateRange><StartDate>2023-11-25</StartDate><EndDate>2023-11-25</EndDate></DateRange><DateRange><StartDate>2023-12-16</StartDate><EndDate>2023-12-16</EndDate></DateRange><DateRange><StartDate>2023-12-23</StartDate><EndDate>2023-12-23</EndDate></DateRange><DateRange><StartDate>2024-01-13</StartDate><EndDate>2024-01-13</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_1</JourneyPatternRef>
+<DepartureTime>16:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-06-27T09:42:15' ModificationDateTime='2023-06-27T09:42:15' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-08-15</StartDate><EndDate>2023-08-15</EndDate></DateRange><DateRange><StartDate>2023-10-24</StartDate><EndDate>2023-10-24</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_4</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_1</JourneyPatternRef>
+<DepartureTime>21:25:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-06-27T09:42:35' ModificationDateTime='2023-06-27T09:42:35' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_5</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>10:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-06-27T09:42:35' ModificationDateTime='2023-06-27T09:42:35' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-08-05</StartDate><EndDate>2023-08-05</EndDate></DateRange><DateRange><StartDate>2023-08-19</StartDate><EndDate>2023-08-19</EndDate></DateRange><DateRange><StartDate>2023-09-09</StartDate><EndDate>2023-09-09</EndDate></DateRange><DateRange><StartDate>2023-09-16</StartDate><EndDate>2023-09-16</EndDate></DateRange><DateRange><StartDate>2023-09-30</StartDate><EndDate>2023-09-30</EndDate></DateRange><DateRange><StartDate>2023-10-14</StartDate><EndDate>2023-10-14</EndDate></DateRange><DateRange><StartDate>2023-11-11</StartDate><EndDate>2023-11-11</EndDate></DateRange><DateRange><StartDate>2023-11-25</StartDate><EndDate>2023-11-25</EndDate></DateRange><DateRange><StartDate>2023-12-16</StartDate><EndDate>2023-12-16</EndDate></DateRange><DateRange><StartDate>2023-12-23</StartDate><EndDate>2023-12-23</EndDate></DateRange><DateRange><StartDate>2024-01-13</StartDate><EndDate>2024-01-13</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_6</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>13:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-06-27T09:42:36' ModificationDateTime='2023-06-27T09:42:36' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-08-15</StartDate><EndDate>2023-08-15</EndDate></DateRange><DateRange><StartDate>2023-10-24</StartDate><EndDate>2023-10-24</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_7</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>18:25:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

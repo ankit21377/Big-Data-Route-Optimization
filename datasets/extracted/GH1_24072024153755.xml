@@ -1,0 +1,1988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2023-07-10T13:41:56Z" ModificationDateTime="2024-07-24T15:37:50Z" Modification="revise" RevisionNumber="4" FileName="GH1_24072024153755.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0547</StopPointRef>
+      <CommonName>Courtyard Marriott Hotel</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004409603A</StopPointRef>
+      <CommonName>Holiday Inn</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Horley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0437</StopPointRef>
+      <CommonName>North Terminal Bus Station</CommonName>
+      <Indicator>Stop 8</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0372</StopPointRef>
+      <CommonName>Premier Inn</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0353</StopPointRef>
+      <CommonName>South Terminal Bus Station</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0361</StopPointRef>
+      <CommonName>South Terminal Coach Station</CommonName>
+      <Indicator>Stand 2</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>4400CY0370</StopPointRef>
+      <CommonName>Travelodge Gatwick Central</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Gatwick Airport</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="7_0">
+      <RouteLink id="7_0_1">
+        <From>
+          <StopPointRef>40004409603A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="7_0_3">
+        <From>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0353</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="7_0_5">
+        <From>
+          <StopPointRef>4400CY0353</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0437</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="7_0_6">
+        <From>
+          <StopPointRef>4400CY0437</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="7_0_20">
+        <From>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004409603A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="8_0">
+      <RouteLink id="8_0_1">
+        <From>
+          <StopPointRef>40004409603A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_3">
+        <From>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0547</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_4">
+        <From>
+          <StopPointRef>4400CY0547</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0353</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_5">
+        <From>
+          <StopPointRef>4400CY0353</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0437</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_6">
+        <From>
+          <StopPointRef>4400CY0437</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0372</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_7">
+        <From>
+          <StopPointRef>4400CY0372</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="8_0_20">
+        <From>
+          <StopPointRef>4400CY0370</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004409603A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="7_0">
+      <Description>Gatwick Hoppa</Description>
+      <RouteSectionRef>7_0</RouteSectionRef>
+    </Route>
+    <Route id="8_0">
+      <Description>Gatwick Hoppa</Description>
+      <RouteSectionRef>8_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="7_0">
+      <JourneyPatternTimingLink id="7_0_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004409603A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>7_0_1</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="7_0_3">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0353</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>7_0_3</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="7_0_5">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0353</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0437</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>7_0_5</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="7_0_6">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0437</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>7_0_6</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="7_0_20">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004409603A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>7_0_20</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="8_0">
+      <JourneyPatternTimingLink id="8_0_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004409603A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_1</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_3">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0547</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_3</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_4">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0547</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0353</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_4</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_5">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0353</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0437</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_5</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_6">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0437</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0372</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_6</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_7">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0372</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_7</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="8_0_20">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>4400CY0370</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004409603A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>8_0_20</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>BMCS</NationalOperatorCode>
+      <OperatorCode>BMCS</OperatorCode>
+      <OperatorShortName>BM Coaches</OperatorShortName>
+      <OperatorNameOnLicence>BM Coaches And Rental Ltd</OperatorNameOnLicence>
+      <TradingName>BM Coaches And Rental Ltd</TradingName>
+      <LicenceNumber>PK1064859</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>GatwickHoppaBODS</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PK1064859:1</ServiceCode>
+      <Lines>
+        <Line id="BMCS:PK1064859:1:GH1">
+          <LineName>GH1</LineName>
+          <OutboundDescription>
+            <Description>Holiday Inn - Holiday Inn</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Holiday Inn - Holiday Inn</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-03-28</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Gatwick Hoppa</Description>
+      <StandardService>
+        <Origin>Holiday Inn</Origin>
+        <Destination>Holiday  Inn</Destination>
+        <JourneyPattern id="7_0">
+          <DestinationDisplay>Holiday Inn	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>7_0</RouteRef>
+          <JourneyPatternSectionRefs>7_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="8_0">
+          <DestinationDisplay>Holiday Inn	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>8_0</RouteRef>
+          <JourneyPatternSectionRefs>8_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>00:00 HOL - HOL</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>00:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>00:40 HOL - HOL</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>00:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>01:20 HOL - HOL</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>01:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>02:20 HOL - HOL</Description>
+          <BlockNumber>5</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>5</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>02:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>02:40 HOL - HOL</Description>
+          <BlockNumber>6</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>6</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>02:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>03:00 HOL - HOL	</Description>
+          <BlockNumber>7</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>7</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>03:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>03:20 HOL - HOL	</Description>
+          <BlockNumber>8</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>8</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>8</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>03:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>04:20 HOL - HOL	</Description>
+          <BlockNumber>11</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>11</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>04:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>05:20 HOL - HOL	</Description>
+          <BlockNumber>14</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>14</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>14</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>05:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>06:20 HOL - HOL	</Description>
+          <BlockNumber>17</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>17</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>17</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>06:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:20 HOL - HOL	</Description>
+          <BlockNumber>20</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>20</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>20</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>07:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:20 HOL - HOL	</Description>
+          <BlockNumber>23</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>23</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>23</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>09:20 HOL - HOL	</Description>
+          <BlockNumber>26</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>26</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>26</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>09:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:20 HOL - HOL	</Description>
+          <BlockNumber>29</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>29</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>29</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>7_0</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:40 HOL - HOL	</Description>
+          <BlockNumber>30</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>30</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>30</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>11:00 HOL - HOL	</Description>
+          <BlockNumber>31</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>31</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>31</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>11:40 HOL - HOL	</Description>
+          <BlockNumber>32</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>32</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>32</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>12:20 HOL - HOL	</Description>
+          <BlockNumber>33</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>33</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>33</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:00 HOL - HOL	</Description>
+          <BlockNumber>34</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>34</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>34</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:40 HOL - HOL	</Description>
+          <BlockNumber>35</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>35</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>35</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:20 HOL - HOL	</Description>
+          <BlockNumber>36</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>36</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>36</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:00 HOL - HOL	</Description>
+          <BlockNumber>37</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>37</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>37</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:20 HOL - HOL	</Description>
+          <BlockNumber>38</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>38</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>38</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:40 HOL - HOL	</Description>
+          <BlockNumber>39</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>39</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>39</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:00 HOL - HOL	</Description>
+          <BlockNumber>40</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>40</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>40</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:20 HOL - HOL	</Description>
+          <BlockNumber>41</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>41</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>41</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:40 HOL - HOL	</Description>
+          <BlockNumber>42</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>42</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>42</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>17:00 HOL - HOL	</Description>
+          <BlockNumber>43</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>43</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>43</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>17:20 HOL - HOL	</Description>
+          <BlockNumber>44</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>44</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>44</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>17:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>17:40 HOL - HOL	</Description>
+          <BlockNumber>45</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>45</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>45</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>17:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>18:00 HOL - HOL	</Description>
+          <BlockNumber>46</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>46</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>46</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>18:20 HOL - HOL	</Description>
+          <BlockNumber>47</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>47</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>47</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>18:40 HOL - HOL	</Description>
+          <BlockNumber>48</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>48</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>48</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>18:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>19:00 HOL - HOL	</Description>
+          <BlockNumber>49</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>49</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>49</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>19:20 HOL - HOL	</Description>
+          <BlockNumber>50</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>50</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>50</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>19:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>19:40 HOL - HOL	</Description>
+          <BlockNumber>51</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>51</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>51</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>19:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>20:00 HOL - HOL	</Description>
+          <BlockNumber>52</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>52</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>52</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>20:20 HOL - HOL	</Description>
+          <BlockNumber>53</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>53</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>53</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>20:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>20:40 HOL - HOL	</Description>
+          <BlockNumber>54</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>54</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>54</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>20:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>21:00 HOL - HOL	</Description>
+          <BlockNumber>55</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>55</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>55</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>21:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>21:20 HOL - HOL	</Description>
+          <BlockNumber>56</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>56</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>56</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>21:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>21:40 HOL - HOL	</Description>
+          <BlockNumber>57</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>57</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>57</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>21:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>22:00 HOL - HOL	</Description>
+          <BlockNumber>58</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>58</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>58</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>22:20 HOL - HOL	</Description>
+          <BlockNumber>59</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>59</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>59</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>22:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>22:40 HOL - HOL	</Description>
+          <BlockNumber>60</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>60</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>60</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>22:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>23:00 HOL - HOL	</Description>
+          <BlockNumber>61</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>61</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>61</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>23:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>23:20 HOL - HOL	</Description>
+          <BlockNumber>62</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>62</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>62</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>23:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>23:40 HOL - HOL	</Description>
+          <BlockNumber>63</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GH1</TicketMachineServiceCode>
+          <JourneyCode>63</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>63</VehicleJourneyCode>
+      <ServiceRef>PK1064859:1</ServiceRef>
+      <LineRef>BMCS:PK1064859:1:GH1</LineRef>
+      <JourneyPatternRef>8_0</JourneyPatternRef>
+      <DepartureTime>23:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -12,9 +12,15 @@ env/
 # VS Code settings
 .vscode/
 
-# Large files
+# Large data files
 *.csv
 *.zip
+*.parquet
+*.db
+
+# Raw and extracted datasets (too large for GitHub)
+datasets/
+extracted/
 
 # Environment files
 .env

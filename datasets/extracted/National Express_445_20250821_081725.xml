@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:ns2="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-12-21T08:17:25" Modification="revise" RevisionNumber="1" FileName="NX_445_20250821_081725.xml" SchemaVersion="2.4">
+    <ServicedOrganisations>
+        <ServicedOrganisation>
+            <OrganisationCode>ORG1</OrganisationCode>
+            <Name>NATX 445 ORG1</Name>
+            <WorkingDays>
+                <DateRange>
+                    <StartDate>2025-08-31</StartDate>
+                    <EndDate>2025-12-24</EndDate>
+                </DateRange>
+                <DateRange>
+                    <StartDate>2025-12-26</StartDate>
+                    <EndDate>2026-03-31</EndDate>
+                </DateRange>
+            </WorkingDays>
+        </ServicedOrganisation>
+    </ServicedOrganisations>
+    <StopPoints>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GL5750</StopPointRef>
+            <CommonName>Gloucester (Longlevens): Cheltenham Rd, nr Elmbridge Rd</CommonName>
+            <Location>
+                <Longitude>-2.2128</Longitude>
+                <Latitude>51.873141</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GL5749</StopPointRef>
+            <CommonName>Gloucester (Longlevens): Cheltenham Rd, Filling Stn</CommonName>
+            <Location>
+                <Longitude>-2.21139</Longitude>
+                <Latitude>51.873862</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GLN024</StopPointRef>
+            <CommonName>Corse (for Staunton): Gloucester Rd, School Crescent, Bus shelter</CommonName>
+            <Location>
+                <Longitude>-2.30439</Longitude>
+                <Latitude>51.957984</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GL3451</StopPointRef>
+            <CommonName>Newent: Ross Rd, opp The King's Arms P.H.</CommonName>
+            <Location>
+                <Longitude>-2.40918</Longitude>
+                <Latitude>51.933615</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>160000725</StopPointRef>
+            <CommonName>Cheltenham (Arle Court Transport Hub): Hatherley Lane</CommonName>
+            <Location>
+                <Longitude>-2.13251</Longitude>
+                <Latitude>51.893218</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GLN023</StopPointRef>
+            <CommonName>Corse (for Staunton): Gloucester Rd, School Crescent, opp Bus shelter</CommonName>
+            <Location>
+                <Longitude>-2.30456</Longitude>
+                <Latitude>51.957992</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GL1082</StopPointRef>
+            <CommonName>Cheltenham: Royal Well Bus Stn</CommonName>
+            <Location>
+                <Longitude>-2.07801</Longitude>
+                <Latitude>51.899678</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>160000640</StopPointRef>
+            <CommonName>Gloucester: Transport Hub</CommonName>
+            <Location>
+                <Longitude>-2.24062</Longitude>
+                <Latitude>51.865094</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1600GL3452</StopPointRef>
+            <CommonName>Newent: Ross Rd, lay-by at The King's Arms P.H.</CommonName>
+            <Location>
+                <Longitude>-2.40894</Longitude>
+                <Latitude>51.933724</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+    </StopPoints>
+    <RouteSections>
+        <RouteSection id="routeSection_10017" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10017_1">
+                <From>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10017_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10017_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10017_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10016" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10016_1">
+                <From>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10016_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10016_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10016_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10015" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10015_1">
+                <From>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10015_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10015_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10015_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10019" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10019_1">
+                <From>
+                    <StopPointRef>1600GLN024</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10019_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10019_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10019_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10023" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10023_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10023_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10023_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10023_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10020" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10020_1">
+                <From>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10020_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10020_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10020_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10024" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10024_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10024_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10024_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10024_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10025" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10025_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10025_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10025_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10025_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10026" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10026_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10026_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10026_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10026_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10027" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10027_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10027_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10027_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10027_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10028" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10028_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10028_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10028_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10028_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10029" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10029_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10029_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10029_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10029_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10022" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10022_1">
+                <From>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10022_2">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10022_3">
+                <From>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10022_4">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10018" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10018_1">
+                <From>
+                    <StopPointRef>1600GLN024</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10018_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10018_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10018_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_10021" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <RouteLink id="routeSection_10021_1">
+                <From>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000640</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10021_2">
+                <From>
+                    <StopPointRef>160000640</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10021_3">
+                <From>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>160000725</StopPointRef>
+                </To>
+            </RouteLink>
+            <RouteLink id="routeSection_10021_4">
+                <From>
+                    <StopPointRef>160000725</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+    </RouteSections>
+    <Routes>
+        <Route id="route_12">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10026</RouteSectionRef>
+        </Route>
+        <Route id="route_10">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10024</RouteSectionRef>
+        </Route>
+        <Route id="route_15">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10029</RouteSectionRef>
+        </Route>
+        <Route id="route_11">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10025</RouteSectionRef>
+        </Route>
+        <Route id="route_13">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10027</RouteSectionRef>
+        </Route>
+        <Route id="route_8">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10022</RouteSectionRef>
+        </Route>
+        <Route id="route_14">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10028</RouteSectionRef>
+        </Route>
+        <Route id="route_9">
+            <Description>Cheltenham - Newent</Description>
+            <RouteSectionRef>routeSection_10023</RouteSectionRef>
+        </Route>
+        <Route id="route_1">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10015</RouteSectionRef>
+        </Route>
+        <Route id="route_5">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10019</RouteSectionRef>
+        </Route>
+        <Route id="route_7">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10021</RouteSectionRef>
+        </Route>
+        <Route id="route_2">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10016</RouteSectionRef>
+        </Route>
+        <Route id="route_3">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10017</RouteSectionRef>
+        </Route>
+        <Route id="route_4">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10018</RouteSectionRef>
+        </Route>
+        <Route id="route_6">
+            <Description>Newent - Cheltenham</Description>
+            <RouteSectionRef>routeSection_10020</RouteSectionRef>
+        </Route>
+    </Routes>
+    <JourneyPatternSections>
+        <JourneyPatternSection id="JPS_12" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_12_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10026_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_12_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10026_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_12_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10026_3</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_12_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10026_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_10" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_10_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10024_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_10_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10024_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_10_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10024_3</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_10_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10024_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_15" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_15_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10029_1</RouteLinkRef>
+                <RunTime>PT7M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_15_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10029_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_15_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10029_3</RouteLinkRef>
+                <RunTime>PT7M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_15_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT6M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10029_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_11" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_11_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10025_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_11_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10025_2</RouteLinkRef>
+                <RunTime>PT7M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_11_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10025_3</RouteLinkRef>
+                <RunTime>PT8M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_11_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10025_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_13" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_13_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10027_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_13_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10027_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_13_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10027_3</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_13_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GLN023</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10027_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_8" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_8_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10022_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_8_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10022_2</RouteLinkRef>
+                <RunTime>PT7M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_8_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10022_3</RouteLinkRef>
+                <RunTime>PT8M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_8_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10022_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_14" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_14_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10028_1</RouteLinkRef>
+                <RunTime>PT7M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_14_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10028_2</RouteLinkRef>
+                <RunTime>PT8M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_14_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10028_3</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_14_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10028_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_9" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_9_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10023_1</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_9_2">
+                <From SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10023_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_9_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5750</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10023_3</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_9_4">
+                <From SequenceNumber="4">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL3451</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10023_4</RouteLinkRef>
+                <RunTime>PT15M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_1" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_1_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10015_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_1_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10015_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_1_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10015_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_1_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10015_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_5" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_5_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GLN024</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10019_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_5_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10019_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_5_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10019_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_5_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10019_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_7" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_7_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10021_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_7_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10021_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_7_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10021_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_7_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10021_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_2" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_2_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10016_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_2_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10016_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_2_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10016_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_2_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10016_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_3" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_3_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10017_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_3_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10017_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_3_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10017_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_3_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10017_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_4" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_4_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GLN024</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10018_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_4_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10018_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_4_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10018_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_4_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10018_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_6" CreationDateTime="2025-08-21T08:17:25" ModificationDateTime="2025-08-21T08:17:25">
+            <JourneyPatternTimingLink id="JPS_6_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1600GL3452</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10020_1</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_6_2">
+                <From SequenceNumber="2">
+                    <WaitTime>PT5M</WaitTime>
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000640</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10020_2</RouteLinkRef>
+                <RunTime>PT5M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_6_3">
+                <From SequenceNumber="3">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>1600GL5749</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10020_3</RouteLinkRef>
+                <RunTime>PT10M</RunTime>
+            </JourneyPatternTimingLink>
+            <JourneyPatternTimingLink id="JPS_6_4">
+                <From SequenceNumber="4">
+                    <Activity>pickUpAndSetDown</Activity>
+                    <StopPointRef>160000725</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="5">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1600GL1082</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_10020_4</RouteLinkRef>
+                <RunTime>PT20M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+    </JourneyPatternSections>
+    <Operators>
+        <Operator id="NATX">
+            <NationalOperatorCode>NATX</NationalOperatorCode>
+            <OperatorCode>NATX</OperatorCode>
+            <OperatorShortName>NATX</OperatorShortName>
+            <LicenceNumber>PD0000738</LicenceNumber>
+        </Operator>
+    </Operators>
+    <Services>
+        <Service>
+            <ServiceCode>PD0000738:372</ServiceCode>
+            <Lines>
+                <Line id="NATX:PD0000738:372:445">
+                    <LineName>445</LineName>
+                    <OutboundDescription>
+                        <Origin>Cheltenham</Origin>
+                        <Destination>Newent</Destination>
+                        <Description>Cheltenham - Newent</Description>
+                    </OutboundDescription>
+                    <InboundDescription>
+                        <Origin>Newent</Origin>
+                        <Destination>Cheltenham</Destination>
+                        <Description>Newent - Cheltenham</Description>
+                    </InboundDescription>
+                </Line>
+            </Lines>
+            <OperatingPeriod>
+                <StartDate>2025-08-31</StartDate>
+                <EndDate>2025-12-21</EndDate>
+            </OperatingPeriod>
+            <RegisteredOperatorRef>NATX</RegisteredOperatorRef>
+            <StopRequirements>
+                <NoNewStopsRequired></NoNewStopsRequired>
+            </StopRequirements>
+            <Mode>bus</Mode>
+            <PublicUse>true</PublicUse>
+            <Description>Cheltenham - Newent</Description>
+            <StandardService>
+                <Origin>Cheltenham</Origin>
+                <Destination>Newent</Destination>
+                <JourneyPattern id="JP_12_JPS_12">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_12</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_10_JPS_10">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_10</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_10</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_15_JPS_15">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_15</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_15</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_11_JPS_11">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_11</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_13_JPS_13">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_13</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_13</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_8_JPS_8">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_8</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_14_JPS_14">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_14</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_14</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_9_JPS_9">
+                    <DestinationDisplay>Newent</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_9</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_9</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_1_JPS_1">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_1</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_5_JPS_5">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_5</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_5</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_7_JPS_7">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_7</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_7</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_2_JPS_2">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_2</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_3_JPS_3">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_3</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_4_JPS_4">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_4</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_6_JPS_6">
+                    <DestinationDisplay>Cheltenham</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_6</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_6</JourneyPatternSectionRefs>
+                </JourneyPattern>
+            </StandardService>
+        </Service>
+    </Services>
+    <VehicleJourneys>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>752</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_12_JPS_12</JourneyPatternRef>
+            <DepartureTime>20:35:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>73</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_10_JPS_10</JourneyPatternRef>
+            <DepartureTime>18:20:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>782</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_15_JPS_15</JourneyPatternRef>
+            <DepartureTime>23:40:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>742</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_11_JPS_11</JourneyPatternRef>
+            <DepartureTime>18:35:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>762</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_13_JPS_13</JourneyPatternRef>
+            <DepartureTime>20:50:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>71</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_8_JPS_8</JourneyPatternRef>
+            <DepartureTime>15:15:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>772</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_14_JPS_14</JourneyPatternRef>
+            <DepartureTime>20:50:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>72</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_9_JPS_9</JourneyPatternRef>
+            <DepartureTime>18:05:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>74</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_1_JPS_1</JourneyPatternRef>
+            <DepartureTime>06:05:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>78</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_5_JPS_5</JourneyPatternRef>
+            <DepartureTime>09:35:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                        <Friday></Friday>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>80</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_7_JPS_7</JourneyPatternRef>
+            <DepartureTime>12:05:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Saturday></Saturday>
+                        <Sunday></Sunday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>75</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_2_JPS_2</JourneyPatternRef>
+            <DepartureTime>06:30:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>76</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_3_JPS_3</JourneyPatternRef>
+            <DepartureTime>06:50:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>77</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_4_JPS_4</JourneyPatternRef>
+            <DepartureTime>09:35:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Tuesday></Tuesday>
+                        <Wednesday></Wednesday>
+                        <Thursday></Thursday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>79</VehicleJourneyCode>
+            <ServiceRef>PD0000738:372</ServiceRef>
+            <LineRef>NATX:PD0000738:372:445</LineRef>
+            <JourneyPatternRef>JP_6_JPS_6</JourneyPatternRef>
+            <DepartureTime>12:05:00</DepartureTime>
+        </VehicleJourney>
+    </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-11-10T13:22:01Z" ModificationDateTime="2025-10-08T16:34:26Z" Modification="revise" RevisionNumber="7" FileName="695_08102025163432.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004406941A</StopPointRef>
+      <CommonName>Bishop Wand School</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Sunbury</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004402126A</StopPointRef>
+      <CommonName>Elmsleigh Bus Station</CommonName>
+      <Indicator>Stop 1</Indicator>
+      <LocalityName>Staines</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004402039B</StopPointRef>
+      <CommonName>Manygate Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Shepperton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004402039A</StopPointRef>
+      <CommonName>Manygate Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Shepperton</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="4_0">
+      <RouteLink id="4_0_14">
+        <From>
+          <StopPointRef>40004402126A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004402039A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="4_0_15">
+        <From>
+          <StopPointRef>40004402039A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004406941A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="9_11">
+      <RouteLink id="9_11_23">
+        <From>
+          <StopPointRef>40004406941A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004402039B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="9_11_15">
+        <From>
+          <StopPointRef>40004402039B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004402126A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="4_0">
+      <Description>Enfield Green-Bishop Wand Sch</Description>
+      <RouteSectionRef>4_0</RouteSectionRef>
+    </Route>
+    <Route id="9_11">
+      <Description>Enfield Green-Bishop Wand Sch</Description>
+      <RouteSectionRef>9_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="4_0">
+      <JourneyPatternTimingLink id="4_0_14">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004402126A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004402039A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>4_0_14</RouteLinkRef>
+        <RunTime>PT24M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="4_0_15">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004402039A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004406941A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>4_0_15</RouteLinkRef>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="9_11">
+      <JourneyPatternTimingLink id="9_11_23">
+        <From SequenceNumber="8">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004406941A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004402039B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>9_11_23</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="9_11_15">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004402039B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004402126A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>9_11_15</RouteLinkRef>
+        <RunTime>PT21M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>BEAR</NationalOperatorCode>
+      <OperatorCode>BEAR</OperatorCode>
+      <OperatorShortName>Bear Buses</OperatorShortName>
+      <OperatorNameOnLicence>Bear Buses</OperatorNameOnLicence>
+      <TradingName>Bear Buses</TradingName>
+      <LicenceNumber>PK0001811</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>BearBuses</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PK0001811:4</ServiceCode>
+      <Lines>
+        <Line id="BEAR:PK0001811:4:695">
+          <LineName>695</LineName>
+          <OutboundDescription>
+            <Description>Enfield Green-Bishop Wand Sch</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Bishop Wand Sch - Enfield Green</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2020-09-02</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Enfield Green-Bishop Wand Sch</Description>
+      <StandardService>
+        <Origin>Staines Bus Station </Origin>
+        <Destination>Bishop Wand Sch</Destination>
+        <JourneyPattern id="4_0">
+          <DestinationDisplay>Bishop Wand Sch	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>4_0</RouteRef>
+          <JourneyPatternSectionRefs>4_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="9_11">
+          <DestinationDisplay>Staines Bus Station	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>9_11</RouteRef>
+          <JourneyPatternSectionRefs>9_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:34 STA - BIS</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>695</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>PK0001811:4</ServiceRef>
+      <LineRef>BEAR:PK0001811:4:695</LineRef>
+      <JourneyPatternRef>4_0</JourneyPatternRef>
+      <DepartureTime>07:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:40 BIS - STA</Description>
+          <BlockNumber>4</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>695</TicketMachineServiceCode>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>PK0001811:4</ServiceRef>
+      <LineRef>BEAR:PK0001811:4:695</LineRef>
+      <JourneyPatternRef>9_11</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

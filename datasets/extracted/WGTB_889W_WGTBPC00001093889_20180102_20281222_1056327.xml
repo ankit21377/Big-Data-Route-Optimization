@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-12-06T12:24:19" ModificationDateTime="2025-01-29T11:00:25" Modification="revise" RevisionNumber="6" FileName="WGTB_889W_WGTBPC00001093889_20180102_20281222_1056327.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090033023467</StopPointRef>
+      <CommonName>Central Garage</CommonName>
+      <Location>
+        <Longitude>-2.342870</Longitude>
+        <Latitude>54.788099</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074024243</StopPointRef>
+      <CommonName>Horse and Wagon Caravan Park</CommonName>
+      <Location>
+        <Longitude>-2.369486</Longitude>
+        <Latitude>54.801078</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074024640</StopPointRef>
+      <CommonName>Horse and Wagon Caravan Park</CommonName>
+      <Location>
+        <Longitude>-2.369270</Longitude>
+        <Latitude>54.801232</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074021238</StopPointRef>
+      <CommonName>Nenthall Hotel</CommonName>
+      <Location>
+        <Longitude>-2.378400</Longitude>
+        <Latitude>54.806047</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074023466</StopPointRef>
+      <CommonName>Hotel</CommonName>
+      <Location>
+        <Longitude>-2.378292</Longitude>
+        <Latitude>54.806155</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074021339</StopPointRef>
+      <CommonName>Whitewell Farm</CommonName>
+      <Location>
+        <Longitude>-2.408565</Longitude>
+        <Latitude>54.810631</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074023465</StopPointRef>
+      <CommonName>Whitewell Farm</CommonName>
+      <Location>
+        <Longitude>-2.408457</Longitude>
+        <Latitude>54.810757</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074021909</StopPointRef>
+      <CommonName>Town Head</CommonName>
+      <Location>
+        <Longitude>-2.437775</Longitude>
+        <Latitude>54.811167</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074022288</StopPointRef>
+      <CommonName>Fire Station</CommonName>
+      <Location>
+        <Longitude>-2.437620</Longitude>
+        <Latitude>54.811213</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074022147</StopPointRef>
+      <CommonName>Hendersons Garage</CommonName>
+      <Location>
+        <Longitude>-2.441681</Longitude>
+        <Latitude>54.811198</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>090074021627</StopPointRef>
+      <CommonName>Hendersons Garage</CommonName>
+      <Location>
+        <Longitude>-2.442048</Longitude>
+        <Latitude>54.810640</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>090074021627</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>090074022288</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>090074022288</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>090074023465</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>090074023465</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>090074024640</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>090033023467</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>090074021909</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>090074021909</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>090074022147</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>090074021627</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>090074022288</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>090074022288</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>090074023465</StopPointRef>
+          <TimingStatus>timeInfoPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>090074023465</StopPointRef>
+          <TimingStatus>timeInfoPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>090074024640</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>090033023467</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>090074021909</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="2">
+          <StopPointRef>090074021909</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>090074022147</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>WGTB</NationalOperatorCode>
+      <OperatorCode>WGTB</OperatorCode>
+      <OperatorShortName>Wright Bros</OperatorShortName>
+      <LicenceNumber>PC0000109</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC0000109:3</ServiceCode>
+      <Lines>
+        <Line id="WGTB:PC0000109:3:889">
+          <LineName>889</LineName>
+          <OutboundDescription>
+            <Description>Nenthead to Alston</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Alston to Nenthead</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-01-02</StartDate>
+        <EndDate>2028-12-22</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Nenthead</Origin>
+        <Destination>Alston</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Horse and Wagon Caravan Park</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Hendersons Garage</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1230</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PC0000109:3</ServiceRef>
+      <LineRef>WGTB:PC0000109:3:889</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>11:00</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PC0000109:3</ServiceRef>
+      <LineRef>WGTB:PC0000109:3:889</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

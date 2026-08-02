@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-08-29T15:32:42Z" ModificationDateTime="2025-12-29T12:39:27Z" Modification="revise" RevisionNumber="4" FileName="141_29122025123927.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>ST</OrganisationCode>
+      <Name>School Term</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-01-05</StartDate>
+          <EndDate>2026-02-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-03-02</StartDate>
+          <EndDate>2026-04-02</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-20</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-17</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007151</StopPointRef>
+      <CommonName> Bedeburn Road</CommonName>
+      <Indicator>S-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007152</StopPointRef>
+      <CommonName>Bedeburn Road-Deneside</CommonName>
+      <Indicator>E-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007150</StopPointRef>
+      <CommonName>Bedeburn Road-Hareydene</CommonName>
+      <Indicator>W-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007020</StopPointRef>
+      <CommonName>Hexham Road-Hawthorn Terrace</CommonName>
+      <Indicator>SE-Bound</Indicator>
+      <LocalityName>Walbottle</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007156</StopPointRef>
+      <CommonName>Newbiggin Lane - Crispin Court</CommonName>
+      <Indicator>N-Bound</Indicator>
+      <LocalityName>Westerhope</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007153</StopPointRef>
+      <CommonName>Newbiggin Lane-Trevelyan Drive</CommonName>
+      <Indicator>S-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007928</StopPointRef>
+      <CommonName>Stamfordham Road-Kensington Villas</CommonName>
+      <Indicator>SE-Bound</Indicator>
+      <LocalityName>Westerhope</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000007162</StopPointRef>
+      <CommonName>Trevelyan Drive-Anson Place</CommonName>
+      <Indicator>E-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000008339</StopPointRef>
+      <CommonName>Trevelyan Drive-Eastgarth</CommonName>
+      <Indicator>W-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000008337</StopPointRef>
+      <CommonName>Trevelyan Drive-Kidlandlee Green</CommonName>
+      <Indicator>NE-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000008316</StopPointRef>
+      <CommonName>Trevelyan Drive-Mortimer Avenue</CommonName>
+      <Indicator>E-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000008338</StopPointRef>
+      <CommonName>Trevelyan Drive-School</CommonName>
+      <Indicator>N-Bound</Indicator>
+      <LocalityName>Newbiggin Hall</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000000028</StopPointRef>
+      <CommonName>Walbottle Campus</CommonName>
+      <Indicator>S-Bound</Indicator>
+      <LocalityName>Walbottle</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="123_0">
+      <RouteLink id="123_0_965">
+        <From>
+          <StopPointRef>410000000028</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007020</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_966">
+        <From>
+          <StopPointRef>410000007020</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007928</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_967">
+        <From>
+          <StopPointRef>410000007928</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007156</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_968">
+        <From>
+          <StopPointRef>410000007156</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007162</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_969">
+        <From>
+          <StopPointRef>410000007162</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000008316</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_970">
+        <From>
+          <StopPointRef>410000008316</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000008337</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_971">
+        <From>
+          <StopPointRef>410000008337</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000008338</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_972">
+        <From>
+          <StopPointRef>410000008338</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000008339</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_973">
+        <From>
+          <StopPointRef>410000008339</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007150</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_974">
+        <From>
+          <StopPointRef>410000007150</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007151</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_975">
+        <From>
+          <StopPointRef>410000007151</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007152</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="123_0_976">
+        <From>
+          <StopPointRef>410000007152</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000007153</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="123_0">
+      <Description>Walbottle Academy - Newbiggin Lane</Description>
+      <RouteSectionRef>123_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="123_0">
+      <JourneyPatternTimingLink id="123_0_965">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>410000000028</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007020</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_965</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_966">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007020</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007928</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_966</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_967">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007928</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007156</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_967</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_968">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007156</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007162</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_968</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_969">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007162</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008316</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_969</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_970">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008316</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008337</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_970</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_971">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008337</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008338</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_971</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_972">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008338</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008339</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_972</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_973">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000008339</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007150</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_973</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_974">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007150</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007151</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_974</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_975">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007151</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007152</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_975</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="123_0_976">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>410000007152</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>setDown</Activity>
+          <StopPointRef>410000007153</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>123_0_976</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>NOST</NationalOperatorCode>
+      <OperatorCode>NOST</OperatorCode>
+      <OperatorShortName>Northstar</OperatorShortName>
+      <OperatorNameOnLicence>Northstar</OperatorNameOnLicence>
+      <TradingName>Northstar</TradingName>
+      <LicenceNumber>PB2060918</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>NorthStarBus</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB2060918:22</ServiceCode>
+      <Lines>
+        <Line id="NOST:PB2060918:22:141">
+          <LineName>141</LineName>
+          <OutboundDescription>
+            <Description>Walbottle Academy - Newbiggin Lane</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Newbiggin Lane - Walbottle Academy</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-08-20</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Walbottle Academy - Newbiggin Lane</Description>
+      <StandardService>
+        <Origin>Walbottle Campus</Origin>
+        <Destination>Newbiggin LN Trevelyan </Destination>
+        <JourneyPattern id="123_0">
+          <DestinationDisplay>Newbiggin LN Trevelyan	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>123_0</RouteRef>
+          <JourneyPatternSectionRefs>123_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:42 WAL - NEW</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>141</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ST</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-29</StartDate>
+              <EndDate>2025-12-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB2060918:22</ServiceRef>
+      <LineRef>NOST:PB2060918:22:141</LineRef>
+      <JourneyPatternRef>123_0</JourneyPatternRef>
+      <DepartureTime>14:42:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

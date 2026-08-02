@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-03-29T15:10:04' ModificationDateTime='2023-03-29T15:11:35' Modification='revise' RevisionNumber='1' FileName="MRD LTD 91 2023-03-29 15-11.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>2000G027202</StopPointRef><CommonName>Cobnall Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G501820</StopPointRef><CommonName>Montgomery Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G501821</StopPointRef><CommonName>Aintree Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G323033</StopPointRef><CommonName>Gibb Lane School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G503114</StopPointRef><CommonName>Meadow Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G010102</StopPointRef><CommonName>Shops</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G020302</StopPointRef><CommonName>Bromsgrove Bus Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G323197</StopPointRef><CommonName>Sainsbury's Local Store</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G353933</StopPointRef><CommonName>Gibb Lane School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G200400</StopPointRef><CommonName>Aintree Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G027200</StopPointRef><CommonName>Cobnall Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G207000</StopPointRef><CommonName>Catshill- Harris Coaches</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G021702</StopPointRef><CommonName>Marlbrook Hotel</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>2000G501734</StopPointRef><CommonName>School Lane</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_4' CreationDateTime='2023-03-29T15:10:03' ModificationDateTime='2023-03-29T15:10:06' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_4_1'><From><StopPointRef>2000G207000</StopPointRef></From><To><StopPointRef>2000G021702</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_4_2'><From><StopPointRef>2000G021702</StopPointRef></From><To><StopPointRef>2000G501734</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_5' CreationDateTime='2023-03-29T15:10:03' ModificationDateTime='2023-03-29T15:10:09' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_5_1'><From><StopPointRef>2000G020302</StopPointRef></From><To><StopPointRef>2000G501734</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_2'><From><StopPointRef>2000G501734</StopPointRef></From><To><StopPointRef>2000G021702</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_3'><From><StopPointRef>2000G021702</StopPointRef></From><To><StopPointRef>2000G207000</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_4' CreationDateTime='2023-03-29T15:09:59' ModificationDateTime='2023-03-29T15:10:06' Modification='revise' RevisionNumber='1'><Description>Catshill- Harris Coaches - School Lane</Description><RouteSectionRef>routeSection_4</RouteSectionRef></Route>
+<Route id='route_5' CreationDateTime='2023-03-29T15:09:59' ModificationDateTime='2023-03-29T15:10:09' Modification='revise' RevisionNumber='1'><Description>Bromsgrove Bus Station - Catshill- Harris Coaches</Description><RouteSectionRef>routeSection_5</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_11' CreationDateTime='2023-03-29T15:10:04' ModificationDateTime='2023-03-29T15:11:35' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_11_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G207000</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G021702</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_4_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G021702</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G501734</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_4_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_12' CreationDateTime='2023-03-29T15:10:04' ModificationDateTime='2023-03-29T15:11:35' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_12_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G020302</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G501734</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_5_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_12_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G501734</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G021702</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_5_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_12_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G021702</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>2000G207000</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_5_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="MRDL"><NationalOperatorCode>MRDL</NationalOperatorCode><OperatorCode>MRDL</OperatorCode><OperatorShortName>MRD LTD</OperatorShortName><LicenceNumber>PD0001697</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-03-29T15:10:04' ModificationDateTime='2023-03-29T15:11:35' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PD0001697:4</ServiceCode><Lines><Line id="MRDL:PD0001697:4:91"><LineName>91</LineName><OutboundDescription><Origin>Catshill- Harris Coaches</Origin><Destination>School Lane</Destination><Description>Catshill- Harris Coaches - School Lane</Description></OutboundDescription><InboundDescription><Origin>Bromsgrove Bus Station</Origin><Destination>Catshill- Harris Coaches</Destination><Description>Bromsgrove Bus Station - Catshill- Harris Coaches</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2010-12-12</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>MRDL</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Bromsgrove Bus Station - Catshill- Harris Coaches</Description>
+
+<StandardService>
+<Origin>Bromsgrove Bus Station</Origin>
+<Destination>Catshill- Harris Coaches</Destination>
+<JourneyPattern id='JP_11'><DestinationDisplay>197</DestinationDisplay><OperatorRef>MRDL</OperatorRef><Direction>outbound</Direction><RouteRef>route_4</RouteRef><JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_12'><DestinationDisplay>198</DestinationDisplay><OperatorRef>MRDL</OperatorRef><Direction>inbound</Direction><RouteRef>route_5</RouteRef><JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-03-29T15:09:59' ModificationDateTime='2023-03-29T15:10:07' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MRDL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_13</VehicleJourneyCode>
+<ServiceRef>PD0001697:4</ServiceRef><LineRef>MRDL:PD0001697:4:91</LineRef>
+<JourneyPatternRef>JP_11</JourneyPatternRef>
+<DepartureTime>15:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-03-29T15:09:59' ModificationDateTime='2023-03-29T15:10:09' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MRDL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_14</VehicleJourneyCode>
+<ServiceRef>PD0001697:4</ServiceRef><LineRef>MRDL:PD0001697:4:91</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>08:20:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

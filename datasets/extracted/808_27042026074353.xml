@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-08-29T14:08:34Z" ModificationDateTime="2026-04-27T07:43:52Z" Modification="revise" RevisionNumber="7" FileName="808_27042026074353.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>Stafford</OrganisationCode>
+      <Name>Staffordshire Schools</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-05-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-05-05</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-20</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C300700</StopPointRef>
+      <CommonName>Forest Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Gate</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C300701</StopPointRef>
+      <CommonName>Forest Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Gate</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C311900</StopPointRef>
+      <CommonName>John Taylor High School</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C344301</StopPointRef>
+      <CommonName>Park Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C344302</StopPointRef>
+      <CommonName>Park Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C349302</StopPointRef>
+      <CommonName>Sich Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Woodhouses</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C349301</StopPointRef>
+      <CommonName>Sich Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Woodhouses</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C335802</StopPointRef>
+      <CommonName>St James`s Church</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C335801</StopPointRef>
+      <CommonName>St James`s Church</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C309101</StopPointRef>
+      <CommonName>The Crown PH</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Yoxall</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="36_0">
+      <RouteLink id="36_0_324">
+        <From>
+          <StopPointRef>3800C309101</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C349302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="36_0_409">
+        <From>
+          <StopPointRef>3800C349302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C300700</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="36_0_408">
+        <From>
+          <StopPointRef>3800C300700</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C344302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="36_0_407">
+        <From>
+          <StopPointRef>3800C344302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C335801</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="36_0_406">
+        <From>
+          <StopPointRef>3800C335801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C311900</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="37_11">
+      <RouteLink id="37_11_325">
+        <From>
+          <StopPointRef>3800C311900</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C335802</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="37_11_406">
+        <From>
+          <StopPointRef>3800C335802</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C344301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="37_11_407">
+        <From>
+          <StopPointRef>3800C344301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C300701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="37_11_408">
+        <From>
+          <StopPointRef>3800C300701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C349301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="37_11_409">
+        <From>
+          <StopPointRef>3800C349301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C309101</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="36_0">
+      <Description>Yoxall - John Taylor High School</Description>
+      <RouteSectionRef>36_0</RouteSectionRef>
+    </Route>
+    <Route id="37_11">
+      <Description>Yoxall - John Taylor High School</Description>
+      <RouteSectionRef>37_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="36_0">
+      <JourneyPatternTimingLink id="36_0_324">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C309101</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C349302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>36_0_324</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="36_0_409">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C349302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C300700</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>36_0_409</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="36_0_408">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C300700</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>36_0_408</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="36_0_407">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344302</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C335801</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>36_0_407</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="36_0_406">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C335801</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C311900</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>36_0_406</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="37_11">
+      <JourneyPatternTimingLink id="37_11_325">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C311900</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C335802</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>37_11_325</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="37_11_406">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C335802</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344301</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>37_11_406</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="37_11_407">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344301</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C300701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>37_11_407</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="37_11_408">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C300701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C349301</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>37_11_408</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="37_11_409">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C349301</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C309101</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>37_11_409</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>BULI</NationalOperatorCode>
+      <OperatorCode>BULI</OperatorCode>
+      <OperatorShortName>Bus Link Ltd</OperatorShortName>
+      <OperatorNameOnLicence>Bus Link Ltd</OperatorNameOnLicence>
+      <TradingName>Bus Link Ltd</TradingName>
+      <LicenceNumber>PC2065754</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Buslink</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC2065754:5</ServiceCode>
+      <Lines>
+        <Line id="BULI:PC2065754:5:808">
+          <LineName>808</LineName>
+          <OutboundDescription>
+            <Description>Yoxall The Crown - John Taylor High School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>John Taylor High School - Yoxall The Crown</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-09-02</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Yoxall - John Taylor High School</Description>
+      <StandardService>
+        <Origin>Yoxall The Crown PH </Origin>
+        <Destination>John Taylor High School</Destination>
+        <JourneyPattern id="36_0">
+          <DestinationDisplay>John Taylor High School	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>36_0</RouteRef>
+          <JourneyPatternSectionRefs>36_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="37_11">
+          <DestinationDisplay>Yoxall The Crown PH	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>37_11</RouteRef>
+          <JourneyPatternSectionRefs>37_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:30 YOX - JOH</Description>
+          <BlockNumber>8</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>808</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Stafford</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PC2065754:5</ServiceRef>
+      <LineRef>BULI:PC2065754:5:808</LineRef>
+      <JourneyPatternRef>36_0</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:45 JOH - YOX</Description>
+          <BlockNumber>8</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>808</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Stafford</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PC2065754:5</ServiceRef>
+      <LineRef>BULI:PC2065754:5:808</LineRef>
+      <JourneyPatternRef>37_11</JourneyPatternRef>
+      <DepartureTime>15:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

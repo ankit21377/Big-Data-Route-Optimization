@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2022-10-27T06:57:16" ModificationDateTime="2025-09-24T08:02:09" Modification="revise" RevisionNumber="6" FileName="JHCL_836_JHCLPB1049268344836_20240902_20260724_1918858.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000000093</StopPointRef>
+      <CommonName>Emmanuel College</CommonName>
+      <Location>
+        <Longitude>-1.641701</Longitude>
+        <Latitude>54.938252</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000014043</StopPointRef>
+      <CommonName>Lobley Hill Road-Rothbury Gardens (E)</CommonName>
+      <Location>
+        <Longitude>-1.638520</Longitude>
+        <Latitude>54.939645</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000014044</StopPointRef>
+      <CommonName>Lobley Hill Road-Chiltern Gardens</CommonName>
+      <Location>
+        <Longitude>-1.631519</Longitude>
+        <Latitude>54.940487</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000022121</StopPointRef>
+      <CommonName>Lamesley Road-Willowbeds Farm</CommonName>
+      <Location>
+        <Longitude>-1.609994</Longitude>
+        <Latitude>54.919472</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000022122</StopPointRef>
+      <CommonName>Lamesley Road-Church</CommonName>
+      <Location>
+        <Longitude>-1.607663</Longitude>
+        <Latitude>54.915294</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000021047</StopPointRef>
+      <CommonName>Coronation Terrace</CommonName>
+      <Location>
+        <Longitude>-1.617967</Longitude>
+        <Latitude>54.905173</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000021048</StopPointRef>
+      <CommonName>The Crescent</CommonName>
+      <Location>
+        <Longitude>-1.621756</Longitude>
+        <Latitude>54.904645</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>410000000093</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000014043</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>410000014043</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000014044</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>410000014044</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000022121</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>410000022121</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000022122</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>410000022122</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000021047</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_6">
+        <From>
+          <StopPointRef>410000021047</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000021048</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>410000000093</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>410000014043</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+        <Distance>293</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>410000014043</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>410000014044</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>468</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>410000014044</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>410000022121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT9M</RunTime>
+        <Distance>3403</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>410000022121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>410000022122</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>501</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>410000022122</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>410000021047</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+        <Distance>2381</Distance>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="6">
+          <StopPointRef>410000021047</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>410000021048</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_6</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+        <Distance>255</Distance>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>JHCL</NationalOperatorCode>
+      <OperatorCode>CLCO</OperatorCode>
+      <OperatorShortName>Jim Hughes</OperatorShortName>
+      <LicenceNumber>PB1049268</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB1049268:344</ServiceCode>
+      <Lines>
+        <Line id="JHCL:PB1049268:344:836">
+          <LineName>836</LineName>
+          <OutboundDescription>
+            <Description>Emmanuel College to Kibblesworth</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Kibblesworth to Emmanuel College</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-09-02</StartDate>
+        <EndDate>2026-07-24</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-10-28</StartDate>
+              <EndDate>2024-11-07</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2024-12-21</StartDate>
+              <EndDate>2025-01-09</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-02-22</StartDate>
+              <EndDate>2025-03-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-04-19</StartDate>
+              <EndDate>2025-05-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-05-24</StartDate>
+              <EndDate>2025-06-01</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Emmanuel College</Origin>
+        <Destination>Kibblesworth</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>The Crescent</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1437</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PB1049268:344</ServiceRef>
+      <LineRef>JHCL:PB1049268:344:836</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:37:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

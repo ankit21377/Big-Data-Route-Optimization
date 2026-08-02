@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-05-27T14:56:56Z" ModificationDateTime="2025-11-20T05:45:39Z" Modification="revise" RevisionNumber="4" FileName="178_20251120054539915.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100050952</StopPointRef>
+      <CommonName>Bakewell, All Saints Church</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L1">
+        <Longitude>-1.6797874002</Longitude>
+        <Latitude>53.2122063558</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBSS3102</StopPointRef>
+      <CommonName>Bakewell, Bakewell Rutland Square</CommonName>
+      <Indicator>Stand C</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L2">
+        <Longitude>-1.6752422970</Longitude>
+        <Latitude>53.2132637441</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBCV4562</StopPointRef>
+      <CommonName>Bakewell, Calton View</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L3">
+        <Longitude>-1.6779720372</Longitude>
+        <Latitude>53.2086778259</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DOHM3862</StopPointRef>
+      <CommonName>Over Haddon, Craft Centre</CommonName>
+      <Indicator>Adj</Indicator>
+      <LocalityName>Over Haddon</LocalityName>
+      <Location id="L4">
+        <Longitude>-1.6947030770</Longitude>
+        <Latitude>53.1951126411</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBSL3882</StopPointRef>
+      <CommonName>Bakewell, Lady Manners School</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L5">
+        <Longitude>-1.6844801734</Longitude>
+        <Latitude>53.2073199204</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100000011766</StopPointRef>
+      <CommonName>Bakewell, Pickford Villas</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L6">
+        <Longitude>-1.6837362578</Longitude>
+        <Latitude>53.2107517041</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBSS3103</StopPointRef>
+      <CommonName>Bakewell, Square</CommonName>
+      <Indicator>Stand D</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L7">
+        <Longitude>-1.6751368673</Longitude>
+        <Latitude>53.2133443569</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBUR3880</StopPointRef>
+      <CommonName>Bakewell, Stoney Close</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L8">
+        <Longitude>-1.6790736819</Longitude>
+        <Latitude>53.2075212288</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100051670</StopPointRef>
+      <CommonName>Bakewell, Upper Yeld Road</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L9">
+        <Longitude>-1.6808036089</Longitude>
+        <Latitude>53.2064292266</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DBYR3878</StopPointRef>
+      <CommonName>Bakewell, Yeld Road</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Bakewell</LocalityName>
+      <Location id="L10">
+        <Longitude>-1.6789364512</Longitude>
+        <Latitude>53.2098579699</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS98">
+      <RouteLink id="RL98_9">
+        <From>
+          <StopPointRef>1000DBSS3102</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100050952</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_332">
+        <From>
+          <StopPointRef>100050952</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DBYR3878</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_338">
+        <From>
+          <StopPointRef>1000DBYR3878</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DBCV4562</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_333">
+        <From>
+          <StopPointRef>1000DBCV4562</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DBUR3880</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_336">
+        <From>
+          <StopPointRef>1000DBUR3880</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100051670</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_337">
+        <From>
+          <StopPointRef>100051670</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DBSL3882</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_122">
+        <From>
+          <StopPointRef>1000DBSL3882</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100000011766</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="RL98_335">
+        <From>
+          <StopPointRef>100000011766</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DBSS3103</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT98">
+      <Description>Bakewell, Rutland Square - Shutts Lane - Bakewell </Description>
+      <RouteSectionRef>RS98</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS98">
+      <JourneyPatternTimingLink id="JPTL98_9">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>1000DBSS3102</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100050952</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_9</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_332">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100050952</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBYR3878</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_332</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_338">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBYR3878</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBCV4562</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_338</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_333">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBCV4562</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBUR3880</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_333</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_336">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBUR3880</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100051670</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_336</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_337">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100051670</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBSL3882</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_337</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_122">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1000DBSL3882</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100000011766</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_122</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL98_335">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>100000011766</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>1000DBSS3103</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL98_335</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP5">
+      <NationalOperatorCode>ANTR</NationalOperatorCode>
+      <OperatorShortName>Andrews of tideswell</OperatorShortName>
+      <LicenceNumber>PC0003422</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Andrews</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC0003422:22</ServiceCode>
+      <Lines>
+        <Line id="ANTR:PC0003422:22:178">
+          <LineName>178</LineName>
+          <OutboundDescription>
+            <Description>Bakewell, Rutland Square  - Shutts Lane - Bakewell</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Shutts Lane - Bakewell - Bakewell, Rutland Square </Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-10-15</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP5</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Bakewell, Rutland Square </Origin>
+        <Destination>Shutts Lane - Bakewell</Destination>
+        <JourneyPattern id="JP98">
+          <DestinationDisplay>Bakewell Square (Stand D)</DestinationDisplay>
+          <OperatorRef>OP5</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT98</RouteRef>
+          <JourneyPatternSectionRefs>JPS98</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:40 BAK - BAK</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>227</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>09:40 BAK - BAK</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>228</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:40 BAK - BAK</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>229</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>11:40 BAK - BAK</Description>
+          <BlockNumber>4</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>230</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>12:40 BAK - BAK</Description>
+          <BlockNumber>5</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>231</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:40 BAK - BAK</Description>
+          <BlockNumber>6</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>232</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:40 BAK - BAK</Description>
+          <BlockNumber>7</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>233</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:40 BAK - BAK</Description>
+          <BlockNumber>8</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>8</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>234</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP5</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:40 BAK - BAK</Description>
+          <BlockNumber>9</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>178</TicketMachineServiceCode>
+          <JourneyCode>9</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>235</VehicleJourneyCode>
+      <ServiceRef>PC0003422:22</ServiceRef>
+      <LineRef>ANTR:PC0003422:22:178</LineRef>
+      <JourneyPatternRef>JP98</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

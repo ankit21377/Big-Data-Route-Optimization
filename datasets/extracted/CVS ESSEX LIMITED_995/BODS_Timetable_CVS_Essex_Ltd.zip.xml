@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-12-01T11:35:25' Modification='revise' RevisionNumber='1' FileName="CVS Essex Ltd SM001 2025-12-01 11-34.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>150037013004</StopPointRef><CommonName>St Martins School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM51</StopPointRef><CommonName>Tesco Langdon Hills</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036007002</StopPointRef><CommonName>Derby Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM50Y</StopPointRef><CommonName>Great Berry Primary School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500KNTWAY</StopPointRef><CommonName>Kenton Way</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036010003</StopPointRef><CommonName>The Triangle</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM2372B</StopPointRef><CommonName>Shelsley Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036019006</StopPointRef><CommonName>Staneway</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036019009</StopPointRef><CommonName>Hempstalls</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036022004</StopPointRef><CommonName>South Wash Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036022003</StopPointRef><CommonName>South Wash Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036019008</StopPointRef><CommonName>Laindon Link</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM963</StopPointRef><CommonName>Staneway</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM2372</StopPointRef><CommonName>Shelsley Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150036010004</StopPointRef><CommonName>The Triangle</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM50</StopPointRef><CommonName>Great Berry Primary School</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_115' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-04-10T16:00:42' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_115_1'><From><StopPointRef>150037013004</StopPointRef></From><To><StopPointRef>1500IM51</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_2'><From><StopPointRef>1500IM51</StopPointRef></From><To><StopPointRef>150036007002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_3'><From><StopPointRef>150036007002</StopPointRef></From><To><StopPointRef>1500IM50Y</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_4'><From><StopPointRef>1500IM50Y</StopPointRef></From><To><StopPointRef>1500KNTWAY</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_5'><From><StopPointRef>1500KNTWAY</StopPointRef></From><To><StopPointRef>150036010003</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_6'><From><StopPointRef>150036010003</StopPointRef></From><To><StopPointRef>1500IM2372B</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_7'><From><StopPointRef>1500IM2372B</StopPointRef></From><To><StopPointRef>150036019006</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_8'><From><StopPointRef>150036019006</StopPointRef></From><To><StopPointRef>150036019009</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_115_9'><From><StopPointRef>150036019009</StopPointRef></From><To><StopPointRef>150036022004</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_116' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-04-10T16:00:48' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_116_1'><From><StopPointRef>150036022003</StopPointRef></From><To><StopPointRef>150036019008</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_2'><From><StopPointRef>150036019008</StopPointRef></From><To><StopPointRef>1500IM963</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_3'><From><StopPointRef>1500IM963</StopPointRef></From><To><StopPointRef>1500IM2372</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_4'><From><StopPointRef>1500IM2372</StopPointRef></From><To><StopPointRef>150036010004</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_5'><From><StopPointRef>150036010004</StopPointRef></From><To><StopPointRef>1500KNTWAY</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_6'><From><StopPointRef>1500KNTWAY</StopPointRef></From><To><StopPointRef>1500IM50</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_7'><From><StopPointRef>1500IM50</StopPointRef></From><To><StopPointRef>150036007002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_8'><From><StopPointRef>150036007002</StopPointRef></From><To><StopPointRef>1500IM51</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_116_9'><From><StopPointRef>1500IM51</StopPointRef></From><To><StopPointRef>150037013004</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_115' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-04-10T16:00:42' Modification='revise' RevisionNumber='1'><Description>St Martins School - South Wash Road</Description><RouteSectionRef>routeSection_115</RouteSectionRef></Route>
+<Route id='route_116' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-04-10T16:00:48' Modification='revise' RevisionNumber='1'><Description>South Wash Road - St Martins School</Description><RouteSectionRef>routeSection_116</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_145' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-12-01T11:35:25' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_145_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>150037013004</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1500IM51</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_1</RouteLinkRef><RunTime>PT1320S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1500IM51</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>150036007002</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_3'>
+<From SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>150036007002</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1500IM50Y</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_3</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1500IM50Y</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>1500KNTWAY</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_5'>
+<From SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>1500KNTWAY</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>150036010003</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_5</RouteLinkRef><RunTime>PT540S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_6'>
+<From SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>150036010003</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>1500IM2372B</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_6</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_7'>
+<From SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>1500IM2372B</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>150036019006</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_7</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_8'>
+<From SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>150036019006</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>150036019009</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_115_8</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_145_9'>
+<From SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>150036019009</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>150036022004</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_115_9</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_147' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-12-01T11:35:25' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_147_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>150036022003</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>150036019008</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>150036019008</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>1500IM963</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_3'>
+<From SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>1500IM963</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>1500IM2372</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_4'>
+<From SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>1500IM2372</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUp</Activity><StopPointRef>150036010004</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_4</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_5'>
+<From SequenceNumber='5'><Activity>pickUp</Activity><StopPointRef>150036010004</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUp</Activity><StopPointRef>1500KNTWAY</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_5</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_6'>
+<From SequenceNumber='6'><Activity>pickUp</Activity><StopPointRef>1500KNTWAY</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUp</Activity><StopPointRef>1500IM50</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_6</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_7'>
+<From SequenceNumber='7'><Activity>pickUp</Activity><StopPointRef>1500IM50</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUp</Activity><StopPointRef>150036007002</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_7</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_8'>
+<From SequenceNumber='8'><Activity>pickUp</Activity><StopPointRef>150036007002</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUp</Activity><StopPointRef>1500IM51</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_116_8</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_147_9'>
+<From SequenceNumber='9'><Activity>pickUp</Activity><StopPointRef>1500IM51</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>150037013004</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_116_9</RouteLinkRef><RunTime>PT1380S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="CVSE"><NationalOperatorCode>CVSE</NationalOperatorCode><OperatorCode>CVSE</OperatorCode><OperatorShortName>CVS Essex Ltd</OperatorShortName><LicenceNumber>PF1105015</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-12-01T11:35:25' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PF1105015:1</ServiceCode><Lines><Line id="CVSE:PF1105015:1:SM001"><LineName>SM001</LineName><OutboundDescription><Origin>St Martins School</Origin><Destination>South Wash Road</Destination><Description>St Martins School - South Wash Road</Description></OutboundDescription><InboundDescription><Origin>South Wash Road</Origin><Destination>St Martins School</Destination><Description>South Wash Road - St Martins School</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2025-09-01</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>CVSE</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>South Wash Road - St Martins School</Description>
+
+<StandardService>
+<Origin>South Wash Road</Origin>
+<Destination>St Martins School</Destination>
+<JourneyPattern id='JP_145'><DestinationDisplay>204</DestinationDisplay><OperatorRef>CVSE</OperatorRef><Direction>outbound</Direction><RouteRef>route_115</RouteRef><JourneyPatternSectionRefs>JPS_145</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_147'><DestinationDisplay>204</DestinationDisplay><OperatorRef>CVSE</OperatorRef><Direction>inbound</Direction><RouteRef>route_116</RouteRef><JourneyPatternSectionRefs>JPS_147</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-12-01T11:35:14' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>CVSE</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_538</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2025-10-20</StartDate><EndDate>2025-10-20</EndDate></DateRange><DateRange><StartDate>2025-10-27</StartDate><EndDate>2025-10-27</EndDate></DateRange><DateRange><StartDate>2025-12-22</StartDate><EndDate>2025-12-22</EndDate></DateRange><DateRange><StartDate>2025-12-29</StartDate><EndDate>2025-12-29</EndDate></DateRange><DateRange><StartDate>2026-01-05</StartDate><EndDate>2026-01-05</EndDate></DateRange><DateRange><StartDate>2025-10-21</StartDate><EndDate>2025-10-21</EndDate></DateRange><DateRange><StartDate>2025-10-28</StartDate><EndDate>2025-10-28</EndDate></DateRange><DateRange><StartDate>2025-12-23</StartDate><EndDate>2025-12-23</EndDate></DateRange><DateRange><StartDate>2025-12-30</StartDate><EndDate>2025-12-30</EndDate></DateRange><DateRange><StartDate>2025-10-22</StartDate><EndDate>2025-10-22</EndDate></DateRange><DateRange><StartDate>2025-10-29</StartDate><EndDate>2025-10-29</EndDate></DateRange><DateRange><StartDate>2025-09-11</StartDate><EndDate>2025-09-11</EndDate></DateRange><DateRange><StartDate>2025-10-23</StartDate><EndDate>2025-10-23</EndDate></DateRange><DateRange><StartDate>2025-10-30</StartDate><EndDate>2025-10-30</EndDate></DateRange><DateRange><StartDate>2025-10-24</StartDate><EndDate>2025-10-24</EndDate></DateRange><DateRange><StartDate>2025-10-31</StartDate><EndDate>2025-10-31</EndDate></DateRange><DateRange><StartDate>2025-12-19</StartDate><EndDate>2025-12-19</EndDate></DateRange><DateRange><StartDate>2026-01-02</StartDate><EndDate>2026-01-02</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_538</VehicleJourneyCode>
+<ServiceRef>PF1105015:1</ServiceRef><LineRef>CVSE:PF1105015:1:SM001</LineRef>
+<JourneyPatternRef>JP_145</JourneyPatternRef>
+<DepartureTime>15:13:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-12-01T11:35:15' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>CVSE</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_539</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2025-09-11</StartDate><EndDate>2025-09-11</EndDate></DateRange><DateRange><StartDate>2025-12-19</StartDate><EndDate>2025-12-19</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_539</VehicleJourneyCode>
+<ServiceRef>PF1105015:1</ServiceRef><LineRef>CVSE:PF1105015:1:SM001</LineRef>
+<JourneyPatternRef>JP_145</JourneyPatternRef>
+<DepartureTime>13:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-12-01T11:35:24' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>CVSE</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_540</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_540</VehicleJourneyCode>
+<ServiceRef>PF1105015:1</ServiceRef><LineRef>CVSE:PF1105015:1:SM001</LineRef>
+<JourneyPatternRef>JP_147</JourneyPatternRef>
+<DepartureTime>07:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-12-01T11:35:25' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>CVSE</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_541</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2025-09-12</StartDate><EndDate>2025-09-12</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_541</VehicleJourneyCode>
+<ServiceRef>PF1105015:1</ServiceRef><LineRef>CVSE:PF1105015:1:SM001</LineRef>
+<JourneyPatternRef>JP_147</JourneyPatternRef>
+<DepartureTime>09:40:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

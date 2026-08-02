@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1' FileName="Vickerys Coaches VIC001 2026-06-26 15-41.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>3600SOX38522</StopPointRef><CommonName>Huish Episcopi School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>360000130</StopPointRef><CommonName>Piece Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3600SOB20421</StopPointRef><CommonName>Duke of York</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3600SOB20575</StopPointRef><CommonName>The Lopen Raj</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>360000126</StopPointRef><CommonName>Yandles Garage</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3600SOB20498</StopPointRef><CommonName>The Pinnacle</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>360000128</StopPointRef><CommonName>St Michaels Church</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3600SOB20599</StopPointRef><CommonName>Harp Road Esso Garage</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3600SOB20668</StopPointRef><CommonName>Highway Farm</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_141' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2026-06-26T15:41:30' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_141_1'><From><StopPointRef>3600SOX38522</StopPointRef></From><To><StopPointRef>360000130</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_2'><From><StopPointRef>360000130</StopPointRef></From><To><StopPointRef>3600SOB20421</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_3'><From><StopPointRef>3600SOB20421</StopPointRef></From><To><StopPointRef>3600SOB20575</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_4'><From><StopPointRef>3600SOB20575</StopPointRef></From><To><StopPointRef>360000126</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_5'><From><StopPointRef>360000126</StopPointRef></From><To><StopPointRef>3600SOB20498</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_6'><From><StopPointRef>3600SOB20498</StopPointRef></From><To><StopPointRef>360000128</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_7'><From><StopPointRef>360000128</StopPointRef></From><To><StopPointRef>3600SOB20599</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_8'><From><StopPointRef>3600SOB20599</StopPointRef></From><To><StopPointRef>3600SOB20668</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_142' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_142_1'><From><StopPointRef>3600SOB20668</StopPointRef></From><To><StopPointRef>360000128</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_2'><From><StopPointRef>360000128</StopPointRef></From><To><StopPointRef>3600SOB20498</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_3'><From><StopPointRef>3600SOB20498</StopPointRef></From><To><StopPointRef>360000126</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_4'><From><StopPointRef>360000126</StopPointRef></From><To><StopPointRef>3600SOB20575</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_5'><From><StopPointRef>3600SOB20575</StopPointRef></From><To><StopPointRef>3600SOB20421</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_6'><From><StopPointRef>3600SOB20421</StopPointRef></From><To><StopPointRef>360000130</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_7'><From><StopPointRef>360000130</StopPointRef></From><To><StopPointRef>3600SOB20599</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_142_8'><From><StopPointRef>3600SOB20599</StopPointRef></From><To><StopPointRef>3600SOX38522</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_141' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2026-06-26T15:41:30' Modification='revise' RevisionNumber='1'><Description>Huish Episcopi School - Highway Farm</Description><RouteSectionRef>routeSection_141</RouteSectionRef></Route>
+<Route id='route_142' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1'><Description>Highway Farm - Huish Episcopi School</Description><RouteSectionRef>routeSection_142</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_178' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_178_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>3600SOX38522</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000130</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_1</RouteLinkRef><RunTime>PT1320S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000130</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20421</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20421</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20575</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20575</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000126</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_4</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000126</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20498</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_5</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20498</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000128</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_6</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000128</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20599</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_7</RouteLinkRef><RunTime>PT1020S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20599</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>3600SOB20668</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_141_8</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_179' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_179_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>3600SOB20668</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000128</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_1</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000128</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20498</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_2</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20498</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000126</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_3</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000126</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20575</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20575</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20421</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_5</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20421</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000130</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_6</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>360000130</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20599</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_7</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_179_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3600SOB20599</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>3600SOX38522</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_142_8</RouteLinkRef><RunTime>PT1380S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="MART"><NationalOperatorCode>MART</NationalOperatorCode><OperatorCode>MART</OperatorCode><OperatorShortName>Vickerys Coaches</OperatorShortName><LicenceNumber>PH2026471</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-06-26T15:41:32' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PH2026471:1</ServiceCode><Lines><Line id="MART:PH2026471:1:VIC001"><LineName>VIC001</LineName><OutboundDescription><Origin>Huish Episcopi School</Origin><Destination>Highway Farm</Destination><Description>Huish Episcopi School - Highway Farm</Description></OutboundDescription><InboundDescription><Origin>Highway Farm</Origin><Destination>Huish Episcopi School</Destination><Description>Highway Farm - Huish Episcopi School</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2026-01-01</StartDate><EndDate>2026-08-01</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>MART</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>Highway Farm - Huish Episcopi School</Description>
+
+<StandardService>
+<Origin>Highway Farm</Origin>
+<Destination>Huish Episcopi School</Destination>
+<JourneyPattern id='JP_178'><DestinationDisplay>203</DestinationDisplay><OperatorRef>MART</OperatorRef><Direction>outbound</Direction><RouteRef>route_141</RouteRef><JourneyPatternSectionRefs>JPS_178</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_179'><DestinationDisplay>203</DestinationDisplay><OperatorRef>MART</OperatorRef><Direction>inbound</Direction><RouteRef>route_142</RouteRef><JourneyPatternSectionRefs>JPS_179</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+
+
+</VehicleJourneys>
+</TransXChange>

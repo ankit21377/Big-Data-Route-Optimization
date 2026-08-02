@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-07-19T12:25:39" ModificationDateTime="2026-03-30T10:24:45" Modification="revise" RevisionNumber="60" FileName="SSSN_109_SSSNPB113886832109_20261005_20261023_2295959.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA00948</StopPointRef>
+      <CommonName>North Bay Corner Cafe</CommonName>
+      <Location>
+        <Longitude>-0.406657</Longitude>
+        <Latitude>54.292496</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA96754</StopPointRef>
+      <CommonName>Sandside</CommonName>
+      <Location>
+        <Longitude>-0.387692</Longitude>
+        <Latitude>54.283929</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01148</StopPointRef>
+      <CommonName>Newcastle Packet</CommonName>
+      <Location>
+        <Longitude>-0.391873</Longitude>
+        <Latitude>54.283877</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA96785</StopPointRef>
+      <CommonName>The Spa</CommonName>
+      <Location>
+        <Longitude>-0.396932</Longitude>
+        <Latitude>54.275037</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01153</StopPointRef>
+      <CommonName>Bland's Cliff</CommonName>
+      <Location>
+        <Longitude>-0.396133</Longitude>
+        <Latitude>54.282154</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01149</StopPointRef>
+      <CommonName>Newcastle Packet</CommonName>
+      <Location>
+        <Longitude>-0.391557</Longitude>
+        <Latitude>54.284107</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01154</StopPointRef>
+      <CommonName>Sandside</CommonName>
+      <Location>
+        <Longitude>-0.387641</Longitude>
+        <Latitude>54.284054</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01155</StopPointRef>
+      <CommonName>Marine Drive</CommonName>
+      <Location>
+        <Longitude>-0.400743</Longitude>
+        <Latitude>54.288858</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA00949</StopPointRef>
+      <CommonName>Corner Cafe</CommonName>
+      <Location>
+        <Longitude>-0.408116</Longitude>
+        <Latitude>54.292497</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>3200YNA00948</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01148</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>3200YNA01148</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA96785</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>3200YNA96785</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01154</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>3200YNA01154</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA00949</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>3200YNA00948</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01148</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA00948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3200YNA01148</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>3200YNA01148</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3200YNA96785</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>3200YNA96785</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3200YNA01154</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>3200YNA01154</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA00949</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA00948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA01148</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>SSSN</NationalOperatorCode>
+      <OperatorCode>SSSN</OperatorCode>
+      <OperatorShortName>Shoreline Suncruisers</OperatorShortName>
+      <LicenceNumber>PB1138868</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB1138868:32</ServiceCode>
+      <Lines>
+        <Line id="SSSN:PB1138868:32:109">
+          <LineName>109</LineName>
+          <OutboundDescription>
+            <Description>Peasholm Gap, (The Sands), Scarborough to The Spa, Scarborough</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>The Spa, Scarborough to Peasholm Gap, (The Sands), Scarborough</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-10-05</StartDate>
+        <EndDate>2026-10-23</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Peasholm Gap, (The Sands), Scarborough</Origin>
+        <Destination>The Spa, Scarborough</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Corner Cafe</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>clockwise</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Newcastle Packet</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>clockwise</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1000</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1040</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1120</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1200</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1240</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1300</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1320</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1340</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1420</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1500</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_10</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1540</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_11</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1620</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_12</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1700</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_13</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1400</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_14</VehicleJourneyCode>
+      <ServiceRef>PB1138868:32</ServiceRef>
+      <LineRef>SSSN:PB1138868:32:109</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

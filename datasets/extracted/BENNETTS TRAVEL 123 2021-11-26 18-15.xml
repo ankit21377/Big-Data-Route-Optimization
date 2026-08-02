@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-11-26T18:15:28' ModificationDateTime='2021-11-26T18:15:28' Modification='new' RevisionNumber='0' FileName="BENNETTS TRAVEL 123 2021-11-26 18-15.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>3800C804901</StopPointRef><CommonName>Trent Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C804800</StopPointRef><CommonName>Wedgwood Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C807100</StopPointRef><CommonName>Moorlands Sixth Form</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C804700</StopPointRef><CommonName>Cross Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C805100</StopPointRef><CommonName>Bala Grove</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C807900</StopPointRef><CommonName>Weaver Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C806300</StopPointRef><CommonName>Morrisons Store</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C805000</StopPointRef><CommonName>Elm Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3800C824701</StopPointRef><CommonName>Mansion Close</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_7' CreationDateTime='2021-11-26T18:15:25' ModificationDateTime='2021-11-26T18:15:25' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_7_1'><From><StopPointRef>3800C804901</StopPointRef></From><To><StopPointRef>3800C804800</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_2'><From><StopPointRef>3800C804800</StopPointRef></From><To><StopPointRef>3800C807100</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_3'><From><StopPointRef>3800C807100</StopPointRef></From><To><StopPointRef>3800C804700</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_4'><From><StopPointRef>3800C804700</StopPointRef></From><To><StopPointRef>3800C805100</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_5'><From><StopPointRef>3800C805100</StopPointRef></From><To><StopPointRef>3800C807900</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_6'><From><StopPointRef>3800C807900</StopPointRef></From><To><StopPointRef>3800C804700</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_7'><From><StopPointRef>3800C804700</StopPointRef></From><To><StopPointRef>3800C806300</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_8'><From><StopPointRef>3800C806300</StopPointRef></From><To><StopPointRef>3800C805000</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_9'><From><StopPointRef>3800C805000</StopPointRef></From><To><StopPointRef>3800C806300</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_10'><From><StopPointRef>3800C806300</StopPointRef></From><To><StopPointRef>3800C804700</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_11'><From><StopPointRef>3800C804700</StopPointRef></From><To><StopPointRef>3800C824701</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_12'><From><StopPointRef>3800C824701</StopPointRef></From><To><StopPointRef>3800C804901</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_7' CreationDateTime='2021-11-26T18:15:25' ModificationDateTime='2021-11-26T18:15:25' Modification='new' RevisionNumber='0'><Description>Trent Close - Trent Close</Description><RouteSectionRef>routeSection_7</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_8' CreationDateTime='2021-11-26T18:15:28' ModificationDateTime='2021-11-26T18:15:28' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_8_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804901</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804800</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804800</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C807100</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C807100</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C805100</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_4</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C805100</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C807900</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_5</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C807900</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_6</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>3800C806300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_7</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_8'>
+<From SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>3800C806300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C805000</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_8</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C805000</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>3800C806300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_9</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_10'>
+<From SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>3800C806300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_10</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_11'>
+<From SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804700</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='12'><Activity>setDown</Activity><StopPointRef>3800C824701</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_11</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_12'>
+<From SequenceNumber='12'><Activity>setDown</Activity><StopPointRef>3800C824701</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='13'><Activity>pickUpAndSetDown</Activity><StopPointRef>3800C804901</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_12</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="BENC"><NationalOperatorCode>BENC</NationalOperatorCode><OperatorCode>BENC</OperatorCode><OperatorShortName>BENNETTS TRAVEL</OperatorShortName><LicenceNumber>PD0001164</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2021-11-26T18:15:28' ModificationDateTime='2021-11-26T18:15:28' Modification='new' RevisionNumber='0'>
+<ServiceCode>PD0001164:65</ServiceCode><Lines><Line id="BENC:PD0001164:65:123"><LineName>123</LineName><OutboundDescription><Origin>Trent Close</Origin><Destination>Trent Close</Destination><Description>Trent Close - Trent Close</Description></OutboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2016-01-11</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>regBENC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Trent Close - Trent Close</Description>
+
+<StandardService>
+<Origin>Trent Close</Origin>
+<Destination>Trent Close</Destination>
+<JourneyPattern id='JP_8'><DestinationDisplay>Trent Close</DestinationDisplay><OperatorRef>BENC</OperatorRef><Direction>outbound</Direction><RouteRef>route_7</RouteRef><JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2021-11-26T18:15:25' ModificationDateTime='2021-11-26T18:15:25' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-04-05</StartDate><EndDate>2021-04-05</EndDate></DateRange><DateRange><StartDate>2021-05-03</StartDate><EndDate>2021-05-03</EndDate></DateRange><DateRange><StartDate>2021-05-31</StartDate><EndDate>2021-05-31</EndDate></DateRange><DateRange><StartDate>2021-08-30</StartDate><EndDate>2021-08-30</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2020-12-24</StartDate><EndDate>2020-12-24</EndDate></DateRange><DateRange><StartDate>2020-12-31</StartDate><EndDate>2020-12-31</EndDate></DateRange><DateRange><StartDate>2020-12-25</StartDate><EndDate>2020-12-25</EndDate></DateRange><DateRange><StartDate>2021-01-01</StartDate><EndDate>2021-01-01</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><GoodFriday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_35</VehicleJourneyCode>
+<ServiceRef>PD0001164:65</ServiceRef><LineRef>BENC:PD0001164:65:123</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>08:45:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-26T18:15:26' ModificationDateTime='2021-11-26T18:15:26' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-04-05</StartDate><EndDate>2021-04-05</EndDate></DateRange><DateRange><StartDate>2021-05-03</StartDate><EndDate>2021-05-03</EndDate></DateRange><DateRange><StartDate>2021-05-31</StartDate><EndDate>2021-05-31</EndDate></DateRange><DateRange><StartDate>2021-08-30</StartDate><EndDate>2021-08-30</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2020-12-24</StartDate><EndDate>2020-12-24</EndDate></DateRange><DateRange><StartDate>2020-12-31</StartDate><EndDate>2020-12-31</EndDate></DateRange><DateRange><StartDate>2020-12-25</StartDate><EndDate>2020-12-25</EndDate></DateRange><DateRange><StartDate>2021-01-01</StartDate><EndDate>2021-01-01</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><GoodFriday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_36</VehicleJourneyCode>
+<ServiceRef>PD0001164:65</ServiceRef><LineRef>BENC:PD0001164:65:123</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>09:45:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-26T18:15:26' ModificationDateTime='2021-11-26T18:15:26' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-04-05</StartDate><EndDate>2021-04-05</EndDate></DateRange><DateRange><StartDate>2021-05-03</StartDate><EndDate>2021-05-03</EndDate></DateRange><DateRange><StartDate>2021-05-31</StartDate><EndDate>2021-05-31</EndDate></DateRange><DateRange><StartDate>2021-08-30</StartDate><EndDate>2021-08-30</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2020-12-24</StartDate><EndDate>2020-12-24</EndDate></DateRange><DateRange><StartDate>2020-12-31</StartDate><EndDate>2020-12-31</EndDate></DateRange><DateRange><StartDate>2020-12-25</StartDate><EndDate>2020-12-25</EndDate></DateRange><DateRange><StartDate>2021-01-01</StartDate><EndDate>2021-01-01</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><GoodFriday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_37</VehicleJourneyCode>
+<ServiceRef>PD0001164:65</ServiceRef><LineRef>BENC:PD0001164:65:123</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>10:45:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-26T18:15:27' ModificationDateTime='2021-11-26T18:15:27' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-04-05</StartDate><EndDate>2021-04-05</EndDate></DateRange><DateRange><StartDate>2021-05-03</StartDate><EndDate>2021-05-03</EndDate></DateRange><DateRange><StartDate>2021-05-31</StartDate><EndDate>2021-05-31</EndDate></DateRange><DateRange><StartDate>2021-08-30</StartDate><EndDate>2021-08-30</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2020-12-24</StartDate><EndDate>2020-12-24</EndDate></DateRange><DateRange><StartDate>2020-12-31</StartDate><EndDate>2020-12-31</EndDate></DateRange><DateRange><StartDate>2020-12-25</StartDate><EndDate>2020-12-25</EndDate></DateRange><DateRange><StartDate>2021-01-01</StartDate><EndDate>2021-01-01</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><GoodFriday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_38</VehicleJourneyCode>
+<ServiceRef>PD0001164:65</ServiceRef><LineRef>BENC:PD0001164:65:123</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>12:45:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-26T18:15:28' ModificationDateTime='2021-11-26T18:15:28' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2020-05-25</StartDate><EndDate>2020-05-25</EndDate></DateRange><DateRange><StartDate>2020-08-31</StartDate><EndDate>2020-08-31</EndDate></DateRange><DateRange><StartDate>2020-12-28</StartDate><EndDate>2020-12-28</EndDate></DateRange><DateRange><StartDate>2021-04-05</StartDate><EndDate>2021-04-05</EndDate></DateRange><DateRange><StartDate>2021-05-03</StartDate><EndDate>2021-05-03</EndDate></DateRange><DateRange><StartDate>2021-05-31</StartDate><EndDate>2021-05-31</EndDate></DateRange><DateRange><StartDate>2021-08-30</StartDate><EndDate>2021-08-30</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2020-12-24</StartDate><EndDate>2020-12-24</EndDate></DateRange><DateRange><StartDate>2020-12-31</StartDate><EndDate>2020-12-31</EndDate></DateRange><DateRange><StartDate>2020-12-25</StartDate><EndDate>2020-12-25</EndDate></DateRange><DateRange><StartDate>2021-01-01</StartDate><EndDate>2021-01-01</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><GoodFriday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_39</VehicleJourneyCode>
+<ServiceRef>PD0001164:65</ServiceRef><LineRef>BENC:PD0001164:65:123</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>13:45:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

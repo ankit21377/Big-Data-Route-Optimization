@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2024-07-29T13:10:30Z" ModificationDateTime="2025-04-30T13:13:31Z" Modification="revise" RevisionNumber="2" FileName="492A_30042025131332.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045883</StopPointRef>
+      <CommonName>Bond Street/Portland Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Rossington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040287</StopPointRef>
+      <CommonName>Bond Street/Portland Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Rossington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041238</StopPointRef>
+      <CommonName>Castlegate/Church Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041269</StopPointRef>
+      <CommonName>Common Lane/Rye Croft</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045734</StopPointRef>
+      <CommonName>Common Lane/Rye Croft</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046269</StopPointRef>
+      <CommonName>Stripe Road/High Common Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041197</StopPointRef>
+      <CommonName>Stripe Road/High Common Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040134</StopPointRef>
+      <CommonName>Sunderland Street/Sunderland Place</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045559</StopPointRef>
+      <CommonName>Sunderland Street/Sunderland Place</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045529</StopPointRef>
+      <CommonName>West Gate/Castlegate</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046546</StopPointRef>
+      <CommonName>Wong Lane/St Marys Crescent</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046548</StopPointRef>
+      <CommonName>Wong Lane/St Marys Crescent</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="273_11">
+      <RouteLink id="273_11_658">
+        <From>
+          <StopPointRef>370040134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045529</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="273_11_659">
+        <From>
+          <StopPointRef>370045529</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046546</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="273_11_660">
+        <From>
+          <StopPointRef>370046546</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045734</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="273_11_661">
+        <From>
+          <StopPointRef>370045734</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046269</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="273_11_662">
+        <From>
+          <StopPointRef>370046269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045883</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="274_0">
+      <RouteLink id="274_0_663">
+        <From>
+          <StopPointRef>370040287</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041197</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="274_0_662">
+        <From>
+          <StopPointRef>370041197</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041269</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="274_0_661">
+        <From>
+          <StopPointRef>370041269</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046548</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="274_0_660">
+        <From>
+          <StopPointRef>370046548</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041238</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="274_0_659">
+        <From>
+          <StopPointRef>370041238</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045559</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="273_11">
+      <Description>Tickhill to Rossington All Saints</Description>
+      <RouteSectionRef>273_11</RouteSectionRef>
+    </Route>
+    <Route id="274_0">
+      <Description>Tickhill to Rossington All Saints</Description>
+      <RouteSectionRef>274_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="273_11">
+      <JourneyPatternTimingLink id="273_11_658">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370040134</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045529</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>273_11_658</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="273_11_659">
+        <From SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045529</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046546</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>273_11_659</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="273_11_660">
+        <From SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046546</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045734</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>273_11_660</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="273_11_661">
+        <From SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045734</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046269</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>273_11_661</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="273_11_662">
+        <From SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046269</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>370045883</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>273_11_662</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="274_0">
+      <JourneyPatternTimingLink id="274_0_663">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370040287</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041197</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>274_0_663</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="274_0_662">
+        <From SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041197</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041269</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>274_0_662</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="274_0_661">
+        <From SequenceNumber="3">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041269</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046548</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>274_0_661</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="274_0_660">
+        <From SequenceNumber="4">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046548</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041238</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>274_0_660</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="274_0_659">
+        <From SequenceNumber="5">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370041238</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>370045559</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>274_0_659</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBHV</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Beehive</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>WilfredaBeehive</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0000595:71</ServiceCode>
+      <Lines>
+        <Line id="WBHV:PB0000595:71:492A">
+          <LineName>492A</LineName>
+          <OutboundDescription>
+            <Description>492A Tickhill to Rossington All Saints</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Rossington All Saints to 492A Tickhill</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-01-15</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Tickhill to Rossington All Saints</Description>
+      <StandardService>
+        <Origin>Rossingron All Saints</Origin>
+        <Destination>Tickhill Sunderland St</Destination>
+        <JourneyPattern id="273_11">
+          <DestinationDisplay>492A Rossington All Saints</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>273_11</RouteRef>
+          <JourneyPatternSectionRefs>273_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="274_0">
+          <DestinationDisplay>Tickhill Sunderland St	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>274_0</RouteRef>
+          <JourneyPatternSectionRefs>274_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:40 TIC - ROSS</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>492A</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB0000595:71</ServiceRef>
+      <LineRef>WBHV:PB0000595:71:492A</LineRef>
+      <JourneyPatternRef>273_11</JourneyPatternRef>
+      <DepartureTime>07:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:48 ROSS - TIC</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>492A</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PB0000595:71</ServiceRef>
+      <LineRef>WBHV:PB0000595:71:492A</LineRef>
+      <JourneyPatternRef>274_0</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

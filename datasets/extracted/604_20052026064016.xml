@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-07-07T14:47:35Z" ModificationDateTime="2026-05-20T06:40:11Z" Modification="revise" RevisionNumber="9" FileName="604_20052026064016.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>Schl</OrganisationCode>
+      <Name>School Term</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-07-17</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049004865115</StopPointRef>
+      <CommonName>Bletchley Community Centre</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Far Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049005320833</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Indicator>Bay 3</Indicator>
+      <LocalityName>Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049005320839</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Indicator>Bay 9</Indicator>
+      <LocalityName>Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049004805153</StopPointRef>
+      <CommonName>Knaresborough Court</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Far Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049004905111</StopPointRef>
+      <CommonName>Melrose Centre</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>West Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049004835155</StopPointRef>
+      <CommonName>St Andrew Baptist Church</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Far Bletchley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>049009595534</StopPointRef>
+      <CommonName>St Paul`s Catholic School</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Leadenhall</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="48_0">
+      <RouteLink id="48_0_722">
+        <From>
+          <StopPointRef>049005320833</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004835155</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="48_0_328">
+        <From>
+          <StopPointRef>049004835155</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004805153</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="48_0_376">
+        <From>
+          <StopPointRef>049004805153</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004865115</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="48_0_377">
+        <From>
+          <StopPointRef>049004865115</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004905111</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="48_0_329">
+        <From>
+          <StopPointRef>049004905111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049009595534</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="49_11">
+      <RouteLink id="49_11_330">
+        <From>
+          <StopPointRef>049009595534</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004905111</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="49_11_329">
+        <From>
+          <StopPointRef>049004905111</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004865115</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="49_11_377">
+        <From>
+          <StopPointRef>049004865115</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004805153</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="49_11_376">
+        <From>
+          <StopPointRef>049004805153</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049004835155</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="49_11_328">
+        <From>
+          <StopPointRef>049004835155</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>049005320839</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="48_0">
+      <Description>604 Bletchley - St Pauls</Description>
+      <RouteSectionRef>48_0</RouteSectionRef>
+    </Route>
+    <Route id="49_11">
+      <Description>604 Bletchley - St Pauls</Description>
+      <RouteSectionRef>49_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="48_0">
+      <JourneyPatternTimingLink id="48_0_722">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>049005320833</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004835155</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>48_0_722</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="48_0_328">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004835155</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004805153</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>48_0_328</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="48_0_376">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004805153</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004865115</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>48_0_376</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="48_0_377">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004865115</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004905111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>48_0_377</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="48_0_329">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004905111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>049009595534</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>48_0_329</RouteLinkRef>
+        <RunTime>PT25M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="49_11">
+      <JourneyPatternTimingLink id="49_11_330">
+        <From SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>049009595534</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004905111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>49_11_330</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="49_11_329">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004905111</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004865115</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>49_11_329</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="49_11_377">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004865115</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004805153</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>49_11_377</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="49_11_376">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004805153</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004835155</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>49_11_376</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="49_11_328">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>049004835155</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>049005320839</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>49_11_328</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>ZSIN</NationalOperatorCode>
+      <OperatorCode>ZSIN</OperatorCode>
+      <OperatorShortName>Z and S Transport</OperatorShortName>
+      <OperatorNameOnLicence>Z and S Transport</OperatorNameOnLicence>
+      <TradingName>Z and S Transport</TradingName>
+      <LicenceNumber>PF1121128</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>ZandSTransport</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>2</GarageCode>
+          <GarageName>School</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PF1121128:12</ServiceCode>
+      <Lines>
+        <Line id="ZSIN:PF1121128:12:604">
+          <LineName>604</LineName>
+          <OutboundDescription>
+            <Description>Bletchley - St Pauls</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>St Pauls - Bletchley</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-12-04</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>604 Bletchley - St Pauls</Description>
+      <StandardService>
+        <Origin>Bletchley  Bus Station</Origin>
+        <Destination>St Pauls School</Destination>
+        <JourneyPattern id="48_0">
+          <DestinationDisplay>St Pauls Layover	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>48_0</RouteRef>
+          <JourneyPatternSectionRefs>48_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="49_11">
+          <DestinationDisplay>Buckingham Rd/Sh Rd</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>49_11</RouteRef>
+          <JourneyPatternSectionRefs>49_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>0808 BUC - STP</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>604</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Schl</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PF1121128:12</ServiceRef>
+      <LineRef>ZSIN:PF1121128:12:604</LineRef>
+      <JourneyPatternRef>48_0</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>1545 STP - BUC</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>604</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Schl</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>PF1121128:12</ServiceRef>
+      <LineRef>ZSIN:PF1121128:12:604</LineRef>
+      <JourneyPatternRef>49_11</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:45  STP - BUC</Description>
+          <BlockNumber>4</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>604</TicketMachineServiceCode>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Schl</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>PF1121128:12</ServiceRef>
+      <LineRef>ZSIN:PF1121128:12:604</LineRef>
+      <JourneyPatternRef>49_11</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

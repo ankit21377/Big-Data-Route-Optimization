@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-12-27T14:52:57Z" ModificationDateTime="2025-10-08T16:31:17Z" Modification="revise" RevisionNumber="8" FileName="84_08102025163123.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403065B</StopPointRef>
+      <CommonName>Collingwood College</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Old Dean</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403045A</StopPointRef>
+      <CommonName>Fellow Green</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>West End</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403045B</StopPointRef>
+      <CommonName>Fellow Green</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>West End</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403042B</StopPointRef>
+      <CommonName>Hen and Chickens</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bisley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403042A</StopPointRef>
+      <CommonName>Hen and Chickens</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Bisley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004404090A</StopPointRef>
+      <CommonName>Limecroft Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Knaphill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004404090B</StopPointRef>
+      <CommonName>Limecroft Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Knaphill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403804D</StopPointRef>
+      <CommonName>Red Road</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Lightwater</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403804C</StopPointRef>
+      <CommonName>Red Road</CommonName>
+      <Indicator>W-bound</Indicator>
+      <LocalityName>Lightwater</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004404223A</StopPointRef>
+      <CommonName>Sainsbury`s</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Knaphill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403001A</StopPointRef>
+      <CommonName>Sovereign Drive</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Heatherside</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403001B</StopPointRef>
+      <CommonName>Sovereign Drive</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Heatherside</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403047B</StopPointRef>
+      <CommonName>The Inn</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>West End</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403047A</StopPointRef>
+      <CommonName>The Inn</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>West End</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="31_0">
+      <RouteLink id="31_0_414">
+        <From>
+          <StopPointRef>40004404223A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004404090B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_415">
+        <From>
+          <StopPointRef>40004404090B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403042B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_416">
+        <From>
+          <StopPointRef>40004403042B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403045B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_417">
+        <From>
+          <StopPointRef>40004403045B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403047B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_418">
+        <From>
+          <StopPointRef>40004403047B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403804C</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_419">
+        <From>
+          <StopPointRef>40004403804C</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403001A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="31_0_420">
+        <From>
+          <StopPointRef>40004403001A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403065B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="32_11">
+      <RouteLink id="32_11_421">
+        <From>
+          <StopPointRef>40004403065B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403001B</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_420">
+        <From>
+          <StopPointRef>40004403001B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403804D</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_419">
+        <From>
+          <StopPointRef>40004403804D</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403047A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_418">
+        <From>
+          <StopPointRef>40004403047A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403045A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_417">
+        <From>
+          <StopPointRef>40004403045A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403042A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_416">
+        <From>
+          <StopPointRef>40004403042A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004404090A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="32_11_415">
+        <From>
+          <StopPointRef>40004404090A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004404223A</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="31_0">
+      <Description>Knaphill Sainsburys - Collingwood College</Description>
+      <RouteSectionRef>31_0</RouteSectionRef>
+    </Route>
+    <Route id="32_11">
+      <Description>Knaphill Sainsburys - Collingwood College</Description>
+      <RouteSectionRef>32_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="31_0">
+      <JourneyPatternTimingLink id="31_0_414">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004404223A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004404090B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_414</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_415">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004404090B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403042B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_415</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_416">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403042B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403045B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_416</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_417">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403045B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403047B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_417</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_418">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403047B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403804C</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_418</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_419">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403804C</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403001A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_419</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="31_0_420">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403001A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004403065B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>31_0_420</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="32_11">
+      <JourneyPatternTimingLink id="32_11_421">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>40004403065B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403001B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_421</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_420">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403001B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403804D</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_420</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_419">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403804D</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403047A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_419</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_418">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403047A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403045A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_418</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_417">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403045A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403042A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_417</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_416">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004403042A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004404090A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_416</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="32_11_415">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>40004404090A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <StopPointRef>40004404223A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>32_11_415</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>CARD</NationalOperatorCode>
+      <OperatorCode>CARD</OperatorCode>
+      <OperatorShortName>Cardinal Buses Ltd</OperatorShortName>
+      <OperatorNameOnLicence>Cardinal Buses Ltd</OperatorNameOnLicence>
+      <TradingName>Cardinal Buses Ltd</TradingName>
+      <LicenceNumber>PK1070121</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Cardinalbuses</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PK1070121:15</ServiceCode>
+      <Lines>
+        <Line id="CARD:PK1070121:15:84">
+          <LineName>84</LineName>
+          <OutboundDescription>
+            <Description>Knaphill Sainsburys - Collingwood College</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Collingwood College - Knaphill Sainsburys</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-11-04</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Knaphill Sainsburys - Collingwood College</Description>
+      <StandardService>
+        <Origin>Knaphill Sainsburys</Origin>
+        <Destination>Collingwood College </Destination>
+        <JourneyPattern id="31_0">
+          <DestinationDisplay>Collingwood College</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>31_0</RouteRef>
+          <JourneyPatternSectionRefs>31_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="32_11">
+          <DestinationDisplay>Knaphill Sainsburys</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>32_11</RouteRef>
+          <JourneyPatternSectionRefs>32_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:36 KNA - COL</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>84</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PK1070121:15</ServiceRef>
+      <LineRef>CARD:PK1070121:15:84</LineRef>
+      <JourneyPatternRef>31_0</JourneyPatternRef>
+      <DepartureTime>07:36:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:15 COL - KNA</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>84</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-25</StartDate>
+              <EndDate>2025-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-26</StartDate>
+              <EndDate>2025-12-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-01</StartDate>
+              <EndDate>2026-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PK1070121:15</ServiceRef>
+      <LineRef>CARD:PK1070121:15:84</LineRef>
+      <JourneyPatternRef>32_11</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

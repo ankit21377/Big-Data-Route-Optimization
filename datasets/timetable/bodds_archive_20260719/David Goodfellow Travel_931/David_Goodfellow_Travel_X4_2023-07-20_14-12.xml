@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-20T14:12:59' Modification='revise' RevisionNumber='1' FileName="David Goodfellow Travel X4 2023-07-20 14-12.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>370070018</StopPointRef><CommonName>Doncaster Interchange</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370046730</StopPointRef><CommonName>Iport Avenue/Great Yorkshire Way</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370046455</StopPointRef><CommonName>Bawtry Road/Sheep Bridge Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370046693</StopPointRef><CommonName>First Avenue/Fifth Avenue</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_19' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:10:06' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_19_1'><From><StopPointRef>370070018</StopPointRef></From><To><StopPointRef>370046730</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_19_2'><From><StopPointRef>370046730</StopPointRef></From><To><StopPointRef>370046455</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_19_3'><From><StopPointRef>370046455</StopPointRef></From><To><StopPointRef>370046693</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_19' CreationDateTime='2023-07-05T13:26:16' ModificationDateTime='2023-07-19T16:10:06' Modification='revise' RevisionNumber='1'><Description>Doncaster Interchange - First Avenue/Fifth Avenue</Description><RouteSectionRef>routeSection_19</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_19' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-20T14:12:59' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_19_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370070018</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_1</RouteLinkRef><RunTime>PT660S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_19_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_2</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_19_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>370046693</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_20' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-20T14:12:59' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_20_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370070018</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_1</RouteLinkRef><RunTime>PT720S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_20_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_20_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>370046693</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_3</RouteLinkRef><RunTime>PT540S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_21' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-20T14:12:59' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_21_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370070018</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_1</RouteLinkRef><RunTime>PT660S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_21_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046730</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_21_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046455</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>370046693</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_19_3</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="DGTR"><NationalOperatorCode>DGTR</NationalOperatorCode><OperatorCode>DGTR</OperatorCode><OperatorShortName>David Goodfellow Travel</OperatorShortName><LicenceNumber>PB0001898</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-20T14:12:59' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PB0001898:4</ServiceCode><Lines><Line id="DGTR:PB0001898:4:X4"><LineName>X4</LineName><OutboundDescription><Origin>Doncaster Interchange</Origin><Destination>First Avenue/Fifth Avenue</Destination><Description>Doncaster Interchange - First Avenue/Fifth Avenue</Description></OutboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-07-29</StartDate><EndDate>2023-09-23</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>DGTR</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Doncaster Interchange - First Avenue/Fifth Avenue</Description>
+
+<StandardService>
+<Origin>Doncaster Interchange</Origin>
+<Destination>First Avenue/Fifth Avenue</Destination>
+<JourneyPattern id='JP_19'><DestinationDisplay>198</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>outbound</Direction><RouteRef>route_19</RouteRef><JourneyPatternSectionRefs>JPS_19</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_20'><DestinationDisplay>198</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>outbound</Direction><RouteRef>route_19</RouteRef><JourneyPatternSectionRefs>JPS_20</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_21'><DestinationDisplay>198</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>outbound</Direction><RouteRef>route_19</RouteRef><JourneyPatternSectionRefs>JPS_21</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:06' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_73</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_19</JourneyPatternRef>
+<DepartureTime>05:18:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:07' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_74</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_19</JourneyPatternRef>
+<DepartureTime>06:18:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:07' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_75</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_20</JourneyPatternRef>
+<DepartureTime>07:13:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:07' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_76</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_20</JourneyPatternRef>
+<DepartureTime>08:23:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:08' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_77</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>09:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:08' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_78</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>10:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:08' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_79</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>11:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:09' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_80</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>12:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:09' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_81</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>13:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:10' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_82</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>14:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:10' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_83</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>15:33:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:10' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_84</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>16:43:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:11' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><LateSummerBankHolidayNotScotland/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_85</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>17:43:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:11' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_86</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_19</JourneyPatternRef>
+<DepartureTime>05:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:11' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_87</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_19</JourneyPatternRef>
+<DepartureTime>06:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_88</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>07:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_89</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>08:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_90</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>09:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:13' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_91</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>10:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:13' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_92</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>11:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:13' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_93</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>12:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:14' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_94</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>13:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:14' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_95</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>14:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:14' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_96</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>15:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:15' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_97</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>16:28:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:10:15' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_98</VehicleJourneyCode>
+<ServiceRef>PB0001898:4</ServiceRef><LineRef>DGTR:PB0001898:4:X4</LineRef>
+<JourneyPatternRef>JP_21</JourneyPatternRef>
+<DepartureTime>17:28:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

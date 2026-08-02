@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7' FileName="united minibuses and coaches ltd HB1 2025-07-16 11-22.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>4400CY0389</StopPointRef><CommonName>North Terminal Bus Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>4400CY0310</StopPointRef><CommonName>Gatwick Manor Hotel</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>4400CY0316</StopPointRef><CommonName>Ibis Hotel</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>4400CY0287</StopPointRef><CommonName>Crowne Plaza Hotel</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>4400CY0613</StopPointRef><CommonName>Radisson Red Hotel</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>4400CY0367</StopPointRef><CommonName>South Terminal Coach Station</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_132' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-07-16T11:23:02' Modification='revise' RevisionNumber='7'>
+<RouteLink id='routeSection_132_1'><From><StopPointRef>4400CY0310</StopPointRef></From><To><StopPointRef>4400CY0316</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_132_2'><From><StopPointRef>4400CY0316</StopPointRef></From><To><StopPointRef>4400CY0287</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_132_3'><From><StopPointRef>4400CY0287</StopPointRef></From><To><StopPointRef>4400CY0613</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_132_4'><From><StopPointRef>4400CY0613</StopPointRef></From><To><StopPointRef>4400CY0367</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_132_5'><From><StopPointRef>4400CY0367</StopPointRef></From><To><StopPointRef>4400CY0389</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_133' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+<RouteLink id='routeSection_133_1'><From><StopPointRef>4400CY0310</StopPointRef></From><To><StopPointRef>4400CY0316</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_133_2'><From><StopPointRef>4400CY0316</StopPointRef></From><To><StopPointRef>4400CY0287</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_133_3'><From><StopPointRef>4400CY0287</StopPointRef></From><To><StopPointRef>4400CY0613</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_132' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-07-16T11:23:02' Modification='revise' RevisionNumber='7'><Description>Gatwick Manor Hotel - North Terminal Bus Station</Description><RouteSectionRef>routeSection_132</RouteSectionRef></Route>
+<Route id='route_133' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'><Description>Gatwick Manor Hotel - Radisson Red Hotel</Description><RouteSectionRef>routeSection_133</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_167' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_167_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_1</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_167_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_167_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_3</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_167_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_4</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_167_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0389</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_5</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_168' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_168_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_1</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_168_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_168_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_3</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_168_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_4</RouteLinkRef><RunTime>PT2400S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_168_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0389</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_5</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_169' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_169_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_1</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_169_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_169_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_3</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_169_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_4</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_169_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0367</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0389</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_132_5</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_170' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+<JourneyPatternTimingLink id='JPS_170_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0310</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_133_1</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_170_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0316</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_133_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_170_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0287</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>4400CY0613</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_133_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="untm"><NationalOperatorCode>untm</NationalOperatorCode><OperatorCode>untm</OperatorCode><OperatorShortName>united minibuses and coaches ltd</OperatorShortName><LicenceNumber>pk2008218</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+<ServiceCode>PK2008218:1</ServiceCode><Lines><Line id="untm:PK2008218:1:HB1"><LineName>HB1</LineName><InboundDescription><Origin>Gatwick Manor Hotel</Origin><Destination>North Terminal Bus Station</Destination><Description>Gatwick Manor Hotel - North Terminal Bus Station</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2025-07-09</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>untm</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>true</PublicUse><Description>Gatwick Manor Hotel - North Terminal Bus Station</Description>
+
+<StandardService>
+<Origin>Gatwick Manor Hotel</Origin>
+<Destination>North Terminal Bus Station</Destination>
+<JourneyPattern id='JP_167'><DestinationDisplay>200</DestinationDisplay><OperatorRef>untm</OperatorRef><Direction>inbound</Direction><RouteRef>route_132</RouteRef><JourneyPatternSectionRefs>JPS_167</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_168'><DestinationDisplay>200</DestinationDisplay><OperatorRef>untm</OperatorRef><Direction>inbound</Direction><RouteRef>route_132</RouteRef><JourneyPatternSectionRefs>JPS_168</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_169'><DestinationDisplay>200</DestinationDisplay><OperatorRef>untm</OperatorRef><Direction>inbound</Direction><RouteRef>route_132</RouteRef><JourneyPatternSectionRefs>JPS_169</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_170'><DestinationDisplay>200</DestinationDisplay><OperatorRef>untm</OperatorRef><Direction>inbound</Direction><RouteRef>route_133</RouteRef><JourneyPatternSectionRefs>JPS_170</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:02' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_485</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_485</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>03:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:03' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_486</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_486</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>04:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:03' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_487</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_487</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>04:55:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:04' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_488</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_488</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>05:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:04' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_489</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_489</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>06:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:05' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_490</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_490</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>06:55:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:05' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_491</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_491</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>07:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:06' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_492</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_492</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>08:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:06' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_493</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_493</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>08:55:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:07' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_494</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_494</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>09:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:07' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_495</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_495</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>10:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:07' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_496</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_496</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>10:55:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:08' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_497</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_497</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>11:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:08' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_498</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_498</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>12:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:08' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_499</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_499</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_167</JourneyPatternRef>
+<DepartureTime>12:55:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:09' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_500</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_500</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_168</JourneyPatternRef>
+<DepartureTime>13:34:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:09' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_501</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_501</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>14:41:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:09' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_502</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_502</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>15:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:10' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_503</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_503</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>15:59:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:10' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_504</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_504</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>16:38:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:11' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_505</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_505</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>17:17:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:11' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_506</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_506</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>17:56:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:11' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_507</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_507</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>18:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:12' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_508</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_508</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>19:14:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:12' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_509</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_509</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>19:53:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:13' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_510</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_510</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>20:32:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:13' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_511</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_511</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>21:11:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:13' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_512</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_512</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>21:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:14' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_513</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_513</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>22:29:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:14' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_514</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_514</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>23:08:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_515</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_515</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>23:47:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_516</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_516</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_169</JourneyPatternRef>
+<DepartureTime>00:26:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-07-16T11:23:15' Modification='revise' RevisionNumber='7'>
+
+
+<OperatorRef>untm</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_517</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><NewYearsDay/><LateSummerBankHolidayNotScotland/><ChristmasDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><GoodFriday/><MayDay/><EasterMonday/><SpringBank/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_517</VehicleJourneyCode>
+<ServiceRef>PK2008218:1</ServiceRef><LineRef>untm:PK2008218:1:HB1</LineRef>
+<JourneyPatternRef>JP_170</JourneyPatternRef>
+<DepartureTime>01:10:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

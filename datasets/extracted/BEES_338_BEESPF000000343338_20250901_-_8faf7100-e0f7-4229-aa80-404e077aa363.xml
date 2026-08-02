@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2021-08-27T10:34:23" ModificationDateTime="2025-08-13T11:13:20" Modification="revise" RevisionNumber="10" FileName="BEES_338_BEESPF000000343338_20250901_-_8faf7100-e0f7-4229-aa80-404e077aa363.xml" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>Schs2425</OrganisationCode>
+      <Name>Schs 2425</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-09-02</StartDate>
+          <EndDate>2024-10-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-11-04</StartDate>
+          <EndDate>2024-12-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-01-06</StartDate>
+          <EndDate>2025-02-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-02-24</StartDate>
+          <EndDate>2025-04-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-04-21</StartDate>
+          <EndDate>2025-05-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-06-02</StartDate>
+          <EndDate>2025-07-18</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-09-01</StartDate>
+          <EndDate>2025-10-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-11-03</StartDate>
+          <EndDate>2025-12-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-01-05</StartDate>
+          <EndDate>2026-02-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-02-23</StartDate>
+          <EndDate>2026-03-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-17</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>390010494</StopPointRef>
+      <CommonName>Causeway, Hitcham</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>390010497</StopPointRef>
+      <CommonName>Bildeston Clock Tower</CommonName>
+      <Location>
+        <Longitude>0.908317</Longitude>
+        <Latitude>52.107670</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>390010426</StopPointRef>
+      <CommonName>High School</CommonName>
+      <Location>
+        <Longitude>0.964345</Longitude>
+        <Latitude>52.042051</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>390010426</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>390010497</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>390010497</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>390010494</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>390010494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>390010497</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>390010497</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>390010426</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>390010426</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>390010497</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>390010497</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>390010494</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>390010494</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>390010497</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="2">
+          <StopPointRef>390010497</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>390010426</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>BEES</NationalOperatorCode>
+      <OperatorCode>BEES</OperatorCode>
+      <OperatorShortName>Beestons (Hadleigh) Ltd</OperatorShortName>
+      <LicenceNumber>PF0000003</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PF0000003:43</ServiceCode>
+      <Lines>
+        <Line id="BEES:PF0000003:43:338">
+          <LineName>338</LineName>
+          <OutboundDescription>
+            <Description>Wattisham to Hadleigh High School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Hadleigh High School to Wattisham</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-09-01</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Schs2425</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Wattisham</Origin>
+        <Destination>Hadleigh High School</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Causeway, Hitcham</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>High School</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1455</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PF0000003:43</ServiceRef>
+      <LineRef>BEES:PF0000003:43:338</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0745</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PF0000003:43</ServiceRef>
+      <LineRef>BEES:PF0000003:43:338</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>07:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

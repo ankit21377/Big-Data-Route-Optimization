@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2025-08-26T08:15:39" ModificationDateTime="2025-09-24T08:02:09" Modification="revise" RevisionNumber="6" FileName="JHCL_107_JHCLPB1049268430107_20250901_20260731_2182590.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000008046</StopPointRef>
+      <CommonName>West Road-Brignall Gardens</CommonName>
+      <Location>
+        <Longitude>-1.682002</Longitude>
+        <Latitude>54.981868</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000000015</StopPointRef>
+      <CommonName>Kenton School</CommonName>
+      <Location>
+        <Longitude>-1.655537</Longitude>
+        <Latitude>55.004625</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>410000008046</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000000015</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>410000008046</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>410000000015</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT40M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>JHCL</NationalOperatorCode>
+      <OperatorCode>CLCO</OperatorCode>
+      <OperatorShortName>Jim Hughes</OperatorShortName>
+      <LicenceNumber>PB1049268</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB1049268:430</ServiceCode>
+      <Lines>
+        <Line id="JHCL:PB1049268:430:107">
+          <LineName>107</LineName>
+          <OutboundDescription>
+            <Description>West Road Brignall Gardens to Kenton School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Kenton School to West Road Brignall Gardens</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-09-01</StartDate>
+        <EndDate>2026-07-31</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>West Road Brignall Gardens</Origin>
+        <Destination>Kenton School</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Kenton School</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0730</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PB1049268:430</ServiceRef>
+      <LineRef>JHCL:PB1049268:430:107</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

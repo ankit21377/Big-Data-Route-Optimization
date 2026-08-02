@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-02-02T10:04:02' ModificationDateTime='2023-02-02T10:04:02' Modification='new' RevisionNumber='0' FileName="Harpurs Coaches Ltd 360 2023-02-02 10-03.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>1000DDWR5895</StopPointRef><CommonName>Wirksworth Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBSB4119</StopPointRef><CommonName>White Hart, Bargates</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBJO4040</StopPointRef><CommonName>Belper School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBJO4041</StopPointRef><CommonName>Belper School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBSB4120</StopPointRef><CommonName>White Hart Bargates</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DDWR5896</StopPointRef><CommonName>Wirksworth Road</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_4' CreationDateTime='2023-01-31T13:14:31' ModificationDateTime='2023-02-02T10:04:00' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_4_1'><From><StopPointRef>1000DDWR5895</StopPointRef></From><To><StopPointRef>1000DBSB4119</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_4_2'><From><StopPointRef>1000DBSB4119</StopPointRef></From><To><StopPointRef>1000DBJO4040</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_3' CreationDateTime='2023-01-31T13:14:31' ModificationDateTime='2023-01-31T13:14:31' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_3_1'><From><StopPointRef>1000DBJO4041</StopPointRef></From><To><StopPointRef>1000DBSB4120</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_2'><From><StopPointRef>1000DBSB4120</StopPointRef></From><To><StopPointRef>1000DDWR5896</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_4' CreationDateTime='2023-01-31T13:14:29' ModificationDateTime='2023-02-02T10:04:00' Modification='revise' RevisionNumber='1'><Description>Wirksworth Road - Belper School</Description><RouteSectionRef>routeSection_4</RouteSectionRef></Route>
+<Route id='route_3' CreationDateTime='2023-01-31T13:14:31' ModificationDateTime='2023-01-31T13:14:31' Modification='new' RevisionNumber='0'><Description>Belper School - Wirksworth Road</Description><RouteSectionRef>routeSection_3</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_4' CreationDateTime='2023-02-02T10:04:02' ModificationDateTime='2023-02-02T10:04:02' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_4_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>1000DDWR5895</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>1000DBSB4119</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_4_1</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>1000DBSB4119</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DBJO4040</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_4_2</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_3' CreationDateTime='2023-02-02T10:04:02' ModificationDateTime='2023-02-02T10:04:02' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_3_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>1000DBJO4041</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DBSB4120</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_1</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DBSB4120</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DDWR5896</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_2</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HASO"><NationalOperatorCode>HASO</NationalOperatorCode><OperatorCode>HASO</OperatorCode><OperatorShortName>Harpurs Coaches Ltd</OperatorShortName><LicenceNumber>PC1019835</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-02-02T10:04:02' ModificationDateTime='2023-02-02T10:04:02' Modification='new' RevisionNumber='0'>
+<ServiceCode>PC1019835:22</ServiceCode><Lines><Line id="HASO:PC1019835:22:360"><LineName>360</LineName><OutboundDescription><Origin>Wirksworth Road</Origin><Destination>Belper School</Destination><Description>Wirksworth Road - Belper School</Description></OutboundDescription><InboundDescription><Origin>Belper School</Origin><Destination>Wirksworth Road</Destination><Description>Belper School - Wirksworth Road</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-01-01</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HASO</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Belper School - Wirksworth Road</Description>
+
+<StandardService>
+<Origin>Belper School</Origin>
+<Destination>Wirksworth Road</Destination>
+<JourneyPattern id='JP_4'><DestinationDisplay>197</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>outbound</Direction><RouteRef>route_4</RouteRef><JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_3'><DestinationDisplay>197</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>inbound</Direction><RouteRef>route_3</RouteRef><JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-01-31T13:14:29' ModificationDateTime='2023-02-02T10:04:00' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-01-16</StartDate><EndDate>2023-01-16</EndDate></DateRange><DateRange><StartDate>2023-01-23</StartDate><EndDate>2023-01-23</EndDate></DateRange><DateRange><StartDate>2023-01-30</StartDate><EndDate>2023-01-30</EndDate></DateRange><DateRange><StartDate>2023-02-06</StartDate><EndDate>2023-02-06</EndDate></DateRange><DateRange><StartDate>2023-02-13</StartDate><EndDate>2023-02-13</EndDate></DateRange><DateRange><StartDate>2023-02-27</StartDate><EndDate>2023-02-27</EndDate></DateRange><DateRange><StartDate>2023-03-06</StartDate><EndDate>2023-03-06</EndDate></DateRange><DateRange><StartDate>2023-03-13</StartDate><EndDate>2023-03-13</EndDate></DateRange><DateRange><StartDate>2023-03-20</StartDate><EndDate>2023-03-20</EndDate></DateRange><DateRange><StartDate>2023-03-27</StartDate><EndDate>2023-03-27</EndDate></DateRange><DateRange><StartDate>2023-04-17</StartDate><EndDate>2023-04-17</EndDate></DateRange><DateRange><StartDate>2023-04-24</StartDate><EndDate>2023-04-24</EndDate></DateRange><DateRange><StartDate>2023-05-15</StartDate><EndDate>2023-05-15</EndDate></DateRange><DateRange><StartDate>2023-05-22</StartDate><EndDate>2023-05-22</EndDate></DateRange><DateRange><StartDate>2023-06-05</StartDate><EndDate>2023-06-05</EndDate></DateRange><DateRange><StartDate>2023-06-12</StartDate><EndDate>2023-06-12</EndDate></DateRange><DateRange><StartDate>2023-06-19</StartDate><EndDate>2023-06-19</EndDate></DateRange><DateRange><StartDate>2023-06-26</StartDate><EndDate>2023-06-26</EndDate></DateRange><DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2023-07-17</StartDate><EndDate>2023-07-17</EndDate></DateRange><DateRange><StartDate>2023-01-10</StartDate><EndDate>2023-01-10</EndDate></DateRange><DateRange><StartDate>2023-01-17</StartDate><EndDate>2023-01-17</EndDate></DateRange><DateRange><StartDate>2023-01-24</StartDate><EndDate>2023-01-24</EndDate></DateRange><DateRange><StartDate>2023-01-31</StartDate><EndDate>2023-01-31</EndDate></DateRange><DateRange><StartDate>2023-02-07</StartDate><EndDate>2023-02-07</EndDate></DateRange><DateRange><StartDate>2023-02-14</StartDate><EndDate>2023-02-14</EndDate></DateRange><DateRange><StartDate>2023-02-28</StartDate><EndDate>2023-02-28</EndDate></DateRange><DateRange><StartDate>2023-03-07</StartDate><EndDate>2023-03-07</EndDate></DateRange><DateRange><StartDate>2023-03-14</StartDate><EndDate>2023-03-14</EndDate></DateRange><DateRange><StartDate>2023-03-21</StartDate><EndDate>2023-03-21</EndDate></DateRange><DateRange><StartDate>2023-03-28</StartDate><EndDate>2023-03-28</EndDate></DateRange><DateRange><StartDate>2023-04-18</StartDate><EndDate>2023-04-18</EndDate></DateRange><DateRange><StartDate>2023-04-25</StartDate><EndDate>2023-04-25</EndDate></DateRange><DateRange><StartDate>2023-05-02</StartDate><EndDate>2023-05-02</EndDate></DateRange><DateRange><StartDate>2023-05-09</StartDate><EndDate>2023-05-09</EndDate></DateRange><DateRange><StartDate>2023-05-16</StartDate><EndDate>2023-05-16</EndDate></DateRange><DateRange><StartDate>2023-05-23</StartDate><EndDate>2023-05-23</EndDate></DateRange><DateRange><StartDate>2023-06-06</StartDate><EndDate>2023-06-06</EndDate></DateRange><DateRange><StartDate>2023-06-13</StartDate><EndDate>2023-06-13</EndDate></DateRange><DateRange><StartDate>2023-06-20</StartDate><EndDate>2023-06-20</EndDate></DateRange><DateRange><StartDate>2023-06-27</StartDate><EndDate>2023-06-27</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-18</StartDate><EndDate>2023-07-18</EndDate></DateRange><DateRange><StartDate>2023-01-11</StartDate><EndDate>2023-01-11</EndDate></DateRange><DateRange><StartDate>2023-01-18</StartDate><EndDate>2023-01-18</EndDate></DateRange><DateRange><StartDate>2023-01-25</StartDate><EndDate>2023-01-25</EndDate></DateRange><DateRange><StartDate>2023-02-01</StartDate><EndDate>2023-02-01</EndDate></DateRange><DateRange><StartDate>2023-02-08</StartDate><EndDate>2023-02-08</EndDate></DateRange><DateRange><StartDate>2023-02-15</StartDate><EndDate>2023-02-15</EndDate></DateRange><DateRange><StartDate>2023-03-01</StartDate><EndDate>2023-03-01</EndDate></DateRange><DateRange><StartDate>2023-03-08</StartDate><EndDate>2023-03-08</EndDate></DateRange><DateRange><StartDate>2023-03-15</StartDate><EndDate>2023-03-15</EndDate></DateRange><DateRange><StartDate>2023-03-22</StartDate><EndDate>2023-03-22</EndDate></DateRange><DateRange><StartDate>2023-03-29</StartDate><EndDate>2023-03-29</EndDate></DateRange><DateRange><StartDate>2023-04-19</StartDate><EndDate>2023-04-19</EndDate></DateRange><DateRange><StartDate>2023-04-26</StartDate><EndDate>2023-04-26</EndDate></DateRange><DateRange><StartDate>2023-05-03</StartDate><EndDate>2023-05-03</EndDate></DateRange><DateRange><StartDate>2023-05-10</StartDate><EndDate>2023-05-10</EndDate></DateRange><DateRange><StartDate>2023-05-17</StartDate><EndDate>2023-05-17</EndDate></DateRange><DateRange><StartDate>2023-05-24</StartDate><EndDate>2023-05-24</EndDate></DateRange><DateRange><StartDate>2023-06-07</StartDate><EndDate>2023-06-07</EndDate></DateRange><DateRange><StartDate>2023-06-14</StartDate><EndDate>2023-06-14</EndDate></DateRange><DateRange><StartDate>2023-06-21</StartDate><EndDate>2023-06-21</EndDate></DateRange><DateRange><StartDate>2023-06-28</StartDate><EndDate>2023-06-28</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-19</StartDate><EndDate>2023-07-19</EndDate></DateRange><DateRange><StartDate>2023-01-12</StartDate><EndDate>2023-01-12</EndDate></DateRange><DateRange><StartDate>2023-01-19</StartDate><EndDate>2023-01-19</EndDate></DateRange><DateRange><StartDate>2023-01-26</StartDate><EndDate>2023-01-26</EndDate></DateRange><DateRange><StartDate>2023-02-02</StartDate><EndDate>2023-02-02</EndDate></DateRange><DateRange><StartDate>2023-02-09</StartDate><EndDate>2023-02-09</EndDate></DateRange><DateRange><StartDate>2023-02-16</StartDate><EndDate>2023-02-16</EndDate></DateRange><DateRange><StartDate>2023-03-02</StartDate><EndDate>2023-03-02</EndDate></DateRange><DateRange><StartDate>2023-03-09</StartDate><EndDate>2023-03-09</EndDate></DateRange><DateRange><StartDate>2023-03-16</StartDate><EndDate>2023-03-16</EndDate></DateRange><DateRange><StartDate>2023-03-23</StartDate><EndDate>2023-03-23</EndDate></DateRange><DateRange><StartDate>2023-03-30</StartDate><EndDate>2023-03-30</EndDate></DateRange><DateRange><StartDate>2023-04-20</StartDate><EndDate>2023-04-20</EndDate></DateRange><DateRange><StartDate>2023-04-27</StartDate><EndDate>2023-04-27</EndDate></DateRange><DateRange><StartDate>2023-05-04</StartDate><EndDate>2023-05-04</EndDate></DateRange><DateRange><StartDate>2023-05-11</StartDate><EndDate>2023-05-11</EndDate></DateRange><DateRange><StartDate>2023-05-18</StartDate><EndDate>2023-05-18</EndDate></DateRange><DateRange><StartDate>2023-05-25</StartDate><EndDate>2023-05-25</EndDate></DateRange><DateRange><StartDate>2023-06-08</StartDate><EndDate>2023-06-08</EndDate></DateRange><DateRange><StartDate>2023-06-15</StartDate><EndDate>2023-06-15</EndDate></DateRange><DateRange><StartDate>2023-06-22</StartDate><EndDate>2023-06-22</EndDate></DateRange><DateRange><StartDate>2023-06-29</StartDate><EndDate>2023-06-29</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-20</StartDate><EndDate>2023-07-20</EndDate></DateRange><DateRange><StartDate>2023-01-13</StartDate><EndDate>2023-01-13</EndDate></DateRange><DateRange><StartDate>2023-01-20</StartDate><EndDate>2023-01-20</EndDate></DateRange><DateRange><StartDate>2023-01-27</StartDate><EndDate>2023-01-27</EndDate></DateRange><DateRange><StartDate>2023-02-03</StartDate><EndDate>2023-02-03</EndDate></DateRange><DateRange><StartDate>2023-02-10</StartDate><EndDate>2023-02-10</EndDate></DateRange><DateRange><StartDate>2023-02-17</StartDate><EndDate>2023-02-17</EndDate></DateRange><DateRange><StartDate>2023-03-03</StartDate><EndDate>2023-03-03</EndDate></DateRange><DateRange><StartDate>2023-03-10</StartDate><EndDate>2023-03-10</EndDate></DateRange><DateRange><StartDate>2023-03-17</StartDate><EndDate>2023-03-17</EndDate></DateRange><DateRange><StartDate>2023-03-24</StartDate><EndDate>2023-03-24</EndDate></DateRange><DateRange><StartDate>2023-03-31</StartDate><EndDate>2023-03-31</EndDate></DateRange><DateRange><StartDate>2023-04-21</StartDate><EndDate>2023-04-21</EndDate></DateRange><DateRange><StartDate>2023-04-28</StartDate><EndDate>2023-04-28</EndDate></DateRange><DateRange><StartDate>2023-05-05</StartDate><EndDate>2023-05-05</EndDate></DateRange><DateRange><StartDate>2023-05-12</StartDate><EndDate>2023-05-12</EndDate></DateRange><DateRange><StartDate>2023-05-19</StartDate><EndDate>2023-05-19</EndDate></DateRange><DateRange><StartDate>2023-05-26</StartDate><EndDate>2023-05-26</EndDate></DateRange><DateRange><StartDate>2023-06-09</StartDate><EndDate>2023-06-09</EndDate></DateRange><DateRange><StartDate>2023-06-16</StartDate><EndDate>2023-06-16</EndDate></DateRange><DateRange><StartDate>2023-06-23</StartDate><EndDate>2023-06-23</EndDate></DateRange><DateRange><StartDate>2023-06-30</StartDate><EndDate>2023-06-30</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-21</StartDate><EndDate>2023-07-21</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_4</VehicleJourneyCode>
+<ServiceRef>PC1019835:22</ServiceRef><LineRef>HASO:PC1019835:22:360</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>08:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-01-31T13:14:31' ModificationDateTime='2023-01-31T13:14:31' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+<ServiceRef>PC1019835:22</ServiceRef><LineRef>HASO:PC1019835:22:360</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>15:10:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

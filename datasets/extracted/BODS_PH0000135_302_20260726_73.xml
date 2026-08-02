@@ -1,0 +1,3464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Omnibus TransXChange Exporter (1.0.233.25933)-->
+<!--Export Profile:BODS 1.1-->
+<TransXChange CreationDateTime="2023-08-24T14:51:19" ModificationDateTime="2026-06-23T13:54:39" Modification="revise" RevisionNumber="73" FileName="BODS_PH0000135_302_20260726_73.xml" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" SchemaVersion="2.4" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COA15778</StopPointRef>
+      <CommonName>Lys Lander</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Trelander Estate</LocalityName>
+      <LocalityQualifier>Truro</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30586</StopPointRef>
+      <CommonName>Trelander Barton</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Trelander Estate</LocalityName>
+      <LocalityQualifier>Truro</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30584</StopPointRef>
+      <CommonName>Trelander Highway</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Trelander Estate</LocalityName>
+      <LocalityQualifier>Truro</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30585</StopPointRef>
+      <CommonName>Trelander Highway</CommonName>
+      <Indicator>W-bound</Indicator>
+      <LocalityName>Trelander Estate</LocalityName>
+      <LocalityQualifier>Truro</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COA15345</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Indicator>Stand B</Indicator>
+      <LocalityName>Truro</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30577</StopPointRef>
+      <CommonName>Chirgwin Road</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Truro</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30576</StopPointRef>
+      <CommonName>Old Police Station</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Truro</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30600</StopPointRef>
+      <CommonName>Old Police Station</CommonName>
+      <Indicator>SW-bound</Indicator>
+      <LocalityName>Truro</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <StopPointRef>0800COC30578</StopPointRef>
+      <CommonName>St Clements Parc</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Truro</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COA15345</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30576</StopPointRef>
+        </To>
+        <Distance>506</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L1">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182806</Easting>
+                <Northing>44731</Northing>
+                <Longitude>-5.048739120</Longitude>
+                <Latitude>50.262530583</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L2">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182829</Easting>
+                <Northing>44717</Northing>
+                <Longitude>-5.048406691</Longitude>
+                <Latitude>50.262417695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L3">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182831</Easting>
+                <Northing>44714</Northing>
+                <Longitude>-5.048380191</Longitude>
+                <Latitude>50.262388595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L4">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182831</Easting>
+                <Northing>44710</Northing>
+                <Longitude>-5.048368791</Longitude>
+                <Latitude>50.262350195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L5">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182830</Easting>
+                <Northing>44703</Northing>
+                <Longitude>-5.048386691</Longitude>
+                <Latitude>50.262284195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L6">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182827</Easting>
+                <Northing>44697</Northing>
+                <Longitude>-5.048427991</Longitude>
+                <Latitude>50.262236795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L7">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182825</Easting>
+                <Northing>44694</Northing>
+                <Longitude>-5.048456791</Longitude>
+                <Latitude>50.262208795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L8">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182819</Easting>
+                <Northing>44693</Northing>
+                <Longitude>-5.048540191</Longitude>
+                <Latitude>50.262195095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L9">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182812</Easting>
+                <Northing>44696</Northing>
+                <Longitude>-5.048636691</Longitude>
+                <Latitude>50.262214495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L10">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182778</Easting>
+                <Northing>44715</Northing>
+                <Longitude>-5.049124591</Longitude>
+                <Latitude>50.262380095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L11">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182792</Easting>
+                <Northing>44739</Northing>
+                <Longitude>-5.048934691</Longitude>
+                <Latitude>50.262596995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L12">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182805</Easting>
+                <Northing>44767</Northing>
+                <Longitude>-5.048776191</Longitude>
+                <Latitude>50.262855695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L13">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182808</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048732191</Longitude>
+                <Latitude>50.262877695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L14">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182810</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048710182</Longitude>
+                <Latitude>50.262878755</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L15">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182812</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048680291</Longitude>
+                <Latitude>50.262880195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L16">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182814</Easting>
+                <Northing>44769</Northing>
+                <Longitude>-5.048650146</Longitude>
+                <Latitude>50.262871773</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L17">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182816</Easting>
+                <Northing>44767</Northing>
+                <Longitude>-5.048611076</Longitude>
+                <Latitude>50.262860857</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L18">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182867</Easting>
+                <Northing>44743</Northing>
+                <Longitude>-5.047893045</Longitude>
+                <Latitude>50.262660244</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L19">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182867</Easting>
+                <Northing>44743</Northing>
+                <Longitude>-5.047889291</Longitude>
+                <Latitude>50.262659195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L20">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182879</Easting>
+                <Northing>44735</Northing>
+                <Longitude>-5.047717191</Longitude>
+                <Latitude>50.262593595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L21">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182884</Easting>
+                <Northing>44740</Northing>
+                <Longitude>-5.047653891</Longitude>
+                <Latitude>50.262639795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L22">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182900</Easting>
+                <Northing>44756</Northing>
+                <Longitude>-5.047430791</Longitude>
+                <Latitude>50.262793195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L23">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182913</Easting>
+                <Northing>44768</Northing>
+                <Longitude>-5.047259091</Longitude>
+                <Latitude>50.262904595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L24">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182937</Easting>
+                <Northing>44791</Northing>
+                <Longitude>-5.046941291</Longitude>
+                <Latitude>50.263115595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L25">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182945</Easting>
+                <Northing>44800</Northing>
+                <Longitude>-5.046824691</Longitude>
+                <Latitude>50.263197395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L26">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182950</Easting>
+                <Northing>44808</Northing>
+                <Longitude>-5.046758391</Longitude>
+                <Latitude>50.263274795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L27">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182952</Easting>
+                <Northing>44821</Northing>
+                <Longitude>-5.046737091</Longitude>
+                <Latitude>50.263395395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L28">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182952</Easting>
+                <Northing>44828</Northing>
+                <Longitude>-5.046744191</Longitude>
+                <Latitude>50.263459195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L29">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182953</Easting>
+                <Northing>44836</Northing>
+                <Longitude>-5.046731191</Longitude>
+                <Latitude>50.263529695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L30">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182959</Easting>
+                <Northing>44846</Northing>
+                <Longitude>-5.046660191</Longitude>
+                <Latitude>50.263616495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L31">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182967</Easting>
+                <Northing>44855</Northing>
+                <Longitude>-5.046558391</Longitude>
+                <Latitude>50.263699695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L32">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182975</Easting>
+                <Northing>44863</Northing>
+                <Longitude>-5.046439691</Longitude>
+                <Latitude>50.263779995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L33">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182981</Easting>
+                <Northing>44866</Northing>
+                <Longitude>-5.046357191</Longitude>
+                <Latitude>50.263807395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L34">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182990</Easting>
+                <Northing>44868</Northing>
+                <Longitude>-5.046233891</Longitude>
+                <Latitude>50.263824395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L35">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182997</Easting>
+                <Northing>44867</Northing>
+                <Longitude>-5.046138391</Longitude>
+                <Latitude>50.263825995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L36">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183006</Easting>
+                <Northing>44865</Northing>
+                <Longitude>-5.046015991</Longitude>
+                <Latitude>50.263809995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L37">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183014</Easting>
+                <Northing>44860</Northing>
+                <Longitude>-5.045895691</Longitude>
+                <Latitude>50.263766295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L38">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183019</Easting>
+                <Northing>44853</Northing>
+                <Longitude>-5.045822191</Longitude>
+                <Latitude>50.263704495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L39">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183020</Easting>
+                <Northing>44843</Northing>
+                <Longitude>-5.045797391</Longitude>
+                <Latitude>50.263612295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L40">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183035</Easting>
+                <Northing>44837</Northing>
+                <Longitude>-5.045589691</Longitude>
+                <Latitude>50.263562895</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L41">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183052</Easting>
+                <Northing>44829</Northing>
+                <Longitude>-5.045354305</Longitude>
+                <Latitude>50.263505540</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL2" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30576</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30577</StopPointRef>
+        </To>
+        <Distance>233</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L42">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183052</Easting>
+                <Northing>44829</Northing>
+                <Longitude>-5.045354305</Longitude>
+                <Latitude>50.263505540</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L43">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183060</Easting>
+                <Northing>44826</Northing>
+                <Longitude>-5.045234691</Longitude>
+                <Latitude>50.263476395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L44">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183081</Easting>
+                <Northing>44817</Northing>
+                <Longitude>-5.044926791</Longitude>
+                <Latitude>50.263400295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L45">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183102</Easting>
+                <Northing>44805</Northing>
+                <Longitude>-5.044636991</Longitude>
+                <Latitude>50.263300295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L46">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183185</Easting>
+                <Northing>44761</Northing>
+                <Longitude>-5.043439591</Longitude>
+                <Latitude>50.262936395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L47">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183235</Easting>
+                <Northing>44744</Northing>
+                <Longitude>-5.042741491</Longitude>
+                <Latitude>50.262806195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L48">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183264</Easting>
+                <Northing>44734</Northing>
+                <Longitude>-5.042323083</Longitude>
+                <Latitude>50.262726171</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS3" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL3" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30577</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30578</StopPointRef>
+        </To>
+        <Distance>144</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L49">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183264</Easting>
+                <Northing>44734</Northing>
+                <Longitude>-5.042323083</Longitude>
+                <Latitude>50.262726171</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L50">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183276</Easting>
+                <Northing>44730</Northing>
+                <Longitude>-5.042151191</Longitude>
+                <Latitude>50.262693295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L51">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183281</Easting>
+                <Northing>44728</Northing>
+                <Longitude>-5.042085091</Longitude>
+                <Latitude>50.262680595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L52">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183302</Easting>
+                <Northing>44721</Northing>
+                <Longitude>-5.041787991</Longitude>
+                <Latitude>50.262623795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L53">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183357</Easting>
+                <Northing>44703</Northing>
+                <Longitude>-5.041006491</Longitude>
+                <Latitude>50.262483095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L54">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183402</Easting>
+                <Northing>44692</Northing>
+                <Longitude>-5.040360283</Longitude>
+                <Latitude>50.262403356</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS4" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL4" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30578</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30584</StopPointRef>
+        </To>
+        <Distance>615</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L55">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183402</Easting>
+                <Northing>44692</Northing>
+                <Longitude>-5.040360283</Longitude>
+                <Latitude>50.262403356</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L56">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183413</Easting>
+                <Northing>44690</Northing>
+                <Longitude>-5.040204191</Longitude>
+                <Latitude>50.262384095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L57">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183446</Easting>
+                <Northing>44687</Northing>
+                <Longitude>-5.039750891</Longitude>
+                <Latitude>50.262368495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L58">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183478</Easting>
+                <Northing>44689</Northing>
+                <Longitude>-5.039292391</Longitude>
+                <Latitude>50.262404995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L59">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183487</Easting>
+                <Northing>44690</Northing>
+                <Longitude>-5.039179791</Longitude>
+                <Latitude>50.262410495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L60">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183532</Easting>
+                <Northing>44691</Northing>
+                <Longitude>-5.038542191</Longitude>
+                <Latitude>50.262441395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L61">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183572</Easting>
+                <Northing>44696</Northing>
+                <Longitude>-5.037984691</Longitude>
+                <Latitude>50.262498795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L62">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183593</Easting>
+                <Northing>44698</Northing>
+                <Longitude>-5.037692891</Longitude>
+                <Latitude>50.262524795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L63">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183610</Easting>
+                <Northing>44707</Northing>
+                <Longitude>-5.037458491</Longitude>
+                <Latitude>50.262613395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L64">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183655</Easting>
+                <Northing>44733</Northing>
+                <Longitude>-5.036838491</Longitude>
+                <Latitude>50.262858295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L65">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183680</Easting>
+                <Northing>44744</Northing>
+                <Longitude>-5.036494391</Longitude>
+                <Latitude>50.262964995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L66">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183700</Easting>
+                <Northing>44752</Northing>
+                <Longitude>-5.036217991</Longitude>
+                <Latitude>50.263050595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L67">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183654</Easting>
+                <Northing>44828</Northing>
+                <Longitude>-5.036913891</Longitude>
+                <Latitude>50.263713695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L68">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183646</Easting>
+                <Northing>44842</Northing>
+                <Longitude>-5.037035091</Longitude>
+                <Latitude>50.263833395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L69">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183612</Easting>
+                <Northing>44882</Northing>
+                <Longitude>-5.037528591</Longitude>
+                <Latitude>50.264183195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L70">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183604</Easting>
+                <Northing>44887</Northing>
+                <Longitude>-5.037648791</Longitude>
+                <Latitude>50.264221595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L71">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183582</Easting>
+                <Northing>44899</Northing>
+                <Longitude>-5.037957791</Longitude>
+                <Latitude>50.264320295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L72">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183522</Easting>
+                <Northing>44918</Northing>
+                <Longitude>-5.038814091</Longitude>
+                <Latitude>50.264475795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L73">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183476</Easting>
+                <Northing>44933</Northing>
+                <Longitude>-5.039465268</Longitude>
+                <Latitude>50.264594039</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS5" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL5" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30584</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30585</StopPointRef>
+        </To>
+        <Distance>117</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L74">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183476</Easting>
+                <Northing>44933</Northing>
+                <Longitude>-5.039465268</Longitude>
+                <Latitude>50.264594039</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L75">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183419</Easting>
+                <Northing>44952</Northing>
+                <Longitude>-5.040270191</Longitude>
+                <Latitude>50.264740195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L76">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183389</Easting>
+                <Northing>44962</Northing>
+                <Longitude>-5.040702591</Longitude>
+                <Latitude>50.264815295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L77">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183365</Easting>
+                <Northing>44968</Northing>
+                <Longitude>-5.041044791</Longitude>
+                <Latitude>50.264864995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L78">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183364</Easting>
+                <Northing>44968</Northing>
+                <Longitude>-5.041054930</Longitude>
+                <Latitude>50.264866040</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS6" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL6" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30585</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30586</StopPointRef>
+        </To>
+        <Distance>76</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L79">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183364</Easting>
+                <Northing>44968</Northing>
+                <Longitude>-5.041054930</Longitude>
+                <Latitude>50.264866040</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L80">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183301</Easting>
+                <Northing>44981</Northing>
+                <Longitude>-5.041948891</Longitude>
+                <Latitude>50.264958195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L81">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183289</Easting>
+                <Northing>44981</Northing>
+                <Longitude>-5.042120335</Longitude>
+                <Latitude>50.264954789</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS7" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL7" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30586</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COA15778</StopPointRef>
+        </To>
+        <Distance>89</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L82">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183289</Easting>
+                <Northing>44981</Northing>
+                <Longitude>-5.042120335</Longitude>
+                <Latitude>50.264954789</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L83">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183272</Easting>
+                <Northing>44981</Northing>
+                <Longitude>-5.042356591</Longitude>
+                <Latitude>50.264950095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L84">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183231</Easting>
+                <Northing>44982</Northing>
+                <Longitude>-5.042923991</Longitude>
+                <Latitude>50.264938895</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L85">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183204</Easting>
+                <Northing>44989</Northing>
+                <Longitude>-5.043312091</Longitude>
+                <Latitude>50.264990095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L86">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183200</Easting>
+                <Northing>44990</Northing>
+                <Longitude>-5.043362511</Longitude>
+                <Latitude>50.265002935</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS8" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL8" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COA15778</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COC30600</StopPointRef>
+        </To>
+        <Distance>157</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L87">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183200</Easting>
+                <Northing>44990</Northing>
+                <Longitude>-5.043362511</Longitude>
+                <Latitude>50.265002935</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L88">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183178</Easting>
+                <Northing>45000</Northing>
+                <Longitude>-5.043681991</Longitude>
+                <Latitude>50.265084295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L89">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183156</Easting>
+                <Northing>45016</Northing>
+                <Longitude>-5.043992291</Longitude>
+                <Latitude>50.265216995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L90">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183143</Easting>
+                <Northing>44999</Northing>
+                <Longitude>-5.044164991</Longitude>
+                <Latitude>50.265061095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L91">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183128</Easting>
+                <Northing>44980</Northing>
+                <Longitude>-5.044370291</Longitude>
+                <Latitude>50.264888595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L92">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183115</Easting>
+                <Northing>44963</Northing>
+                <Longitude>-5.044542391</Longitude>
+                <Latitude>50.264726795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L93">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183092</Easting>
+                <Northing>44932</Northing>
+                <Longitude>-5.044848020</Longitude>
+                <Latitude>50.264439061</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS9" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL9" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>0800COC30600</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>0800COA15345</StopPointRef>
+        </To>
+        <Distance>434</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L94">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183092</Easting>
+                <Northing>44932</Northing>
+                <Longitude>-5.044848020</Longitude>
+                <Latitude>50.264439061</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L95">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183087</Easting>
+                <Northing>44926</Northing>
+                <Longitude>-5.044909591</Longitude>
+                <Latitude>50.264381095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L96">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183072</Easting>
+                <Northing>44907</Northing>
+                <Longitude>-5.045114891</Longitude>
+                <Latitude>50.264210495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L97">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183055</Easting>
+                <Northing>44890</Northing>
+                <Longitude>-5.045338591</Longitude>
+                <Latitude>50.264050795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L98">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183037</Easting>
+                <Northing>44873</Northing>
+                <Longitude>-5.045588191</Longitude>
+                <Latitude>50.263892595</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L99">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183026</Easting>
+                <Northing>44864</Northing>
+                <Longitude>-5.045726391</Longitude>
+                <Latitude>50.263801695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L100">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183019</Easting>
+                <Northing>44853</Northing>
+                <Longitude>-5.045822191</Longitude>
+                <Latitude>50.263704495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L101">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183020</Easting>
+                <Northing>44843</Northing>
+                <Longitude>-5.045797391</Longitude>
+                <Latitude>50.263612295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L102">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183015</Easting>
+                <Northing>44829</Northing>
+                <Longitude>-5.045862191</Longitude>
+                <Latitude>50.263490395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L103">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>183008</Easting>
+                <Northing>44818</Northing>
+                <Longitude>-5.045953891</Longitude>
+                <Latitude>50.263388795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L104">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182999</Easting>
+                <Northing>44809</Northing>
+                <Longitude>-5.046077091</Longitude>
+                <Latitude>50.263304195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L105">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182993</Easting>
+                <Northing>44804</Northing>
+                <Longitude>-5.046164091</Longitude>
+                <Latitude>50.263258395</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L106">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182989</Easting>
+                <Northing>44802</Northing>
+                <Longitude>-5.046214891</Longitude>
+                <Latitude>50.263238095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L107">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182981</Easting>
+                <Northing>44800</Northing>
+                <Longitude>-5.046325191</Longitude>
+                <Latitude>50.263212895</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L108">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182975</Easting>
+                <Northing>44800</Northing>
+                <Longitude>-5.046402991</Longitude>
+                <Latitude>50.263212895</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L109">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182973</Easting>
+                <Northing>44800</Northing>
+                <Longitude>-5.046441291</Longitude>
+                <Latitude>50.263213795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L110">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182965</Easting>
+                <Northing>44798</Northing>
+                <Longitude>-5.046547491</Longitude>
+                <Latitude>50.263194795</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L111">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182960</Easting>
+                <Northing>44796</Northing>
+                <Longitude>-5.046623491</Longitude>
+                <Latitude>50.263170495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L112">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182951</Easting>
+                <Northing>44791</Northing>
+                <Longitude>-5.046737891</Longitude>
+                <Latitude>50.263127095</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L113">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182940</Easting>
+                <Northing>44780</Northing>
+                <Longitude>-5.046893491</Longitude>
+                <Latitude>50.263022295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L114">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182920</Easting>
+                <Northing>44760</Northing>
+                <Longitude>-5.047154991</Longitude>
+                <Latitude>50.262829295</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L115">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182913</Easting>
+                <Northing>44758</Northing>
+                <Longitude>-5.047254191</Longitude>
+                <Latitude>50.262814195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L116">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182907</Easting>
+                <Northing>44753</Northing>
+                <Longitude>-5.047337091</Longitude>
+                <Latitude>50.262769495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L117">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182900</Easting>
+                <Northing>44748</Northing>
+                <Longitude>-5.047431691</Longitude>
+                <Latitude>50.262718495</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L118">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182891</Easting>
+                <Northing>44740</Northing>
+                <Longitude>-5.047548532</Longitude>
+                <Latitude>50.262639825</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L119">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182885</Easting>
+                <Northing>44736</Northing>
+                <Longitude>-5.047636743</Longitude>
+                <Latitude>50.262600435</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L120">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182877</Easting>
+                <Northing>44736</Northing>
+                <Longitude>-5.047749914</Longitude>
+                <Latitude>50.262605081</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L121">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182867</Easting>
+                <Northing>44742</Northing>
+                <Longitude>-5.047892444</Longitude>
+                <Latitude>50.262650846</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L122">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182865</Easting>
+                <Northing>44743</Northing>
+                <Longitude>-5.047910474</Longitude>
+                <Latitude>50.262656209</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L123">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182852</Easting>
+                <Northing>44749</Northing>
+                <Longitude>-5.048098341</Longitude>
+                <Latitude>50.262712084</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L124">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182845</Easting>
+                <Northing>44752</Northing>
+                <Longitude>-5.048200865</Longitude>
+                <Latitude>50.262736050</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L125">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182835</Easting>
+                <Northing>44757</Northing>
+                <Longitude>-5.048340067</Longitude>
+                <Latitude>50.262776190</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L126">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182827</Easting>
+                <Northing>44762</Northing>
+                <Longitude>-5.048467285</Longitude>
+                <Latitude>50.262814740</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L127">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182816</Easting>
+                <Northing>44767</Northing>
+                <Longitude>-5.048612661</Longitude>
+                <Latitude>50.262858526</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L128">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182816</Easting>
+                <Northing>44767</Northing>
+                <Longitude>-5.048611076</Longitude>
+                <Latitude>50.262860857</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L129">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182814</Easting>
+                <Northing>44769</Northing>
+                <Longitude>-5.048650146</Longitude>
+                <Latitude>50.262871773</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L130">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182812</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048680291</Longitude>
+                <Latitude>50.262880195</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L131">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182810</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048710182</Longitude>
+                <Latitude>50.262878755</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L132">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182808</Easting>
+                <Northing>44770</Northing>
+                <Longitude>-5.048732191</Longitude>
+                <Latitude>50.262877695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L133">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182805</Easting>
+                <Northing>44767</Northing>
+                <Longitude>-5.048776191</Longitude>
+                <Latitude>50.262855695</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L134">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182792</Easting>
+                <Northing>44739</Northing>
+                <Longitude>-5.048934691</Longitude>
+                <Latitude>50.262596995</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L135">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>182806</Easting>
+                <Northing>44731</Northing>
+                <Longitude>-5.048739120</Longitude>
+                <Latitude>50.262530583</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>GCAO084-2</PrivateCode>
+      <Description>Bus Station - Bus Station</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+      <RouteSectionRef>RS3</RouteSectionRef>
+      <RouteSectionRef>RS4</RouteSectionRef>
+      <RouteSectionRef>RS5</RouteSectionRef>
+      <RouteSectionRef>RS6</RouteSectionRef>
+      <RouteSectionRef>RS7</RouteSectionRef>
+      <RouteSectionRef>RS8</RouteSectionRef>
+      <RouteSectionRef>RS9</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>0800COA15345</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30576</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30576</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30577</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30577</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30578</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30578</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30584</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2">
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30584</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30585</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30585</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30586</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL7">
+        <From id="JPSU13" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30586</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COA15778</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL8">
+        <From id="JPSU15" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COA15778</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30600</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL9">
+        <From id="JPSU17" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>0800COC30600</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="10">
+          <Activity>setDown</Activity>
+          <StopPointRef>0800COA15345</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TFCN" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <NationalOperatorCode>TFCN</NationalOperatorCode>
+      <OperatorCode>TFCN</OperatorCode>
+      <OperatorShortName>Go Cornwall Bus</OperatorShortName>
+      <TradingName>Go Cornwall Bus</TradingName>
+      <LicenceNumber>PH0000135</LicenceNumber>
+      <Garages>
+        <Garage CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+          <GarageCode>03</GarageCode>
+          <GarageName>Garage '03'</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service RevisionNumber="73">
+      <ServiceCode>PH0000135:302</ServiceCode>
+      <PrivateCode>GCAO084</PrivateCode>
+      <Lines>
+        <Line id="TFCN:PH0000135:302:483">
+          <LineName>483</LineName>
+          <OutboundDescription>
+            <Description>Trelander Circular</Description>
+          </OutboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-07-26</StartDate>
+        <EndDate>2026-08-31</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>TFCN</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Origin - Destination  </Description>
+      <StandardService>
+        <Origin>Origin</Origin>
+        <Destination>Destination</Destination>
+        <JourneyPattern id="JP1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Bus Station</DestinationDisplay>
+          <OperatorRef>TFCN</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Bus Station - Bus Station</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:1</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S407</Description>
+          <BlockNumber>S407</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:2</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S405</Description>
+          <BlockNumber>S405</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:3</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>H304</Description>
+          <BlockNumber>H304</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL24">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL25">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL26">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL27">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:4</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N406</Description>
+          <BlockNumber>N406</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL28">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL29">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL30">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL31">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL32">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL33">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL34">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL35">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL36">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:5</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>9</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL37">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL38">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL39">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL40">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL41">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL42">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL43">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL44">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL45">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:6</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL46">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL47">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL48">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL49">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL50">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL51">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL52">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL53">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL54">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="7" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:7</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>13</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL55">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL56">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL57">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL58">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL59">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL60">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL61">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL62">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL63">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:8</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>B401</Description>
+          <BlockNumber>B401</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>15</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL64">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL65">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL66">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL67">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL68">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL69">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL70">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL71">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL72">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="9" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:9</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N306</Description>
+          <BlockNumber>N306</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>17</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL73">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL74">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL75">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL76">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL77">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL78">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL79">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL80">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL81">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="10" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:10</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S406</Description>
+          <BlockNumber>S406</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>19</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL82">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL83">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL84">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL85">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL86">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL87">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL88">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL89">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL90">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="11" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84MF26Summ:O:11</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>H404</Description>
+          <BlockNumber>H404</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>21</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL91">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL92">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL93">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL94">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL95">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL96">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL97">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL98">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL99">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:1</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S407</Description>
+          <BlockNumber>S407</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL100">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL101">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL102">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL103">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL104">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL105">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL106">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL107">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL108">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:2</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S405</Description>
+          <BlockNumber>S405</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL109">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL110">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL111">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL112">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL113">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL114">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL115">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL116">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL117">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:3</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>H304</Description>
+          <BlockNumber>H304</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL118">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL119">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL120">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL121">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL122">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL123">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL124">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL125">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL126">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:4</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N406</Description>
+          <BlockNumber>N406</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL127">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL128">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL129">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL130">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL131">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL132">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL133">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL134">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL135">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:5</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>9</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL136">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL137">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL138">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL139">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL140">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL141">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL142">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL143">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL144">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:6</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL145">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL146">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL147">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL148">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL149">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL150">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL151">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL152">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL153">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="7" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:7</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N412</Description>
+          <BlockNumber>N412</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>13</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL154">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL155">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL156">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL157">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL158">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL159">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL160">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL161">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL162">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:8</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>B401</Description>
+          <BlockNumber>B401</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>15</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL163">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL164">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL165">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL166">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL167">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL168">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL169">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL170">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL171">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="9" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:9</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>N306</Description>
+          <BlockNumber>N306</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>17</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL172">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL173">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL174">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL175">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL176">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL177">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL178">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL179">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL180">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="10" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:10</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>S406</Description>
+          <BlockNumber>S406</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>19</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL181">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL182">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL183">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL184">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL185">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL186">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL187">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL188">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL189">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="11" CreationDateTime="2026-06-23T13:54:39" Modification="new" RevisionNumber="0">
+      <PrivateCode>C84SA26Summ:O:11</PrivateCode>
+      <OperatorRef>TFCN</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>H404</Description>
+          <BlockNumber>H404</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>GC084</TicketMachineServiceCode>
+          <JourneyCode>21</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>03</GarageRef>
+      <VehicleJourneyCode>VJ22</VehicleJourneyCode>
+      <ServiceRef>PH0000135:302</ServiceRef>
+      <LineRef>TFCN:PH0000135:302:483</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL190">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL191">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL192">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL193">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL194">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL195">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL196">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL197">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL198">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" CreationDateTime="2023-05-15T15:12:46Z" ModificationDateTime="2025-11-12T08:12:46Z" Modification="revise" RevisionNumber="5" FileName="DuckTour_DUCK_PH1120297:2_5_2025-11-01.json" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" SchemaVersion="2.4" RegistrationDocument="false">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>036006218219</StopPointRef>
+      <CommonName>Theatre Royal</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS_3">
+      <RouteLink id="RL_3">
+        <From>
+          <StopPointRef>036006218219</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>036006218219</StopPointRef>
+        </To>
+        <Distance>12000</Distance>
+        <Track>
+          <Mapping>
+            <Location>
+              <Translation>
+                <Easting>496773</Easting>
+                <Northing>177058</Northing>
+                <Longitude>-0.607697</Longitude>
+                <Latitude>51.484208</Latitude>
+              </Translation>
+            </Location>
+            <Location>
+              <Translation>
+                <Easting>496773</Easting>
+                <Northing>177058</Northing>
+                <Longitude>-0.607697</Longitude>
+                <Latitude>51.484208</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="R_1">
+      <Description>Theatre Royal - Theatre Royal</Description>
+      <RouteSectionRef>RS_3</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_1">
+      <JourneyPatternTimingLink id="JPTL_1_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>036006218219</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>036006218219</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL_3</RouteLinkRef>
+        <RunTime>PT50M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="DUCK">
+      <NationalOperatorCode>DUCK</NationalOperatorCode>
+      <OperatorCode>DUCK</OperatorCode>
+      <OperatorShortName>Duck tours ltd</OperatorShortName>
+      <LicenceNumber>PH1120297</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service Modification="new" CreationDateTime="2023-08-14T18:04:23" ModificationDateTime="2023-08-14T18:04:23">
+      <ServiceCode>PH1120297:2</ServiceCode>
+      <Lines>
+        <Line id="DUCK:PH1120297:2:Duck_Tour_Theatre">
+          <LineName>Duck_Tour_Theatre</LineName>
+          <OutboundDescription>
+            <Origin>Theatre Royal</Origin>
+            <Destination>Theatre Royal</Destination>
+            <Description>Theatre Royal - Theatre Royal - </Description>
+          </OutboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-11-01</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday></Monday>
+            <Thursday></Thursday>
+            <Friday></Friday>
+            <Saturday></Saturday>
+            <Sunday></Sunday>
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfOperation>
+            <DateRange>
+              <StartDate>2025-12-01</StartDate>
+              <EndDate>2025-12-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-23</StartDate>
+              <EndDate>2025-12-24</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-02</StartDate>
+              <EndDate>2026-01-02</EndDate>
+            </DateRange>
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2025-12-22</StartDate>
+              <EndDate>2025-12-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-01-06</StartDate>
+              <EndDate>2026-01-22</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2025-12-31</StartDate>
+              <EndDate>2025-12-31</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday></GoodFriday>
+            <EasterMonday></EasterMonday>
+            <ChristmasEve></ChristmasEve>
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay></ChristmasDay>
+            <BoxingDay></BoxingDay>
+            <NewYearsDay></NewYearsDay>
+            <Jan2ndScotland></Jan2ndScotland>
+            <StAndrewsDay></StAndrewsDay>
+            <LateSummerBankHolidayNotScotland></LateSummerBankHolidayNotScotland>
+            <MayDay></MayDay>
+            <SpringBank></SpringBank>
+            <AugustBankHolidayScotland></AugustBankHolidayScotland>
+            <ChristmasDayHoliday></ChristmasDayHoliday>
+            <BoxingDayHoliday></BoxingDayHoliday>
+            <NewYearsDayHoliday></NewYearsDayHoliday>
+            <Jan2ndScotlandHoliday></Jan2ndScotlandHoliday>
+            <StAndrewsDayHoliday></StAndrewsDayHoliday>
+            <NewYearsEve></NewYearsEve>
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>DUCK</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired></NoNewStopsRequired>
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Windsor Tour</Description>
+      <StandardService>
+        <Origin>Theatre Royal</Origin>
+        <Destination>Theatre Royal</Destination>
+        <JourneyPattern id="JP_1">
+          <DestinationDisplay>Theatre Royal</DestinationDisplay>
+          <OperatorRef>DUCK</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Windsor Tour</Description>
+          <RouteRef>R_1</RouteRef>
+          <JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" Modification="new" CreationDateTime="2023-08-14T18:04:23" ModificationDateTime="2023-08-14T18:04:23">
+      <OperatorRef>DUCK</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>Q46PDV</Description>
+          <BlockNumber>Q46PDV</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>Duck_Tour_Theatre</TicketMachineServiceCode>
+          <JourneyCode>VJ_2</JourneyCode>
+          <Direction>outbound</Direction>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>VJ_2</VehicleJourneyCode>
+      <ServiceRef>PH1120297:2</ServiceRef>
+      <LineRef>DUCK:PH1120297:2:Duck_Tour_Theatre</LineRef>
+      <JourneyPatternRef>JP_1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" Modification="new" CreationDateTime="2023-08-14T18:04:23" ModificationDateTime="2023-08-14T18:04:23">
+      <OperatorRef>DUCK</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>Q46PDV</Description>
+          <BlockNumber>Q46PDV</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>Duck_Tour_Theatre</TicketMachineServiceCode>
+          <JourneyCode>VJ_3</JourneyCode>
+          <Direction>outbound</Direction>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+      <ServiceRef>PH1120297:2</ServiceRef>
+      <LineRef>DUCK:PH1120297:2:Duck_Tour_Theatre</LineRef>
+      <JourneyPatternRef>JP_1</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" Modification="new" CreationDateTime="2023-08-14T18:04:23" ModificationDateTime="2023-08-14T18:04:23">
+      <OperatorRef>DUCK</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>Q46PDV</Description>
+          <BlockNumber>Q46PDV</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>Duck_Tour_Theatre</TicketMachineServiceCode>
+          <JourneyCode>VJ_5</JourneyCode>
+          <Direction>outbound</Direction>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>VJ_5</VehicleJourneyCode>
+      <ServiceRef>PH1120297:2</ServiceRef>
+      <LineRef>DUCK:PH1120297:2:Duck_Tour_Theatre</LineRef>
+      <JourneyPatternRef>JP_1</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" Modification="new" CreationDateTime="2023-08-14T18:04:23" ModificationDateTime="2023-08-14T18:04:23">
+      <OperatorRef>DUCK</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>Q46PDV</Description>
+          <BlockNumber>Q46PDV</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>Duck_Tour_Theatre</TicketMachineServiceCode>
+          <JourneyCode>VJ_6</JourneyCode>
+          <Direction>outbound</Direction>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>VJ_6</VehicleJourneyCode>
+      <ServiceRef>PH1120297:2</ServiceRef>
+      <LineRef>DUCK:PH1120297:2:Duck_Tour_Theatre</LineRef>
+      <JourneyPatternRef>JP_1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+      </VehicleJourneys>
+</TransXChange>

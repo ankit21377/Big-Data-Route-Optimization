@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-07-27T19:37:48" ModificationDateTime="2025-12-31T10:56:00" Modification="revise" RevisionNumber="4" FileName="TKTR_152_TKTRPH10913352152_20250317_-_1241176.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340000393MP</StopPointRef>
+      <CommonName>Market Place</CommonName>
+      <Location>
+        <Longitude>-0.906353</Longitude>
+        <Latitude>51.537195</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340000270STN</StopPointRef>
+      <CommonName>Henley-on-Thames Stn</CommonName>
+      <Location>
+        <Longitude>-0.901063</Longitude>
+        <Latitude>51.534763</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340001977CNR</StopPointRef>
+      <CommonName>Watermans Road</CommonName>
+      <Location>
+        <Longitude>-0.897780</Longitude>
+        <Latitude>51.528015</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3400007431</StopPointRef>
+      <CommonName>South Avenue</CommonName>
+      <Location>
+        <Longitude>-0.901889</Longitude>
+        <Latitude>51.527982</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340000308SCH</StopPointRef>
+      <CommonName>Makins Road</CommonName>
+      <Location>
+        <Longitude>-0.921188</Longitude>
+        <Latitude>51.527523</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340001967GRJ</StopPointRef>
+      <CommonName>Greys Road</CommonName>
+      <Location>
+        <Longitude>-0.921939</Longitude>
+        <Latitude>51.528662</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>340000393MP</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340000270STN</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>340000270STN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340001977CNR</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>340001977CNR</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3400007431</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>3400007431</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340000308SCH</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>340000308SCH</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340001967GRJ</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_6">
+        <From>
+          <StopPointRef>340001967GRJ</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340000393MP</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>340000393MP</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>340000270STN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>340000270STN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>340001977CNR</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>340001977CNR</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3400007431</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>3400007431</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>340000308SCH</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>340000308SCH</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>340001967GRJ</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="6">
+          <StopPointRef>340001967GRJ</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>340000393MP</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_6</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>TKTR</NationalOperatorCode>
+      <OperatorCode>TKTR</OperatorCode>
+      <OperatorShortName>TK Travel</OperatorShortName>
+      <LicenceNumber>PH1091335</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PH1091335:2</ServiceCode>
+      <Lines>
+        <Line id="TKTR:PH1091335:2:152">
+          <LineName>152</LineName>
+          <OutboundDescription>
+            <Description>Henley to Town Service</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Town Service to Henley</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-03-17</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Henley</Origin>
+        <Destination>Town Service</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Market Place</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+<Operational>
+<Block><Description>1</Description><BlockNumber>1</BlockNumber></Block>
+<TicketMachine>
+          <JourneyCode>0934</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PH1091335:2</ServiceRef>
+      <LineRef>TKTR:PH1091335:2:152</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+<Operational>
+<Block><Description>1</Description><BlockNumber>1</BlockNumber></Block>
+<TicketMachine>
+          <JourneyCode>1034</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PH1091335:2</ServiceRef>
+      <LineRef>TKTR:PH1091335:2:152</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+<Operational>
+<Block><Description>1</Description><BlockNumber>1</BlockNumber></Block>
+<TicketMachine>
+          <JourneyCode>1134</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PH1091335:2</ServiceRef>
+      <LineRef>TKTR:PH1091335:2:152</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+<Operational>
+<Block><Description>1</Description><BlockNumber>1</BlockNumber></Block>
+<TicketMachine>
+          <JourneyCode>1234</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PH1091335:2</ServiceRef>
+      <LineRef>TKTR:PH1091335:2:152</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+<Operational>
+<Block><Description>1</Description><BlockNumber>1</BlockNumber></Block>
+<TicketMachine>
+          <JourneyCode>1334</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PH1091335:2</ServiceRef>
+      <LineRef>TKTR:PH1091335:2:152</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:34:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2017-05-09T09:39:26" ModificationDateTime="2026-07-17T15:47:14" Modification="revise" RevisionNumber="112" FileName="GNEL_327_GNELPB0003954216327_20260510_20260718_2358809.xml" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>DFDSSEA</OrganisationCode>
+      <Name>DFDS Seaways</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-01-02</StartDate>
+          <EndDate>2026-12-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-12-27</StartDate>
+          <EndDate>2026-12-31</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000061238</StopPointRef>
+      <CommonName>DFDS Ferry Terminal</CommonName>
+      <Location>
+        <Longitude>-1.452249</Longitude>
+        <Latitude>54.992770</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000010931</StopPointRef>
+      <CommonName>Royal Quays Wet 'n' Wild</CommonName>
+      <Location>
+        <Longitude>-1.461421</Longitude>
+        <Latitude>54.995336</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000010928</StopPointRef>
+      <CommonName>Royal Quays Wet 'n' Wild</CommonName>
+      <Location>
+        <Longitude>-1.461263</Longitude>
+        <Latitude>54.995470</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000009033</StopPointRef>
+      <CommonName>Cradlewell</CommonName>
+      <Location>
+        <Longitude>-1.594459</Longitude>
+        <Latitude>54.986938</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>410000009051</StopPointRef>
+      <CommonName>Cradlewell</CommonName>
+      <Location>
+        <Longitude>-1.594399</Longitude>
+        <Latitude>54.986677</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>41000008NC96</StopPointRef>
+      <CommonName>Newcastle Bewick Street 'Stop N'</CommonName>
+      <Location>
+        <Longitude>-1.618957</Longitude>
+        <Latitude>54.969359</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>410000061238</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>41000008NC96</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>41000008NC96</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>410000061238</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>410000061238</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>41000008NC96</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT25M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>41000008NC96</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>410000061238</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT25M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>GNEL</NationalOperatorCode>
+      <OperatorCode>GNE</OperatorCode>
+      <OperatorShortName>Go North East</OperatorShortName>
+      <LicenceNumber>PB0003954</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0003954:216</ServiceCode>
+      <Lines>
+        <Line id="GNEL:PB0003954:216:327">
+          <LineName>327</LineName>
+          <OutboundDescription>
+            <Description>DFDS Terminal to Newcastle</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Newcastle to DFDS Terminal</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-05-10</StartDate>
+        <EndDate>2026-07-18</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>DFDSSEA</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>DFDS Terminal</Origin>
+        <Destination>Newcastle</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Newcastle Bewick Street 'Stop N'</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>DFDS Ferry Terminal</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>10</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>8</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>12</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>PB0003954:216</ServiceRef>
+      <LineRef>GNEL:PB0003954:216:327</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

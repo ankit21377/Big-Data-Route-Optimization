@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20230512) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1' FileName="Howards Travel Group Ltd B52A 2023-10-18 13-51.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>069000022280</StopPointRef><CommonName>Bridgewater Avenue</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000012750</StopPointRef><CommonName>Whitley Avenue</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000012770</StopPointRef><CommonName>Cenotaph</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000012800</StopPointRef><CommonName>Victoria Park</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02858</StopPointRef><CommonName>Bus Interchange</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000010350</StopPointRef><CommonName>Ireland Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000010370</StopPointRef><CommonName>Winwick Road College</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000027070</StopPointRef><CommonName>Wright's Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02963</StopPointRef><CommonName>The Hut Group</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02962</StopPointRef><CommonName>Plastic Omnium</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02947</StopPointRef><CommonName>Amazon</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02948</StopPointRef><CommonName>HUT Group</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000080717</StopPointRef><CommonName>Wright's Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000020880</StopPointRef><CommonName>Sandy Lane West</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000020960</StopPointRef><CommonName>Ireland Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000022880</StopPointRef><CommonName>Park Avenue</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000012710</StopPointRef><CommonName>Bridgewater Avenue</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_6' CreationDateTime='2023-10-18T13:52:01' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_6_1'><From><StopPointRef>0690WNA02858</StopPointRef></From><To><StopPointRef>069000010350</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_6_2'><From><StopPointRef>069000010350</StopPointRef></From><To><StopPointRef>069000010370</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_6_3'><From><StopPointRef>069000010370</StopPointRef></From><To><StopPointRef>0690WNA02947</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_7' CreationDateTime='2023-10-18T13:52:01' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_7_1'><From><StopPointRef>0690WNA02947</StopPointRef></From><To><StopPointRef>069000020880</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_2'><From><StopPointRef>069000020880</StopPointRef></From><To><StopPointRef>069000020960</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_3'><From><StopPointRef>069000020960</StopPointRef></From><To><StopPointRef>0690WNA02858</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_5' CreationDateTime='2023-10-18T13:52:09' ModificationDateTime='2023-10-18T13:52:09' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_5_1'><From><StopPointRef>0690WNA02962</StopPointRef></From><To><StopPointRef>0690WNA02948</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_2'><From><StopPointRef>0690WNA02948</StopPointRef></From><To><StopPointRef>0690WNA02948</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_3'><From><StopPointRef>0690WNA02948</StopPointRef></From><To><StopPointRef>069000080717</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_4'><From><StopPointRef>069000080717</StopPointRef></From><To><StopPointRef>069000080717</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_5'><From><StopPointRef>069000080717</StopPointRef></From><To><StopPointRef>069000020880</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_6'><From><StopPointRef>069000020880</StopPointRef></From><To><StopPointRef>069000020960</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_7'><From><StopPointRef>069000020960</StopPointRef></From><To><StopPointRef>0690WNA02858</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_8'><From><StopPointRef>0690WNA02858</StopPointRef></From><To><StopPointRef>069000022880</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_9'><From><StopPointRef>069000022880</StopPointRef></From><To><StopPointRef>069000012770</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_10'><From><StopPointRef>069000012770</StopPointRef></From><To><StopPointRef>069000012750</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_11'><From><StopPointRef>069000012750</StopPointRef></From><To><StopPointRef>069000012710</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_8' CreationDateTime='2023-10-18T13:52:01' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_8_1'><From><StopPointRef>0690WNA02947</StopPointRef></From><To><StopPointRef>069000020880</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_2'><From><StopPointRef>069000020880</StopPointRef></From><To><StopPointRef>069000020960</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_3'><From><StopPointRef>069000020960</StopPointRef></From><To><StopPointRef>0690WNA02858</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_4'><From><StopPointRef>0690WNA02858</StopPointRef></From><To><StopPointRef>069000022880</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_5'><From><StopPointRef>069000022880</StopPointRef></From><To><StopPointRef>069000012770</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_6'><From><StopPointRef>069000012770</StopPointRef></From><To><StopPointRef>069000012750</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_8_7'><From><StopPointRef>069000012750</StopPointRef></From><To><StopPointRef>069000012710</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_6' CreationDateTime='2023-10-18T13:48:39' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'><Description>Bus Interchange - Amazon </Description><RouteSectionRef>routeSection_6</RouteSectionRef></Route>
+<Route id='route_7' CreationDateTime='2023-10-18T13:48:39' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'><Description>Amazon  - Bus Interchange</Description><RouteSectionRef>routeSection_7</RouteSectionRef></Route>
+<Route id='route_5' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:10' Modification='new' RevisionNumber='0'><Description>Plastic Omnium - Bridgewater Avenue</Description><RouteSectionRef>routeSection_5</RouteSectionRef></Route>
+<Route id='route_8' CreationDateTime='2023-10-18T13:48:39' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'><Description>Amazon  - Bridgewater Avenue</Description><RouteSectionRef>routeSection_8</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_6' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_6_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_6_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_6_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>0690WNA02947</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_3</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_7' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_7_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>0690WNA02947</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_3</RouteLinkRef><RunTime>PT720S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_8' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_8_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010350</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000010370</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>0690WNA02947</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_6_3</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_9' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_9_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>0690WNA02947</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_7_1</RouteLinkRef><RunTime>PT1200S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_7_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_7_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_10' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_10_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02962</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02948</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02948</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02948</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02948</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000080717</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000080717</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000080717</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_4</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000080717</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_5</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_7</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000022880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_8</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000022880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012770</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_9</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_10'>
+<From SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012770</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012750</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_10</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_10_11'>
+<From SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012750</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='12'><Activity>setDown</Activity><StopPointRef>069000012710</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_11</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_11' CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_11_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>0690WNA02947</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_1</RouteLinkRef><RunTime>PT1200S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020960</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02858</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000022880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000022880</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012770</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_5</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012770</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012750</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_6</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000012750</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>069000012710</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_8_7</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HOWT"><NationalOperatorCode>HOWT</NationalOperatorCode><OperatorCode>HOWT</OperatorCode><OperatorShortName>Howards Travel Group Ltd</OperatorShortName><LicenceNumber>PC2042940</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-10-18T13:52:10' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PC2042940:1</ServiceCode><Lines><Line id="HOWT:PC2042940:1:B52A"><LineName>B52A</LineName><OutboundDescription><Origin>Bus Interchange</Origin><Destination>Amazon </Destination><Description>Bus Interchange - Amazon </Description></OutboundDescription><InboundDescription><Origin>Amazon </Origin><Destination>Bridgewater Avenue</Destination><Description>Amazon  - Bridgewater Avenue</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-09-25</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HOWT</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>Amazon  - Bridgewater Avenue</Description>
+
+<StandardService>
+<Origin>Amazon </Origin>
+<Destination>Bridgewater Avenue</Destination>
+<JourneyPattern id='JP_6'><DestinationDisplay>198</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>outbound</Direction><RouteRef>route_6</RouteRef><JourneyPatternSectionRefs>JPS_6</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_7'><DestinationDisplay>198</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>outbound</Direction><RouteRef>route_6</RouteRef><JourneyPatternSectionRefs>JPS_7</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_8'><DestinationDisplay>198</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>outbound</Direction><RouteRef>route_6</RouteRef><JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_9'><DestinationDisplay>207</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>inbound</Direction><RouteRef>route_7</RouteRef><JourneyPatternSectionRefs>JPS_9</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_10'><DestinationDisplay>207</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>inbound</Direction><RouteRef>route_5</RouteRef><JourneyPatternSectionRefs>JPS_10</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_11'><DestinationDisplay>207</DestinationDisplay><OperatorRef>HOWT</OperatorRef><Direction>inbound</Direction><RouteRef>route_8</RouteRef><JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_6</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_6</JourneyPatternRef>
+<DepartureTime>06:45:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_7</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_6</JourneyPatternRef>
+<DepartureTime>07:25:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_8</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_7</JourneyPatternRef>
+<DepartureTime>17:42:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:12' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_9</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>18:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_10</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_9</JourneyPatternRef>
+<DepartureTime>05:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_11</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_10</JourneyPatternRef>
+<DepartureTime>14:17:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_12</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_9</JourneyPatternRef>
+<DepartureTime>18:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-18T13:49:53' ModificationDateTime='2023-10-18T13:52:19' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>HOWT</OperatorRef>
+<Operational><TicketMachine><JourneyCode>journeyCode</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-12-25</StartDate><EndDate>2023-12-25</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-21</StartDate><EndDate>2025-04-21</EndDate></DateRange><DateRange><StartDate>2025-05-05</StartDate><EndDate>2025-05-05</EndDate></DateRange><DateRange><StartDate>2025-05-26</StartDate><EndDate>2025-05-26</EndDate></DateRange><DateRange><StartDate>2025-08-25</StartDate><EndDate>2025-08-25</EndDate></DateRange><DateRange><StartDate>2023-12-26</StartDate><EndDate>2023-12-26</EndDate></DateRange><DateRange><StartDate>2025-12-25</StartDate><EndDate>2025-12-25</EndDate></DateRange><DateRange><StartDate>2026-01-01</StartDate><EndDate>2026-01-01</EndDate></DateRange><DateRange><StartDate>2025-04-18</StartDate><EndDate>2025-04-18</EndDate></DateRange><DateRange><StartDate>2025-12-26</StartDate><EndDate>2025-12-26</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_13</VehicleJourneyCode>
+<ServiceRef>PC2042940:1</ServiceRef><LineRef>HOWT:PC2042940:1:B52A</LineRef>
+<JourneyPatternRef>JP_11</JourneyPatternRef>
+<DepartureTime>18:45:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

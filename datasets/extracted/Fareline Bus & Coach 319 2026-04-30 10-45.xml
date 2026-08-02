@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1' FileName="Fareline Bus  Coach 319 2026-04-30 10-45.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>390040246</StopPointRef><CommonName>Weybread Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040244</StopPointRef><CommonName>Vicarage Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040223</StopPointRef><CommonName>Church</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040147</StopPointRef><CommonName>School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390041165</StopPointRef><CommonName>Church Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040153</StopPointRef><CommonName>Shingle Hill</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040143</StopPointRef><CommonName>Burnt House Farm</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040141</StopPointRef><CommonName>High School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040142</StopPointRef><CommonName>High School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040144</StopPointRef><CommonName>Burnt House Farm</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040154</StopPointRef><CommonName>Shingle Hill</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390041164</StopPointRef><CommonName>Church Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040148</StopPointRef><CommonName>School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040224</StopPointRef><CommonName>Church</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>390040243</StopPointRef><CommonName>Vicarage Road</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_144' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2026-01-26T11:56:59' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_144_1'><From><StopPointRef>390040246</StopPointRef></From><To><StopPointRef>390040244</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_2'><From><StopPointRef>390040244</StopPointRef></From><To><StopPointRef>390040223</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_3'><From><StopPointRef>390040223</StopPointRef></From><To><StopPointRef>390040147</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_4'><From><StopPointRef>390040147</StopPointRef></From><To><StopPointRef>390041165</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_5'><From><StopPointRef>390041165</StopPointRef></From><To><StopPointRef>390040153</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_6'><From><StopPointRef>390040153</StopPointRef></From><To><StopPointRef>390040143</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_144_7'><From><StopPointRef>390040143</StopPointRef></From><To><StopPointRef>390040141</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_145' CreationDateTime='2026-01-26T11:57:05' ModificationDateTime='2026-01-26T11:57:05' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_145_1'><From><StopPointRef>390040142</StopPointRef></From><To><StopPointRef>390040144</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_145_2'><From><StopPointRef>390040144</StopPointRef></From><To><StopPointRef>390040154</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_145_3'><From><StopPointRef>390040154</StopPointRef></From><To><StopPointRef>390041164</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_145_4'><From><StopPointRef>390041164</StopPointRef></From><To><StopPointRef>390040148</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_145_5'><From><StopPointRef>390040148</StopPointRef></From><To><StopPointRef>390040224</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_145_6'><From><StopPointRef>390040224</StopPointRef></From><To><StopPointRef>390040243</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_144' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2026-01-26T11:56:59' Modification='revise' RevisionNumber='1'><Description>Weybread Road - High School</Description><RouteSectionRef>routeSection_144</RouteSectionRef></Route>
+<Route id='route_145' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1'><Description>High School - Vicarage Road</Description><RouteSectionRef>routeSection_145</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_182' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_182_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040246</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040244</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_1</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040244</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040223</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_2</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040223</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040147</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_3</RouteLinkRef><RunTime>PT720S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040147</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>390041165</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_4</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>390041165</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040153</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_5</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040153</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040143</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_182_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040143</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040141</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_144_7</RouteLinkRef><RunTime>PT540S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_183' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_183_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040142</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040144</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_1</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_183_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040144</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040154</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_2</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_183_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040154</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>390041164</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_183_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>390041164</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>390040148</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_4</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_183_5'>
+<From SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>390040148</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040224</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_5</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_183_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040224</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>390040243</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_145_6</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="FABC"><NationalOperatorCode>FABC</NationalOperatorCode><OperatorCode>FABC</OperatorCode><OperatorShortName>Fareline Bus  Coach</OperatorShortName><LicenceNumber>PF0000069</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PF0000069:12</ServiceCode><Lines><Line id="FABC:PF0000069:12:319"><LineName>319</LineName><OutboundDescription><Origin>Weybread Road</Origin><Destination>High School</Destination><Description>Weybread Road - High School</Description></OutboundDescription><InboundDescription><Origin>High School</Origin><Destination>Vicarage Road</Destination><Description>High School - Vicarage Road</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2025-09-02</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>FABC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>High School - Vicarage Road</Description>
+
+<StandardService>
+<Origin>High School</Origin>
+<Destination>Vicarage Road</Destination>
+<JourneyPattern id='JP_182'><DestinationDisplay>202</DestinationDisplay><OperatorRef>FABC</OperatorRef><Direction>outbound</Direction><RouteRef>route_144</RouteRef><JourneyPatternSectionRefs>JPS_182</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_183'><DestinationDisplay>201</DestinationDisplay><OperatorRef>FABC</OperatorRef><Direction>inbound</Direction><RouteRef>route_145</RouteRef><JourneyPatternSectionRefs>JPS_183</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-01-26T11:56:59' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>FABC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_532</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2025-10-20</StartDate><EndDate>2025-10-20</EndDate></DateRange><DateRange><StartDate>2025-11-03</StartDate><EndDate>2025-11-03</EndDate></DateRange><DateRange><StartDate>2025-11-10</StartDate><EndDate>2025-11-10</EndDate></DateRange><DateRange><StartDate>2025-11-17</StartDate><EndDate>2025-11-17</EndDate></DateRange><DateRange><StartDate>2025-11-24</StartDate><EndDate>2025-11-24</EndDate></DateRange><DateRange><StartDate>2025-12-01</StartDate><EndDate>2025-12-01</EndDate></DateRange><DateRange><StartDate>2025-12-08</StartDate><EndDate>2025-12-08</EndDate></DateRange><DateRange><StartDate>2025-12-15</StartDate><EndDate>2025-12-15</EndDate></DateRange><DateRange><StartDate>2026-01-12</StartDate><EndDate>2026-01-12</EndDate></DateRange><DateRange><StartDate>2026-01-19</StartDate><EndDate>2026-01-19</EndDate></DateRange><DateRange><StartDate>2026-01-26</StartDate><EndDate>2026-01-26</EndDate></DateRange><DateRange><StartDate>2026-02-02</StartDate><EndDate>2026-02-02</EndDate></DateRange><DateRange><StartDate>2026-02-09</StartDate><EndDate>2026-02-09</EndDate></DateRange><DateRange><StartDate>2026-02-23</StartDate><EndDate>2026-02-23</EndDate></DateRange><DateRange><StartDate>2026-03-02</StartDate><EndDate>2026-03-02</EndDate></DateRange><DateRange><StartDate>2026-03-09</StartDate><EndDate>2026-03-09</EndDate></DateRange><DateRange><StartDate>2026-03-16</StartDate><EndDate>2026-03-16</EndDate></DateRange><DateRange><StartDate>2026-03-23</StartDate><EndDate>2026-03-23</EndDate></DateRange><DateRange><StartDate>2026-04-13</StartDate><EndDate>2026-04-13</EndDate></DateRange><DateRange><StartDate>2026-04-20</StartDate><EndDate>2026-04-20</EndDate></DateRange><DateRange><StartDate>2026-04-27</StartDate><EndDate>2026-04-27</EndDate></DateRange><DateRange><StartDate>2025-10-21</StartDate><EndDate>2025-10-21</EndDate></DateRange><DateRange><StartDate>2025-11-04</StartDate><EndDate>2025-11-04</EndDate></DateRange><DateRange><StartDate>2025-11-11</StartDate><EndDate>2025-11-11</EndDate></DateRange><DateRange><StartDate>2025-11-18</StartDate><EndDate>2025-11-18</EndDate></DateRange><DateRange><StartDate>2025-11-25</StartDate><EndDate>2025-11-25</EndDate></DateRange><DateRange><StartDate>2025-12-02</StartDate><EndDate>2025-12-02</EndDate></DateRange><DateRange><StartDate>2025-12-09</StartDate><EndDate>2025-12-09</EndDate></DateRange><DateRange><StartDate>2025-12-16</StartDate><EndDate>2025-12-16</EndDate></DateRange><DateRange><StartDate>2026-01-06</StartDate><EndDate>2026-01-06</EndDate></DateRange><DateRange><StartDate>2026-01-13</StartDate><EndDate>2026-01-13</EndDate></DateRange><DateRange><StartDate>2026-01-20</StartDate><EndDate>2026-01-20</EndDate></DateRange><DateRange><StartDate>2026-01-27</StartDate><EndDate>2026-01-27</EndDate></DateRange><DateRange><StartDate>2026-02-03</StartDate><EndDate>2026-02-03</EndDate></DateRange><DateRange><StartDate>2026-02-10</StartDate><EndDate>2026-02-10</EndDate></DateRange><DateRange><StartDate>2026-02-24</StartDate><EndDate>2026-02-24</EndDate></DateRange><DateRange><StartDate>2026-03-03</StartDate><EndDate>2026-03-03</EndDate></DateRange><DateRange><StartDate>2026-03-10</StartDate><EndDate>2026-03-10</EndDate></DateRange><DateRange><StartDate>2026-03-17</StartDate><EndDate>2026-03-17</EndDate></DateRange><DateRange><StartDate>2026-03-24</StartDate><EndDate>2026-03-24</EndDate></DateRange><DateRange><StartDate>2026-04-14</StartDate><EndDate>2026-04-14</EndDate></DateRange><DateRange><StartDate>2026-04-21</StartDate><EndDate>2026-04-21</EndDate></DateRange><DateRange><StartDate>2026-04-28</StartDate><EndDate>2026-04-28</EndDate></DateRange><DateRange><StartDate>2025-10-22</StartDate><EndDate>2025-10-22</EndDate></DateRange><DateRange><StartDate>2025-11-05</StartDate><EndDate>2025-11-05</EndDate></DateRange><DateRange><StartDate>2025-11-12</StartDate><EndDate>2025-11-12</EndDate></DateRange><DateRange><StartDate>2025-11-19</StartDate><EndDate>2025-11-19</EndDate></DateRange><DateRange><StartDate>2025-11-26</StartDate><EndDate>2025-11-26</EndDate></DateRange><DateRange><StartDate>2025-12-03</StartDate><EndDate>2025-12-03</EndDate></DateRange><DateRange><StartDate>2025-12-10</StartDate><EndDate>2025-12-10</EndDate></DateRange><DateRange><StartDate>2025-12-17</StartDate><EndDate>2025-12-17</EndDate></DateRange><DateRange><StartDate>2026-01-07</StartDate><EndDate>2026-01-07</EndDate></DateRange><DateRange><StartDate>2026-01-14</StartDate><EndDate>2026-01-14</EndDate></DateRange><DateRange><StartDate>2026-01-21</StartDate><EndDate>2026-01-21</EndDate></DateRange><DateRange><StartDate>2026-01-28</StartDate><EndDate>2026-01-28</EndDate></DateRange><DateRange><StartDate>2026-02-04</StartDate><EndDate>2026-02-04</EndDate></DateRange><DateRange><StartDate>2026-02-11</StartDate><EndDate>2026-02-11</EndDate></DateRange><DateRange><StartDate>2026-02-25</StartDate><EndDate>2026-02-25</EndDate></DateRange><DateRange><StartDate>2026-03-04</StartDate><EndDate>2026-03-04</EndDate></DateRange><DateRange><StartDate>2026-03-11</StartDate><EndDate>2026-03-11</EndDate></DateRange><DateRange><StartDate>2026-03-18</StartDate><EndDate>2026-03-18</EndDate></DateRange><DateRange><StartDate>2026-03-25</StartDate><EndDate>2026-03-25</EndDate></DateRange><DateRange><StartDate>2026-04-15</StartDate><EndDate>2026-04-15</EndDate></DateRange><DateRange><StartDate>2026-04-22</StartDate><EndDate>2026-04-22</EndDate></DateRange><DateRange><StartDate>2026-04-29</StartDate><EndDate>2026-04-29</EndDate></DateRange><DateRange><StartDate>2025-10-23</StartDate><EndDate>2025-10-23</EndDate></DateRange><DateRange><StartDate>2025-11-06</StartDate><EndDate>2025-11-06</EndDate></DateRange><DateRange><StartDate>2025-11-13</StartDate><EndDate>2025-11-13</EndDate></DateRange><DateRange><StartDate>2025-11-20</StartDate><EndDate>2025-11-20</EndDate></DateRange><DateRange><StartDate>2025-11-27</StartDate><EndDate>2025-11-27</EndDate></DateRange><DateRange><StartDate>2025-12-04</StartDate><EndDate>2025-12-04</EndDate></DateRange><DateRange><StartDate>2025-12-11</StartDate><EndDate>2025-12-11</EndDate></DateRange><DateRange><StartDate>2025-12-18</StartDate><EndDate>2025-12-18</EndDate></DateRange><DateRange><StartDate>2026-01-08</StartDate><EndDate>2026-01-08</EndDate></DateRange><DateRange><StartDate>2026-01-15</StartDate><EndDate>2026-01-15</EndDate></DateRange><DateRange><StartDate>2026-01-22</StartDate><EndDate>2026-01-22</EndDate></DateRange><DateRange><StartDate>2026-01-29</StartDate><EndDate>2026-01-29</EndDate></DateRange><DateRange><StartDate>2026-02-05</StartDate><EndDate>2026-02-05</EndDate></DateRange><DateRange><StartDate>2026-02-12</StartDate><EndDate>2026-02-12</EndDate></DateRange><DateRange><StartDate>2026-02-26</StartDate><EndDate>2026-02-26</EndDate></DateRange><DateRange><StartDate>2026-03-05</StartDate><EndDate>2026-03-05</EndDate></DateRange><DateRange><StartDate>2026-03-12</StartDate><EndDate>2026-03-12</EndDate></DateRange><DateRange><StartDate>2026-03-19</StartDate><EndDate>2026-03-19</EndDate></DateRange><DateRange><StartDate>2026-03-26</StartDate><EndDate>2026-03-26</EndDate></DateRange><DateRange><StartDate>2026-04-16</StartDate><EndDate>2026-04-16</EndDate></DateRange><DateRange><StartDate>2026-04-23</StartDate><EndDate>2026-04-23</EndDate></DateRange><DateRange><StartDate>2026-04-30</StartDate><EndDate>2026-04-30</EndDate></DateRange><DateRange><StartDate>2025-11-07</StartDate><EndDate>2025-11-07</EndDate></DateRange><DateRange><StartDate>2025-11-14</StartDate><EndDate>2025-11-14</EndDate></DateRange><DateRange><StartDate>2025-11-21</StartDate><EndDate>2025-11-21</EndDate></DateRange><DateRange><StartDate>2025-11-28</StartDate><EndDate>2025-11-28</EndDate></DateRange><DateRange><StartDate>2025-12-05</StartDate><EndDate>2025-12-05</EndDate></DateRange><DateRange><StartDate>2025-12-12</StartDate><EndDate>2025-12-12</EndDate></DateRange><DateRange><StartDate>2025-12-19</StartDate><EndDate>2025-12-19</EndDate></DateRange><DateRange><StartDate>2026-01-09</StartDate><EndDate>2026-01-09</EndDate></DateRange><DateRange><StartDate>2026-01-16</StartDate><EndDate>2026-01-16</EndDate></DateRange><DateRange><StartDate>2026-01-23</StartDate><EndDate>2026-01-23</EndDate></DateRange><DateRange><StartDate>2026-01-30</StartDate><EndDate>2026-01-30</EndDate></DateRange><DateRange><StartDate>2026-02-06</StartDate><EndDate>2026-02-06</EndDate></DateRange><DateRange><StartDate>2026-02-13</StartDate><EndDate>2026-02-13</EndDate></DateRange><DateRange><StartDate>2026-02-27</StartDate><EndDate>2026-02-27</EndDate></DateRange><DateRange><StartDate>2026-03-06</StartDate><EndDate>2026-03-06</EndDate></DateRange><DateRange><StartDate>2026-03-13</StartDate><EndDate>2026-03-13</EndDate></DateRange><DateRange><StartDate>2026-03-20</StartDate><EndDate>2026-03-20</EndDate></DateRange><DateRange><StartDate>2026-03-27</StartDate><EndDate>2026-03-27</EndDate></DateRange><DateRange><StartDate>2026-04-17</StartDate><EndDate>2026-04-17</EndDate></DateRange><DateRange><StartDate>2026-04-24</StartDate><EndDate>2026-04-24</EndDate></DateRange><DateRange><StartDate>2026-05-01</StartDate><EndDate>2026-05-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_532</VehicleJourneyCode>
+<ServiceRef>PF0000069:12</ServiceRef><LineRef>FABC:PF0000069:12:319</LineRef>
+<JourneyPatternRef>JP_182</JourneyPatternRef>
+<DepartureTime>08:03:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-01-26T11:57:05' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>FABC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_533</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2025-09-29</StartDate><EndDate>2025-09-29</EndDate></DateRange><DateRange><StartDate>2025-10-06</StartDate><EndDate>2025-10-06</EndDate></DateRange><DateRange><StartDate>2025-10-13</StartDate><EndDate>2025-10-13</EndDate></DateRange><DateRange><StartDate>2025-10-20</StartDate><EndDate>2025-10-20</EndDate></DateRange><DateRange><StartDate>2025-11-03</StartDate><EndDate>2025-11-03</EndDate></DateRange><DateRange><StartDate>2025-11-10</StartDate><EndDate>2025-11-10</EndDate></DateRange><DateRange><StartDate>2025-11-17</StartDate><EndDate>2025-11-17</EndDate></DateRange><DateRange><StartDate>2025-11-24</StartDate><EndDate>2025-11-24</EndDate></DateRange><DateRange><StartDate>2025-12-01</StartDate><EndDate>2025-12-01</EndDate></DateRange><DateRange><StartDate>2025-12-08</StartDate><EndDate>2025-12-08</EndDate></DateRange><DateRange><StartDate>2025-12-15</StartDate><EndDate>2025-12-15</EndDate></DateRange><DateRange><StartDate>2026-01-12</StartDate><EndDate>2026-01-12</EndDate></DateRange><DateRange><StartDate>2026-01-19</StartDate><EndDate>2026-01-19</EndDate></DateRange><DateRange><StartDate>2026-01-26</StartDate><EndDate>2026-01-26</EndDate></DateRange><DateRange><StartDate>2026-02-02</StartDate><EndDate>2026-02-02</EndDate></DateRange><DateRange><StartDate>2026-02-09</StartDate><EndDate>2026-02-09</EndDate></DateRange><DateRange><StartDate>2026-02-23</StartDate><EndDate>2026-02-23</EndDate></DateRange><DateRange><StartDate>2026-03-02</StartDate><EndDate>2026-03-02</EndDate></DateRange><DateRange><StartDate>2026-03-09</StartDate><EndDate>2026-03-09</EndDate></DateRange><DateRange><StartDate>2026-03-16</StartDate><EndDate>2026-03-16</EndDate></DateRange><DateRange><StartDate>2026-03-23</StartDate><EndDate>2026-03-23</EndDate></DateRange><DateRange><StartDate>2026-04-13</StartDate><EndDate>2026-04-13</EndDate></DateRange><DateRange><StartDate>2026-04-20</StartDate><EndDate>2026-04-20</EndDate></DateRange><DateRange><StartDate>2026-04-27</StartDate><EndDate>2026-04-27</EndDate></DateRange><DateRange><StartDate>2025-09-30</StartDate><EndDate>2025-09-30</EndDate></DateRange><DateRange><StartDate>2025-10-07</StartDate><EndDate>2025-10-07</EndDate></DateRange><DateRange><StartDate>2025-10-14</StartDate><EndDate>2025-10-14</EndDate></DateRange><DateRange><StartDate>2025-10-21</StartDate><EndDate>2025-10-21</EndDate></DateRange><DateRange><StartDate>2025-11-04</StartDate><EndDate>2025-11-04</EndDate></DateRange><DateRange><StartDate>2025-11-11</StartDate><EndDate>2025-11-11</EndDate></DateRange><DateRange><StartDate>2025-11-18</StartDate><EndDate>2025-11-18</EndDate></DateRange><DateRange><StartDate>2025-11-25</StartDate><EndDate>2025-11-25</EndDate></DateRange><DateRange><StartDate>2025-12-02</StartDate><EndDate>2025-12-02</EndDate></DateRange><DateRange><StartDate>2025-12-09</StartDate><EndDate>2025-12-09</EndDate></DateRange><DateRange><StartDate>2025-12-16</StartDate><EndDate>2025-12-16</EndDate></DateRange><DateRange><StartDate>2026-01-06</StartDate><EndDate>2026-01-06</EndDate></DateRange><DateRange><StartDate>2026-01-13</StartDate><EndDate>2026-01-13</EndDate></DateRange><DateRange><StartDate>2026-01-20</StartDate><EndDate>2026-01-20</EndDate></DateRange><DateRange><StartDate>2026-01-27</StartDate><EndDate>2026-01-27</EndDate></DateRange><DateRange><StartDate>2026-02-03</StartDate><EndDate>2026-02-03</EndDate></DateRange><DateRange><StartDate>2026-02-10</StartDate><EndDate>2026-02-10</EndDate></DateRange><DateRange><StartDate>2026-02-24</StartDate><EndDate>2026-02-24</EndDate></DateRange><DateRange><StartDate>2026-03-03</StartDate><EndDate>2026-03-03</EndDate></DateRange><DateRange><StartDate>2026-03-10</StartDate><EndDate>2026-03-10</EndDate></DateRange><DateRange><StartDate>2026-03-17</StartDate><EndDate>2026-03-17</EndDate></DateRange><DateRange><StartDate>2026-03-24</StartDate><EndDate>2026-03-24</EndDate></DateRange><DateRange><StartDate>2026-04-14</StartDate><EndDate>2026-04-14</EndDate></DateRange><DateRange><StartDate>2026-04-21</StartDate><EndDate>2026-04-21</EndDate></DateRange><DateRange><StartDate>2026-04-28</StartDate><EndDate>2026-04-28</EndDate></DateRange><DateRange><StartDate>2025-10-01</StartDate><EndDate>2025-10-01</EndDate></DateRange><DateRange><StartDate>2025-10-08</StartDate><EndDate>2025-10-08</EndDate></DateRange><DateRange><StartDate>2025-10-15</StartDate><EndDate>2025-10-15</EndDate></DateRange><DateRange><StartDate>2025-10-22</StartDate><EndDate>2025-10-22</EndDate></DateRange><DateRange><StartDate>2025-11-05</StartDate><EndDate>2025-11-05</EndDate></DateRange><DateRange><StartDate>2025-11-12</StartDate><EndDate>2025-11-12</EndDate></DateRange><DateRange><StartDate>2025-11-19</StartDate><EndDate>2025-11-19</EndDate></DateRange><DateRange><StartDate>2025-11-26</StartDate><EndDate>2025-11-26</EndDate></DateRange><DateRange><StartDate>2025-12-03</StartDate><EndDate>2025-12-03</EndDate></DateRange><DateRange><StartDate>2025-12-10</StartDate><EndDate>2025-12-10</EndDate></DateRange><DateRange><StartDate>2025-12-17</StartDate><EndDate>2025-12-17</EndDate></DateRange><DateRange><StartDate>2026-01-07</StartDate><EndDate>2026-01-07</EndDate></DateRange><DateRange><StartDate>2026-01-14</StartDate><EndDate>2026-01-14</EndDate></DateRange><DateRange><StartDate>2026-01-21</StartDate><EndDate>2026-01-21</EndDate></DateRange><DateRange><StartDate>2026-01-28</StartDate><EndDate>2026-01-28</EndDate></DateRange><DateRange><StartDate>2026-02-04</StartDate><EndDate>2026-02-04</EndDate></DateRange><DateRange><StartDate>2026-02-11</StartDate><EndDate>2026-02-11</EndDate></DateRange><DateRange><StartDate>2026-02-25</StartDate><EndDate>2026-02-25</EndDate></DateRange><DateRange><StartDate>2026-03-04</StartDate><EndDate>2026-03-04</EndDate></DateRange><DateRange><StartDate>2026-03-11</StartDate><EndDate>2026-03-11</EndDate></DateRange><DateRange><StartDate>2026-03-18</StartDate><EndDate>2026-03-18</EndDate></DateRange><DateRange><StartDate>2026-03-25</StartDate><EndDate>2026-03-25</EndDate></DateRange><DateRange><StartDate>2026-04-15</StartDate><EndDate>2026-04-15</EndDate></DateRange><DateRange><StartDate>2026-04-22</StartDate><EndDate>2026-04-22</EndDate></DateRange><DateRange><StartDate>2026-04-29</StartDate><EndDate>2026-04-29</EndDate></DateRange><DateRange><StartDate>2025-10-02</StartDate><EndDate>2025-10-02</EndDate></DateRange><DateRange><StartDate>2025-10-09</StartDate><EndDate>2025-10-09</EndDate></DateRange><DateRange><StartDate>2025-10-16</StartDate><EndDate>2025-10-16</EndDate></DateRange><DateRange><StartDate>2025-10-23</StartDate><EndDate>2025-10-23</EndDate></DateRange><DateRange><StartDate>2025-11-06</StartDate><EndDate>2025-11-06</EndDate></DateRange><DateRange><StartDate>2025-11-13</StartDate><EndDate>2025-11-13</EndDate></DateRange><DateRange><StartDate>2025-11-20</StartDate><EndDate>2025-11-20</EndDate></DateRange><DateRange><StartDate>2025-11-27</StartDate><EndDate>2025-11-27</EndDate></DateRange><DateRange><StartDate>2025-12-04</StartDate><EndDate>2025-12-04</EndDate></DateRange><DateRange><StartDate>2025-12-11</StartDate><EndDate>2025-12-11</EndDate></DateRange><DateRange><StartDate>2025-12-18</StartDate><EndDate>2025-12-18</EndDate></DateRange><DateRange><StartDate>2026-01-08</StartDate><EndDate>2026-01-08</EndDate></DateRange><DateRange><StartDate>2026-01-15</StartDate><EndDate>2026-01-15</EndDate></DateRange><DateRange><StartDate>2026-01-22</StartDate><EndDate>2026-01-22</EndDate></DateRange><DateRange><StartDate>2026-01-29</StartDate><EndDate>2026-01-29</EndDate></DateRange><DateRange><StartDate>2026-02-05</StartDate><EndDate>2026-02-05</EndDate></DateRange><DateRange><StartDate>2026-02-12</StartDate><EndDate>2026-02-12</EndDate></DateRange><DateRange><StartDate>2026-02-26</StartDate><EndDate>2026-02-26</EndDate></DateRange><DateRange><StartDate>2026-03-05</StartDate><EndDate>2026-03-05</EndDate></DateRange><DateRange><StartDate>2026-03-12</StartDate><EndDate>2026-03-12</EndDate></DateRange><DateRange><StartDate>2026-03-19</StartDate><EndDate>2026-03-19</EndDate></DateRange><DateRange><StartDate>2026-03-26</StartDate><EndDate>2026-03-26</EndDate></DateRange><DateRange><StartDate>2026-04-16</StartDate><EndDate>2026-04-16</EndDate></DateRange><DateRange><StartDate>2026-04-23</StartDate><EndDate>2026-04-23</EndDate></DateRange><DateRange><StartDate>2026-04-30</StartDate><EndDate>2026-04-30</EndDate></DateRange><DateRange><StartDate>2025-10-03</StartDate><EndDate>2025-10-03</EndDate></DateRange><DateRange><StartDate>2025-10-10</StartDate><EndDate>2025-10-10</EndDate></DateRange><DateRange><StartDate>2025-10-17</StartDate><EndDate>2025-10-17</EndDate></DateRange><DateRange><StartDate>2025-11-07</StartDate><EndDate>2025-11-07</EndDate></DateRange><DateRange><StartDate>2025-11-14</StartDate><EndDate>2025-11-14</EndDate></DateRange><DateRange><StartDate>2025-11-21</StartDate><EndDate>2025-11-21</EndDate></DateRange><DateRange><StartDate>2025-11-28</StartDate><EndDate>2025-11-28</EndDate></DateRange><DateRange><StartDate>2025-12-05</StartDate><EndDate>2025-12-05</EndDate></DateRange><DateRange><StartDate>2025-12-12</StartDate><EndDate>2025-12-12</EndDate></DateRange><DateRange><StartDate>2025-12-19</StartDate><EndDate>2025-12-19</EndDate></DateRange><DateRange><StartDate>2026-01-09</StartDate><EndDate>2026-01-09</EndDate></DateRange><DateRange><StartDate>2026-01-16</StartDate><EndDate>2026-01-16</EndDate></DateRange><DateRange><StartDate>2026-01-23</StartDate><EndDate>2026-01-23</EndDate></DateRange><DateRange><StartDate>2026-01-30</StartDate><EndDate>2026-01-30</EndDate></DateRange><DateRange><StartDate>2026-02-06</StartDate><EndDate>2026-02-06</EndDate></DateRange><DateRange><StartDate>2026-02-13</StartDate><EndDate>2026-02-13</EndDate></DateRange><DateRange><StartDate>2026-02-27</StartDate><EndDate>2026-02-27</EndDate></DateRange><DateRange><StartDate>2026-03-06</StartDate><EndDate>2026-03-06</EndDate></DateRange><DateRange><StartDate>2026-03-13</StartDate><EndDate>2026-03-13</EndDate></DateRange><DateRange><StartDate>2026-03-20</StartDate><EndDate>2026-03-20</EndDate></DateRange><DateRange><StartDate>2026-03-27</StartDate><EndDate>2026-03-27</EndDate></DateRange><DateRange><StartDate>2026-04-17</StartDate><EndDate>2026-04-17</EndDate></DateRange><DateRange><StartDate>2026-04-24</StartDate><EndDate>2026-04-24</EndDate></DateRange><DateRange><StartDate>2026-05-01</StartDate><EndDate>2026-05-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_533</VehicleJourneyCode>
+<ServiceRef>PF0000069:12</ServiceRef><LineRef>FABC:PF0000069:12:319</LineRef>
+<JourneyPatternRef>JP_183</JourneyPatternRef>
+<DepartureTime>15:50:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

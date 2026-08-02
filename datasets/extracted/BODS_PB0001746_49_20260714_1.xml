@@ -1,0 +1,4508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Omnibus TransXChange Exporter (1.0.233.25933)-->
+<!--Export Profile:BODS 1.1-->
+<TransXChange CreationDateTime="2024-07-08T10:02:15" ModificationDateTime="2026-06-22T13:56:51" Modification="revise" RevisionNumber="1" FileName="BODS_PB0001746_49_20260714_1.xml" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" SchemaVersion="2.4" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YND13110</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Harrogate</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA05004</StopPointRef>
+      <CommonName>Hgte Bus Stn Stand 13</CommonName>
+      <Indicator>13</Indicator>
+      <LocalityName>Harrogate</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA97200</StopPointRef>
+      <CommonName>Yorkshire Show Grounds</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Harrogate</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL1" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA05004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97200</StopPointRef>
+        </To>
+        <Distance>3380</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL2" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA97200</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YND13110</StopPointRef>
+        </To>
+        <Distance>3650</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <Description>Hgte Bus Stn Stand 13 - Bus Station</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA05004</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2">
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="19">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YND13110</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS3">
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA05004</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS4">
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="19">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YND13110</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS5">
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA05004</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS6">
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97200</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="19">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YND13110</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HRGT" CreationDateTime="2026-06-22T13:56:51" Modification="new" RevisionNumber="0">
+      <NationalOperatorCode>HRGT</NationalOperatorCode>
+      <OperatorCode>HRGT</OperatorCode>
+      <OperatorShortName>The Harrogate Bus Company</OperatorShortName>
+      <OperatorNameOnLicence>Harrogate &amp; District Travel Ltd</OperatorNameOnLicence>
+      <TradingName>The Harrogate Bus Company</TradingName>
+      <LicenceNumber>PB0001746</LicenceNumber>
+      <Garages>
+        <Garage CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+          <GarageCode>HDT</GarageCode>
+          <GarageName>The Harrogate Bus Company</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service RevisionNumber="1">
+      <ServiceCode>PB0001746:49</ServiceCode>
+      <PrivateCode>HDAHGY0</PrivateCode>
+      <Lines>
+        <Line id="HRGT:PB0001746:49:GYS">
+          <LineName>GYS</LineName>
+          <OutboundDescription>
+            <Description>Harrogate Bus Station - Showground</Description>
+          </OutboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-07-14</StartDate>
+        <EndDate>2026-07-17</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HRGT</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Harrogate Bus Station</Origin>
+        <Destination>Showground</Destination>
+        <JourneyPattern id="JP1" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Harrogate Bus Stn</DestinationDisplay>
+          <OperatorRef>HRGT</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Hgte Bus Stn Stand 13 - Bus Station</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Harrogate Bus Stn</DestinationDisplay>
+          <OperatorRef>HRGT</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Hgte Bus Stn Stand 13 - Bus Station</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP3" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Harrogate Bus Stn</DestinationDisplay>
+          <OperatorRef>HRGT</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Hgte Bus Stn Stand 13 - Bus Station</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:1</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8001</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>07:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:2</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8011</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>07:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:3</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8021</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>07:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:4</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8031</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>07:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:5</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8041</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:6</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8051</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="7" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:7</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8061</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:8</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8071</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="9" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:9</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8081</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="10" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:10</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8091</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>08:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="11" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:11</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8101</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="12" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:12</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8111</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL24">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="13" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:13</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8121</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL25">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL26">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="14" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:14</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8131</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL27">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL28">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="15" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:15</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8141</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL29">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL30">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="16" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:16</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8151</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>09:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL31">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL32">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="17" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:17</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8161</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL33">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL34">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="18" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:18</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8171</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL35">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL36">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="19" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:19</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8181</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL37">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL38">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="20" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:20</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8191</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL39">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL40">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="21" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:21</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8201</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL41">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL42">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="22" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:22</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8211</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ22</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>10:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL43">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL44">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="23" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:23</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8221</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ23</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL45">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL46">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="24" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:24</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8231</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ24</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL47">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL48">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="25" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:25</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8241</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ25</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL49">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL50">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="26" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:26</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8251</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ26</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL51">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL52">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="27" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:27</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8261</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ27</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL53">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL54">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="28" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:28</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8271</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ28</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>11:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL55">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL56">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="29" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:29</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8281</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ29</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL57">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL58">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="30" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:30</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8291</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ30</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL59">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL60">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="31" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:31</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8301</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ31</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL61">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL62">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="32" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:32</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8311</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ32</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL63">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL64">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="33" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:33</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8321</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ33</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL65">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL66">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="34" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:34</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8331</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ34</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>12:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL67">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL68">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="35" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:35</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8341</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ35</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL69">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL70">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="36" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:36</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8351</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ36</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL71">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL72">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="37" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:37</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8361</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ37</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL73">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL74">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="38" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:38</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8371</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ38</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL75">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL76">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="39" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:39</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8381</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ39</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL77">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL78">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="40" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:40</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8391</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ40</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>13:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL79">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL80">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="41" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:41</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8401</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ41</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL81">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL82">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="42" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:42</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8411</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ42</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL83">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL84">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="43" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:43</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8421</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ43</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL85">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL86">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="44" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:44</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8431</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ44</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL87">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL88">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="45" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:45</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8441</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ45</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL89">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL90">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="46" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:46</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8451</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ46</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>14:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL91">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL92">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="47" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:47</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8461</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ47</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL93">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL94">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="48" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:48</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8471</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ48</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL95">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL96">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="49" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:49</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8481</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ49</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL97">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL98">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="50" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:50</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8491</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ50</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL99">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL100">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="51" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:51</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2916</Description>
+          <BlockNumber>2916</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8501</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ51</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL101">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL102">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="52" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:52</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8511</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ52</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>15:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL103">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL104">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="53" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:53</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8521</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ53</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL105">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL106">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="54" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:54</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8531</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ54</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL107">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL108">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="55" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:55</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8541</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ55</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL109">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL110">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="56" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:56</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8551</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ56</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL111">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL112">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="57" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:57</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8561</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ57</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL113">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL114">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="58" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:58</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8571</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ58</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>16:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL115">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL116">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="59" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:59</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8581</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ59</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL117">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL118">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="60" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:60</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8591</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ60</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL119">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL120">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="61" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:61</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8601</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ61</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL121">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL122">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="62" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:62</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8611</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ62</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL123">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL124">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="63" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:63</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8615</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ63</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL125">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL126">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="64" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:64</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2911</Description>
+          <BlockNumber>2911</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8619</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ64</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>17:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL127">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL128">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="65" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:65</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2912</Description>
+          <BlockNumber>2912</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8623</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ65</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>18:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL129">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL130">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT18M</RunTime>
+        <From>
+          <WaitTime>PT5M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="66" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:66</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2913</Description>
+          <BlockNumber>2913</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8627</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ68</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>18:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL131">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL132">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT13M</RunTime>
+        <From>
+          <WaitTime>PT10M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="67" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:67</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2914</Description>
+          <BlockNumber>2914</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8631</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ66</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>18:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL133">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL134">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+        <From>
+          <WaitTime>PT13M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="68" CreationDateTime="2026-06-22T13:56:52" Modification="new" RevisionNumber="0">
+      <PrivateCode>GYSTF2026:O:68</PrivateCode>
+      <OperatorRef>HRGT</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>2915</Description>
+          <BlockNumber>2915</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>8635</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>HDT</GarageRef>
+      <VehicleJourneyCode>VJ67</VehicleJourneyCode>
+      <ServiceRef>PB0001746:49</ServiceRef>
+      <LineRef>HRGT:PB0001746:49:GYS</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <Note>
+        <NoteCode>GY</NoteCode>
+        <NoteText>Operates Great Yorkshire Agricultural Show days ONLY</NoteText>
+      </Note>
+      <DepartureTime>18:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL135">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT17M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL136">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+        <From>
+          <WaitTime>PT13M</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

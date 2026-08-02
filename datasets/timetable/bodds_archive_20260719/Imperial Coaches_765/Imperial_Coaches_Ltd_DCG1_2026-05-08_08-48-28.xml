@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921' FileName="Imperial Coaches Ltd DCG1 2026-05-08 08-48-28.xml" SchemaVersion="2.4">
+
+<StopPoints><AnnotatedStopPointRef><StopPointRef>040000001306</StopPointRef><CommonName>Denham A40 opposite Chaepside Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001313</StopPointRef><CommonName>Denham Station Parade</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001332</StopPointRef><CommonName>Gerrards Cross French Horn PH</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001438</StopPointRef><CommonName>Gerrards Cross Packhorse PH</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001444</StopPointRef><CommonName>Gerrards Cross St Mary’s School</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002462</StopPointRef><CommonName>Chalfont St Peter Copthall Lane/ Ninnings Road</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002466</StopPointRef><CommonName>Chalfont St Peter Rickmansworth Lane/ Denham Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002468</StopPointRef><CommonName>Chalfont St Peter Rickmansworth Lane/ Monument Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000002470</StopPointRef><CommonName>Chalfont St Peter Rickmansworth Lane/ Copthall Lane</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>04000SCH452</StopPointRef><CommonName>Dr Challoners Grammar School</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001443</StopPointRef><CommonName>Gerrards Cross St Mary’s School</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001437</StopPointRef><CommonName>Gerrards Cross Packhorse PH</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001333</StopPointRef><CommonName>Gerrards Cross French Horn PH</CommonName></AnnotatedStopPointRef><AnnotatedStopPointRef><StopPointRef>040000001305</StopPointRef><CommonName>Denham A40 opposite Chaepside Lane</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+  
+  <RouteSection id='routeSection_DCG1_AM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <RouteLink id='routeSection_DCG1_AM_1'><From><StopPointRef>040000001306</StopPointRef></From><To><StopPointRef>040000001313</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_2'><From><StopPointRef>040000001313</StopPointRef></From><To><StopPointRef>040000001332</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_3'><From><StopPointRef>040000001332</StopPointRef></From><To><StopPointRef>040000001438</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_4'><From><StopPointRef>040000001438</StopPointRef></From><To><StopPointRef>040000001444</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_5'><From><StopPointRef>040000001444</StopPointRef></From><To><StopPointRef>040000002462</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_6'><From><StopPointRef>040000002462</StopPointRef></From><To><StopPointRef>040000002466</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_7'><From><StopPointRef>040000002466</StopPointRef></From><To><StopPointRef>040000002468</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_8'><From><StopPointRef>040000002468</StopPointRef></From><To><StopPointRef>040000002470</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_AM_9'><From><StopPointRef>040000002470</StopPointRef></From><To><StopPointRef>04000SCH452</StopPointRef></To></RouteLink>
+  </RouteSection>
+  <RouteSection id='routeSection_DCG1_PM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <RouteLink id='routeSection_DCG1_PM_1'><From><StopPointRef>04000SCH452</StopPointRef></From><To><StopPointRef>040000002470</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_2'><From><StopPointRef>040000002470</StopPointRef></From><To><StopPointRef>040000002468</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_3'><From><StopPointRef>040000002468</StopPointRef></From><To><StopPointRef>040000002466</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_4'><From><StopPointRef>040000002466</StopPointRef></From><To><StopPointRef>040000002462</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_5'><From><StopPointRef>040000002462</StopPointRef></From><To><StopPointRef>040000001443</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_6'><From><StopPointRef>040000001443</StopPointRef></From><To><StopPointRef>040000001437</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_7'><From><StopPointRef>040000001437</StopPointRef></From><To><StopPointRef>040000001333</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_8'><From><StopPointRef>040000001333</StopPointRef></From><To><StopPointRef>040000001313</StopPointRef></To></RouteLink><RouteLink id='routeSection_DCG1_PM_9'><From><StopPointRef>040000001313</StopPointRef></From><To><StopPointRef>040000001305</StopPointRef></To></RouteLink>
+  </RouteSection>
+</RouteSections>
+
+<Routes>
+  
+  <Route id='route_DCG1_AM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <Description>Denham A40 opposite Chaepside Lane - Dr Challoners Grammar School</Description>
+    <RouteSectionRef>routeSection_DCG1_AM</RouteSectionRef>
+  </Route>
+  <Route id='route_DCG1_PM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <Description>Dr Challoners Grammar School - Denham A40 opposite Chaepside Lane</Description>
+    <RouteSectionRef>routeSection_DCG1_PM</RouteSectionRef>
+  </Route>
+</Routes>
+
+<JourneyPatternSections>
+  
+<JourneyPatternSection id='JPS_DCG1_AM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+
+<JourneyPatternTimingLink id='JPS_DCG1_AM_1'>
+  <From SequenceNumber='1'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001306</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='2'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001313</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_1</RouteLinkRef>
+  <RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_2'>
+  <From SequenceNumber='2'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001313</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='3'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001332</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_2</RouteLinkRef>
+  <RunTime>PT840S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_3'>
+  <From SequenceNumber='3'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001332</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='4'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001438</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_3</RouteLinkRef>
+  <RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_4'>
+  <From SequenceNumber='4'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001438</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='5'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001444</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_4</RouteLinkRef>
+  <RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_5'>
+  <From SequenceNumber='5'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000001444</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='6'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002462</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_5</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_6'>
+  <From SequenceNumber='6'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002462</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='7'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002466</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_6</RouteLinkRef>
+  <RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_7'>
+  <From SequenceNumber='7'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002466</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='8'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_7</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_8'>
+  <From SequenceNumber='8'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='9'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002470</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_8</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_AM_9'>
+  <From SequenceNumber='9'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>040000002470</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='10'>
+    <Activity>setDown</Activity>
+    <StopPointRef>04000SCH452</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_AM_9</RouteLinkRef>
+  <RunTime>PT1020S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+<JourneyPatternSection id='JPS_DCG1_PM' CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+
+<JourneyPatternTimingLink id='JPS_DCG1_PM_1'>
+  <From SequenceNumber='1'>
+    <Activity>pickUp</Activity>
+    <StopPointRef>04000SCH452</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='2'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002470</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_1</RouteLinkRef>
+  <RunTime>PT1320S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_2'>
+  <From SequenceNumber='2'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002470</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='3'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_2</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_3'>
+  <From SequenceNumber='3'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002468</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='4'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002466</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_3</RouteLinkRef>
+  <RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_4'>
+  <From SequenceNumber='4'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002466</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='5'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002462</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_4</RouteLinkRef>
+  <RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_5'>
+  <From SequenceNumber='5'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000002462</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='6'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001443</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_5</RouteLinkRef>
+  <RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_6'>
+  <From SequenceNumber='6'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001443</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='7'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001437</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_6</RouteLinkRef>
+  <RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_7'>
+  <From SequenceNumber='7'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001437</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='8'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001333</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_7</RouteLinkRef>
+  <RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_8'>
+  <From SequenceNumber='8'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001333</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='9'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001313</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_8</RouteLinkRef>
+  <RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_DCG1_PM_9'>
+  <From SequenceNumber='9'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001313</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </From>
+  <To SequenceNumber='10'>
+    <Activity>setDown</Activity>
+    <StopPointRef>040000001305</StopPointRef>
+    <TimingStatus>principalTimingPoint</TimingStatus>
+  </To>
+  <RouteLinkRef>routeSection_DCG1_PM_9</RouteLinkRef>
+  <RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators>
+  <Operator id="IPCO">
+    <NationalOperatorCode>IPCO</NationalOperatorCode>
+    <OperatorCode>IPCO</OperatorCode>
+    <OperatorShortName>Imperial Coaches Ltd</OperatorShortName>
+    <LicenceNumber>PH1117946</LicenceNumber>
+  </Operator>
+</Operators>
+
+<Services>
+  <Service CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <ServiceCode>PH1117946:2</ServiceCode>
+    <Lines>
+      <Line id="IPCO:PH1117946:2:DCG1">
+        <LineName>DCG1</LineName>
+        <OutboundDescription>
+          <Origin>Denham A40 opposite Chaepside Lane</Origin>
+          <Destination>Dr Challoners Grammar School</Destination>
+          <Description>Denham A40 opposite Chaepside Lane - Dr Challoners Grammar School</Description>
+        </OutboundDescription>
+        <InboundDescription>
+          <Origin>Dr Challoners Grammar School</Origin>
+          <Destination>Denham A40 opposite Chaepside Lane</Destination>
+          <Description>Dr Challoners Grammar School - Denham A40 opposite Chaepside Lane</Description>
+        </InboundDescription>
+      </Line>
+    </Lines>
+    <OperatingPeriod>
+      <StartDate>2026-03-23</StartDate>
+      <EndDate>2027-07-16</EndDate>
+    </OperatingPeriod>
+
+    <RegisteredOperatorRef>IPCO</RegisteredOperatorRef>
+
+    <StopRequirements>
+      <NoNewStopsRequired/>
+    </StopRequirements>
+
+    <Mode>bus</Mode>
+    <PublicUse>false</PublicUse>
+    <Description>Denham A40 opposite Chaepside Lane - Dr Challoners Grammar School</Description>
+
+    <StandardService>
+      <Origin>Denham A40 opposite Chaepside Lane</Origin>
+      <Destination>Dr Challoners Grammar School</Destination>
+      
+<JourneyPattern id='JP_DCG1_AM'>
+  <DestinationDisplay>Dr Challoners Grammar School</DestinationDisplay>
+  <OperatorRef>IPCO</OperatorRef>
+  <Direction>inbound</Direction>
+  <RouteRef>route_DCG1_AM</RouteRef>
+  <JourneyPatternSectionRefs>JPS_DCG1_AM</JourneyPatternSectionRefs>
+</JourneyPattern>
+<JourneyPattern id='JP_DCG1_PM'>
+  <DestinationDisplay>Denham A40 opposite Chaepside Lane</DestinationDisplay>
+  <OperatorRef>IPCO</OperatorRef>
+  <Direction>outbound</Direction>
+  <RouteRef>route_DCG1_PM</RouteRef>
+  <JourneyPatternSectionRefs>JPS_DCG1_PM</JourneyPatternSectionRefs>
+</JourneyPattern>
+    </StandardService>
+  </Service>
+</Services>
+
+<VehicleJourneys>
+  
+  <VehicleJourney CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <OperatorRef>IPCO</OperatorRef>
+    <Operational>
+      <TicketMachine>
+        <JourneyCode>VJ_479</JourneyCode>
+      </TicketMachine>
+    </Operational>
+    <OperatingProfile>
+      <RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+      <SpecialDaysOperation>
+        
+        <DaysOfNonOperation><DateRange><StartDate>2026-03-30</StartDate><EndDate>2026-04-03</EndDate></DateRange><DateRange><StartDate>2026-04-06</StartDate><EndDate>2026-04-10</EndDate></DateRange><DateRange><StartDate>2026-05-01</StartDate><EndDate>2026-05-01</EndDate></DateRange><DateRange><StartDate>2026-05-04</StartDate><EndDate>2026-05-04</EndDate></DateRange><DateRange><StartDate>2026-05-25</StartDate><EndDate>2026-05-29</EndDate></DateRange><DateRange><StartDate>2026-07-20</StartDate><EndDate>2026-07-24</EndDate></DateRange><DateRange><StartDate>2026-07-27</StartDate><EndDate>2026-07-31</EndDate></DateRange><DateRange><StartDate>2026-08-03</StartDate><EndDate>2026-08-07</EndDate></DateRange><DateRange><StartDate>2026-08-10</StartDate><EndDate>2026-08-14</EndDate></DateRange><DateRange><StartDate>2026-08-17</StartDate><EndDate>2026-08-21</EndDate></DateRange><DateRange><StartDate>2026-08-24</StartDate><EndDate>2026-08-28</EndDate></DateRange><DateRange><StartDate>2026-08-31</StartDate><EndDate>2026-09-02</EndDate></DateRange><DateRange><StartDate>2026-10-19</StartDate><EndDate>2026-10-23</EndDate></DateRange><DateRange><StartDate>2026-10-26</StartDate><EndDate>2026-10-30</EndDate></DateRange><DateRange><StartDate>2026-12-21</StartDate><EndDate>2026-12-25</EndDate></DateRange><DateRange><StartDate>2026-12-28</StartDate><EndDate>2027-01-01</EndDate></DateRange><DateRange><StartDate>2027-01-04</StartDate><EndDate>2027-01-04</EndDate></DateRange><DateRange><StartDate>2027-02-15</StartDate><EndDate>2027-02-19</EndDate></DateRange><DateRange><StartDate>2027-03-26</StartDate><EndDate>2027-03-26</EndDate></DateRange><DateRange><StartDate>2027-03-29</StartDate><EndDate>2027-04-02</EndDate></DateRange><DateRange><StartDate>2027-04-05</StartDate><EndDate>2027-04-09</EndDate></DateRange><DateRange><StartDate>2027-04-12</StartDate><EndDate>2027-04-12</EndDate></DateRange><DateRange><StartDate>2027-05-03</StartDate><EndDate>2027-05-03</EndDate></DateRange><DateRange><StartDate>2027-05-31</StartDate><EndDate>2027-06-04</EndDate></DateRange></DaysOfNonOperation>
+      </SpecialDaysOperation>
+      <BankHolidayOperation>
+        <DaysOfNonOperation>
+          <ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/>
+        </DaysOfNonOperation>
+      </BankHolidayOperation>
+    </OperatingProfile>
+    <VehicleJourneyCode>VJ_479</VehicleJourneyCode>
+    <ServiceRef>PH1117946:2</ServiceRef>
+    <LineRef>IPCO:PH1117946:2:DCG1</LineRef>
+    <JourneyPatternRef>JP_DCG1_AM</JourneyPatternRef>
+    <DepartureTime>07:37:00</DepartureTime>
+  </VehicleJourney>
+  <VehicleJourney CreationDateTime='2026-05-08T08:48:28' ModificationDateTime='2026-05-08T08:49:28' Modification='revise' RevisionNumber='1774273921'>
+    <OperatorRef>IPCO</OperatorRef>
+    <Operational>
+      <TicketMachine>
+        <JourneyCode>VJ_478</JourneyCode>
+      </TicketMachine>
+    </Operational>
+    <OperatingProfile>
+      <RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+      <SpecialDaysOperation>
+        
+        <DaysOfNonOperation><DateRange><StartDate>2026-03-30</StartDate><EndDate>2026-04-03</EndDate></DateRange><DateRange><StartDate>2026-04-06</StartDate><EndDate>2026-04-10</EndDate></DateRange><DateRange><StartDate>2026-05-01</StartDate><EndDate>2026-05-01</EndDate></DateRange><DateRange><StartDate>2026-05-04</StartDate><EndDate>2026-05-04</EndDate></DateRange><DateRange><StartDate>2026-05-25</StartDate><EndDate>2026-05-29</EndDate></DateRange><DateRange><StartDate>2026-07-20</StartDate><EndDate>2026-07-24</EndDate></DateRange><DateRange><StartDate>2026-07-27</StartDate><EndDate>2026-07-31</EndDate></DateRange><DateRange><StartDate>2026-08-03</StartDate><EndDate>2026-08-07</EndDate></DateRange><DateRange><StartDate>2026-08-10</StartDate><EndDate>2026-08-14</EndDate></DateRange><DateRange><StartDate>2026-08-17</StartDate><EndDate>2026-08-21</EndDate></DateRange><DateRange><StartDate>2026-08-24</StartDate><EndDate>2026-08-28</EndDate></DateRange><DateRange><StartDate>2026-08-31</StartDate><EndDate>2026-09-02</EndDate></DateRange><DateRange><StartDate>2026-10-19</StartDate><EndDate>2026-10-23</EndDate></DateRange><DateRange><StartDate>2026-10-26</StartDate><EndDate>2026-10-30</EndDate></DateRange><DateRange><StartDate>2026-12-21</StartDate><EndDate>2026-12-25</EndDate></DateRange><DateRange><StartDate>2026-12-28</StartDate><EndDate>2027-01-01</EndDate></DateRange><DateRange><StartDate>2027-01-04</StartDate><EndDate>2027-01-04</EndDate></DateRange><DateRange><StartDate>2027-02-15</StartDate><EndDate>2027-02-19</EndDate></DateRange><DateRange><StartDate>2027-03-26</StartDate><EndDate>2027-03-26</EndDate></DateRange><DateRange><StartDate>2027-03-29</StartDate><EndDate>2027-04-02</EndDate></DateRange><DateRange><StartDate>2027-04-05</StartDate><EndDate>2027-04-09</EndDate></DateRange><DateRange><StartDate>2027-04-12</StartDate><EndDate>2027-04-12</EndDate></DateRange><DateRange><StartDate>2027-05-03</StartDate><EndDate>2027-05-03</EndDate></DateRange><DateRange><StartDate>2027-05-31</StartDate><EndDate>2027-06-04</EndDate></DateRange></DaysOfNonOperation>
+      </SpecialDaysOperation>
+      <BankHolidayOperation>
+        <DaysOfNonOperation>
+          <ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/>
+        </DaysOfNonOperation>
+      </BankHolidayOperation>
+    </OperatingProfile>
+    <VehicleJourneyCode>VJ_478</VehicleJourneyCode>
+    <ServiceRef>PH1117946:2</ServiceRef>
+    <LineRef>IPCO:PH1117946:2:DCG1</LineRef>
+    <JourneyPatternRef>JP_DCG1_PM</JourneyPatternRef>
+    <DepartureTime>15:55:00</DepartureTime>
+  </VehicleJourney>
+</VehicleJourneys>
+
+</TransXChange>

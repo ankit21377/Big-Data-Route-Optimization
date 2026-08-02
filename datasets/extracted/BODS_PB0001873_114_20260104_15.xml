@@ -1,0 +1,4600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Omnibus TransXChange Exporter (1.0.233.25933)-->
+<!--Export Profile:BODS 1.1-->
+<TransXChange CreationDateTime="2025-01-29T17:05:33" ModificationDateTime="2025-12-30T13:32:42" Modification="revise" RevisionNumber="15" FileName="BODS_PB0001873_114_20260104_15.xml" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" SchemaVersion="2.4" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA97119</StopPointRef>
+      <CommonName>Aldi</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA97110</StopPointRef>
+      <CommonName>Crown &amp; Anchor Car Park</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNB01045</StopPointRef>
+      <CommonName>Gravel Hole Lane</CommonName>
+      <Indicator>W-bound</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA90988</StopPointRef>
+      <CommonName>Green Lane West</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA97240</StopPointRef>
+      <CommonName>Magnolia Way</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA97222</StopPointRef>
+      <CommonName>Maple Gardens</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA90983</StopPointRef>
+      <CommonName>St Oswalds Church</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA90984</StopPointRef>
+      <CommonName>Thirsk Secondary School</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Sowerby</LocalityName>
+      <LocalityQualifier>Thirsk</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA90161</StopPointRef>
+      <CommonName>Market Place</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Thirsk</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <StopPointRef>3200YNA90987</StopPointRef>
+      <CommonName>The Maltings</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Thirsk</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA90161</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90983</StopPointRef>
+        </To>
+        <Distance>970</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L1">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442932</Easting>
+                <Northing>482085</Northing>
+                <Longitude>-1.342879037</Longitude>
+                <Latitude>54.232683233</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L2">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442934</Easting>
+                <Northing>482087</Northing>
+                <Longitude>-1.342838586</Longitude>
+                <Latitude>54.232697698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L3">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442944</Easting>
+                <Northing>482087</Northing>
+                <Longitude>-1.342696386</Longitude>
+                <Latitude>54.232703198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L4">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442951</Easting>
+                <Northing>482083</Northing>
+                <Longitude>-1.342585086</Longitude>
+                <Latitude>54.232667998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L5">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442954</Easting>
+                <Northing>482076</Northing>
+                <Longitude>-1.342531386</Longitude>
+                <Latitude>54.232600898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L6">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442935</Easting>
+                <Northing>482064</Northing>
+                <Longitude>-1.342834586</Longitude>
+                <Latitude>54.232495498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L7">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442909</Easting>
+                <Northing>482044</Northing>
+                <Longitude>-1.343236786</Longitude>
+                <Latitude>54.232315498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L8">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442906</Easting>
+                <Northing>482042</Northing>
+                <Longitude>-1.343279886</Longitude>
+                <Latitude>54.232296598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L9">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442894</Easting>
+                <Northing>482032</Northing>
+                <Longitude>-1.343467186</Longitude>
+                <Latitude>54.232214098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L10">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442892</Easting>
+                <Northing>482031</Northing>
+                <Longitude>-1.343492686</Longitude>
+                <Latitude>54.232204498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L11">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442888</Easting>
+                <Northing>482028</Northing>
+                <Longitude>-1.343558986</Longitude>
+                <Latitude>54.232179598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L12">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442880</Easting>
+                <Northing>482023</Northing>
+                <Longitude>-1.343685786</Longitude>
+                <Latitude>54.232132698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L13">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442865</Easting>
+                <Northing>482014</Northing>
+                <Longitude>-1.343905786</Longitude>
+                <Latitude>54.232051398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L14">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>482003</Northing>
+                <Longitude>-1.344160186</Longitude>
+                <Latitude>54.231956898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L15">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442847</Easting>
+                <Northing>482000</Northing>
+                <Longitude>-1.344184586</Longitude>
+                <Latitude>54.231929698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L16">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>481994</Northing>
+                <Longitude>-1.344153586</Longitude>
+                <Latitude>54.231875998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L17">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442853</Easting>
+                <Northing>481981</Northing>
+                <Longitude>-1.344095586</Longitude>
+                <Latitude>54.231751998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L18">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442864</Easting>
+                <Northing>481942</Northing>
+                <Longitude>-1.343940286</Longitude>
+                <Latitude>54.231408698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L19">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442863</Easting>
+                <Northing>481938</Northing>
+                <Longitude>-1.343948086</Longitude>
+                <Latitude>54.231367798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L20">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442860</Easting>
+                <Northing>481934</Northing>
+                <Longitude>-1.343995986</Longitude>
+                <Latitude>54.231334298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L21">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>481928</Northing>
+                <Longitude>-1.344162786</Longitude>
+                <Latitude>54.231282298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L22">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442838</Easting>
+                <Northing>481922</Northing>
+                <Longitude>-1.344340386</Longitude>
+                <Latitude>54.231229798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L23">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442823</Easting>
+                <Northing>481913</Northing>
+                <Longitude>-1.344576486</Longitude>
+                <Latitude>54.231151998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L24">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442799</Easting>
+                <Northing>481900</Northing>
+                <Longitude>-1.344940586</Longitude>
+                <Latitude>54.231035298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L25">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442780</Easting>
+                <Northing>481890</Northing>
+                <Longitude>-1.345237786</Longitude>
+                <Latitude>54.230941398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L26">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442759</Easting>
+                <Northing>481879</Northing>
+                <Longitude>-1.345555386</Longitude>
+                <Latitude>54.230849498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L27">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442751</Easting>
+                <Northing>481877</Northing>
+                <Longitude>-1.345676586</Longitude>
+                <Latitude>54.230830098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L28">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442753</Easting>
+                <Northing>481865</Northing>
+                <Longitude>-1.345651386</Longitude>
+                <Latitude>54.230724898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L29">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442753</Easting>
+                <Northing>481857</Northing>
+                <Longitude>-1.345645786</Longitude>
+                <Latitude>54.230652798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L30">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442767</Easting>
+                <Northing>481847</Northing>
+                <Longitude>-1.345439986</Longitude>
+                <Latitude>54.230558398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L31">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442778</Easting>
+                <Northing>481838</Northing>
+                <Longitude>-1.345263686</Longitude>
+                <Latitude>54.230479098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L32">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442791</Easting>
+                <Northing>481829</Northing>
+                <Longitude>-1.345069486</Longitude>
+                <Latitude>54.230396898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L33">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442795</Easting>
+                <Northing>481827</Northing>
+                <Longitude>-1.345014786</Longitude>
+                <Latitude>54.230373798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L34">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442810</Easting>
+                <Northing>481812</Northing>
+                <Longitude>-1.344780501</Longitude>
+                <Latitude>54.230241677</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+        <Track>
+          <Mapping>
+            <Location id="L35">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442810</Easting>
+                <Northing>481812</Northing>
+                <Longitude>-1.344780501</Longitude>
+                <Latitude>54.230241677</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L36">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442826</Easting>
+                <Northing>481797</Northing>
+                <Longitude>-1.344536186</Longitude>
+                <Latitude>54.230103898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L37">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442845</Easting>
+                <Northing>481774</Northing>
+                <Longitude>-1.344254386</Longitude>
+                <Latitude>54.229899498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L38">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442880</Easting>
+                <Northing>481734</Northing>
+                <Longitude>-1.343722086</Longitude>
+                <Latitude>54.229533498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L39">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442884</Easting>
+                <Northing>481729</Northing>
+                <Longitude>-1.343655886</Longitude>
+                <Latitude>54.229487998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L40">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442920</Easting>
+                <Northing>481683</Northing>
+                <Longitude>-1.343109286</Longitude>
+                <Latitude>54.229074398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L41">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442943</Easting>
+                <Northing>481658</Northing>
+                <Longitude>-1.342762286</Longitude>
+                <Latitude>54.228849898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L42">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442956</Easting>
+                <Northing>481638</Northing>
+                <Longitude>-1.342576586</Longitude>
+                <Latitude>54.228669498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L43">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442968</Easting>
+                <Northing>481618</Northing>
+                <Longitude>-1.342392186</Longitude>
+                <Latitude>54.228480298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L44">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442979</Easting>
+                <Northing>481594</Northing>
+                <Longitude>-1.342215186</Longitude>
+                <Latitude>54.228265498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L45">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442989</Easting>
+                <Northing>481574</Northing>
+                <Longitude>-1.342072786</Longitude>
+                <Latitude>54.228088998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L46">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443005</Easting>
+                <Northing>481535</Northing>
+                <Longitude>-1.341825186</Longitude>
+                <Latitude>54.227737798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L47">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443020</Easting>
+                <Northing>481493</Northing>
+                <Longitude>-1.341609386</Longitude>
+                <Latitude>54.227352898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L48">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443024</Easting>
+                <Northing>481484</Northing>
+                <Longitude>-1.341548886</Longitude>
+                <Latitude>54.227277098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L49">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443048</Easting>
+                <Northing>481434</Northing>
+                <Longitude>-1.341185786</Longitude>
+                <Latitude>54.226820098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L50">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443055</Easting>
+                <Northing>481418</Northing>
+                <Longitude>-1.341075286</Longitude>
+                <Latitude>54.226680998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L51">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443078</Easting>
+                <Northing>481374</Northing>
+                <Longitude>-1.340730786</Longitude>
+                <Latitude>54.226279798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L52">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443081</Easting>
+                <Northing>481369</Northing>
+                <Longitude>-1.340694290</Longitude>
+                <Latitude>54.226237287</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL2" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA90983</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97110</StopPointRef>
+        </To>
+        <Distance>399</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L53">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443081</Easting>
+                <Northing>481369</Northing>
+                <Longitude>-1.340694290</Longitude>
+                <Latitude>54.226237287</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L54">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443091</Easting>
+                <Northing>481348</Northing>
+                <Longitude>-1.340532386</Longitude>
+                <Latitude>54.226048698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L55">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443137</Easting>
+                <Northing>481266</Northing>
+                <Longitude>-1.339839986</Longitude>
+                <Latitude>54.225310398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L56">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443146</Easting>
+                <Northing>481247</Northing>
+                <Longitude>-1.339706786</Longitude>
+                <Latitude>54.225134198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L57">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443161</Easting>
+                <Northing>481214</Northing>
+                <Longitude>-1.339483286</Longitude>
+                <Latitude>54.224838598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L58">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443200</Easting>
+                <Northing>481139</Northing>
+                <Longitude>-1.338891186</Longitude>
+                <Latitude>54.224162398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L59">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443204</Easting>
+                <Northing>481133</Northing>
+                <Longitude>-1.338839186</Longitude>
+                <Latitude>54.224102998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L60">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443235</Easting>
+                <Northing>481084</Northing>
+                <Longitude>-1.338369686</Longitude>
+                <Latitude>54.223660298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L61">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443222</Easting>
+                <Northing>481077</Northing>
+                <Longitude>-1.338575486</Longitude>
+                <Latitude>54.223599298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L62">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443214</Easting>
+                <Northing>481074</Northing>
+                <Longitude>-1.338696986</Longitude>
+                <Latitude>54.223573698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L63">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443178</Easting>
+                <Northing>481064</Northing>
+                <Longitude>-1.339240886</Longitude>
+                <Latitude>54.223491098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L64">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443166</Easting>
+                <Northing>481061</Northing>
+                <Longitude>-1.339432186</Longitude>
+                <Latitude>54.223462098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L65">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443164</Easting>
+                <Northing>481060</Northing>
+                <Longitude>-1.339459331</Longitude>
+                <Latitude>54.223456194</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS3" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL3" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA97110</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNB01045</StopPointRef>
+        </To>
+        <Distance>270</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L66">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443164</Easting>
+                <Northing>481060</Northing>
+                <Longitude>-1.339459331</Longitude>
+                <Latitude>54.223456194</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L67">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443116</Easting>
+                <Northing>481042</Northing>
+                <Longitude>-1.340198086</Longitude>
+                <Latitude>54.223295498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L68">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443067</Easting>
+                <Northing>481021</Northing>
+                <Longitude>-1.340952486</Longitude>
+                <Latitude>54.223112598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L69">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>443019</Easting>
+                <Northing>481001</Northing>
+                <Longitude>-1.341688786</Longitude>
+                <Latitude>54.222934098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L70">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442916</Easting>
+                <Northing>480958</Northing>
+                <Longitude>-1.343275186</Longitude>
+                <Latitude>54.222558798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L71">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442914</Easting>
+                <Northing>480957</Northing>
+                <Longitude>-1.343308396</Longitude>
+                <Latitude>54.222550944</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS4" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL4" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNB01045</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97222</StopPointRef>
+        </To>
+        <Distance>823</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L72">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442914</Easting>
+                <Northing>480957</Northing>
+                <Longitude>-1.343308396</Longitude>
+                <Latitude>54.222550944</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L73">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442890</Easting>
+                <Northing>480947</Northing>
+                <Longitude>-1.343686586</Longitude>
+                <Latitude>54.222461498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L74">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442835</Easting>
+                <Northing>480923</Northing>
+                <Longitude>-1.344531486</Longitude>
+                <Latitude>54.222250098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L75">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442784</Easting>
+                <Northing>480901</Northing>
+                <Longitude>-1.345308486</Longitude>
+                <Latitude>54.222059898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L76">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442746</Easting>
+                <Northing>480886</Northing>
+                <Longitude>-1.345902686</Longitude>
+                <Latitude>54.221929198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L77">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442706</Easting>
+                <Northing>480869</Northing>
+                <Longitude>-1.346516486</Longitude>
+                <Latitude>54.221779098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L78">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442690</Easting>
+                <Northing>480863</Northing>
+                <Longitude>-1.346761186</Longitude>
+                <Latitude>54.221719198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L79">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442671</Easting>
+                <Northing>480854</Northing>
+                <Longitude>-1.347051686</Longitude>
+                <Latitude>54.221647398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L80">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442670</Easting>
+                <Northing>480854</Northing>
+                <Longitude>-1.347068786</Longitude>
+                <Latitude>54.221643398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L81">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442667</Easting>
+                <Northing>480853</Northing>
+                <Longitude>-1.347106386</Longitude>
+                <Latitude>54.221634698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L82">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442624</Easting>
+                <Northing>480835</Northing>
+                <Longitude>-1.347774886</Longitude>
+                <Latitude>54.221478798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L83">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442513</Easting>
+                <Northing>480790</Northing>
+                <Longitude>-1.349478786</Longitude>
+                <Latitude>54.221083198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L84">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442499</Easting>
+                <Northing>480785</Northing>
+                <Longitude>-1.349703686</Longitude>
+                <Latitude>54.221033898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L85">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442495</Easting>
+                <Northing>480783</Northing>
+                <Longitude>-1.349758486</Longitude>
+                <Latitude>54.221021798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L86">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442489</Easting>
+                <Northing>480781</Northing>
+                <Longitude>-1.349850686</Longitude>
+                <Latitude>54.220998598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L87">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442481</Easting>
+                <Northing>480779</Northing>
+                <Longitude>-1.349973586</Longitude>
+                <Latitude>54.220987898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L88">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442475</Easting>
+                <Northing>480780</Northing>
+                <Longitude>-1.350069986</Longitude>
+                <Latitude>54.220996198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L89">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442466</Easting>
+                <Northing>480783</Northing>
+                <Longitude>-1.350209086</Longitude>
+                <Latitude>54.221025898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L90">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442457</Easting>
+                <Northing>480787</Northing>
+                <Longitude>-1.350349686</Longitude>
+                <Latitude>54.221055998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L91">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442454</Easting>
+                <Northing>480782</Northing>
+                <Longitude>-1.350388486</Longitude>
+                <Latitude>54.221011098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L92">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442448</Easting>
+                <Northing>480766</Northing>
+                <Longitude>-1.350480586</Longitude>
+                <Latitude>54.220874698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L93">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442436</Easting>
+                <Northing>480741</Northing>
+                <Longitude>-1.350669986</Longitude>
+                <Latitude>54.220648298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L94">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442424</Easting>
+                <Northing>480717</Northing>
+                <Longitude>-1.350861986</Longitude>
+                <Latitude>54.220433798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L95">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442409</Easting>
+                <Northing>480691</Northing>
+                <Longitude>-1.351089186</Longitude>
+                <Latitude>54.220198998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L96">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442400</Easting>
+                <Northing>480657</Northing>
+                <Longitude>-1.351241486</Longitude>
+                <Latitude>54.219899198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L97">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442401</Easting>
+                <Northing>480654</Northing>
+                <Longitude>-1.351222586</Longitude>
+                <Latitude>54.219865198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L98">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442401</Easting>
+                <Northing>480650</Northing>
+                <Longitude>-1.351222986</Longitude>
+                <Latitude>54.219830498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L99">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442400</Easting>
+                <Northing>480647</Northing>
+                <Longitude>-1.351232686</Longitude>
+                <Latitude>54.219809298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L100">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442398</Easting>
+                <Northing>480644</Northing>
+                <Longitude>-1.351265786</Longitude>
+                <Latitude>54.219776698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L101">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442396</Easting>
+                <Northing>480642</Northing>
+                <Longitude>-1.351298186</Longitude>
+                <Latitude>54.219759198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L102">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442391</Easting>
+                <Northing>480640</Northing>
+                <Longitude>-1.351376786</Longitude>
+                <Latitude>54.219739598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L103">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442386</Easting>
+                <Northing>480640</Northing>
+                <Longitude>-1.351452786</Longitude>
+                <Latitude>54.219740898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L104">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442381</Easting>
+                <Northing>480642</Northing>
+                <Longitude>-1.351534486</Longitude>
+                <Latitude>54.219765498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L105">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442378</Easting>
+                <Northing>480646</Northing>
+                <Longitude>-1.351579886</Longitude>
+                <Latitude>54.219800598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L106">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442376</Easting>
+                <Northing>480651</Northing>
+                <Longitude>-1.351598386</Longitude>
+                <Latitude>54.219843898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L107">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442370</Easting>
+                <Northing>480656</Northing>
+                <Longitude>-1.351696286</Longitude>
+                <Latitude>54.219887498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L108">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442347</Easting>
+                <Northing>480670</Northing>
+                <Longitude>-1.352046986</Longitude>
+                <Latitude>54.220013998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L109">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442331</Easting>
+                <Northing>480676</Northing>
+                <Longitude>-1.352293486</Longitude>
+                <Latitude>54.220071098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L110">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442308</Easting>
+                <Northing>480685</Northing>
+                <Longitude>-1.352636486</Longitude>
+                <Latitude>54.220155298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L111">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442287</Easting>
+                <Northing>480697</Northing>
+                <Longitude>-1.352956886</Longitude>
+                <Latitude>54.220264198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L112">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442279</Easting>
+                <Northing>480703</Northing>
+                <Longitude>-1.353084486</Longitude>
+                <Latitude>54.220320698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L113">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442259</Easting>
+                <Northing>480716</Northing>
+                <Longitude>-1.353393086</Longitude>
+                <Latitude>54.220437398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L114">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442252</Easting>
+                <Northing>480720</Northing>
+                <Longitude>-1.353502014</Longitude>
+                <Latitude>54.220478120</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS5" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL5" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA97222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97240</StopPointRef>
+        </To>
+        <Distance>572</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L115">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442252</Easting>
+                <Northing>480720</Northing>
+                <Longitude>-1.353502014</Longitude>
+                <Latitude>54.220478120</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L116">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442246</Easting>
+                <Northing>480724</Northing>
+                <Longitude>-1.353587286</Longitude>
+                <Latitude>54.220509998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L117">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442228</Easting>
+                <Northing>480740</Northing>
+                <Longitude>-1.353855986</Longitude>
+                <Latitude>54.220651498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L118">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442213</Easting>
+                <Northing>480754</Northing>
+                <Longitude>-1.354094786</Longitude>
+                <Latitude>54.220780098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L119">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442202</Easting>
+                <Northing>480768</Northing>
+                <Longitude>-1.354257586</Longitude>
+                <Latitude>54.220911698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L120">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442195</Easting>
+                <Northing>480794</Northing>
+                <Longitude>-1.354356386</Longitude>
+                <Latitude>54.221146898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L121">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442192</Easting>
+                <Northing>480812</Northing>
+                <Longitude>-1.354404686</Longitude>
+                <Latitude>54.221309998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L122">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442190</Easting>
+                <Northing>480826</Northing>
+                <Longitude>-1.354433186</Longitude>
+                <Latitude>54.221427698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L123">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442189</Easting>
+                <Northing>480848</Northing>
+                <Longitude>-1.354451586</Longitude>
+                <Latitude>54.221626898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L124">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442185</Easting>
+                <Northing>480859</Northing>
+                <Longitude>-1.354501986</Longitude>
+                <Latitude>54.221730798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L125">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442180</Easting>
+                <Northing>480872</Northing>
+                <Longitude>-1.354581586</Longitude>
+                <Latitude>54.221850098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L126">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442174</Easting>
+                <Northing>480889</Northing>
+                <Longitude>-1.354662786</Longitude>
+                <Latitude>54.221995798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L127">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442171</Easting>
+                <Northing>480903</Northing>
+                <Longitude>-1.354716286</Longitude>
+                <Latitude>54.222126998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L128">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442164</Easting>
+                <Northing>480924</Northing>
+                <Longitude>-1.354815486</Longitude>
+                <Latitude>54.222317998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L129">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442157</Easting>
+                <Northing>480937</Northing>
+                <Longitude>-1.354918986</Longitude>
+                <Latitude>54.222431698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L130">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442151</Easting>
+                <Northing>480946</Northing>
+                <Longitude>-1.355010286</Longitude>
+                <Latitude>54.222512998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L131">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442141</Easting>
+                <Northing>480958</Northing>
+                <Longitude>-1.355165886</Longitude>
+                <Latitude>54.222624498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L132">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442127</Easting>
+                <Northing>480969</Northing>
+                <Longitude>-1.355372386</Longitude>
+                <Latitude>54.222723998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L133">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442113</Easting>
+                <Northing>480977</Northing>
+                <Longitude>-1.355590786</Longitude>
+                <Latitude>54.222798298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L134">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442104</Easting>
+                <Northing>480980</Northing>
+                <Longitude>-1.355727086</Longitude>
+                <Latitude>54.222826698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L135">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442103</Easting>
+                <Northing>480981</Northing>
+                <Longitude>-1.355749586</Longitude>
+                <Latitude>54.222831398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L136">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442091</Easting>
+                <Northing>480984</Northing>
+                <Longitude>-1.355931986</Longitude>
+                <Latitude>54.222860598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L137">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442081</Easting>
+                <Northing>480986</Northing>
+                <Longitude>-1.356076386</Longitude>
+                <Latitude>54.222877598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L138">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442072</Easting>
+                <Northing>480986</Northing>
+                <Longitude>-1.356219186</Longitude>
+                <Latitude>54.222879298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L139">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442052</Easting>
+                <Northing>480985</Northing>
+                <Longitude>-1.356529986</Longitude>
+                <Latitude>54.222873798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L140">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442044</Easting>
+                <Northing>480986</Northing>
+                <Longitude>-1.356654486</Longitude>
+                <Latitude>54.222879498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L141">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442027</Easting>
+                <Northing>480984</Northing>
+                <Longitude>-1.356910886</Longitude>
+                <Latitude>54.222863798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L142">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441998</Easting>
+                <Northing>480973</Northing>
+                <Longitude>-1.357352086</Longitude>
+                <Latitude>54.222768098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L143">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441993</Easting>
+                <Northing>480973</Northing>
+                <Longitude>-1.357426786</Longitude>
+                <Latitude>54.222767198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L144">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441975</Easting>
+                <Northing>480965</Northing>
+                <Longitude>-1.357710686</Longitude>
+                <Latitude>54.222694898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L145">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441965</Easting>
+                <Northing>480957</Northing>
+                <Longitude>-1.357856986</Longitude>
+                <Latitude>54.222626298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L146">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441949</Easting>
+                <Northing>480942</Northing>
+                <Longitude>-1.358105186</Longitude>
+                <Latitude>54.222497698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L147">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441942</Easting>
+                <Northing>480936</Northing>
+                <Longitude>-1.358219386</Longitude>
+                <Latitude>54.222443398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L148">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441904</Easting>
+                <Northing>480902</Northing>
+                <Longitude>-1.358814286</Longitude>
+                <Latitude>54.222139798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L149">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441886</Easting>
+                <Northing>480891</Northing>
+                <Longitude>-1.359092186</Longitude>
+                <Latitude>54.222039798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L150">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441879</Easting>
+                <Northing>480888</Northing>
+                <Longitude>-1.359198711</Longitude>
+                <Latitude>54.222018273</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS6" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL6" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA97240</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97119</StopPointRef>
+        </To>
+        <Distance>920</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L151">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441879</Easting>
+                <Northing>480888</Northing>
+                <Longitude>-1.359198711</Longitude>
+                <Latitude>54.222018273</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L152">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441866</Easting>
+                <Northing>480884</Northing>
+                <Longitude>-1.359392086</Longitude>
+                <Latitude>54.221979198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L153">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441834</Easting>
+                <Northing>480874</Northing>
+                <Longitude>-1.359882886</Longitude>
+                <Latitude>54.221896298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L154">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441803</Easting>
+                <Northing>480868</Northing>
+                <Longitude>-1.360366086</Longitude>
+                <Latitude>54.221838198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L155">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441786</Easting>
+                <Northing>480863</Northing>
+                <Longitude>-1.360628786</Longitude>
+                <Latitude>54.221797598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L156">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441772</Easting>
+                <Northing>480859</Northing>
+                <Longitude>-1.360830386</Longitude>
+                <Latitude>54.221766398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L157">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441760</Easting>
+                <Northing>480854</Northing>
+                <Longitude>-1.361020786</Longitude>
+                <Latitude>54.221722198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L158">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>441727</Easting>
+                <Northing>480841</Northing>
+                <Longitude>-1.361532029</Longitude>
+                <Latitude>54.221603504</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L159">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442010</Easting>
+                <Northing>480578</Northing>
+                <Longitude>-1.357234518</Longitude>
+                <Latitude>54.219220845</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L160">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442010</Easting>
+                <Northing>480577</Northing>
+                <Longitude>-1.357234779</Longitude>
+                <Latitude>54.219211123</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L161">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442034</Easting>
+                <Northing>480577</Northing>
+                <Longitude>-1.356852586</Longitude>
+                <Latitude>54.219207598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L162">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442036</Easting>
+                <Northing>480577</Northing>
+                <Longitude>-1.356821286</Longitude>
+                <Latitude>54.219206798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L163">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442076</Easting>
+                <Northing>480576</Northing>
+                <Longitude>-1.356218786</Longitude>
+                <Latitude>54.219197598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L164">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442089</Easting>
+                <Northing>480576</Northing>
+                <Longitude>-1.356010486</Longitude>
+                <Latitude>54.219196198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L165">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442117</Easting>
+                <Northing>480573</Northing>
+                <Longitude>-1.355581486</Longitude>
+                <Latitude>54.219165698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L166">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442142</Easting>
+                <Northing>480569</Northing>
+                <Longitude>-1.355197486</Longitude>
+                <Latitude>54.219122698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L167">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442149</Easting>
+                <Northing>480567</Northing>
+                <Longitude>-1.355096886</Longitude>
+                <Latitude>54.219111398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L168">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442169</Easting>
+                <Northing>480562</Northing>
+                <Longitude>-1.354794586</Longitude>
+                <Latitude>54.219060498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L169">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442186</Easting>
+                <Northing>480555</Northing>
+                <Longitude>-1.354532886</Longitude>
+                <Latitude>54.218997298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L170">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442197</Easting>
+                <Northing>480551</Northing>
+                <Longitude>-1.354368086</Longitude>
+                <Latitude>54.218960498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L171">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442218</Easting>
+                <Northing>480542</Northing>
+                <Longitude>-1.354044386</Longitude>
+                <Latitude>54.218878398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L172">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442232</Easting>
+                <Northing>480535</Northing>
+                <Longitude>-1.353831986</Longitude>
+                <Latitude>54.218810898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L173">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442247</Easting>
+                <Northing>480527</Northing>
+                <Longitude>-1.353593286</Longitude>
+                <Latitude>54.218744198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L174">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442260</Easting>
+                <Northing>480522</Northing>
+                <Longitude>-1.353407786</Longitude>
+                <Latitude>54.218690298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L175">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442291</Easting>
+                <Northing>480514</Northing>
+                <Longitude>-1.352930986</Longitude>
+                <Latitude>54.218618498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L176">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442300</Easting>
+                <Northing>480512</Northing>
+                <Longitude>-1.352784486</Longitude>
+                <Latitude>54.218596398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L177">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442303</Easting>
+                <Northing>480513</Northing>
+                <Longitude>-1.352736886</Longitude>
+                <Latitude>54.218604898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L178">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442306</Easting>
+                <Northing>480514</Northing>
+                <Longitude>-1.352690786</Longitude>
+                <Latitude>54.218614798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L179">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442310</Easting>
+                <Northing>480514</Northing>
+                <Longitude>-1.352630086</Longitude>
+                <Latitude>54.218618098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L180">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442325</Easting>
+                <Northing>480534</Northing>
+                <Longitude>-1.352404286</Longitude>
+                <Latitude>54.218796998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L181">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442336</Easting>
+                <Northing>480560</Northing>
+                <Longitude>-1.352232486</Longitude>
+                <Latitude>54.219031498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L182">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442340</Easting>
+                <Northing>480568</Northing>
+                <Longitude>-1.352172288</Longitude>
+                <Latitude>54.219099212</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS7" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL7" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA97119</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90984</StopPointRef>
+        </To>
+        <Distance>466</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L183">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442340</Easting>
+                <Northing>480568</Northing>
+                <Longitude>-1.352172288</Longitude>
+                <Latitude>54.219099212</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L184">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442345</Easting>
+                <Northing>480579</Northing>
+                <Longitude>-1.352085086</Longitude>
+                <Latitude>54.219197298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L185">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442361</Easting>
+                <Northing>480605</Northing>
+                <Longitude>-1.351836786</Longitude>
+                <Latitude>54.219434798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L186">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442370</Easting>
+                <Northing>480615</Northing>
+                <Longitude>-1.351697986</Longitude>
+                <Latitude>54.219524698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L187">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442381</Easting>
+                <Northing>480642</Northing>
+                <Longitude>-1.351534486</Longitude>
+                <Latitude>54.219765498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L188">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442378</Easting>
+                <Northing>480646</Northing>
+                <Longitude>-1.351579886</Longitude>
+                <Latitude>54.219800598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L189">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442376</Easting>
+                <Northing>480651</Northing>
+                <Longitude>-1.351598386</Longitude>
+                <Latitude>54.219843898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L190">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442377</Easting>
+                <Northing>480656</Northing>
+                <Longitude>-1.351585386</Longitude>
+                <Latitude>54.219889098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L191">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442380</Easting>
+                <Northing>480660</Northing>
+                <Longitude>-1.351541986</Longitude>
+                <Latitude>54.219927398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L192">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442381</Easting>
+                <Northing>480661</Northing>
+                <Longitude>-1.351532386</Longitude>
+                <Latitude>54.219932598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L193">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442385</Easting>
+                <Northing>480663</Northing>
+                <Longitude>-1.351469586</Longitude>
+                <Latitude>54.219953398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L194">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442390</Easting>
+                <Northing>480664</Northing>
+                <Longitude>-1.351383786</Longitude>
+                <Latitude>54.219958098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L195">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442409</Easting>
+                <Northing>480691</Northing>
+                <Longitude>-1.351089186</Longitude>
+                <Latitude>54.220198998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L196">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442424</Easting>
+                <Northing>480717</Northing>
+                <Longitude>-1.350861986</Longitude>
+                <Latitude>54.220433798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L197">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442436</Easting>
+                <Northing>480741</Northing>
+                <Longitude>-1.350669986</Longitude>
+                <Latitude>54.220648298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L198">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442448</Easting>
+                <Northing>480766</Northing>
+                <Longitude>-1.350480586</Longitude>
+                <Latitude>54.220874698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L199">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442454</Easting>
+                <Northing>480782</Northing>
+                <Longitude>-1.350388486</Longitude>
+                <Latitude>54.221011098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L200">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442457</Easting>
+                <Northing>480787</Northing>
+                <Longitude>-1.350349686</Longitude>
+                <Latitude>54.221055998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L201">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442501</Easting>
+                <Northing>480913</Northing>
+                <Longitude>-1.349653086</Longitude>
+                <Latitude>54.222185698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L202">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442514</Easting>
+                <Northing>480952</Northing>
+                <Longitude>-1.349443086</Longitude>
+                <Latitude>54.222536098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L203">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442525</Easting>
+                <Northing>480984</Northing>
+                <Longitude>-1.349270172</Longitude>
+                <Latitude>54.222826219</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS8" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL8" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA90984</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90988</StopPointRef>
+        </To>
+        <Distance>504</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L204">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442525</Easting>
+                <Northing>480984</Northing>
+                <Longitude>-1.349270172</Longitude>
+                <Latitude>54.222826219</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L205">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442565</Easting>
+                <Northing>481101</Northing>
+                <Longitude>-1.348648586</Longitude>
+                <Latitude>54.223869098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L206">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442596</Easting>
+                <Northing>481188</Northing>
+                <Longitude>-1.348155786</Longitude>
+                <Latitude>54.224653798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L207">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442614</Easting>
+                <Northing>481263</Northing>
+                <Longitude>-1.347871086</Longitude>
+                <Latitude>54.225323198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L208">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442629</Easting>
+                <Northing>481343</Northing>
+                <Longitude>-1.347630286</Longitude>
+                <Latitude>54.226045298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L209">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442635</Easting>
+                <Northing>481376</Northing>
+                <Longitude>-1.347522686</Longitude>
+                <Latitude>54.226338098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L210">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442649</Easting>
+                <Northing>481440</Northing>
+                <Longitude>-1.347310986</Longitude>
+                <Latitude>54.226913998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L211">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442653</Easting>
+                <Northing>481461</Northing>
+                <Longitude>-1.347243386</Longitude>
+                <Latitude>54.227097998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L212">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442655</Easting>
+                <Northing>481470</Northing>
+                <Longitude>-1.347205798</Longitude>
+                <Latitude>54.227183470</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS9" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL9" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA90988</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90987</StopPointRef>
+        </To>
+        <Distance>330</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L213">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442655</Easting>
+                <Northing>481470</Northing>
+                <Longitude>-1.347205798</Longitude>
+                <Latitude>54.227183470</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L214">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442677</Easting>
+                <Northing>481559</Northing>
+                <Longitude>-1.346855186</Longitude>
+                <Latitude>54.227980698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L215">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442684</Easting>
+                <Northing>481584</Northing>
+                <Longitude>-1.346743086</Longitude>
+                <Latitude>54.228206398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L216">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442685</Easting>
+                <Northing>481588</Northing>
+                <Longitude>-1.346728986</Longitude>
+                <Latitude>54.228234798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L217">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442687</Easting>
+                <Northing>481595</Northing>
+                <Longitude>-1.346698486</Longitude>
+                <Latitude>54.228303198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L218">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442699</Easting>
+                <Northing>481636</Northing>
+                <Longitude>-1.346518286</Longitude>
+                <Latitude>54.228665998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L219">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442705</Easting>
+                <Northing>481664</Northing>
+                <Longitude>-1.346411986</Longitude>
+                <Latitude>54.228923498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L220">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442717</Easting>
+                <Northing>481708</Northing>
+                <Longitude>-1.346219486</Longitude>
+                <Latitude>54.229315498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L221">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442722</Easting>
+                <Northing>481726</Northing>
+                <Longitude>-1.346151986</Longitude>
+                <Latitude>54.229479798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L222">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442728</Easting>
+                <Northing>481754</Northing>
+                <Longitude>-1.346050486</Longitude>
+                <Latitude>54.229723598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L223">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442738</Easting>
+                <Northing>481790</Northing>
+                <Longitude>-1.345897284</Longitude>
+                <Latitude>54.230053292</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS10" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL10" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>3200YNA90987</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90161</StopPointRef>
+        </To>
+        <Distance>421</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L224">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442738</Easting>
+                <Northing>481790</Northing>
+                <Longitude>-1.345897284</Longitude>
+                <Latitude>54.230053292</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L225">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442738</Easting>
+                <Northing>481791</Northing>
+                <Longitude>-1.345894586</Longitude>
+                <Latitude>54.230059098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L226">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442741</Easting>
+                <Northing>481802</Northing>
+                <Longitude>-1.345848986</Longitude>
+                <Latitude>54.230157198</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L227">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442749</Easting>
+                <Northing>481834</Northing>
+                <Longitude>-1.345715086</Longitude>
+                <Latitude>54.230439998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L228">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442752</Easting>
+                <Northing>481847</Northing>
+                <Longitude>-1.345675286</Longitude>
+                <Latitude>54.230558798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L229">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442753</Easting>
+                <Northing>481857</Northing>
+                <Longitude>-1.345645786</Longitude>
+                <Latitude>54.230652798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L230">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442753</Easting>
+                <Northing>481865</Northing>
+                <Longitude>-1.345651386</Longitude>
+                <Latitude>54.230724898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L231">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442751</Easting>
+                <Northing>481877</Northing>
+                <Longitude>-1.345676586</Longitude>
+                <Latitude>54.230830098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L232">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442759</Easting>
+                <Northing>481879</Northing>
+                <Longitude>-1.345555386</Longitude>
+                <Latitude>54.230849498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L233">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442780</Easting>
+                <Northing>481890</Northing>
+                <Longitude>-1.345237786</Longitude>
+                <Latitude>54.230941398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L234">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442799</Easting>
+                <Northing>481900</Northing>
+                <Longitude>-1.344940586</Longitude>
+                <Latitude>54.231035298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L235">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442823</Easting>
+                <Northing>481913</Northing>
+                <Longitude>-1.344576486</Longitude>
+                <Latitude>54.231151998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L236">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442838</Easting>
+                <Northing>481922</Northing>
+                <Longitude>-1.344340386</Longitude>
+                <Latitude>54.231229798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L237">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>481928</Northing>
+                <Longitude>-1.344162786</Longitude>
+                <Latitude>54.231282298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L238">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442860</Easting>
+                <Northing>481934</Northing>
+                <Longitude>-1.343995986</Longitude>
+                <Latitude>54.231334298</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L239">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442863</Easting>
+                <Northing>481938</Northing>
+                <Longitude>-1.343948086</Longitude>
+                <Latitude>54.231367798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L240">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442864</Easting>
+                <Northing>481942</Northing>
+                <Longitude>-1.343940286</Longitude>
+                <Latitude>54.231408698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L241">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442853</Easting>
+                <Northing>481981</Northing>
+                <Longitude>-1.344095586</Longitude>
+                <Latitude>54.231751998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L242">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>481994</Northing>
+                <Longitude>-1.344153586</Longitude>
+                <Latitude>54.231875998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L243">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442847</Easting>
+                <Northing>482000</Northing>
+                <Longitude>-1.344184586</Longitude>
+                <Latitude>54.231929698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L244">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442849</Easting>
+                <Northing>482003</Northing>
+                <Longitude>-1.344160186</Longitude>
+                <Latitude>54.231956898</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L245">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442865</Easting>
+                <Northing>482014</Northing>
+                <Longitude>-1.343905786</Longitude>
+                <Latitude>54.232051398</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L246">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442880</Easting>
+                <Northing>482023</Northing>
+                <Longitude>-1.343685786</Longitude>
+                <Latitude>54.232132698</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L247">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442888</Easting>
+                <Northing>482028</Northing>
+                <Longitude>-1.343558986</Longitude>
+                <Latitude>54.232179598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L248">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442892</Easting>
+                <Northing>482031</Northing>
+                <Longitude>-1.343492686</Longitude>
+                <Latitude>54.232204498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L249">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442894</Easting>
+                <Northing>482032</Northing>
+                <Longitude>-1.343467186</Longitude>
+                <Latitude>54.232214098</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L250">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442906</Easting>
+                <Northing>482042</Northing>
+                <Longitude>-1.343279886</Longitude>
+                <Latitude>54.232296598</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L251">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442909</Easting>
+                <Northing>482044</Northing>
+                <Longitude>-1.343236786</Longitude>
+                <Latitude>54.232315498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L252">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442935</Easting>
+                <Northing>482064</Northing>
+                <Longitude>-1.342834586</Longitude>
+                <Latitude>54.232495498</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L253">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442922</Easting>
+                <Northing>482077</Northing>
+                <Longitude>-1.343034086</Longitude>
+                <Latitude>54.232610798</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L254">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442926</Easting>
+                <Northing>482081</Northing>
+                <Longitude>-1.342966386</Longitude>
+                <Latitude>54.232651998</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L255">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>442932</Easting>
+                <Northing>482085</Northing>
+                <Longitude>-1.342879037</Longitude>
+                <Latitude>54.232683233</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>YCAO032-1</PrivateCode>
+      <Description>Market Place - Market Place</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+      <RouteSectionRef>RS3</RouteSectionRef>
+      <RouteSectionRef>RS4</RouteSectionRef>
+      <RouteSectionRef>RS5</RouteSectionRef>
+      <RouteSectionRef>RS6</RouteSectionRef>
+      <RouteSectionRef>RS7</RouteSectionRef>
+      <RouteSectionRef>RS8</RouteSectionRef>
+      <RouteSectionRef>RS9</RouteSectionRef>
+      <RouteSectionRef>RS10</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Sowerby Gateway</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA90161</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90983</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2">
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90983</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97110</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97110</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNB01045</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS3">
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNB01045</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97222</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97222</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97240</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97240</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97119</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS4">
+      <JourneyPatternTimingLink id="JPTL7">
+        <From id="JPSU13" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97119</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90984</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS5">
+      <JourneyPatternTimingLink id="JPTL8">
+        <From id="JPSU15" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Thirsk Market Place</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA90984</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90988</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL9">
+        <From id="JPSU17" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90988</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90987</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL10">
+        <From id="JPSU19" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90987</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU20" SequenceNumber="11">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA90161</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL10</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="YCST" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <NationalOperatorCode>YCST</NationalOperatorCode>
+      <OperatorCode>YCST</OperatorCode>
+      <OperatorShortName>Coastliner</OperatorShortName>
+      <OperatorNameOnLicence>Yorkshire Coastliner Ltd</OperatorNameOnLicence>
+      <TradingName>Coastliner</TradingName>
+      <LicenceNumber>PB0001873</LicenceNumber>
+      <Garages>
+        <Garage CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+          <GarageCode>YCD</GarageCode>
+          <GarageName>York &amp; Country</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service RevisionNumber="15">
+      <ServiceCode>PB0001873:114</ServiceCode>
+      <PrivateCode>YCAO032</PrivateCode>
+      <Lines>
+        <Line id="YCST:PB0001873:114:32">
+          <LineName>32</LineName>
+          <OutboundDescription>
+            <Description>Thirsk - Sowerby Gateway Circular</Description>
+          </OutboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-01-04</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>YCST</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Thirsk</Origin>
+        <Destination>Sowerby Gateway Circular</Destination>
+        <JourneyPattern id="JP1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Thirsk Market Place</DestinationDisplay>
+          <OperatorRef>YCST</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Market Place - Market Place</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS4</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:1</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5062</Description>
+          <BlockNumber>5062</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4801</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:2</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5054</Description>
+          <BlockNumber>5054</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4805</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:3</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5057</Description>
+          <BlockNumber>5057</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4809</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL24">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL25">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL26">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL27">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL28">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL29">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL30">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:4</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5056</Description>
+          <BlockNumber>5056</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4813</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL31">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL32">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL33">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL34">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL35">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL36">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL37">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL38">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL39">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL40">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:5</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5054</Description>
+          <BlockNumber>5054</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4817</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>11:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL41">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL42">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL43">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL44">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL45">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL46">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL47">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL48">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL49">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL50">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:6</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5057</Description>
+          <BlockNumber>5057</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4821</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL51">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL52">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL53">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL54">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL55">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL56">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL57">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL58">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL59">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL60">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="7" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:7</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5056</Description>
+          <BlockNumber>5056</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4825</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL61">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL62">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL63">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL64">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL65">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL66">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL67">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL68">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL69">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL70">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:8</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5054</Description>
+          <BlockNumber>5054</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4829</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL71">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL72">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL73">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL74">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL75">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL76">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL77">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL78">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL79">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL80">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="9" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:9</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5057</Description>
+          <BlockNumber>5057</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4833</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>15:47:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL81">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL82">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL83">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL84">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL85">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL86">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL87">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL88">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL89">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL90">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="10" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:10</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5056</Description>
+          <BlockNumber>5056</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4837</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>16:47:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL91">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL92">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL93">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL94">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL95">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL96">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL97">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL98">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL99">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL100">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="11" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032MF101a:O:11</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5051</Description>
+          <BlockNumber>5051</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4841</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>17:47:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL101">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL102">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL103">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL104">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL105">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL106">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL107">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL108">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL109">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL110">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:1</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5554</Description>
+          <BlockNumber>5554</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4805</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL111">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL112">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL113">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL114">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL115">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL116">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL117">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL118">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL119">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL120">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:2</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5556</Description>
+          <BlockNumber>5556</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4809</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL121">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL122">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL123">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL124">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL125">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL126">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL127">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL128">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL129">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL130">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:3</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5555</Description>
+          <BlockNumber>5555</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4813</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL131">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL132">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL133">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL134">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL135">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL136">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL137">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL138">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL139">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL140">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:4</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5554</Description>
+          <BlockNumber>5554</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4817</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>11:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL141">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL142">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL143">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL144">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL145">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL146">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL147">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL148">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL149">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL150">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:5</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5556</Description>
+          <BlockNumber>5556</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4821</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL151">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL152">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL153">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL154">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL155">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL156">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL157">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL158">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL159">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL160">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:6</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5555</Description>
+          <BlockNumber>5555</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4825</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL161">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL162">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL163">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL164">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL165">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL166">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL167">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL168">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL169">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL170">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="7" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:7</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5554</Description>
+          <BlockNumber>5554</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4829</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL171">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL172">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL173">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL174">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL175">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL176">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL177">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL178">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL179">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL180">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:8</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5556</Description>
+          <BlockNumber>5556</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4833</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>15:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL181">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL182">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL183">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL184">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL185">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL186">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL187">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL188">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL189">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL190">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="9" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:9</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5555</Description>
+          <BlockNumber>5555</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4837</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>16:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL191">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL192">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL193">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL194">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL195">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL196">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL197">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL198">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL199">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL200">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="10" CreationDateTime="2025-12-30T13:32:42" Modification="new" RevisionNumber="0">
+      <PrivateCode>032SA101a:O:10</PrivateCode>
+      <OperatorRef>YCST</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>5554</Description>
+          <BlockNumber>5554</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>4032</TicketMachineServiceCode>
+          <JourneyCode>4841</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>YCD</GarageRef>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>PB0001873:114</ServiceRef>
+      <LineRef>YCST:PB0001873:114:32</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>17:42:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL201">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT4M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL202">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL203">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL204">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL205">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL206">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL207">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL208">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL209">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL210">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

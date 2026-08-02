@@ -1,0 +1,3210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Omnibus TransXChange Exporter (1.0.233.25933)-->
+<!--Export Profile:BODS 1.1-->
+<TransXChange CreationDateTime="2024-12-12T16:29:09" ModificationDateTime="2026-07-13T06:40:54" Modification="revise" RevisionNumber="52" FileName="BODS_PB0001410_17_20251208_52.xml" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" SchemaVersion="2.4" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000010121</StopPointRef>
+      <CommonName>Cary Lane</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011067</StopPointRef>
+      <CommonName>Glanford House</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011068</StopPointRef>
+      <CommonName>Glanford House</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011070</StopPointRef>
+      <CommonName>Highfield Grove</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011276</StopPointRef>
+      <CommonName>Horstead Avenue</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011278</StopPointRef>
+      <CommonName>Northern Avenue</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011069</StopPointRef>
+      <CommonName>Scholars Walk</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000010742</StopPointRef>
+      <CommonName>Scholars Walk</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000010949</StopPointRef>
+      <CommonName>South View Avenue</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000011275</StopPointRef>
+      <CommonName>South View Avenue</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <StopPointRef>227000010948</StopPointRef>
+      <CommonName>South View Avenue</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Brigg</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000010121</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011067</StopPointRef>
+        </To>
+        <Distance>460</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011067</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000010742</StopPointRef>
+        </To>
+        <Distance>370</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000010742</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000010948</StopPointRef>
+        </To>
+        <Distance>320</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000010948</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011275</StopPointRef>
+        </To>
+        <Distance>210</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011275</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011276</StopPointRef>
+        </To>
+        <Distance>310</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011276</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011070</StopPointRef>
+        </To>
+        <Distance>90</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS7" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL7" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011070</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011278</StopPointRef>
+        </To>
+        <Distance>320</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS8" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL8" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011278</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000010949</StopPointRef>
+        </To>
+        <Distance>340</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS9" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL9" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000010949</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011069</StopPointRef>
+        </To>
+        <Distance>260</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS10" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL10" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011069</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000011068</StopPointRef>
+        </To>
+        <Distance>300</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS11" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL11" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>227000011068</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>227000010121</StopPointRef>
+        </To>
+        <Distance>420</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <Description>Cary Lane - South View Avenue</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+      <RouteSectionRef>RS3</RouteSectionRef>
+    </Route>
+    <Route id="RT2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <Description>Cary Lane - South View Avenue</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+      <RouteSectionRef>RS3</RouteSectionRef>
+    </Route>
+    <Route id="RT3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <Description>South View Avenue - Cary Lane</Description>
+      <RouteSectionRef>RS4</RouteSectionRef>
+      <RouteSectionRef>RS5</RouteSectionRef>
+      <RouteSectionRef>RS6</RouteSectionRef>
+      <RouteSectionRef>RS7</RouteSectionRef>
+      <RouteSectionRef>RS8</RouteSectionRef>
+      <RouteSectionRef>RS9</RouteSectionRef>
+      <RouteSectionRef>RS10</RouteSectionRef>
+      <RouteSectionRef>RS11</RouteSectionRef>
+    </Route>
+    <Route id="RT4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <Description>South View Avenue - Cary Lane</Description>
+      <RouteSectionRef>RS4</RouteSectionRef>
+      <RouteSectionRef>RS5</RouteSectionRef>
+      <RouteSectionRef>RS6</RouteSectionRef>
+      <RouteSectionRef>RS7</RouteSectionRef>
+      <RouteSectionRef>RS8</RouteSectionRef>
+      <RouteSectionRef>RS9</RouteSectionRef>
+      <RouteSectionRef>RS10</RouteSectionRef>
+      <RouteSectionRef>RS11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>227000010121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011067</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011067</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>227000010948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2">
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>227000010121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011067</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011067</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>227000010948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS3">
+      <JourneyPatternTimingLink id="JPTL7">
+        <From id="JPSU13" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>227000010948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011275</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL8">
+        <From id="JPSU15" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011275</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011276</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL9">
+        <From id="JPSU17" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011276</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011070</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS4">
+      <JourneyPatternTimingLink id="JPTL10">
+        <From id="JPSU19" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011070</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU20" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011278</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL11">
+        <From id="JPSU21" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011278</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU22" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010949</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL12">
+        <From id="JPSU23" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010949</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU24" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011069</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL13">
+        <From id="JPSU25" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011069</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU26" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011068</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL10</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14">
+        <From id="JPSU27" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011068</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU28" SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>227000010121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL11</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS5">
+      <JourneyPatternTimingLink id="JPTL15">
+        <From id="JPSU29" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>227000010948</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU30" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011275</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL16">
+        <From id="JPSU31" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011275</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU32" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011276</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL17">
+        <From id="JPSU33" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011276</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU34" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011070</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS6">
+      <JourneyPatternTimingLink id="JPTL18">
+        <From id="JPSU35" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011070</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU36" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011278</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL19">
+        <From id="JPSU37" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011278</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU38" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010949</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL20">
+        <From id="JPSU39" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000010949</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU40" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011069</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL21">
+        <From id="JPSU41" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011069</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU42" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011068</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL10</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL22">
+        <From id="JPSU43" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>227000011068</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU44" SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>227000010121</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL11</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HNTS" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <NationalOperatorCode>HNTS</NationalOperatorCode>
+      <OperatorCode>HNTS</OperatorCode>
+      <OperatorShortName>Hornsbys Bus &amp; Coach</OperatorShortName>
+      <OperatorNameOnLicence>Hornsby Travel Services Ltd</OperatorNameOnLicence>
+      <TradingName>Hornsbys Bus &amp; Coach</TradingName>
+      <LicenceNumber>PB0001410</LicenceNumber>
+      <Garages>
+        <Garage CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+          <GarageCode>ASH</GarageCode>
+          <GarageName>Ashby</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service RevisionNumber="52">
+      <ServiceCode>PB0001410:17</ServiceCode>
+      <PrivateCode>HTAO091</PrivateCode>
+      <Lines>
+        <Line id="HNTS:PB0001410:17:91">
+          <LineName>91</LineName>
+          <OutboundDescription>
+            <Description>Brigg, Cary Lane - Springbank</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Brigg, Springbank - Cary Lane</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-12-08</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HNTS</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Brigg</Origin>
+        <Destination>Springbank</Destination>
+        <Vias>
+          <Via>Cary Lane</Via>
+        </Vias>
+        <JourneyPattern id="JP1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>South View Avenue</DestinationDisplay>
+          <OperatorRef>HNTS</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Cary Lane - South View Avenue</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>South View Avenue</DestinationDisplay>
+          <OperatorRef>HNTS</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Cary Lane - South View Avenue</Description>
+          <RouteRef>RT2</RouteRef>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Cary Lane</DestinationDisplay>
+          <OperatorRef>HNTS</OperatorRef>
+          <Direction>inbound</Direction>
+          <Description>South View Avenue - Cary Lane</Description>
+          <RouteRef>RT3</RouteRef>
+          <JourneyPatternSectionRefs>JPS3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Cary Lane</DestinationDisplay>
+          <OperatorRef>HNTS</OperatorRef>
+          <Direction>inbound</Direction>
+          <Description>South View Avenue - Cary Lane</Description>
+          <RouteRef>RT4</RouteRef>
+          <JourneyPatternSectionRefs>JPS5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:1:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4001</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:1:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4001</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:2:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4002</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:2:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4002</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:3:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4003</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:3:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4003</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:4:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4004</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:4:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4004</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL24">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:5:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4005</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL25">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL26">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL27">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:5:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4005</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL28">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL29">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL30">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:6:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4006</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL31">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL32">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL33">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:O:6:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4006</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ23</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL34">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL35">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL36">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:1:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4101</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL37">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL38">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL39">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL40">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL41">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL42">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL43">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL44">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:1:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4101</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL45">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL46">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL47">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL48">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL49">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL50">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL51">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL52">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:2:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4102</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL53">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL54">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL55">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL56">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL57">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL58">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL59">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL60">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:2:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4102</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL61">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL62">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL63">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL64">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL65">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL66">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL67">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL68">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:3:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4103</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL69">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL70">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL71">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL72">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL73">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL74">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL75">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL76">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:3:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4103</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL77">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL78">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL79">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL80">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL81">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL82">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL83">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL84">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:4:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4104</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL85">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL86">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL87">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL88">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL89">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL90">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL91">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL92">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:4:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4104</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL93">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL94">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL95">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL96">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL97">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL98">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL99">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL100">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:5:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4105</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL101">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL102">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL103">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL104">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL105">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL106">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL107">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL108">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:5:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4105</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ22</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL109">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL110">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL111">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL112">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL113">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL114">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL115">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL116">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:6:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4106</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL117">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL118">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL119">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL120">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL121">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL122">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL123">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL124">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="6" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091MF1225:I:6:2</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>L</Description>
+          <BlockNumber>L</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4106</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ24</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP3</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL125">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL126">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL127">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL128">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL129">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL130">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL131">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL132">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:O:1:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4002</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ25</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL133">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL134">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL135">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:O:2:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4003</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ27</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL136">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL137">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL138">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:O:3:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4004</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ29</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL139">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL140">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL141">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:O:4:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4005</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ31</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL142">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL143">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL144">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:O:5:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4006</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ33</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL145">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL146">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL147">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:I:1:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4102</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ26</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP4</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL148">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL149">
+        <JourneyPatternTimingLinkRef>JPTL16</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL150">
+        <JourneyPatternTimingLinkRef>JPTL17</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL151">
+        <JourneyPatternTimingLinkRef>JPTL18</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL152">
+        <JourneyPatternTimingLinkRef>JPTL19</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL153">
+        <JourneyPatternTimingLinkRef>JPTL20</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL154">
+        <JourneyPatternTimingLinkRef>JPTL21</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL155">
+        <JourneyPatternTimingLinkRef>JPTL22</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:I:2:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4103</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ28</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP4</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL156">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL157">
+        <JourneyPatternTimingLinkRef>JPTL16</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL158">
+        <JourneyPatternTimingLinkRef>JPTL17</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL159">
+        <JourneyPatternTimingLinkRef>JPTL18</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL160">
+        <JourneyPatternTimingLinkRef>JPTL19</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL161">
+        <JourneyPatternTimingLinkRef>JPTL20</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL162">
+        <JourneyPatternTimingLinkRef>JPTL21</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL163">
+        <JourneyPatternTimingLinkRef>JPTL22</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:I:3:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4104</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ30</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP4</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL164">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL165">
+        <JourneyPatternTimingLinkRef>JPTL16</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL166">
+        <JourneyPatternTimingLinkRef>JPTL17</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL167">
+        <JourneyPatternTimingLinkRef>JPTL18</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL168">
+        <JourneyPatternTimingLinkRef>JPTL19</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL169">
+        <JourneyPatternTimingLinkRef>JPTL20</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL170">
+        <JourneyPatternTimingLinkRef>JPTL21</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL171">
+        <JourneyPatternTimingLinkRef>JPTL22</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:I:4:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4105</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ32</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP4</JourneyPatternRef>
+      <DepartureTime>13:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL172">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL173">
+        <JourneyPatternTimingLinkRef>JPTL16</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL174">
+        <JourneyPatternTimingLinkRef>JPTL17</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL175">
+        <JourneyPatternTimingLinkRef>JPTL18</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL176">
+        <JourneyPatternTimingLinkRef>JPTL19</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL177">
+        <JourneyPatternTimingLinkRef>JPTL20</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL178">
+        <JourneyPatternTimingLinkRef>JPTL21</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL179">
+        <JourneyPatternTimingLinkRef>JPTL22</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5" CreationDateTime="2026-07-13T06:40:54" Modification="new" RevisionNumber="0">
+      <PrivateCode>091SA1225:I:5:1</PrivateCode>
+      <OperatorRef>HNTS</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>D</Description>
+          <BlockNumber>D</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4106</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-08-24</StartDate>
+              <EndDate>2027-08-23</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>ASH</GarageRef>
+      <VehicleJourneyCode>VJ34</VehicleJourneyCode>
+      <ServiceRef>PB0001410:17</ServiceRef>
+      <LineRef>HNTS:PB0001410:17:91</LineRef>
+      <JourneyPatternRef>JP4</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL180">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL181">
+        <JourneyPatternTimingLinkRef>JPTL16</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL182">
+        <JourneyPatternTimingLinkRef>JPTL17</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL183">
+        <JourneyPatternTimingLinkRef>JPTL18</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL184">
+        <JourneyPatternTimingLinkRef>JPTL19</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL185">
+        <JourneyPatternTimingLinkRef>JPTL20</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL186">
+        <JourneyPatternTimingLinkRef>JPTL21</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL187">
+        <JourneyPatternTimingLinkRef>JPTL22</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

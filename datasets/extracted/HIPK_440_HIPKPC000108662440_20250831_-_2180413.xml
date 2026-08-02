@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2016-02-22T12:09:03" ModificationDateTime="2026-07-02T06:36:02" Modification="revise" RevisionNumber="24" FileName="HIPK_440_HIPKPC000108662440_20250831_-_2180413.xml" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>APS_2526</OrganisationCode>
+      <Name>Ashbourne Pri Sch 2025-26</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2025-09-08</StartDate>
+          <EndDate>2025-10-24</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-11-04</StartDate>
+          <EndDate>2025-12-19</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-01-06</StartDate>
+          <EndDate>2026-02-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-02-23</StartDate>
+          <EndDate>2026-03-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-22</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100000015551</StopPointRef>
+      <CommonName>Ashbourne Bus Station (Stand 2)</CommonName>
+      <Location>
+        <Longitude>-1.733086</Longitude>
+        <Latitude>53.015559</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100053416</StopPointRef>
+      <CommonName>Hospital</CommonName>
+      <Location>
+        <Longitude>-1.739382</Longitude>
+        <Latitude>53.012175</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000D0008015</StopPointRef>
+      <CommonName>Lodge Avenue</CommonName>
+      <Location>
+        <Longitude>-1.741435</Longitude>
+        <Latitude>53.010337</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DAMR5695</StopPointRef>
+      <CommonName>Cemetery</CommonName>
+      <Location>
+        <Longitude>-1.747676</Longitude>
+        <Latitude>53.010961</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100054858</StopPointRef>
+      <CommonName>The Stepping Stones</CommonName>
+      <Location>
+        <Longitude>-1.745899</Longitude>
+        <Latitude>53.009043</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DAMR5743</StopPointRef>
+      <CommonName>Dark Lane</CommonName>
+      <Location>
+        <Longitude>-1.743254</Longitude>
+        <Latitude>53.012687</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>100000018908</StopPointRef>
+      <CommonName>Parkside School</CommonName>
+      <Location>
+        <Longitude>-1.727436</Longitude>
+        <Latitude>53.020490</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DAPR4168</StopPointRef>
+      <CommonName>Shaw Croft</CommonName>
+      <Location>
+        <Longitude>-1.729559</Longitude>
+        <Latitude>53.017115</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1000DACA4270</StopPointRef>
+      <CommonName>Cockayne Avenue</CommonName>
+      <Location>
+        <Longitude>-1.729205</Longitude>
+        <Latitude>53.018849</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>100000015551</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100053416</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>100053416</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000D0008015</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>1000D0008015</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100054858</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>100054858</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DAMR5695</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>1000DAMR5695</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DAMR5743</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_6">
+        <From>
+          <StopPointRef>1000DAMR5743</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100000018908</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>100000018908</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DACA4270</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>1000DACA4270</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DAPR4168</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_3">
+        <From>
+          <StopPointRef>1000DAPR4168</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100053416</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_4">
+        <From>
+          <StopPointRef>100053416</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000D0008015</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_5">
+        <From>
+          <StopPointRef>1000D0008015</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>100054858</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_6">
+        <From>
+          <StopPointRef>100054858</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1000DAMR5695</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>100000015551</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>100053416</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>100053416</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>1000D0008015</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>1000D0008015</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>100054858</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>100054858</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>1000DAMR5695</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>1000DAMR5695</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>1000DAMR5743</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="6">
+          <StopPointRef>1000DAMR5743</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>100000018908</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_6</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_7">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>100000018908</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>1000DACA4270</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_8">
+        <From SequenceNumber="2">
+          <StopPointRef>1000DACA4270</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>1000DAPR4168</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_9">
+        <From SequenceNumber="3">
+          <StopPointRef>1000DAPR4168</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>100053416</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_3</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_10">
+        <From SequenceNumber="4">
+          <StopPointRef>100053416</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>1000D0008015</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_4</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_11">
+        <From SequenceNumber="5">
+          <StopPointRef>1000D0008015</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>100054858</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_5</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_12">
+        <From SequenceNumber="6">
+          <StopPointRef>100054858</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>1000DAMR5695</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_6</RouteLinkRef>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>HIPK</NationalOperatorCode>
+      <OperatorCode>BOWE</OperatorCode>
+      <OperatorShortName>High Peak</OperatorShortName>
+      <LicenceNumber>PC0001086</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC0001086:62</ServiceCode>
+      <Lines>
+        <Line id="HIPK:PC0001086:62:440">
+          <LineName>440</LineName>
+          <OutboundDescription>
+            <Description>Hanging Bridge to Parkside School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Parkside School to Hanging Bridge</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-08-31</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>APS_2526</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Hanging Bridge</Origin>
+        <Destination>Parkside School</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Parkside School</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Cemetery</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>80833</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PC0001086:62</ServiceRef>
+      <LineRef>HIPK:PC0001086:62:440</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>08:33:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>81545</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PC0001086:62</ServiceRef>
+      <LineRef>HIPK:PC0001086:62:440</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

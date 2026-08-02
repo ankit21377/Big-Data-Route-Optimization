@@ -1,0 +1,2066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2023-12-21T14:32:53Z" ModificationDateTime="2023-12-21T14:32:53Z" Modification="new" RevisionNumber="0" FileName="71_25072024123538.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000475301</StopPointRef>
+      <CommonName>Berrandale Gardens</CommonName>
+      <Indicator>adjacent</Indicator>
+      <LocalityName>Buckland End</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000475302</StopPointRef>
+      <CommonName>Berrandale Gardens</CommonName>
+      <Indicator>opposite</Indicator>
+      <LocalityName>Buckland End</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000176004</StopPointRef>
+      <CommonName>Chelmsley Interchange</CommonName>
+      <Indicator>Stop CF</Indicator>
+      <LocalityName>Chelmsley Wood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000176008</StopPointRef>
+      <CommonName>Chelmsley Interchange</CommonName>
+      <Indicator>Stop CK</Indicator>
+      <LocalityName>Chelmsley Wood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000551301</StopPointRef>
+      <CommonName>Forge Croft</CommonName>
+      <Indicator>Adjacent</Indicator>
+      <LocalityName>Minworth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000551302</StopPointRef>
+      <CommonName>Forge Croft</CommonName>
+      <Indicator>Opposite</Indicator>
+      <LocalityName>Minworth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000571107</StopPointRef>
+      <CommonName>Gracechurch Shopping Centre</CommonName>
+      <Indicator>Stop SH</Indicator>
+      <LocalityName>Sutton Coldfield</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43004864501</StopPointRef>
+      <CommonName>High St</CommonName>
+      <Indicator>adjacent</Indicator>
+      <LocalityName>Castle Vale</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43005510003</StopPointRef>
+      <CommonName>Minworth Green</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Minworth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43005510004</StopPointRef>
+      <CommonName>Minworth Green</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Minworth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>43000181401</StopPointRef>
+      <CommonName>Overgreen Drive</CommonName>
+      <Indicator>before</Indicator>
+      <LocalityName>Kingshurst</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="21_0">
+      <RouteLink id="21_0_54">
+        <From>
+          <StopPointRef>43000176004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="21_0_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="21_0_56">
+        <From>
+          <StopPointRef>43000475301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="21_0_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="21_0_66">
+        <From>
+          <StopPointRef>43000551301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000571107</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="22_0">
+      <RouteLink id="22_0_54">
+        <From>
+          <StopPointRef>43000176004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="22_0_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="22_0_56">
+        <From>
+          <StopPointRef>43000475301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="22_0_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="22_0_66">
+        <From>
+          <StopPointRef>43000551301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000571107</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="23_0">
+      <RouteLink id="23_0_54">
+        <From>
+          <StopPointRef>43000176004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="23_0_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="23_0_56">
+        <From>
+          <StopPointRef>43000475301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="23_0_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="23_0_66">
+        <From>
+          <StopPointRef>43000551301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000571107</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="24_0">
+      <RouteLink id="24_0_54">
+        <From>
+          <StopPointRef>43000176004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="24_0_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="24_0_56">
+        <From>
+          <StopPointRef>43000475301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="24_0_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43005510003</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="24_0_58">
+        <From>
+          <StopPointRef>43005510003</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="24_0_66">
+        <From>
+          <StopPointRef>43000551301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000571107</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="25_0">
+      <RouteLink id="25_0_54">
+        <From>
+          <StopPointRef>43000176004</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="25_0_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="25_0_56">
+        <From>
+          <StopPointRef>43000475301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="25_0_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551301</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="25_0_66">
+        <From>
+          <StopPointRef>43000551301</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000571107</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="26_11">
+      <RouteLink id="26_11_67">
+        <From>
+          <StopPointRef>43000571107</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="26_11_66">
+        <From>
+          <StopPointRef>43000551302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="26_11_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="26_11_56">
+        <From>
+          <StopPointRef>43000475302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="26_11_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000176008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="27_11">
+      <RouteLink id="27_11_67">
+        <From>
+          <StopPointRef>43000571107</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="27_11_66">
+        <From>
+          <StopPointRef>43000551302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="27_11_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="27_11_56">
+        <From>
+          <StopPointRef>43000475302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="27_11_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000176008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="28_11">
+      <RouteLink id="28_11_67">
+        <From>
+          <StopPointRef>43000571107</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="28_11_66">
+        <From>
+          <StopPointRef>43000551302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="28_11_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="28_11_56">
+        <From>
+          <StopPointRef>43000475302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="28_11_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000176008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="29_11">
+      <RouteLink id="29_11_67">
+        <From>
+          <StopPointRef>43000571107</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="29_11_66">
+        <From>
+          <StopPointRef>43000551302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="29_11_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="29_11_56">
+        <From>
+          <StopPointRef>43000475302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="29_11_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000176008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="30_11">
+      <RouteLink id="30_11_67">
+        <From>
+          <StopPointRef>43000571107</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000551302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="30_11_66">
+        <From>
+          <StopPointRef>43000551302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43004864501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="30_11_57">
+        <From>
+          <StopPointRef>43004864501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000475302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="30_11_56">
+        <From>
+          <StopPointRef>43000475302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000181401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="30_11_55">
+        <From>
+          <StopPointRef>43000181401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>43000176008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="21_0">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>21_0</RouteSectionRef>
+    </Route>
+    <Route id="22_0">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>22_0</RouteSectionRef>
+    </Route>
+    <Route id="23_0">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>23_0</RouteSectionRef>
+    </Route>
+    <Route id="24_0">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>24_0</RouteSectionRef>
+    </Route>
+    <Route id="25_0">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>25_0</RouteSectionRef>
+    </Route>
+    <Route id="26_11">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>26_11</RouteSectionRef>
+    </Route>
+    <Route id="27_11">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>27_11</RouteSectionRef>
+    </Route>
+    <Route id="28_11">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>28_11</RouteSectionRef>
+    </Route>
+    <Route id="29_11">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>29_11</RouteSectionRef>
+    </Route>
+    <Route id="30_11">
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <RouteSectionRef>30_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="21_0">
+      <JourneyPatternTimingLink id="21_0_54">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000176004</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>21_0_54</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="21_0_55">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>21_0_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="21_0_56">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>21_0_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="21_0_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>21_0_57</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="21_0_66">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>21_0_66</RouteLinkRef>
+        <RunTime>PT13M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="22_0">
+      <JourneyPatternTimingLink id="22_0_54">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000176004</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>22_0_54</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="22_0_55">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>22_0_55</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="22_0_56">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>22_0_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="22_0_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>22_0_57</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="22_0_66">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>22_0_66</RouteLinkRef>
+        <RunTime>PT14M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="23_0">
+      <JourneyPatternTimingLink id="23_0_54">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000176004</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>23_0_54</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="23_0_55">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>23_0_55</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="23_0_56">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>23_0_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="23_0_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>23_0_57</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="23_0_66">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>23_0_66</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="24_0">
+      <JourneyPatternTimingLink id="24_0_54">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000176004</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_54</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="24_0_55">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_55</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="24_0_56">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_56</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="24_0_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43005510003</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_57</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="24_0_58">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43005510003</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_58</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="24_0_66">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>24_0_66</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="25_0">
+      <JourneyPatternTimingLink id="25_0_54">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000176004</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>25_0_54</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="25_0_55">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>25_0_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="25_0_56">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>25_0_56</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="25_0_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>25_0_57</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="25_0_66">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551301</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>25_0_66</RouteLinkRef>
+        <RunTime>PT14M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="26_11">
+      <JourneyPatternTimingLink id="26_11_67">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>26_11_67</RouteLinkRef>
+        <RunTime>PT13M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="26_11_66">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>26_11_66</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="26_11_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>26_11_57</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="26_11_56">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>26_11_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="26_11_55">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000176008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>26_11_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="27_11">
+      <JourneyPatternTimingLink id="27_11_67">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>27_11_67</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="27_11_66">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>27_11_66</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="27_11_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>27_11_57</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="27_11_56">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>27_11_56</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="27_11_55">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000176008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>27_11_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="28_11">
+      <JourneyPatternTimingLink id="28_11_67">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>28_11_67</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="28_11_66">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>28_11_66</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="28_11_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>28_11_57</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="28_11_56">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>28_11_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="28_11_55">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000176008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>28_11_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="29_11">
+      <JourneyPatternTimingLink id="29_11_67">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>29_11_67</RouteLinkRef>
+        <RunTime>PT14M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="29_11_66">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>29_11_66</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="29_11_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>29_11_57</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="29_11_56">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>29_11_56</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="29_11_55">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000176008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>29_11_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="30_11">
+      <JourneyPatternTimingLink id="30_11_67">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>43000571107</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>30_11_67</RouteLinkRef>
+        <RunTime>PT13M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="30_11_66">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000551302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>30_11_66</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="30_11_57">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43004864501</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>30_11_57</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="30_11_56">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000475302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>30_11_56</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="30_11_55">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>43000181401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>43000176008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>30_11_55</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>SOLU</NationalOperatorCode>
+      <OperatorCode>SOLU</OperatorCode>
+      <OperatorShortName>Solus Travel Ltd</OperatorShortName>
+      <OperatorNameOnLicence>Solus Travel Ltd</OperatorNameOnLicence>
+      <TradingName>Solus Travel Ltd</TradingName>
+      <LicenceNumber>PD1007019</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>SolusTravel</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PD1007019:3</ServiceCode>
+      <Lines>
+        <Line id="SOLU:PD1007019:3:71">
+          <LineName>71</LineName>
+          <OutboundDescription>
+            <Description>Sutton Coldfield - Castle Bromwich, Kingshurst</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Castle Bromwich, Kingshurst - Sutton Coldfield</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-10-29</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description> Sutton Coldfield -  Castle Bromwich, Kingshurst</Description>
+      <StandardService>
+        <Origin>Chelmsley Interchange </Origin>
+        <Destination>Sutton Coldfield</Destination>
+        <JourneyPattern id="21_0">
+          <DestinationDisplay>Sutton Coldfield	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>21_0</RouteRef>
+          <JourneyPatternSectionRefs>21_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="22_0">
+          <DestinationDisplay>Sutton Coldfield	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>22_0</RouteRef>
+          <JourneyPatternSectionRefs>22_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="23_0">
+          <DestinationDisplay>Sutton Coldfield	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>23_0</RouteRef>
+          <JourneyPatternSectionRefs>23_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="24_0">
+          <DestinationDisplay>Sutton Coldfield	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>24_0</RouteRef>
+          <JourneyPatternSectionRefs>24_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="25_0">
+          <DestinationDisplay>Sutton Coldfield	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>25_0</RouteRef>
+          <JourneyPatternSectionRefs>25_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="26_11">
+          <DestinationDisplay>Chelmsley Interchange	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>26_11</RouteRef>
+          <JourneyPatternSectionRefs>26_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="27_11">
+          <DestinationDisplay>Chelmsley Interchange	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>27_11</RouteRef>
+          <JourneyPatternSectionRefs>27_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="28_11">
+          <DestinationDisplay>Chelmsley Interchange</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>28_11</RouteRef>
+          <JourneyPatternSectionRefs>28_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="29_11">
+          <DestinationDisplay>Chelmsley Interchange	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>29_11</RouteRef>
+          <JourneyPatternSectionRefs>29_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="30_11">
+          <DestinationDisplay>Chelmsley Interchange	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>30_11</RouteRef>
+          <JourneyPatternSectionRefs>30_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:20 CHE - SUT</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>21_0</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>09:20 CHE - SUT</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>21_0</JourneyPatternRef>
+      <DepartureTime>09:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:20 CHE - SUT</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>22_0</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>11:20 CHE - SUT</Description>
+          <BlockNumber>4</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>12:20 CHE - SUT</Description>
+          <BlockNumber>5</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>5</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:20 CHE - SUT</Description>
+          <BlockNumber>6</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>6</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:20 CHE - SUT	</Description>
+          <BlockNumber>7</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>7</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:20 CHE - SUT</Description>
+          <BlockNumber>8</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>8</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>8</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:20 CHE - SUT</Description>
+          <BlockNumber>9</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>9</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>9</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>23_0</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>17:20 CHE - SUT</Description>
+          <BlockNumber>10</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>10</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>10</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>24_0</JourneyPatternRef>
+      <DepartureTime>17:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>18:20 CHE - SUT</Description>
+          <BlockNumber>11</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>11</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>25_0</JourneyPatternRef>
+      <DepartureTime>18:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>19:20 CHE - SUT</Description>
+          <BlockNumber>12</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>12</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>12</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>25_0</JourneyPatternRef>
+      <DepartureTime>19:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>09:20 SUT - CHE</Description>
+          <BlockNumber>13</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>13</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>13</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>26_11</JourneyPatternRef>
+      <DepartureTime>09:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>10:20 SUT - CHE</Description>
+          <BlockNumber>14</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>14</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>14</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>27_11</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>11:20 SUT - CHE</Description>
+          <BlockNumber>15</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>15</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>15</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>27_11</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>12:20 SUT - CHE</Description>
+          <BlockNumber>16</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>16</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>16</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>27_11</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>13:20 SUT - CHE</Description>
+          <BlockNumber>17</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>17</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>17</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>27_11</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:20 SUT - CHE</Description>
+          <BlockNumber>18</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>18</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>18</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>27_11</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:20 SUT - CHE</Description>
+          <BlockNumber>19</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>19</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>19</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>28_11</JourneyPatternRef>
+      <DepartureTime>16:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>17:20 SUT - CHE</Description>
+          <BlockNumber>20</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>20</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>20</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>29_11</JourneyPatternRef>
+      <DepartureTime>17:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>19:10 SUT - CHE</Description>
+          <BlockNumber>21</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>21</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>21</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>30_11</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>20:10 SUT - CHE</Description>
+          <BlockNumber>22</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>22</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>22</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>30_11</JourneyPatternRef>
+      <DepartureTime>20:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>21:10 SUT - CHE</Description>
+          <BlockNumber>23</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>71</TicketMachineServiceCode>
+          <JourneyCode>23</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>23</VehicleJourneyCode>
+      <ServiceRef>PD1007019:3</ServiceRef>
+      <LineRef>SOLU:PD1007019:3:71</LineRef>
+      <JourneyPatternRef>30_11</JourneyPatternRef>
+      <DepartureTime>21:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

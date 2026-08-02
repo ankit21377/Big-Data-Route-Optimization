@@ -1,0 +1,3072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Omnibus TransXChange Exporter (1.0.234.30765)-->
+<!--Export Profile:BODS 1.1-->
+<TransXChange CreationDateTime="2025-10-09T09:25:44" ModificationDateTime="2026-06-19T13:02:29" Modification="revise" RevisionNumber="2" FileName="BODS_PF0002252_143_20251027_2.xml" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" SchemaVersion="2.4" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>2700LLCS3174</StopPointRef>
+      <CommonName>Louth Academy Lower Campus</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270002703625</StopPointRef>
+      <CommonName>Aldi</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270002703664</StopPointRef>
+      <CommonName>Aldi</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>2700LLAD1747</StopPointRef>
+      <CommonName>Blenheim Close</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>2700LLBS2699</StopPointRef>
+      <CommonName>Bus Station</CommonName>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>2700LLCD0662</StopPointRef>
+      <CommonName>Harewood Crescent</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270000008043</StopPointRef>
+      <CommonName>James Street</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270000008044</StopPointRef>
+      <CommonName>James Street</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270002703969</StopPointRef>
+      <CommonName>Jubilee Crescent</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270002703968</StopPointRef>
+      <CommonName>Masonic Centre</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270002703967</StopPointRef>
+      <CommonName>P.C. Coaches Depot</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270000008042</StopPointRef>
+      <CommonName>Pleasant Place</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <StopPointRef>270000008051</StopPointRef>
+      <CommonName>Pleasant Place</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Louth</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL1" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>2700LLBS2699</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270000008042</StopPointRef>
+        </To>
+        <Distance>229</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L1">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533180</Easting>
+                <Northing>387422</Northing>
+                <Longitude>0.000096050</Longitude>
+                <Latitude>53.366893340</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L2">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533183</Easting>
+                <Northing>387394</Northing>
+                <Longitude>0.000129510</Longitude>
+                <Latitude>53.366645700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L3">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533192</Easting>
+                <Northing>387397</Northing>
+                <Longitude>0.000266810</Longitude>
+                <Latitude>53.366666100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L4">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533203</Easting>
+                <Northing>387400</Northing>
+                <Longitude>0.000445010</Longitude>
+                <Latitude>53.366693000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L5">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533198</Easting>
+                <Northing>387438</Northing>
+                <Longitude>0.000383410</Longitude>
+                <Latitude>53.367030800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L6">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533195</Easting>
+                <Northing>387457</Northing>
+                <Longitude>0.000339310</Longitude>
+                <Latitude>53.367208000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L7">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533190</Easting>
+                <Northing>387475</Northing>
+                <Longitude>0.000268310</Longitude>
+                <Latitude>53.367371400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L8">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533185</Easting>
+                <Northing>387491</Northing>
+                <Longitude>0.000204610</Longitude>
+                <Latitude>53.367513900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L9">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533192</Easting>
+                <Northing>387494</Northing>
+                <Longitude>0.000317410</Longitude>
+                <Latitude>53.367535600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L10">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533197</Easting>
+                <Northing>387496</Northing>
+                <Longitude>0.000393610</Longitude>
+                <Latitude>53.367553300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L11">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533203</Easting>
+                <Northing>387498</Northing>
+                <Longitude>0.000485310</Longitude>
+                <Latitude>53.367573400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L12">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533227</Easting>
+                <Northing>387505</Northing>
+                <Longitude>0.000849410</Longitude>
+                <Latitude>53.367625100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L13">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387509</Northing>
+                <Longitude>0.001018810</Longitude>
+                <Latitude>53.367663000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L14">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387520</Northing>
+                <Longitude>0.001021510</Longitude>
+                <Latitude>53.367756800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L15">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387537</Northing>
+                <Longitude>0.001042110</Longitude>
+                <Latitude>53.367910200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L16">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387539</Northing>
+                <Longitude>0.001043560</Longitude>
+                <Latitude>53.367935740</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL2" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270000008042</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270000008043</StopPointRef>
+        </To>
+        <Distance>207</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L17">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387539</Northing>
+                <Longitude>0.001043560</Longitude>
+                <Latitude>53.367935740</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L18">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387562</Northing>
+                <Longitude>0.001055210</Longitude>
+                <Latitude>53.368142000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L19">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387570</Northing>
+                <Longitude>0.001058910</Longitude>
+                <Latitude>53.368212600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L20">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387579</Northing>
+                <Longitude>0.001063810</Longitude>
+                <Latitude>53.368293700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L21">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533238</Easting>
+                <Northing>387613</Northing>
+                <Longitude>0.001052810</Longitude>
+                <Latitude>53.368598300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L22">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387622</Northing>
+                <Longitude>0.001065910</Longitude>
+                <Latitude>53.368678300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L23">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387631</Northing>
+                <Longitude>0.001080810</Longitude>
+                <Latitude>53.368757600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L24">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533241</Easting>
+                <Northing>387640</Northing>
+                <Longitude>0.001113710</Longitude>
+                <Latitude>53.368841800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L25">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533244</Easting>
+                <Northing>387648</Northing>
+                <Longitude>0.001155010</Longitude>
+                <Latitude>53.368910400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L26">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533247</Easting>
+                <Northing>387654</Northing>
+                <Longitude>0.001209310</Longitude>
+                <Latitude>53.368966600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L27">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533257</Easting>
+                <Northing>387674</Northing>
+                <Longitude>0.001365210</Longitude>
+                <Latitude>53.369138400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L28">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533272</Easting>
+                <Northing>387700</Northing>
+                <Longitude>0.001594810</Longitude>
+                <Latitude>53.369366100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L29">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533294</Easting>
+                <Northing>387732</Northing>
+                <Longitude>0.001943700</Longitude>
+                <Latitude>53.369652760</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS3" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL3" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270000008043</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270002703664</StopPointRef>
+        </To>
+        <Distance>218</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L30">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533294</Easting>
+                <Northing>387732</Northing>
+                <Longitude>0.001943700</Longitude>
+                <Latitude>53.369652760</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L31">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533313</Easting>
+                <Northing>387761</Northing>
+                <Longitude>0.002249210</Longitude>
+                <Latitude>53.369903800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L32">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533269</Easting>
+                <Northing>387813</Northing>
+                <Longitude>0.001603110</Longitude>
+                <Latitude>53.370381300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L33">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533265</Easting>
+                <Northing>387817</Northing>
+                <Longitude>0.001541610</Longitude>
+                <Latitude>53.370423800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L34">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387844</Northing>
+                <Longitude>0.001180710</Longitude>
+                <Latitude>53.370673700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L35">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533233</Easting>
+                <Northing>387856</Northing>
+                <Longitude>0.001087710</Longitude>
+                <Latitude>53.370783400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L36">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533222</Easting>
+                <Northing>387877</Northing>
+                <Longitude>0.000924310</Longitude>
+                <Latitude>53.370976000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L37">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533218</Easting>
+                <Northing>387912</Northing>
+                <Longitude>0.000884510</Longitude>
+                <Latitude>53.371284400</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS4" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL4" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270002703664</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2700LLCS3174</StopPointRef>
+        </To>
+        <Distance>307</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L38">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533218</Easting>
+                <Northing>387912</Northing>
+                <Longitude>0.000884510</Longitude>
+                <Latitude>53.371284400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L39">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533213</Easting>
+                <Northing>387959</Northing>
+                <Longitude>0.000829610</Longitude>
+                <Latitude>53.371709800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L40">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533209</Easting>
+                <Northing>387999</Northing>
+                <Longitude>0.000782410</Longitude>
+                <Latitude>53.372075100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L41">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533209</Easting>
+                <Northing>388049</Northing>
+                <Longitude>0.000794810</Longitude>
+                <Latitude>53.372517900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L42">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533208</Easting>
+                <Northing>388061</Northing>
+                <Longitude>0.000792510</Longitude>
+                <Latitude>53.372628000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L43">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533208</Easting>
+                <Northing>388080</Northing>
+                <Longitude>0.000793810</Longitude>
+                <Latitude>53.372802400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L44">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533205</Easting>
+                <Northing>388088</Northing>
+                <Longitude>0.000755610</Longitude>
+                <Latitude>53.372868000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L45">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533198</Easting>
+                <Northing>388093</Northing>
+                <Longitude>0.000654810</Longitude>
+                <Latitude>53.372916000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L46">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533186</Easting>
+                <Northing>388096</Northing>
+                <Longitude>0.000482710</Longitude>
+                <Latitude>53.372944600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L47">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533168</Easting>
+                <Northing>388098</Northing>
+                <Longitude>0.000206610</Longitude>
+                <Latitude>53.372969000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L48">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533155</Easting>
+                <Northing>388102</Northing>
+                <Longitude>0.000018810</Longitude>
+                <Latitude>53.373007300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L49">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533148</Easting>
+                <Northing>388106</Northing>
+                <Longitude>-0.000096690</Longitude>
+                <Latitude>53.373049800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L50">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533140</Easting>
+                <Northing>388112</Northing>
+                <Longitude>-0.000209290</Longitude>
+                <Latitude>53.373101400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L51">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533130</Easting>
+                <Northing>388124</Northing>
+                <Longitude>-0.000356290</Longitude>
+                <Latitude>53.373212200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L52">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533126</Easting>
+                <Northing>388130</Northing>
+                <Longitude>-0.000408490</Longitude>
+                <Latitude>53.373271500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L53">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533122</Easting>
+                <Northing>388137</Northing>
+                <Longitude>-0.000462890</Longitude>
+                <Latitude>53.373333300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L54">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533112</Easting>
+                <Northing>388164</Northing>
+                <Longitude>-0.000608850</Longitude>
+                <Latitude>53.373574790</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS5" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL5" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>2700LLCS3174</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2700LLCD0662</StopPointRef>
+        </To>
+        <Distance>643</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L55">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533112</Easting>
+                <Northing>388164</Northing>
+                <Longitude>-0.000608850</Longitude>
+                <Latitude>53.373574790</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L56">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533111</Easting>
+                <Northing>388167</Northing>
+                <Longitude>-0.000626690</Longitude>
+                <Latitude>53.373604300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L57">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533099</Easting>
+                <Northing>388190</Northing>
+                <Longitude>-0.000791190</Longitude>
+                <Latitude>53.373819300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L58">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533086</Easting>
+                <Northing>388215</Northing>
+                <Longitude>-0.000970890</Longitude>
+                <Latitude>53.374041500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L59">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533067</Easting>
+                <Northing>388244</Northing>
+                <Longitude>-0.001256190</Longitude>
+                <Latitude>53.374308600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L60">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533046</Easting>
+                <Northing>388268</Northing>
+                <Longitude>-0.001557890</Longitude>
+                <Latitude>53.374524800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L61">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533023</Easting>
+                <Northing>388288</Northing>
+                <Longitude>-0.001885990</Longitude>
+                <Latitude>53.374713400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L62">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533007</Easting>
+                <Northing>388303</Northing>
+                <Longitude>-0.002132190</Longitude>
+                <Latitude>53.374855000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L63">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532978</Easting>
+                <Northing>388325</Northing>
+                <Longitude>-0.002555690</Longitude>
+                <Latitude>53.375060400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L64">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532941</Easting>
+                <Northing>388345</Northing>
+                <Longitude>-0.003104590</Longitude>
+                <Latitude>53.375250400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L65">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532903</Easting>
+                <Northing>388360</Northing>
+                <Longitude>-0.003661490</Longitude>
+                <Latitude>53.375393400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L66">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532869</Easting>
+                <Northing>388374</Northing>
+                <Longitude>-0.004169490</Longitude>
+                <Latitude>53.375523800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L67">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532811</Easting>
+                <Northing>388391</Northing>
+                <Longitude>-0.005039690</Longitude>
+                <Latitude>53.375696900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L68">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532783</Easting>
+                <Northing>388400</Northing>
+                <Longitude>-0.005451690</Longitude>
+                <Latitude>53.375778800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L69">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532777</Easting>
+                <Northing>388380</Northing>
+                <Longitude>-0.005544790</Longitude>
+                <Latitude>53.375603400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L70">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532763</Easting>
+                <Northing>388331</Northing>
+                <Longitude>-0.005782890</Longitude>
+                <Latitude>53.375166900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L71">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532745</Easting>
+                <Northing>388305</Northing>
+                <Longitude>-0.006061890</Longitude>
+                <Latitude>53.374936400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L72">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532725</Easting>
+                <Northing>388277</Northing>
+                <Longitude>-0.006372990</Longitude>
+                <Latitude>53.374686800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L73">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532687</Easting>
+                <Northing>388252</Northing>
+                <Longitude>-0.006951690</Longitude>
+                <Latitude>53.374474200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L74">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532678</Easting>
+                <Northing>388246</Northing>
+                <Longitude>-0.007099490</Longitude>
+                <Latitude>53.374420000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L75">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532661</Easting>
+                <Northing>388235</Northing>
+                <Longitude>-0.007347590</Longitude>
+                <Latitude>53.374332800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L76">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532655</Easting>
+                <Northing>388232</Northing>
+                <Longitude>-0.007439600</Longitude>
+                <Latitude>53.374300510</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS6" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL6" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>2700LLCD0662</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2700LLAD1747</StopPointRef>
+        </To>
+        <Distance>234</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L77">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532655</Easting>
+                <Northing>388232</Northing>
+                <Longitude>-0.007439600</Longitude>
+                <Latitude>53.374300510</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L78">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532613</Easting>
+                <Northing>388205</Northing>
+                <Longitude>-0.008089590</Longitude>
+                <Latitude>53.374072400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L79">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532564</Easting>
+                <Northing>388172</Northing>
+                <Longitude>-0.008838790</Longitude>
+                <Latitude>53.373784700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L80">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532536</Easting>
+                <Northing>388211</Northing>
+                <Longitude>-0.009246490</Longitude>
+                <Latitude>53.374149500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L81">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532519</Easting>
+                <Northing>388241</Northing>
+                <Longitude>-0.009479890</Longitude>
+                <Latitude>53.374419300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L82">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532513</Easting>
+                <Northing>388253</Northing>
+                <Longitude>-0.009574790</Longitude>
+                <Latitude>53.374529000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L83">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532498</Easting>
+                <Northing>388278</Northing>
+                <Longitude>-0.009787810</Longitude>
+                <Latitude>53.374757830</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS7" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL7" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>2700LLAD1747</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270002703967</StopPointRef>
+        </To>
+        <Distance>1037</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L84">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532498</Easting>
+                <Northing>388278</Northing>
+                <Longitude>-0.009787810</Longitude>
+                <Latitude>53.374757830</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L85">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532494</Easting>
+                <Northing>388284</Northing>
+                <Longitude>-0.009841490</Longitude>
+                <Latitude>53.374815500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L86">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532478</Easting>
+                <Northing>388311</Northing>
+                <Longitude>-0.010070190</Longitude>
+                <Latitude>53.375061300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L87">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532475</Easting>
+                <Northing>388316</Northing>
+                <Longitude>-0.010118490</Longitude>
+                <Latitude>53.375106400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L88">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532469</Easting>
+                <Northing>388325</Northing>
+                <Longitude>-0.010203790</Longitude>
+                <Latitude>53.375186100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L89">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532456</Easting>
+                <Northing>388346</Northing>
+                <Longitude>-0.010384090</Longitude>
+                <Latitude>53.375378600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L90">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532449</Easting>
+                <Northing>388369</Northing>
+                <Longitude>-0.010482090</Longitude>
+                <Latitude>53.375589300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L91">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532448</Easting>
+                <Northing>388380</Northing>
+                <Longitude>-0.010485790</Longitude>
+                <Latitude>53.375686000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L92">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532446</Easting>
+                <Northing>388419</Northing>
+                <Longitude>-0.010499090</Longitude>
+                <Latitude>53.376037100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L93">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532447</Easting>
+                <Northing>388435</Northing>
+                <Longitude>-0.010489990</Longitude>
+                <Latitude>53.376178800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L94">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532480</Easting>
+                <Northing>388436</Northing>
+                <Longitude>-0.009989590</Longitude>
+                <Latitude>53.376177400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L95">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532481</Easting>
+                <Northing>388489</Northing>
+                <Longitude>-0.009944590</Longitude>
+                <Latitude>53.376660200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L96">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532483</Easting>
+                <Northing>388563</Northing>
+                <Longitude>-0.009882790</Longitude>
+                <Latitude>53.377324100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L97">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532470</Easting>
+                <Northing>388610</Northing>
+                <Longitude>-0.010058090</Longitude>
+                <Latitude>53.377747500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L98">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532460</Easting>
+                <Northing>388649</Northing>
+                <Longitude>-0.010204490</Longitude>
+                <Latitude>53.378101300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L99">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532448</Easting>
+                <Northing>388695</Northing>
+                <Longitude>-0.010364690</Longitude>
+                <Latitude>53.378513200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L100">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532443</Easting>
+                <Northing>388713</Northing>
+                <Longitude>-0.010427590</Longitude>
+                <Latitude>53.378674900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L101">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532436</Easting>
+                <Northing>388739</Northing>
+                <Longitude>-0.010518890</Longitude>
+                <Latitude>53.378909700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L102">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532433</Easting>
+                <Northing>388751</Northing>
+                <Longitude>-0.010562990</Longitude>
+                <Latitude>53.379023100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L103">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532426</Easting>
+                <Northing>388777</Northing>
+                <Longitude>-0.010653790</Longitude>
+                <Latitude>53.379256600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L104">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532427</Easting>
+                <Northing>388779</Northing>
+                <Longitude>-0.010636090</Longitude>
+                <Latitude>53.379274300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L105">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532472</Easting>
+                <Northing>388798</Northing>
+                <Longitude>-0.009949490</Longitude>
+                <Latitude>53.379434300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L106">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532530</Easting>
+                <Northing>388823</Northing>
+                <Longitude>-0.009076690</Longitude>
+                <Latitude>53.379640600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L107">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532593</Easting>
+                <Northing>388850</Northing>
+                <Longitude>-0.008116790</Longitude>
+                <Latitude>53.379867500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L108">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532618</Easting>
+                <Northing>388860</Northing>
+                <Longitude>-0.007734590</Longitude>
+                <Latitude>53.379957900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L109">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532622</Easting>
+                <Northing>388862</Northing>
+                <Longitude>-0.007680990</Longitude>
+                <Latitude>53.379970500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L110">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532659</Easting>
+                <Northing>388878</Northing>
+                <Longitude>-0.007110190</Longitude>
+                <Latitude>53.380105500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L111">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532700</Easting>
+                <Northing>388896</Northing>
+                <Longitude>-0.006484090</Longitude>
+                <Latitude>53.380253500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L112">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532739</Easting>
+                <Northing>388914</Northing>
+                <Longitude>-0.005893990</Longitude>
+                <Latitude>53.380407100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L113">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532728</Easting>
+                <Northing>388966</Northing>
+                <Longitude>-0.006034590</Longitude>
+                <Latitude>53.380877600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L114">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532705</Easting>
+                <Northing>389030</Northing>
+                <Longitude>-0.006350290</Longitude>
+                <Latitude>53.381463500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L115">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532698</Easting>
+                <Northing>389051</Northing>
+                <Longitude>-0.006453090</Longitude>
+                <Latitude>53.381654290</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS8" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL8" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270002703967</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270002703968</StopPointRef>
+        </To>
+        <Distance>1243</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L116">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532698</Easting>
+                <Northing>389051</Northing>
+                <Longitude>-0.006453090</Longitude>
+                <Latitude>53.381654290</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L117">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532664</Easting>
+                <Northing>389147</Northing>
+                <Longitude>-0.006919290</Longitude>
+                <Latitude>53.382519500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L118">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532661</Easting>
+                <Northing>389156</Northing>
+                <Longitude>-0.006963990</Longitude>
+                <Latitude>53.382602500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L119">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532502</Easting>
+                <Northing>389103</Northing>
+                <Longitude>-0.009377090</Longitude>
+                <Latitude>53.382168500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L120">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532498</Easting>
+                <Northing>389120</Northing>
+                <Longitude>-0.009428590</Longitude>
+                <Latitude>53.382320400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L121">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532491</Easting>
+                <Northing>389152</Northing>
+                <Longitude>-0.009527590</Longitude>
+                <Latitude>53.382612100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L122">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532480</Easting>
+                <Northing>389176</Northing>
+                <Longitude>-0.009675390</Longitude>
+                <Latitude>53.382830400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L123">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532469</Easting>
+                <Northing>389201</Northing>
+                <Longitude>-0.009825390</Longitude>
+                <Latitude>53.383052100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L124">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532488</Easting>
+                <Northing>389209</Northing>
+                <Longitude>-0.009545790</Longitude>
+                <Latitude>53.383123700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L125">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532516</Easting>
+                <Northing>389222</Northing>
+                <Longitude>-0.009112190</Longitude>
+                <Latitude>53.383236100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L126">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532527</Easting>
+                <Northing>389228</Northing>
+                <Longitude>-0.008944490</Longitude>
+                <Latitude>53.383279400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L127">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532604</Easting>
+                <Northing>389264</Northing>
+                <Longitude>-0.007781990</Longitude>
+                <Latitude>53.383584800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L128">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532690</Easting>
+                <Northing>389301</Northing>
+                <Longitude>-0.006468790</Longitude>
+                <Latitude>53.383901600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L129">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532709</Easting>
+                <Northing>389307</Northing>
+                <Longitude>-0.006178290</Longitude>
+                <Latitude>53.383950700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L130">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532726</Easting>
+                <Northing>389311</Northing>
+                <Longitude>-0.005919390</Longitude>
+                <Latitude>53.383975100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L131">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532754</Easting>
+                <Northing>389309</Northing>
+                <Longitude>-0.005503590</Longitude>
+                <Latitude>53.383954800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L132">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532756</Easting>
+                <Northing>389309</Northing>
+                <Longitude>-0.005471990</Longitude>
+                <Latitude>53.383952200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L133">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532794</Easting>
+                <Northing>389305</Northing>
+                <Longitude>-0.004903790</Longitude>
+                <Latitude>53.383906000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L134">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532809</Easting>
+                <Northing>389300</Northing>
+                <Longitude>-0.004685690</Longitude>
+                <Latitude>53.383861300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L135">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532813</Easting>
+                <Northing>389296</Northing>
+                <Longitude>-0.004624390</Longitude>
+                <Latitude>53.383820600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L136">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532812</Easting>
+                <Northing>389277</Northing>
+                <Longitude>-0.004639690</Longitude>
+                <Latitude>53.383653100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L137">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532812</Easting>
+                <Northing>389271</Northing>
+                <Longitude>-0.004644790</Longitude>
+                <Latitude>53.383597000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L138">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532810</Easting>
+                <Northing>389253</Northing>
+                <Longitude>-0.004692490</Longitude>
+                <Latitude>53.383434400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L139">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532810</Easting>
+                <Northing>389239</Northing>
+                <Longitude>-0.004685690</Longitude>
+                <Latitude>53.383308400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L140">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532849</Easting>
+                <Northing>389130</Northing>
+                <Longitude>-0.004157490</Longitude>
+                <Latitude>53.382324200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L141">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532869</Easting>
+                <Northing>389073</Northing>
+                <Longitude>-0.003877390</Longitude>
+                <Latitude>53.381802200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L142">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532870</Easting>
+                <Northing>389069</Northing>
+                <Longitude>-0.003860990</Longitude>
+                <Latitude>53.381771700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L143">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532896</Easting>
+                <Northing>388992</Northing>
+                <Longitude>-0.003508390</Longitude>
+                <Latitude>53.381067700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L144">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532904</Easting>
+                <Northing>388976</Northing>
+                <Longitude>-0.003390390</Longitude>
+                <Latitude>53.380920600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L145">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532915</Easting>
+                <Northing>388963</Northing>
+                <Longitude>-0.003229490</Longitude>
+                <Latitude>53.380805400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L146">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532928</Easting>
+                <Northing>388952</Northing>
+                <Longitude>-0.003036290</Longitude>
+                <Latitude>53.380703000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L147">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532940</Easting>
+                <Northing>388947</Northing>
+                <Longitude>-0.002864690</Longitude>
+                <Latitude>53.380651800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L148">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532965</Easting>
+                <Northing>388942</Northing>
+                <Longitude>-0.002489190</Longitude>
+                <Latitude>53.380607000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L149">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>532979</Easting>
+                <Northing>388943</Northing>
+                <Longitude>-0.002285290</Longitude>
+                <Latitude>53.380607000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L150">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533012</Easting>
+                <Northing>388956</Northing>
+                <Longitude>-0.001781090</Longitude>
+                <Latitude>53.380715800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L151">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533031</Easting>
+                <Northing>388965</Northing>
+                <Longitude>-0.001480690</Longitude>
+                <Latitude>53.380792600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L152">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533040</Easting>
+                <Northing>388974</Northing>
+                <Longitude>-0.001350600</Longitude>
+                <Latitude>53.380874070</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS9" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL9" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270002703968</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270002703969</StopPointRef>
+        </To>
+        <Distance>727</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L153">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533040</Easting>
+                <Northing>388974</Northing>
+                <Longitude>-0.001350600</Longitude>
+                <Latitude>53.380874070</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L154">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533045</Easting>
+                <Northing>388980</Northing>
+                <Longitude>-0.001266090</Longitude>
+                <Latitude>53.380927000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L155">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533054</Easting>
+                <Northing>388999</Northing>
+                <Longitude>-0.001126590</Longitude>
+                <Latitude>53.381093300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L156">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533054</Easting>
+                <Northing>389000</Northing>
+                <Longitude>-0.001121630</Longitude>
+                <Latitude>53.381104380</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L157">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533162</Easting>
+                <Northing>388988</Northing>
+                <Longitude>0.000492690</Longitude>
+                <Latitude>53.380971020</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L158">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533164</Easting>
+                <Northing>388988</Northing>
+                <Longitude>0.000516540</Longitude>
+                <Latitude>53.380970620</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L159">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533164</Easting>
+                <Northing>388987</Northing>
+                <Longitude>0.000515870</Longitude>
+                <Latitude>53.380956360</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L160">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533162</Easting>
+                <Northing>388986</Northing>
+                <Longitude>0.000489570</Longitude>
+                <Latitude>53.380952970</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L161">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533172</Easting>
+                <Northing>388946</Northing>
+                <Longitude>0.000619800</Longitude>
+                <Latitude>53.380590980</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L162">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533172</Easting>
+                <Northing>388944</Northing>
+                <Longitude>0.000628380</Longitude>
+                <Latitude>53.380567140</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L163">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533185</Easting>
+                <Northing>388894</Northing>
+                <Longitude>0.000791110</Longitude>
+                <Latitude>53.380114800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L164">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533207</Easting>
+                <Northing>388802</Northing>
+                <Longitude>0.001088410</Longitude>
+                <Latitude>53.379288400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L165">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533216</Easting>
+                <Northing>388767</Northing>
+                <Longitude>0.001202710</Longitude>
+                <Latitude>53.378970600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L166">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533222</Easting>
+                <Northing>388740</Northing>
+                <Longitude>0.001294010</Longitude>
+                <Latitude>53.378727300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L167">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533244</Easting>
+                <Northing>388656</Northing>
+                <Longitude>0.001578910</Longitude>
+                <Latitude>53.377967400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L168">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533253</Easting>
+                <Northing>388618</Northing>
+                <Longitude>0.001698310</Longitude>
+                <Latitude>53.377624700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L169">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533268</Easting>
+                <Northing>388560</Northing>
+                <Longitude>0.001904910</Longitude>
+                <Latitude>53.377097600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L170">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533273</Easting>
+                <Northing>388536</Northing>
+                <Longitude>0.001972210</Longitude>
+                <Latitude>53.376875500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L171">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533276</Easting>
+                <Northing>388524</Northing>
+                <Longitude>0.002014310</Longitude>
+                <Latitude>53.376768000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L172">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533284</Easting>
+                <Northing>388489</Northing>
+                <Longitude>0.002112710</Longitude>
+                <Latitude>53.376457700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L173">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533289</Easting>
+                <Northing>388473</Northing>
+                <Longitude>0.002176310</Longitude>
+                <Latitude>53.376304900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L174">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533292</Easting>
+                <Northing>388458</Northing>
+                <Longitude>0.002221110</Longitude>
+                <Latitude>53.376178000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L175">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533302</Easting>
+                <Northing>388419</Northing>
+                <Longitude>0.002349000</Longitude>
+                <Latitude>53.375821680</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS10" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL10" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270002703969</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270002703625</StopPointRef>
+        </To>
+        <Distance>599</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L176">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533302</Easting>
+                <Northing>388419</Northing>
+                <Longitude>0.002349000</Longitude>
+                <Latitude>53.375821680</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L177">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533310</Easting>
+                <Northing>388385</Northing>
+                <Longitude>0.002458710</Longitude>
+                <Latitude>53.375516000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L178">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533320</Easting>
+                <Northing>388356</Northing>
+                <Longitude>0.002594210</Longitude>
+                <Latitude>53.375249700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L179">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533344</Easting>
+                <Northing>388283</Northing>
+                <Longitude>0.002930810</Longitude>
+                <Latitude>53.374588000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L180">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533378</Easting>
+                <Northing>388222</Northing>
+                <Longitude>0.003413510</Longitude>
+                <Latitude>53.374031100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L181">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533371</Easting>
+                <Northing>388218</Northing>
+                <Longitude>0.003299910</Longitude>
+                <Latitude>53.373995700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L182">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533328</Easting>
+                <Northing>388194</Northing>
+                <Longitude>0.002646810</Longitude>
+                <Latitude>53.373791000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L183">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533292</Easting>
+                <Northing>388172</Northing>
+                <Longitude>0.002101810</Longitude>
+                <Latitude>53.373603200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L184">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533259</Easting>
+                <Northing>388142</Northing>
+                <Longitude>0.001591810</Longitude>
+                <Latitude>53.373340600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L185">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533251</Easting>
+                <Northing>388134</Northing>
+                <Longitude>0.001463110</Longitude>
+                <Latitude>53.373274300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L186">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533235</Easting>
+                <Northing>388118</Northing>
+                <Longitude>0.001219910</Longitude>
+                <Latitude>53.373136700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L187">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533224</Easting>
+                <Northing>388106</Northing>
+                <Longitude>0.001042910</Longitude>
+                <Latitude>53.373027200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L188">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533213</Easting>
+                <Northing>388093</Northing>
+                <Longitude>0.000872810</Longitude>
+                <Latitude>53.372915800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L189">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533205</Easting>
+                <Northing>388088</Northing>
+                <Longitude>0.000755610</Longitude>
+                <Latitude>53.372868000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L190">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533208</Easting>
+                <Northing>388080</Northing>
+                <Longitude>0.000793810</Longitude>
+                <Latitude>53.372802400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L191">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533208</Easting>
+                <Northing>388061</Northing>
+                <Longitude>0.000792510</Longitude>
+                <Latitude>53.372628000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L192">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533209</Easting>
+                <Northing>388049</Northing>
+                <Longitude>0.000794810</Longitude>
+                <Latitude>53.372517900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L193">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533209</Easting>
+                <Northing>387999</Northing>
+                <Longitude>0.000782410</Longitude>
+                <Latitude>53.372075100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L194">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533213</Easting>
+                <Northing>387959</Northing>
+                <Longitude>0.000829610</Longitude>
+                <Latitude>53.371709800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L195">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533217</Easting>
+                <Northing>387922</Northing>
+                <Longitude>0.000872290</Longitude>
+                <Latitude>53.371379110</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS11" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL11" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270002703625</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270000008044</StopPointRef>
+        </To>
+        <Distance>233</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L196">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533217</Easting>
+                <Northing>387922</Northing>
+                <Longitude>0.000872290</Longitude>
+                <Latitude>53.371379110</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L197">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533222</Easting>
+                <Northing>387877</Northing>
+                <Longitude>0.000924310</Longitude>
+                <Latitude>53.370976000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L198">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533233</Easting>
+                <Northing>387856</Northing>
+                <Longitude>0.001087710</Longitude>
+                <Latitude>53.370783400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L199">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387844</Northing>
+                <Longitude>0.001180710</Longitude>
+                <Latitude>53.370673700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L200">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533265</Easting>
+                <Northing>387817</Northing>
+                <Longitude>0.001541610</Longitude>
+                <Latitude>53.370423800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L201">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533269</Easting>
+                <Northing>387813</Northing>
+                <Longitude>0.001603110</Longitude>
+                <Latitude>53.370381300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L202">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533313</Easting>
+                <Northing>387761</Northing>
+                <Longitude>0.002249210</Longitude>
+                <Latitude>53.369903800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L203">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533291</Easting>
+                <Northing>387728</Northing>
+                <Longitude>0.001900780</Longitude>
+                <Latitude>53.369617500</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS12" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL12" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270000008044</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>270000008051</StopPointRef>
+        </To>
+        <Distance>191</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L204">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533291</Easting>
+                <Northing>387728</Northing>
+                <Longitude>0.001900780</Longitude>
+                <Latitude>53.369617500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L205">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533272</Easting>
+                <Northing>387700</Northing>
+                <Longitude>0.001594810</Longitude>
+                <Latitude>53.369366100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L206">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533257</Easting>
+                <Northing>387674</Northing>
+                <Longitude>0.001365210</Longitude>
+                <Latitude>53.369138400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L207">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533247</Easting>
+                <Northing>387654</Northing>
+                <Longitude>0.001209310</Longitude>
+                <Latitude>53.368966600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L208">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533244</Easting>
+                <Northing>387648</Northing>
+                <Longitude>0.001155010</Longitude>
+                <Latitude>53.368910400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L209">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533241</Easting>
+                <Northing>387640</Northing>
+                <Longitude>0.001113710</Longitude>
+                <Latitude>53.368841800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L210">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387631</Northing>
+                <Longitude>0.001080810</Longitude>
+                <Latitude>53.368757600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L211">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387622</Northing>
+                <Longitude>0.001065910</Longitude>
+                <Latitude>53.368678300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L212">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533238</Easting>
+                <Northing>387613</Northing>
+                <Longitude>0.001052810</Longitude>
+                <Latitude>53.368598300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L213">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387579</Northing>
+                <Longitude>0.001063810</Longitude>
+                <Latitude>53.368293700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L214">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387570</Northing>
+                <Longitude>0.001058910</Longitude>
+                <Latitude>53.368212600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L215">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533240</Easting>
+                <Northing>387562</Northing>
+                <Longitude>0.001055210</Longitude>
+                <Latitude>53.368142000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L216">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387551</Northing>
+                <Longitude>0.001049170</Longitude>
+                <Latitude>53.368035100</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS13" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <RouteLink id="RL13" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+        <From>
+          <StopPointRef>270000008051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2700LLBS2699</StopPointRef>
+        </To>
+        <Distance>188</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L217">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387551</Northing>
+                <Longitude>0.001049170</Longitude>
+                <Latitude>53.368035100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L218">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387537</Northing>
+                <Longitude>0.001042110</Longitude>
+                <Latitude>53.367910200</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L219">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387520</Northing>
+                <Longitude>0.001021510</Longitude>
+                <Latitude>53.367756800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L220">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533239</Easting>
+                <Northing>387509</Northing>
+                <Longitude>0.001018810</Longitude>
+                <Latitude>53.367663000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L221">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533227</Easting>
+                <Northing>387505</Northing>
+                <Longitude>0.000849410</Longitude>
+                <Latitude>53.367625100</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L222">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533203</Easting>
+                <Northing>387498</Northing>
+                <Longitude>0.000485310</Longitude>
+                <Latitude>53.367573400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L223">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533197</Easting>
+                <Northing>387496</Northing>
+                <Longitude>0.000393610</Longitude>
+                <Latitude>53.367553300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L224">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533192</Easting>
+                <Northing>387494</Northing>
+                <Longitude>0.000317410</Longitude>
+                <Latitude>53.367535600</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L225">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533185</Easting>
+                <Northing>387491</Northing>
+                <Longitude>0.000204610</Longitude>
+                <Latitude>53.367513900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L226">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533190</Easting>
+                <Northing>387475</Northing>
+                <Longitude>0.000268310</Longitude>
+                <Latitude>53.367371400</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L227">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533195</Easting>
+                <Northing>387457</Northing>
+                <Longitude>0.000339310</Longitude>
+                <Latitude>53.367208000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L228">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533198</Easting>
+                <Northing>387438</Northing>
+                <Longitude>0.000383410</Longitude>
+                <Latitude>53.367030800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L229">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533193</Easting>
+                <Northing>387438</Northing>
+                <Longitude>0.000298510</Longitude>
+                <Latitude>53.367040000</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L230">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533188</Easting>
+                <Northing>387439</Northing>
+                <Longitude>0.000228710</Longitude>
+                <Latitude>53.367048500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L231">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533186</Easting>
+                <Northing>387439</Northing>
+                <Longitude>0.000198610</Longitude>
+                <Latitude>53.367049900</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L232">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533183</Easting>
+                <Northing>387439</Northing>
+                <Longitude>0.000159310</Longitude>
+                <Latitude>53.367051800</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L233">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533181</Easting>
+                <Northing>387438</Northing>
+                <Longitude>0.000122810</Longitude>
+                <Latitude>53.367037700</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L234">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533179</Easting>
+                <Northing>387435</Northing>
+                <Longitude>0.000095710</Longitude>
+                <Latitude>53.367012300</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L235">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533179</Easting>
+                <Northing>387431</Northing>
+                <Longitude>0.000085210</Longitude>
+                <Latitude>53.366973500</Latitude>
+              </Translation>
+            </Location>
+            <Location id="L236">
+              <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>533180</Easting>
+                <Northing>387422</Northing>
+                <Longitude>0.000096050</Longitude>
+                <Latitude>53.366893340</Latitude>
+              </Translation>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <PrivateCode>LCPC_0N6-1</PrivateCode>
+      <Description>Bus Station - Bus Station</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+      <RouteSectionRef>RS2</RouteSectionRef>
+      <RouteSectionRef>RS3</RouteSectionRef>
+      <RouteSectionRef>RS4</RouteSectionRef>
+      <RouteSectionRef>RS5</RouteSectionRef>
+      <RouteSectionRef>RS6</RouteSectionRef>
+      <RouteSectionRef>RS7</RouteSectionRef>
+      <RouteSectionRef>RS8</RouteSectionRef>
+      <RouteSectionRef>RS9</RouteSectionRef>
+      <RouteSectionRef>RS10</RouteSectionRef>
+      <RouteSectionRef>RS11</RouteSectionRef>
+      <RouteSectionRef>RS12</RouteSectionRef>
+      <RouteSectionRef>RS13</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Fairfield Estate</DynamicDestinationDisplay>
+          <StopPointRef>2700LLBS2699</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008042</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008042</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008043</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS2">
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008043</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703664</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS3">
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703664</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLCS3174</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS4">
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLCS3174</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLCD0662</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS5">
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLCD0662</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLAD1747</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS6">
+      <JourneyPatternTimingLink id="JPTL7">
+        <From id="JPSU13" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>2700LLAD1747</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703967</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS7">
+      <JourneyPatternTimingLink id="JPTL8">
+        <From id="JPSU15" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Louth Bus Station</DynamicDestinationDisplay>
+          <StopPointRef>270002703967</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703968</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS8">
+      <JourneyPatternTimingLink id="JPTL9">
+        <From id="JPSU17" SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703968</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703969</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS9">
+      <JourneyPatternTimingLink id="JPTL10">
+        <From id="JPSU19" SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703969</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU20" SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703625</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL10</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS10">
+      <JourneyPatternTimingLink id="JPTL11">
+        <From id="JPSU21" SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270002703625</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU22" SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008044</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL11</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL12">
+        <From id="JPSU23" SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008044</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU24" SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008051</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL12</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL13">
+        <From id="JPSU25" SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>270000008051</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU26" SequenceNumber="14">
+          <Activity>setDown</Activity>
+          <StopPointRef>2700LLBS2699</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL13</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="PCCO" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <NationalOperatorCode>PCCO</NationalOperatorCode>
+      <OperatorCode>PCCO</OperatorCode>
+      <OperatorShortName>PC Coaches</OperatorShortName>
+      <OperatorNameOnLicence>P C Coaches Of Lincoln Ltd</OperatorNameOnLicence>
+      <TradingName>PC Coaches</TradingName>
+      <LicenceNumber>PF0002252</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service RevisionNumber="2">
+      <ServiceCode>PF0002252:143</ServiceCode>
+      <PrivateCode>LCPC_0N6</PrivateCode>
+      <Lines>
+        <Line id="PCCO:PF0002252:143:N6">
+          <LineName>N6</LineName>
+          <OutboundDescription>
+            <Description>LOUTH NIPPER</Description>
+          </OutboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-10-27</StartDate>
+        <EndDate>2026-07-26</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>PCCO</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Origin</Origin>
+        <Destination>Destination</Destination>
+        <JourneyPattern id="JP1" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Louth Bus Station</DestinationDisplay>
+          <OperatorRef>PCCO</OperatorRef>
+          <Direction>outbound</Direction>
+          <Description>Bus Station - Bus Station</Description>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS4</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS6</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS7</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS8</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS9</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS10</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="1" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <PrivateCode>0N6MSPCC:O:1</PrivateCode>
+      <OperatorRef>PCCO</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1035</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PF0002252:143</ServiceRef>
+      <LineRef>PCCO:PF0002252:143:N6</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>10:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT8M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <PrivateCode>0N6MSPCC:O:2</PrivateCode>
+      <OperatorRef>PCCO</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1235</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PF0002252:143</ServiceRef>
+      <LineRef>PCCO:PF0002252:143:N6</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT8M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL24">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL25">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL26">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="3" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <PrivateCode>0N6MSPCC:O:3</PrivateCode>
+      <OperatorRef>PCCO</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1435</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PF0002252:143</ServiceRef>
+      <LineRef>PCCO:PF0002252:143:N6</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>14:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL27">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL28">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL29">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL30">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL31">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL32">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL33">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL34">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL35">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL36">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT8M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL37">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL38">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL39">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="4" CreationDateTime="2026-06-19T13:02:30" Modification="new" RevisionNumber="0">
+      <PrivateCode>0N6MSPCC:O:4</PrivateCode>
+      <OperatorRef>PCCO</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1635</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PF0002252:143</ServiceRef>
+      <LineRef>PCCO:PF0002252:143:N6</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>16:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL40">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL41">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL42">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL43">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL44">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL45">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL46">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL47">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL48">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL49">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT8M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL50">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL51">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT0S</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL52">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

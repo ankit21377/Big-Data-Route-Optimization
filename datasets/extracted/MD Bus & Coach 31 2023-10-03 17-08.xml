@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20230512) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0' FileName="MD Bus  Coach 31 2023-10-03 17-08.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>069000024035</StopPointRef><CommonName>Heath Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000070030</StopPointRef><CommonName>Ferry Inn</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000023772</StopPointRef><CommonName>Crown Cushion</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02877</StopPointRef><CommonName>Tannery Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000014160</StopPointRef><CommonName>Honiton Way Shops</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_2' CreationDateTime='2023-10-03T17:06:57' ModificationDateTime='2023-10-03T17:06:57' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_2_1'><From><StopPointRef>069000024035</StopPointRef></From><To><StopPointRef>069000070030</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_2'><From><StopPointRef>069000070030</StopPointRef></From><To><StopPointRef>069000023772</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_3'><From><StopPointRef>069000023772</StopPointRef></From><To><StopPointRef>0690WNA02877</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_4'><From><StopPointRef>0690WNA02877</StopPointRef></From><To><StopPointRef>069000014160</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_5'><From><StopPointRef>069000014160</StopPointRef></From><To><StopPointRef>069000024035</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_2' CreationDateTime='2023-10-03T17:06:57' ModificationDateTime='2023-10-03T17:06:57' Modification='new' RevisionNumber='0'><Description>Heath Road - Heath Road</Description><RouteSectionRef>routeSection_2</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_2' CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_2_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>069000024035</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000070030</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000070030</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023772</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023772</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02877</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_3</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02877</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014160</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_4</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014160</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000024035</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_5</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_3' CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_3_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>069000024035</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000070030</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000070030</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023772</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023772</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02877</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_3</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02877</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014160</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_4</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014160</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000024035</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_2_5</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="MDBC"><NationalOperatorCode>MDBC</NationalOperatorCode><OperatorCode>MDBC</OperatorCode><OperatorShortName>MD Bus  Coach</OperatorShortName><LicenceNumber>PC1129471</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+<ServiceCode>PC1129471:19</ServiceCode><Lines><Line id="MDBC:PC1129471:19:31"><LineName>31</LineName><OutboundDescription><Origin>Heath Road</Origin><Destination>Heath Road</Destination><Description>Heath Road - Heath Road</Description></OutboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-09-25</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>MDBC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>true</PublicUse><Description>Heath Road - Heath Road</Description>
+
+<StandardService>
+<Origin>Heath Road</Origin>
+<Destination>Heath Road</Destination>
+<JourneyPattern id='JP_2'><DestinationDisplay>200</DestinationDisplay><OperatorRef>MDBC</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_3'><DestinationDisplay>200</DestinationDisplay><OperatorRef>MDBC</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>0930</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_2</VehicleJourneyCode>
+<ServiceRef>PC1129471:19</ServiceRef><LineRef>MDBC:PC1129471:19:31</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>09:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1135</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+<ServiceRef>PC1129471:19</ServiceRef><LineRef>MDBC:PC1129471:19:31</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>11:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-03T17:08:34' ModificationDateTime='2023-10-03T17:08:34' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1340</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_4</VehicleJourneyCode>
+<ServiceRef>PC1129471:19</ServiceRef><LineRef>MDBC:PC1129471:19:31</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>13:40:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

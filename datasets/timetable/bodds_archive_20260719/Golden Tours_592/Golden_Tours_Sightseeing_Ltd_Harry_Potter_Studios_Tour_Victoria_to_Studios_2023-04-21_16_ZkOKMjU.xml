@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-04-21T16:38:55' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1' FileName="Golden Tours Sightseeing Ltd Harry_Potter_Studios_Tour_Victoria_to_Studios 2023-04-21 16-47.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>4900074803</StopPointRef><CommonName>Green Line Coach Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>490006135S</StopPointRef><CommonName>Baker Street Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>490000106F</StopPointRef><CommonName>Hendon Central</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021800425</StopPointRef><CommonName>Studios</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_2' CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:38:54' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_2_1'><From><StopPointRef>4900074803</StopPointRef></From><To><StopPointRef>490006135S</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_2'><From><StopPointRef>490006135S</StopPointRef></From><To><StopPointRef>490000106F</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_3'><From><StopPointRef>490000106F</StopPointRef></From><To><StopPointRef>210021800425</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_3' CreationDateTime='2023-04-21T16:41:49' ModificationDateTime='2023-04-21T16:41:49' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_3_1'><From><StopPointRef>210021800425</StopPointRef></From><To><StopPointRef>490000106F</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_2'><From><StopPointRef>490000106F</StopPointRef></From><To><StopPointRef>490006135S</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_3'><From><StopPointRef>490006135S</StopPointRef></From><To><StopPointRef>4900074803</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_2' CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:38:54' Modification='new' RevisionNumber='0'><Description>Green Line Coach Station - Studios</Description><RouteSectionRef>routeSection_2</RouteSectionRef></Route>
+<Route id='route_3' CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'><Description>Studios - Green Line Coach Station</Description><RouteSectionRef>routeSection_3</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_2' CreationDateTime='2023-04-21T16:38:55' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_2_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>4900074803</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT1500S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>210021800425</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_3</RouteLinkRef><RunTime>PT2100S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_3' CreationDateTime='2023-04-21T16:38:55' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_3_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>4900074803</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT1500S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>210021800425</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_3</RouteLinkRef><RunTime>PT3300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_4' CreationDateTime='2023-04-21T16:38:55' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_4_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>210021800425</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_1</RouteLinkRef><RunTime>PT2100S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>490000106F</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_2</RouteLinkRef><RunTime>PT2700S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>490006135S</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>4900074803</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_3</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="GTSL"><NationalOperatorCode>GTSL</NationalOperatorCode><OperatorCode>GTSL</OperatorCode><OperatorShortName>Golden Tours Sightseeing Ltd</OperatorShortName><LicenceNumber>PK0001979</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-04-21T16:38:55' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PK0001979:1</ServiceCode><Lines><Line id="GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios"><LineName>Harry_Potter_Studios_Tour_Victoria_to_Studios</LineName><OutboundDescription><Origin>Green Line Coach Station</Origin><Destination>Studios</Destination><Description>Green Line Coach Station - Studios</Description></OutboundDescription><InboundDescription><Origin>Studios</Origin><Destination>Green Line Coach Station</Destination><Description>Studios - Green Line Coach Station</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-01-01</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>GTSL</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Studios - Green Line Coach Station</Description>
+
+<StandardService>
+<Origin>Studios</Origin>
+<Destination>Green Line Coach Station</Destination>
+<JourneyPattern id='JP_2'><DestinationDisplay>198</DestinationDisplay><OperatorRef>GTSL</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_3'><DestinationDisplay>198</DestinationDisplay><OperatorRef>GTSL</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_4'><DestinationDisplay>198</DestinationDisplay><OperatorRef>GTSL</OperatorRef><Direction>inbound</Direction><RouteRef>route_3</RouteRef><JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_15</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>07:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_16</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>08:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_17</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>08:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_18</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>09:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_19</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>09:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_20</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>10:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_21</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>10:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_22</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>11:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_23</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>12:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:46' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_24</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>13:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:47' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_25</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>14:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:47' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_26</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>15:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:47' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_27</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>16:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_28</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>13:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_29</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>14:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_30</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>15:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_31</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>15:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_32</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>16:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:49' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_33</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>16:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_34</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>17:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_35</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>17:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_36</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>18:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_37</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>19:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_38</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>20:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_39</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>21:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-04-21T16:38:54' ModificationDateTime='2023-04-21T16:41:50' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Saturday/><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-05-08</StartDate><EndDate>2023-05-08</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><NewYearsDay/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_40</VehicleJourneyCode>
+<ServiceRef>PK0001979:1</ServiceRef><LineRef>GTSL:PK0001979:1:Harry_Potter_Studios_Tour_Victoria_to_Studios</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>22:30:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

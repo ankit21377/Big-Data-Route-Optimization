@@ -1,0 +1,3968 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TransXChange CreationDateTime="2021-06-23T10:29:23.317809" ModificationDateTime="2021-06-23T10:29:23.317809" Modification="new" FileName="tfl_86-327-_-y05-59004.xml" RevisionNumber="0" SchemaVersion="2.4" xml:lang="en" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+	<StopPoints>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490001299E</StopPointRef>
+			<CommonName>Turkey Street Station</CommonName>
+			<LocalityName>Enfield Wash</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490003227N</StopPointRef>
+			<CommonName>Oakhurst Road</CommonName>
+			<Indicator>Stop J</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490003378G</StopPointRef>
+			<CommonName>Arlington Crescent</CommonName>
+			<Indicator>Stop H</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490003378H</StopPointRef>
+			<CommonName>Bullsmoor Lane / Mollison Avenue</CommonName>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490008103W</StopPointRef>
+			<CommonName>Bullsmoor Lane / Hertford Road</CommonName>
+			<Indicator>Stop J</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490008308N</StopPointRef>
+			<CommonName>Mandeville Road (EN3)</CommonName>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490008941W</StopPointRef>
+			<CommonName>Langdale Gardens (EN8)</CommonName>
+			<Indicator>Stop K</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490009049W</StopPointRef>
+			<CommonName>Lea Valley High School</CommonName>
+			<Indicator>Stop L</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490009716S</StopPointRef>
+			<CommonName>Cocker Road</CommonName>
+			<LocalityName>Bulls Cross</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>490010626N</StopPointRef>
+			<CommonName>Totteridge Road</CommonName>
+			<Indicator>Stop H</Indicator>
+			<LocalityName>Freezy Water</LocalityName>
+			<LocalityQualifier>Greater London</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>210021703420</StopPointRef>
+			<CommonName>Waltham Cross Bus Station</CommonName>
+			<LocalityName>Waltham Cross</LocalityName>
+			<LocalityQualifier>Hertfordshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>210021703440</StopPointRef>
+			<CommonName>Waltham Cross Bus Station</CommonName>
+			<Indicator>Stop APO</Indicator>
+			<LocalityName>Waltham Cross</LocalityName>
+			<LocalityQualifier>Hertfordshire</LocalityQualifier>
+		</AnnotatedStopPointRef>
+	</StopPoints>
+	<RouteSections>
+		<RouteSection id="RS_86-327-_-y05-59004-O-1">
+			<RouteLink id="RL_86-327-_-y05-59004-O-1-1">
+				<From>
+					<StopPointRef>210021703420</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490003378G</StopPointRef>
+				</To>
+				<Distance>833</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-O-1-2">
+				<From>
+					<StopPointRef>490003378G</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490008103W</StopPointRef>
+				</To>
+				<Distance>328</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-O-1-3">
+				<From>
+					<StopPointRef>490008103W</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490008941W</StopPointRef>
+				</To>
+				<Distance>298</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-O-1-4">
+				<From>
+					<StopPointRef>490008941W</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490009049W</StopPointRef>
+				</To>
+				<Distance>205</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-O-1-5">
+				<From>
+					<StopPointRef>490009049W</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490009716S</StopPointRef>
+				</To>
+				<Distance>1072</Distance>
+			</RouteLink>
+		</RouteSection>
+		<RouteSection id="RS_86-327-_-y05-59004-I-2">
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-1">
+				<From>
+					<StopPointRef>490009716S</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490001299E</StopPointRef>
+				</To>
+				<Distance>608</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-2">
+				<From>
+					<StopPointRef>490001299E</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490010626N</StopPointRef>
+				</To>
+				<Distance>724</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-3">
+				<From>
+					<StopPointRef>490010626N</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490003227N</StopPointRef>
+				</To>
+				<Distance>322</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-4">
+				<From>
+					<StopPointRef>490003227N</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490008308N</StopPointRef>
+				</To>
+				<Distance>354</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-5">
+				<From>
+					<StopPointRef>490008308N</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>490003378H</StopPointRef>
+				</To>
+				<Distance>394</Distance>
+			</RouteLink>
+			<RouteLink id="RL_86-327-_-y05-59004-I-2-6">
+				<From>
+					<StopPointRef>490003378H</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>210021703440</StopPointRef>
+				</To>
+				<Distance>870</Distance>
+			</RouteLink>
+		</RouteSection>
+	</RouteSections>
+	<Routes>
+		<Route id="R_86-327-_-y05-59004-O-1">
+			<PrivateCode>R_86-327-_-y05-59004-O-1</PrivateCode>
+			<Description>Waltham Cross Bus Station - Cocker Road</Description>
+			<RouteSectionRef>RS_86-327-_-y05-59004-O-1</RouteSectionRef>
+		</Route>
+		<Route id="R_86-327-_-y05-59004-I-2">
+			<PrivateCode>R_86-327-_-y05-59004-I-2</PrivateCode>
+			<Description>Cocker Road - Waltham Cross Bus Station</Description>
+			<RouteSectionRef>RS_86-327-_-y05-59004-I-2</RouteSectionRef>
+		</Route>
+		<Route id="R_86-327-_-y05-59004-O-3">
+			<PrivateCode>R_86-327-_-y05-59004-O-3</PrivateCode>
+			<Description>Waltham Cross Bus Station - Cocker Road</Description>
+			<RouteSectionRef>RS_86-327-_-y05-59004-O-1</RouteSectionRef>
+		</Route>
+		<Route id="R_86-327-_-y05-59004-I-4">
+			<PrivateCode>R_86-327-_-y05-59004-I-4</PrivateCode>
+			<Description>Cocker Road - Waltham Cross Bus Station</Description>
+			<RouteSectionRef>RS_86-327-_-y05-59004-I-2</RouteSectionRef>
+		</Route>
+	</Routes>
+	<JourneyPatternSections>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-7-O-1">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-7-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>210021703420</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-1</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-7-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-2</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-7-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-3</RouteLinkRef>
+				<RunTime>PT1M40S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-7-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-4</RouteLinkRef>
+				<RunTime>PT1M40S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-7-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>setDown</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-5</RouteLinkRef>
+				<RunTime>PT1M40S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-9-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT1M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT1M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT1M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-9-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT1M15S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-11-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT1M45S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT1M45S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT1M45S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-11-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT1M45S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-16-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-16-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT2M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-12-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-12-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT2M15S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-1-O-1">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-1-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>210021703420</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-1</RouteLinkRef>
+				<RunTime>PT3M35S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-1-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-2</RouteLinkRef>
+				<RunTime>PT1M25S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-1-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-3</RouteLinkRef>
+				<RunTime>PT1M42S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-1-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-4</RouteLinkRef>
+				<RunTime>PT1M10S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-1-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>setDown</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-5</RouteLinkRef>
+				<RunTime>PT6M8S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-3-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT5M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT3M19S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT3M38S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT4M4S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-3-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT8M59S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-4-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT5M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT2M49S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT3M5S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT3M28S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-4-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT7M38S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-2-O-1">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-2-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>210021703420</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-1</RouteLinkRef>
+				<RunTime>PT5M1S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-2-O-1-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378G</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-2</RouteLinkRef>
+				<RunTime>PT1M59S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-2-O-1-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008103W</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-3</RouteLinkRef>
+				<RunTime>PT1M42S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-2-O-1-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008941W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-4</RouteLinkRef>
+				<RunTime>PT1M10S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-2-O-1-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490009049W</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>setDown</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-O-1-5</RouteLinkRef>
+				<RunTime>PT6M8S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-5-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT7M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT3M19S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT3M38S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT4M4S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-5-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT8M59S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_86-327-_-y05-59004-6-I-2">
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>490009716S</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-1</RouteLinkRef>
+				<RunTime>PT3M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-2">
+				<From SequenceNumber="2">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490001299E</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-2</RouteLinkRef>
+				<RunTime>PT5M</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-3">
+				<From SequenceNumber="3">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490010626N</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-3</RouteLinkRef>
+				<RunTime>PT1M59S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-4">
+				<From SequenceNumber="4">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003227N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-4</RouteLinkRef>
+				<RunTime>PT2M11S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-5">
+				<From SequenceNumber="5">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490008308N</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-5</RouteLinkRef>
+				<RunTime>PT2M27S</RunTime>
+			</JourneyPatternTimingLink>
+			<JourneyPatternTimingLink id="JPL_86-327-_-y05-59004-6-I-2-6">
+				<From SequenceNumber="6">
+					<Activity>pickUpAndSetDown</Activity>
+					<StopPointRef>490003378H</StopPointRef>
+					<TimingStatus>OTH</TimingStatus>
+				</From>
+				<To SequenceNumber="7">
+					<Activity>setDown</Activity>
+					<StopPointRef>210021703440</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_86-327-_-y05-59004-I-2-6</RouteLinkRef>
+				<RunTime>PT5M23S</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+	</JourneyPatternSections>
+	<Operators>
+		<Operator id="OId_SN">
+			<NationalOperatorCode>SULV</NationalOperatorCode>
+			<OperatorCode>SN</OperatorCode>
+			<OperatorShortName>SULLIVAN BUS &amp; COACH LI</OperatorShortName>
+			<OperatorNameOnLicence>SULLIVAN BUS &amp; COACH LIMITED</OperatorNameOnLicence>
+			<TradingName>SULLIVAN BUS &amp; COACH LIMITED</TradingName>
+			<LicenceNumber>PF0002431</LicenceNumber>
+		</Operator>
+	</Operators>
+	<Services>
+		<Service ModificationDateTime="2021-06-23T10:29:23.317809" RevisionNumber="0" Modification="new" Status="active">
+			<ServiceCode>PF0002431:66</ServiceCode>
+			<PrivateCode>86-327-_-y05-59004</PrivateCode>
+			<Lines>
+				<Line id="SULV:PF0002431:66:327">
+					<LineName>327</LineName>
+					<OutboundDescription>
+						<Description>Waltham Cross, Bus Station  - Elsinge Estate, Masons Road</Description>
+					</OutboundDescription>
+					<InboundDescription>
+						<Description>Elsinge Estate, Masons Road - Waltham Cross, Bus Station</Description>
+					</InboundDescription>
+				</Line>
+			</Lines>
+			<OperatingPeriod>
+				<StartDate>2021-07-31</StartDate>
+				<EndDate>2021-11-20</EndDate>
+			</OperatingPeriod>
+			<RegisteredOperatorRef>OId_SN</RegisteredOperatorRef>
+			<StopRequirements>
+				<NoNewStopsRequired />
+			</StopRequirements>
+			<Mode>bus</Mode>
+			<PublicUse>true</PublicUse>
+			<Description>Waltham Cross, Bus Station  - Elsinge Estate, Masons Road</Description>
+			<StandardService>
+				<Origin>Waltham Cross Bus Station</Origin>
+				<Destination>Cocker Road</Destination>
+				<JourneyPattern id="JP_86-327-_-y05-59004-7-O-3">
+					<DestinationDisplay>Bulls Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>outbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-O-3</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-7-O-1</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-9-I-4">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-4</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-9-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-11-I-4">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-4</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-11-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-16-I-4">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-4</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-16-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-12-I-4">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-4</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-12-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-1-O-1">
+					<DestinationDisplay>Bulls Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>outbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-O-1</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-1-O-1</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-3-I-2">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-3-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-4-I-2">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-4-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-2-O-1">
+					<DestinationDisplay>Bulls Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>outbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-O-1</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-2-O-1</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-5-I-2">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-5-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_86-327-_-y05-59004-6-I-2">
+					<DestinationDisplay>Waltham Cross</DestinationDisplay>
+					<OperatorRef>OId_SN</OperatorRef>
+					<Direction>inbound</Direction>
+					<Operational>
+						<VehicleType>
+							<VehicleTypeCode>SSLW</VehicleTypeCode>
+							<Description>Double Decker Low Floor+Wheelchair</Description>
+						</VehicleType>
+					</Operational>
+					<RouteRef>R_86-327-_-y05-59004-I-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_86-327-_-y05-59004-6-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+			</StandardService>
+		</Service>
+	</Services>
+	<VehicleJourneys>
+		<VehicleJourney SequenceNumber="14">
+			<PrivateCode>tfl-86-327-_-y05-59004-1-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-1-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>07:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="46">
+			<PrivateCode>tfl-86-327-_-y05-59004-2-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-2-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>07:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="15">
+			<PrivateCode>tfl-86-327-_-y05-59004-3-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-3-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>07:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="47">
+			<PrivateCode>tfl-86-327-_-y05-59004-4-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-4-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>07:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="16">
+			<PrivateCode>tfl-86-327-_-y05-59004-5-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-5-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>08:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="48">
+			<PrivateCode>tfl-86-327-_-y05-59004-6-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-6-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>08:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="17">
+			<PrivateCode>tfl-86-327-_-y05-59004-7-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-7-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>09:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="49">
+			<PrivateCode>tfl-86-327-_-y05-59004-8-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-8-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>09:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="18">
+			<PrivateCode>tfl-86-327-_-y05-59004-9-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-9-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>09:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="50">
+			<PrivateCode>tfl-86-327-_-y05-59004-10-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-10-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-11-I-4</JourneyPatternRef>
+			<DepartureTime>09:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="19">
+			<PrivateCode>tfl-86-327-_-y05-59004-11-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-11-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>10:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="51">
+			<PrivateCode>tfl-86-327-_-y05-59004-12-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-12-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-11-I-4</JourneyPatternRef>
+			<DepartureTime>10:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="20">
+			<PrivateCode>tfl-86-327-_-y05-59004-13-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-13-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>11:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="52">
+			<PrivateCode>tfl-86-327-_-y05-59004-14-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-14-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-11-I-4</JourneyPatternRef>
+			<DepartureTime>11:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="21">
+			<PrivateCode>tfl-86-327-_-y05-59004-15-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-15-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>11:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="53">
+			<PrivateCode>tfl-86-327-_-y05-59004-16-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-16-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-16-I-4</JourneyPatternRef>
+			<DepartureTime>11:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="22">
+			<PrivateCode>tfl-86-327-_-y05-59004-17-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-17-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>12:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="54">
+			<PrivateCode>tfl-86-327-_-y05-59004-18-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-18-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>12:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="23">
+			<PrivateCode>tfl-86-327-_-y05-59004-19-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-19-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>13:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="55">
+			<PrivateCode>tfl-86-327-_-y05-59004-20-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-20-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>13:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="24">
+			<PrivateCode>tfl-86-327-_-y05-59004-21-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-21-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>13:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="56">
+			<PrivateCode>tfl-86-327-_-y05-59004-22-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-22-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>13:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="25">
+			<PrivateCode>tfl-86-327-_-y05-59004-23-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-23-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>14:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="57">
+			<PrivateCode>tfl-86-327-_-y05-59004-24-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-24-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>14:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="26">
+			<PrivateCode>tfl-86-327-_-y05-59004-25-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-25-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>15:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="58">
+			<PrivateCode>tfl-86-327-_-y05-59004-26-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-26-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>15:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="27">
+			<PrivateCode>tfl-86-327-_-y05-59004-27-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-27-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>15:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="59">
+			<PrivateCode>tfl-86-327-_-y05-59004-28-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-28-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>15:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="28">
+			<PrivateCode>tfl-86-327-_-y05-59004-29-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-29-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>16:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="60">
+			<PrivateCode>tfl-86-327-_-y05-59004-30-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-30-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-12-I-4</JourneyPatternRef>
+			<DepartureTime>16:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="29">
+			<PrivateCode>tfl-86-327-_-y05-59004-31-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-31-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>17:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="61">
+			<PrivateCode>tfl-86-327-_-y05-59004-32-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-32-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-11-I-4</JourneyPatternRef>
+			<DepartureTime>17:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="30">
+			<PrivateCode>tfl-86-327-_-y05-59004-33-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-33-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>17:40:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="62">
+			<PrivateCode>tfl-86-327-_-y05-59004-34-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-34-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>17:50:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="31">
+			<PrivateCode>tfl-86-327-_-y05-59004-35-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-35-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>18:20:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="63">
+			<PrivateCode>tfl-86-327-_-y05-59004-36-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-36-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>18:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="32">
+			<PrivateCode>tfl-86-327-_-y05-59004-37-Sa</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-37-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-7-O-3</JourneyPatternRef>
+			<DepartureTime>19:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="64">
+			<PrivateCode>tfl-86-327-_-y05-59004-38-Sa</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-38-Sa</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-9-I-4</JourneyPatternRef>
+			<DepartureTime>19:10:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="1">
+			<PrivateCode>tfl-86-327-_-y05-59004-1-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-1-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>07:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="33">
+			<PrivateCode>tfl-86-327-_-y05-59004-2-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-2-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-3-I-2</JourneyPatternRef>
+			<DepartureTime>07:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="2">
+			<PrivateCode>tfl-86-327-_-y05-59004-3-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-3-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>08:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="34">
+			<PrivateCode>tfl-86-327-_-y05-59004-4-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-4-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-3-I-2</JourneyPatternRef>
+			<DepartureTime>08:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="3">
+			<PrivateCode>tfl-86-327-_-y05-59004-5-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-5-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>09:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="35">
+			<PrivateCode>tfl-86-327-_-y05-59004-6-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-6-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>09:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="4">
+			<PrivateCode>tfl-86-327-_-y05-59004-7-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-7-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>10:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="36">
+			<PrivateCode>tfl-86-327-_-y05-59004-8-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-8-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>10:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="5">
+			<PrivateCode>tfl-86-327-_-y05-59004-9-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-9-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>11:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="37">
+			<PrivateCode>tfl-86-327-_-y05-59004-10-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-10-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>11:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="6">
+			<PrivateCode>tfl-86-327-_-y05-59004-11-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-11-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>12:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="38">
+			<PrivateCode>tfl-86-327-_-y05-59004-12-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-12-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>12:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="7">
+			<PrivateCode>tfl-86-327-_-y05-59004-13-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-13-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>13:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="39">
+			<PrivateCode>tfl-86-327-_-y05-59004-14-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-14-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>13:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="8">
+			<PrivateCode>tfl-86-327-_-y05-59004-15-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-15-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>14:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="40">
+			<PrivateCode>tfl-86-327-_-y05-59004-16-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-16-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>14:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="9">
+			<PrivateCode>tfl-86-327-_-y05-59004-17-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-17-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-2-O-1</JourneyPatternRef>
+			<DepartureTime>15:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="41">
+			<PrivateCode>tfl-86-327-_-y05-59004-18-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-18-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-5-I-2</JourneyPatternRef>
+			<DepartureTime>15:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="10">
+			<PrivateCode>tfl-86-327-_-y05-59004-19-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-19-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-2-O-1</JourneyPatternRef>
+			<DepartureTime>16:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="42">
+			<PrivateCode>tfl-86-327-_-y05-59004-20-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-20-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-5-I-2</JourneyPatternRef>
+			<DepartureTime>16:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="11">
+			<PrivateCode>tfl-86-327-_-y05-59004-21-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-21-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-2-O-1</JourneyPatternRef>
+			<DepartureTime>17:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="43">
+			<PrivateCode>tfl-86-327-_-y05-59004-22-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-22-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-5-I-2</JourneyPatternRef>
+			<DepartureTime>17:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="12">
+			<PrivateCode>tfl-86-327-_-y05-59004-23-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-23-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-2-O-1</JourneyPatternRef>
+			<DepartureTime>18:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="44">
+			<PrivateCode>tfl-86-327-_-y05-59004-24-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-24-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-4-I-2</JourneyPatternRef>
+			<DepartureTime>18:17:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="13">
+			<PrivateCode>tfl-86-327-_-y05-59004-25-MF</PrivateCode>
+			<DestinationDisplay>Elsinge Estate</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-25-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-1-O-1</JourneyPatternRef>
+			<DepartureTime>19:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="45">
+			<PrivateCode>tfl-86-327-_-y05-59004-26-MF</PrivateCode>
+			<DestinationDisplay>Waltham Cross</DestinationDisplay>
+			<OperatorRef>OId_SN</OperatorRef>
+			<Operational>
+				<VehicleType>
+					<VehicleTypeCode>SSLW</VehicleTypeCode>
+					<Description>Double Decker Low Floor+Wheelchair</Description>
+				</VehicleType>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Monday />
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+						<Friday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_86-327-_-y05-59004-26-MF</VehicleJourneyCode>
+			<ServiceRef>PF0002431:66</ServiceRef>
+			<LineRef>SULV:PF0002431:66:327</LineRef>
+			<JourneyPatternRef>JP_86-327-_-y05-59004-6-I-2</JourneyPatternRef>
+			<DepartureTime>19:15:00</DepartureTime>
+		</VehicleJourney>
+	</VehicleJourneys>
+</TransXChange>

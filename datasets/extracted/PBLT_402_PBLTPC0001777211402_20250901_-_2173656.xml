@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-10-22T13:39:18" ModificationDateTime="2026-07-02T15:01:46" Modification="revise" RevisionNumber="35" FileName="PBLT_402_PBLTPC0001777211402_20250901_-_2173656.xml" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>PRMY:2</OrganisationCode>
+      <Name>Myerscough College</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2025-01-06</StartDate>
+          <EndDate>2025-02-14</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-02-24</StartDate>
+          <EndDate>2025-04-04</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-04-22</StartDate>
+          <EndDate>2025-05-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-06-02</StartDate>
+          <EndDate>2025-06-20</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-09-01</StartDate>
+          <EndDate>2025-10-23</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-11-03</StartDate>
+          <EndDate>2025-12-17</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-01-05</StartDate>
+          <EndDate>2026-02-13</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-02-23</StartDate>
+          <EndDate>2026-03-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-06-19</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>250014554</StopPointRef>
+      <CommonName>Myerscough Agricultural College</CommonName>
+      <Location>
+        <Longitude>-2.765066</Longitude>
+        <Latitude>53.853626</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2500LAA16999</StopPointRef>
+      <CommonName>FFIT</CommonName>
+      <Location>
+        <Longitude>-2.776677</Longitude>
+        <Latitude>53.851794</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>250014554</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>250014554</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>250014554</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0002">
+      <RouteLink id="rl_0002_1">
+        <From>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>250014554</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0003">
+      <RouteLink id="rl_0003_1">
+        <From>
+          <StopPointRef>250014554</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0003_2">
+        <From>
+          <StopPointRef>2500LAA16999</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>250014554</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+    <Route id="rt_0002">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0002</RouteSectionRef>
+    </Route>
+    <Route id="rt_0003">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0003</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_3">
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="2">
+          <Activity>pickUp</Activity>
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0002_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_4">
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0003_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="2">
+          <WaitTime>PT5M</WaitTime>
+          <StopPointRef>2500LAA16999</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>250014554</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0003_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>PBLT</NationalOperatorCode>
+      <OperatorCode>PBLT</OperatorCode>
+      <OperatorShortName>Preston Bus</OperatorShortName>
+      <LicenceNumber>PC0001777</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC0001777:211</ServiceCode>
+      <Lines>
+        <Line id="PBLT:PC0001777:211:402">
+          <LineName>402</LineName>
+          <OutboundDescription>
+            <Description>Myerscough College to FFIT</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>FFIT to Myerscough College</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-09-01</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>PRMY:2</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Myerscough College</Origin>
+        <Destination>FFIT</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Myerscough Agricultural College</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>FFIT</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_3">
+          <DestinationDisplay>Myerscough Agricultural College</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0002</RouteRef>
+          <JourneyPatternSectionRefs>js_3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_4">
+          <DestinationDisplay>Myerscough Agricultural College</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0003</RouteRef>
+          <JourneyPatternSectionRefs>js_4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0930</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1315</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1625</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1155</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1245</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1645</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PC0001777:211</ServiceRef>
+      <LineRef>PBLT:PC0001777:211:402</LineRef>
+      <JourneyPatternRef>jp_4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-07-08T12:05:22Z" ModificationDateTime="2026-01-08T07:03:37Z" Modification="revise" RevisionNumber="11" FileName="655_08012026070343.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0775</StopPointRef>
+      <CommonName>Dawns Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Aslockton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0336</StopPointRef>
+      <CommonName>Dawns Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Aslockton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0825</StopPointRef>
+      <CommonName>Hall Farm</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Thoroton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0296</StopPointRef>
+      <CommonName>HMP Whatton</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Whatton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0823</StopPointRef>
+      <CommonName>Main Road</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Hawksworth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0773</StopPointRef>
+      <CommonName>Newfield Lane</CommonName>
+      <Indicator>N-bound</Indicator>
+      <LocalityName>Sibthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0302</StopPointRef>
+      <CommonName>Newfield Lane</CommonName>
+      <Indicator>SW-bound</Indicator>
+      <LocalityName>Sibthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0820</StopPointRef>
+      <CommonName>Old Grantham Road</CommonName>
+      <Indicator>NW-bound</Indicator>
+      <LocalityName>Whatton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0335</StopPointRef>
+      <CommonName>Old Grantham Road</CommonName>
+      <Indicator>SE-bound</Indicator>
+      <LocalityName>Whatton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0497</StopPointRef>
+      <CommonName>St Anns Way</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Shelton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0824</StopPointRef>
+      <CommonName>St Anns Way</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Shelton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3300RU0651</StopPointRef>
+      <CommonName>Toot Hill School Bus Park</CommonName>
+      <Indicator>in</Indicator>
+      <LocalityName>Bingham</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="11_0">
+      <RouteLink id="11_0_91">
+        <From>
+          <StopPointRef>3300RU0825</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0824</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_92">
+        <From>
+          <StopPointRef>3300RU0824</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_94">
+        <From>
+          <StopPointRef>3300RU0302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0823</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_109">
+        <From>
+          <StopPointRef>3300RU0823</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0336</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_95">
+        <From>
+          <StopPointRef>3300RU0336</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0335</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_99">
+        <From>
+          <StopPointRef>3300RU0335</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0296</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_100">
+        <From>
+          <StopPointRef>3300RU0296</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0651</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="12_11">
+      <RouteLink id="12_11_104">
+        <From>
+          <StopPointRef>3300RU0651</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0296</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_100">
+        <From>
+          <StopPointRef>3300RU0296</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0820</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_99">
+        <From>
+          <StopPointRef>3300RU0820</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0775</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_95">
+        <From>
+          <StopPointRef>3300RU0775</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0823</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_109">
+        <From>
+          <StopPointRef>3300RU0823</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0773</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_94">
+        <From>
+          <StopPointRef>3300RU0773</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0497</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_92">
+        <From>
+          <StopPointRef>3300RU0497</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3300RU0825</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="11_0">
+      <Description> Shelton - Toothill School</Description>
+      <RouteSectionRef>11_0</RouteSectionRef>
+    </Route>
+    <Route id="12_11">
+      <Description> Shelton - Toothill School</Description>
+      <RouteSectionRef>12_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="11_0">
+      <JourneyPatternTimingLink id="11_0_91">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3300RU0825</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0824</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_91</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_92">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0824</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_92</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_94">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0302</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_94</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_109">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0336</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_109</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_95">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0336</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0335</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_95</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_99">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0335</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_99</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_100">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>3300RU0651</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_100</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="12_11">
+      <JourneyPatternTimingLink id="12_11_104">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3300RU0651</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_104</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_100">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0296</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_100</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_99">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0820</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0775</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_99</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_95">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0775</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_95</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_109">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0823</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0773</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_109</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_94">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0773</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0497</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_94</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_92">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3300RU0497</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>3300RU0825</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_92</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>SHRN</NationalOperatorCode>
+      <OperatorCode>SHRN</OperatorCode>
+      <OperatorShortName>Sharpes of Nottingham</OperatorShortName>
+      <OperatorNameOnLicence>Sharpes of Nottingham</OperatorNameOnLicence>
+      <TradingName>Sharpes of Nottingham</TradingName>
+      <LicenceNumber>PB1032369</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>SharpesOfNottingham</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB1032369:9</ServiceCode>
+      <Lines>
+        <Line id="SHRN:PB1032369:9:655">
+          <LineName>655</LineName>
+          <OutboundDescription>
+            <Description>Shelton - Toothill School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Toothill School - Shelton</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2008-09-02</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description> Shelton - Toothill School</Description>
+      <StandardService>
+        <Origin>Crossroads</Origin>
+        <Destination>Bingham Toot Hill School</Destination>
+        <JourneyPattern id="11_0">
+          <DestinationDisplay>Bingham Toot Hill School	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>11_0</RouteRef>
+          <JourneyPatternSectionRefs>11_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="12_11">
+          <DestinationDisplay>Crossroads	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>12_11</RouteRef>
+          <JourneyPatternSectionRefs>12_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:37 CRO - BIN</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>655</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB1032369:9</ServiceRef>
+      <LineRef>SHRN:PB1032369:9:655</LineRef>
+      <JourneyPatternRef>11_0</JourneyPatternRef>
+      <DepartureTime>07:37:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:20 BIN - CRO</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>655</TicketMachineServiceCode>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>PB1032369:9</ServiceRef>
+      <LineRef>SHRN:PB1032369:9:655</LineRef>
+      <JourneyPatternRef>12_11</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:10 BIN - CRO</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>655</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PB1032369:9</ServiceRef>
+      <LineRef>SHRN:PB1032369:9:655</LineRef>
+      <JourneyPatternRef>12_11</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

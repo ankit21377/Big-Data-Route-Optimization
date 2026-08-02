@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-08-29T14:08:21Z" ModificationDateTime="2026-04-27T07:44:19Z" Modification="revise" RevisionNumber="6" FileName="811_27042026074420.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>Stafford</OrganisationCode>
+      <Name>Staffordshire Schools</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-05-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-05-05</StartDate>
+          <EndDate>2026-05-22</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-20</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C332701</StopPointRef>
+      <CommonName>Arden Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C332702</StopPointRef>
+      <CommonName>Arden Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C434701</StopPointRef>
+      <CommonName>Burton Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C326202</StopPointRef>
+      <CommonName>Captains Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C326201</StopPointRef>
+      <CommonName>Causer Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C434201</StopPointRef>
+      <CommonName>George and Dragon PH</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C311900</StopPointRef>
+      <CommonName>John Taylor High School</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C435701</StopPointRef>
+      <CommonName>Main Street</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C344402</StopPointRef>
+      <CommonName>Short Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C344401</StopPointRef>
+      <CommonName>Short Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Barton Under Needwood</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C434401</StopPointRef>
+      <CommonName>Walkfield Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C434501</StopPointRef>
+      <CommonName>Wellfield Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C490700</StopPointRef>
+      <CommonName>Wellfield Road</CommonName>
+      <Indicator>nr</Indicator>
+      <LocalityName>Alrewas</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="42_0">
+      <RouteLink id="42_0_336">
+        <From>
+          <StopPointRef>3800C490700</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C435701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_440">
+        <From>
+          <StopPointRef>3800C435701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_441">
+        <From>
+          <StopPointRef>3800C434701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_443">
+        <From>
+          <StopPointRef>3800C434501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_338">
+        <From>
+          <StopPointRef>3800C434201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_445">
+        <From>
+          <StopPointRef>3800C434401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C490700</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_446">
+        <From>
+          <StopPointRef>3800C490700</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C435701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_447">
+        <From>
+          <StopPointRef>3800C435701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C326201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_448">
+        <From>
+          <StopPointRef>3800C326201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C332701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_449">
+        <From>
+          <StopPointRef>3800C332701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C344402</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_451">
+        <From>
+          <StopPointRef>3800C344402</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C311900</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="43_11">
+      <RouteLink id="43_11_339">
+        <From>
+          <StopPointRef>3800C311900</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C344401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_451">
+        <From>
+          <StopPointRef>3800C344401</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C332702</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_449">
+        <From>
+          <StopPointRef>3800C332702</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C326202</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_448">
+        <From>
+          <StopPointRef>3800C326202</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C490700</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_337">
+        <From>
+          <StopPointRef>3800C490700</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C435701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_455">
+        <From>
+          <StopPointRef>3800C435701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434701</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_444">
+        <From>
+          <StopPointRef>3800C434701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434501</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_443">
+        <From>
+          <StopPointRef>3800C434501</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434201</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="43_11_442">
+        <From>
+          <StopPointRef>3800C434201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C434401</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="42_0">
+      <Description>Alrewas - John Taylor High School</Description>
+      <RouteSectionRef>42_0</RouteSectionRef>
+    </Route>
+    <Route id="43_11">
+      <Description>Alrewas - John Taylor High School</Description>
+      <RouteSectionRef>43_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="42_0">
+      <JourneyPatternTimingLink id="42_0_336">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C490700</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_336</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_440">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_440</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_441">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434501</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_441</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_443">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434501</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_443</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_338">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434201</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434401</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_338</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_445">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434401</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C490700</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_445</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_446">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C490700</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_446</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_447">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C326201</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_447</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_448">
+        <From SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C326201</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C332701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_448</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_449">
+        <From SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C332701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344402</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_449</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_451">
+        <From SequenceNumber="15">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344402</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="16">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C311900</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_451</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="43_11">
+      <JourneyPatternTimingLink id="43_11_339">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C311900</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344401</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_339</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_451">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C344401</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C332702</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_451</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_449">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C332702</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C326202</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_449</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_448">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C326202</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C490700</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_448</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_337">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C490700</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_337</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_455">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C435701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_455</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_444">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434701</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434501</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_444</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_443">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434501</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434201</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_443</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="43_11_442">
+        <From SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3800C434201</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="16">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C434401</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>43_11_442</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>BULI</NationalOperatorCode>
+      <OperatorCode>BULI</OperatorCode>
+      <OperatorShortName>Bus Link Ltd</OperatorShortName>
+      <OperatorNameOnLicence>Bus Link Ltd</OperatorNameOnLicence>
+      <TradingName>Bus Link Ltd</TradingName>
+      <LicenceNumber>PC2065754</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Buslink</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC2065754:7</ServiceCode>
+      <Lines>
+        <Line id="BULI:PC2065754:7:811">
+          <LineName>811</LineName>
+          <OutboundDescription>
+            <Description>Alrewas Wellfield Road - John Taylor High School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>John Taylor High School - Alrewas Wellfield Road</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-09-02</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Alrewas - John Taylor High School</Description>
+      <StandardService>
+        <Origin>Alrewas Wellfield Road </Origin>
+        <Destination>John Taylor High School</Destination>
+        <JourneyPattern id="42_0">
+          <DestinationDisplay>John Taylor High School</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>42_0</RouteRef>
+          <JourneyPatternSectionRefs>42_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="43_11">
+          <DestinationDisplay>Alrewas Wellfield Road	</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>43_11</RouteRef>
+          <JourneyPatternSectionRefs>43_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:27 ALR - JOH</Description>
+          <BlockNumber>23</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>811</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Stafford</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PC2065754:7</ServiceRef>
+      <LineRef>BULI:PC2065754:7:811</LineRef>
+      <JourneyPatternRef>42_0</JourneyPatternRef>
+      <DepartureTime>08:27:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>16:15 JOH - ALR</Description>
+          <BlockNumber>21</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>811</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>Stafford</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PC2065754:7</ServiceRef>
+      <LineRef>BULI:PC2065754:7:811</LineRef>
+      <JourneyPatternRef>43_11</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

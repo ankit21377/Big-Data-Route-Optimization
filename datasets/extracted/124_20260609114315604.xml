@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-11-10T11:22:49Z" ModificationDateTime="2026-06-09T11:43:15Z" Modification="revise" RevisionNumber="12" FileName="124_20260609114315604.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035075400001</StopPointRef>
+      <CommonName>Wokingham Town Centre, Broad Street</CommonName>
+      <Indicator>E-bound</Indicator>
+      <LocalityName>Wokingham Town Centre</LocalityName>
+      <Location id="L1">
+        <Longitude>-0.8350116756</Longitude>
+        <Latitude>51.4110989338</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035075400002</StopPointRef>
+      <CommonName>Wokingham Town Centre, Broad Street</CommonName>
+      <Indicator>Stop A</Indicator>
+      <LocalityName>Wokingham Town Centre</LocalityName>
+      <Location id="L2">
+        <Longitude>-0.8353293008</Longitude>
+        <Latitude>51.4110481378</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035075400003</StopPointRef>
+      <CommonName>Wokingham Town Centre, Broad Street</CommonName>
+      <Indicator>Stop B</Indicator>
+      <LocalityName>Wokingham Town Centre</LocalityName>
+      <Location id="L3">
+        <Longitude>-0.8353858882</Longitude>
+        <Latitude>51.4110846681</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035097280002</StopPointRef>
+      <CommonName>Wokingham, Rances Lane North</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Wokingham</LocalityName>
+      <Location id="L4">
+        <Longitude>-0.8190185740</Longitude>
+        <Latitude>51.4095721159</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035097260002</StopPointRef>
+      <CommonName>Wokingham, Rances Lane South</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Wokingham</LocalityName>
+      <Location id="L5">
+        <Longitude>-0.8180030504</Longitude>
+        <Latitude>51.4071340332</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035075420001</StopPointRef>
+      <CommonName>London Road, Seaford Road</CommonName>
+      <Indicator>Opp</Indicator>
+      <LocalityName>London Road</LocalityName>
+      <Location id="L6">
+        <Longitude>-0.8248453715</Longitude>
+        <Latitude>51.4122383589</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>035060060001</StopPointRef>
+      <CommonName>Wokingham, Waterloo Road</CommonName>
+      <Indicator>nr</Indicator>
+      <LocalityName>Wokingham</LocalityName>
+      <Location id="L7">
+        <Longitude>-0.8178528140</Longitude>
+        <Latitude>51.4062692834</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS36856">
+      <RouteLink id="RL36856_160">
+        <From>
+          <StopPointRef>035075400003</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>035075420001</StopPointRef>
+        </To>
+        <Distance>1043</Distance>
+      </RouteLink>
+      <RouteLink id="RL36856_1048">
+        <From>
+          <StopPointRef>035075420001</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>035097280002</StopPointRef>
+        </To>
+        <Distance>596</Distance>
+      </RouteLink>
+      <RouteLink id="RL36856_963">
+        <From>
+          <StopPointRef>035097280002</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>035097260002</StopPointRef>
+        </To>
+        <Distance>283</Distance>
+      </RouteLink>
+      <RouteLink id="RL36856_964">
+        <From>
+          <StopPointRef>035097260002</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>035060060001</StopPointRef>
+        </To>
+        <Distance>96</Distance>
+      </RouteLink>
+      <RouteLink id="RL36856_1324">
+        <From>
+          <StopPointRef>035060060001</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>035075400003</StopPointRef>
+        </To>
+        <Distance>1602</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT36856">
+      <Description>Wokingham - Waterloo Road (Circular)</Description>
+      <RouteSectionRef>RS36856</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS36856">
+      <JourneyPatternTimingLink id="JPTL36856_160">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035075400003</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035075420001</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL36856_160</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL36856_1048">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035075420001</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035097280002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL36856_1048</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL36856_963">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035097280002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035097260002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL36856_963</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL36856_964">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035097260002</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035060060001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL36856_964</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL36856_1324">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035060060001</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Wokingham</DynamicDestinationDisplay>
+          <StopPointRef>035075400003</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL36856_1324</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP94">
+      <NationalOperatorCode>CTNY</NationalOperatorCode>
+      <OperatorShortName>Thames Valley Buses</OperatorShortName>
+      <LicenceNumber>PH0005994</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>2</GarageCode>
+          <GarageName>Thames Valley Buses</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PH0005994:108</ServiceCode>
+      <Lines>
+        <Line id="CTNY:PH0005994:108:124">
+          <LineName>124</LineName>
+          <OutboundDescription>
+            <Description>Wokingham - Waterloo Road (Circular)</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Waterloo Road (Circular) - Wokingham</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-06-21</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP94</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Wokingham</Origin>
+        <Destination>Waterloo Road (Circular)</Destination>
+        <JourneyPattern id="JP36856">
+          <DestinationDisplay>Wokingham</DestinationDisplay>
+          <OperatorRef>OP94</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT36856</RouteRef>
+          <JourneyPatternSectionRefs>JPS36856</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>OP94</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>202</Description>
+          <BlockNumber>202</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>124</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>2</GarageRef>
+      <VehicleJourneyCode>109296</VehicleJourneyCode>
+      <ServiceRef>PH0005994:108</ServiceRef>
+      <LineRef>CTNY:PH0005994:108:124</LineRef>
+      <JourneyPatternRef>JP36856</JourneyPatternRef>
+      <DepartureTime>11:16:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP94</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>202</Description>
+          <BlockNumber>202</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>124</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>2</GarageRef>
+      <VehicleJourneyCode>109297</VehicleJourneyCode>
+      <ServiceRef>PH0005994:108</ServiceRef>
+      <LineRef>CTNY:PH0005994:108:124</LineRef>
+      <JourneyPatternRef>JP36856</JourneyPatternRef>
+      <DepartureTime>13:21:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

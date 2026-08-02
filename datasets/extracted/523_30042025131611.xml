@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-08-01T12:08:22Z" ModificationDateTime="2025-04-30T13:16:09Z" Modification="revise" RevisionNumber="7" FileName="523_30042025131611.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045322</StopPointRef>
+      <CommonName>Doncaster Road/Ingham Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045526</StopPointRef>
+      <CommonName>Doncaster Road/North Avenue</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040321</StopPointRef>
+      <CommonName>Hurst Lane/Walnut Avenue</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Auckley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045984</StopPointRef>
+      <CommonName>Rotherham Road/Stoney Lane</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046581</StopPointRef>
+      <CommonName>Tickhill Road/Oak Tree Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046540</StopPointRef>
+      <CommonName>Top Street/Tickhill Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046542</StopPointRef>
+      <CommonName>Top Street/Tickhill Road</CommonName>
+      <Indicator>at</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045556</StopPointRef>
+      <CommonName>West Gate/Rawson Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Tickhill</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="11_0">
+      <RouteLink id="11_0_171">
+        <From>
+          <StopPointRef>370045984</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045556</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_172">
+        <From>
+          <StopPointRef>370045556</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046581</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_174">
+        <From>
+          <StopPointRef>370046581</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046540</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_177">
+        <From>
+          <StopPointRef>370046540</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045322</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="11_0_178">
+        <From>
+          <StopPointRef>370045322</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040321</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="12_11">
+      <RouteLink id="12_11_180">
+        <From>
+          <StopPointRef>370040321</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045526</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="12_11_178">
+        <From>
+          <StopPointRef>370045526</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046542</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="11_0">
+      <Description>Bawtry – Auckley</Description>
+      <RouteSectionRef>11_0</RouteSectionRef>
+    </Route>
+    <Route id="12_11">
+      <Description>Bawtry – Auckley</Description>
+      <RouteSectionRef>12_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="11_0">
+      <JourneyPatternTimingLink id="11_0_171">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045984</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045556</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_171</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_172">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045556</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370046581</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_172</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_174">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370046581</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370046540</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_174</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_177">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370046540</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_177</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="11_0_178">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>370040321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>11_0_178</RouteLinkRef>
+        <RunTime>PT17M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="12_11">
+      <JourneyPatternTimingLink id="12_11_180">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370040321</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045526</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_180</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="12_11_178">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045526</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>370046542</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>12_11_178</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBHV</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Beehive</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>WilfredaBeehive</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0000595:94</ServiceCode>
+      <Lines>
+        <Line id="WBHV:PB0000595:94:523">
+          <LineName>523</LineName>
+          <OutboundDescription>
+            <Description>Bawtry – Auckley</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Auckley – Bawtry</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-01-29</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Bawtry – Auckley</Description>
+      <StandardService>
+        <Origin>Top Street/Tickhill Road</Origin>
+        <Destination>Hayfield School</Destination>
+        <JourneyPattern id="11_0">
+          <DestinationDisplay>HurstLane/WalnutAvenue</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>11_0</RouteRef>
+          <JourneyPatternSectionRefs>11_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="12_11">
+          <DestinationDisplay>Top Street/Tickhill Road</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>12_11</RouteRef>
+          <JourneyPatternSectionRefs>12_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:28 ROT - HUR</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>523</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB0000595:94</ServiceRef>
+      <LineRef>WBHV:PB0000595:94:523</LineRef>
+      <JourneyPatternRef>11_0</JourneyPatternRef>
+      <DepartureTime>07:28:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:40 HUR - TOP</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>523</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PB0000595:94</ServiceRef>
+      <LineRef>WBHV:PB0000595:94:523</LineRef>
+      <JourneyPatternRef>12_11</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2025-08-05T15:32:31' Modification='revise' RevisionNumber='3' FileName="Marshalls Coaches LLP 700 2023-03-22 15-30.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>40000004799</StopPointRef><CommonName>Schools Coach Park</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49003955540</StopPointRef><CommonName>Lodge Lake</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49003955541</StopPointRef><CommonName>Kensington Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004155642</StopPointRef><CommonName>Loughton Roundabout West</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004155651</StopPointRef><CommonName>Lennon Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004525594</StopPointRef><CommonName>Faraday Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49008505045</StopPointRef><CommonName>Hidcote Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49000000922</StopPointRef><CommonName>Central Railway Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49008505046</StopPointRef><CommonName>Hidcote Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004525595</StopPointRef><CommonName>Faraday Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004155650</StopPointRef><CommonName>Lennon Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49004155641</StopPointRef><CommonName>Loughton Roundabout West</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49003955548</StopPointRef><CommonName>Kensington Drive</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>49003955549</StopPointRef><CommonName>Lodge Lake</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_2' CreationDateTime='2023-03-22T15:32:30' ModificationDateTime='2023-03-22T15:32:30' Modification='revise' RevisionNumber='3'>
+<RouteLink id='routeSection_2_1'><From><StopPointRef>40000004799</StopPointRef></From><To><StopPointRef>49003955540</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_2'><From><StopPointRef>49003955540</StopPointRef></From><To><StopPointRef>49003955541</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_3'><From><StopPointRef>49003955541</StopPointRef></From><To><StopPointRef>49004155642</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_4'><From><StopPointRef>49004155642</StopPointRef></From><To><StopPointRef>49004155651</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_5'><From><StopPointRef>49004155651</StopPointRef></From><To><StopPointRef>49004525594</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_6'><From><StopPointRef>49004525594</StopPointRef></From><To><StopPointRef>49008505045</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_2_7'><From><StopPointRef>49008505045</StopPointRef></From><To><StopPointRef>49000000922</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_3' CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'>
+<RouteLink id='routeSection_3_1'><From><StopPointRef>49000000922</StopPointRef></From><To><StopPointRef>49008505046</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_2'><From><StopPointRef>49008505046</StopPointRef></From><To><StopPointRef>49004525595</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_3'><From><StopPointRef>49004525595</StopPointRef></From><To><StopPointRef>49004155650</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_4'><From><StopPointRef>49004155650</StopPointRef></From><To><StopPointRef>49004155641</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_5'><From><StopPointRef>49004155641</StopPointRef></From><To><StopPointRef>49003955548</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_6'><From><StopPointRef>49003955548</StopPointRef></From><To><StopPointRef>49003955549</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_7'><From><StopPointRef>49003955549</StopPointRef></From><To><StopPointRef>40000004799</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_2' CreationDateTime='2023-03-22T15:32:30' ModificationDateTime='2023-03-22T15:32:30' Modification='revise' RevisionNumber='3'><Description>Schools Coach Park - Central Railway Station</Description><RouteSectionRef>routeSection_2</RouteSectionRef></Route>
+<Route id='route_3' CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'><Description>Central Railway Station - Schools Coach Park</Description><RouteSectionRef>routeSection_3</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_2' CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'>
+
+<JourneyPatternTimingLink id='JPS_2_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>40000004799</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>49003955540</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT2100S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>49003955540</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>49003955541</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_2</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_3'>
+<From SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>49003955541</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>49004155642</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_3</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>49004155642</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>49004155651</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_4</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_5'>
+<From SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>49004155651</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>49004525594</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_5</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_6'>
+<From SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>49004525594</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>49008505045</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_6</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_2_7'>
+<From SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>49008505045</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>49000000922</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_2_7</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_3' CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'>
+
+<JourneyPatternTimingLink id='JPS_3_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>49000000922</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>49008505046</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>49008505046</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>49004525595</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_3'>
+<From SequenceNumber='3'><Activity>pickUp</Activity><StopPointRef>49004525595</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>49004155650</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_3</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_4'>
+<From SequenceNumber='4'><Activity>pickUp</Activity><StopPointRef>49004155650</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUp</Activity><StopPointRef>49004155641</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_4</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_5'>
+<From SequenceNumber='5'><Activity>pickUp</Activity><StopPointRef>49004155641</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUp</Activity><StopPointRef>49003955548</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_5</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_6'>
+<From SequenceNumber='6'><Activity>pickUp</Activity><StopPointRef>49003955548</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUp</Activity><StopPointRef>49003955549</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_6</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_7'>
+<From SequenceNumber='7'><Activity>pickUp</Activity><StopPointRef>49003955549</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>40000004799</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_3_7</RouteLinkRef><RunTime>PT3180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="MSHC"><NationalOperatorCode>MSHC</NationalOperatorCode><OperatorCode>MSHC</OperatorCode><OperatorShortName>Marshalls Coaches LLP</OperatorShortName><LicenceNumber>PF1098485</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'>
+<ServiceCode>PF1098485:22</ServiceCode><Lines><Line id="MSHC:PF1098485:22:700"><LineName>700</LineName><OutboundDescription><Origin>Schools Coach Park</Origin><Destination>Central Railway Station</Destination><Description>Schools Coach Park - Central Railway Station</Description></OutboundDescription><InboundDescription><Origin>Central Railway Station</Origin><Destination>Schools Coach Park</Destination><Description>Central Railway Station - Schools Coach Park</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-01-02</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>MSHC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>0</PublicUse><Description>Central Railway Station - Schools Coach Park</Description>
+
+<StandardService>
+<Origin>Central Railway Station</Origin>
+<Destination>Schools Coach Park</Destination>
+<JourneyPattern id='JP_2'><DestinationDisplay>202</DestinationDisplay><OperatorRef>MSHC</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_3'><DestinationDisplay>202</DestinationDisplay><OperatorRef>MSHC</OperatorRef><Direction>inbound</Direction><RouteRef>route_3</RouteRef><JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-03-22T15:32:30' ModificationDateTime='2023-03-22T15:32:30' Modification='revise' RevisionNumber='3'>
+
+
+<OperatorRef>MSHC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-02-13</StartDate><EndDate>2023-02-13</EndDate></DateRange><DateRange><StartDate>2023-04-03</StartDate><EndDate>2023-04-03</EndDate></DateRange><DateRange><StartDate>2023-04-17</StartDate><EndDate>2023-04-17</EndDate></DateRange><DateRange><StartDate>2023-07-24</StartDate><EndDate>2023-07-24</EndDate></DateRange><DateRange><StartDate>2023-07-31</StartDate><EndDate>2023-07-31</EndDate></DateRange><DateRange><StartDate>2023-08-07</StartDate><EndDate>2023-08-07</EndDate></DateRange><DateRange><StartDate>2023-08-14</StartDate><EndDate>2023-08-14</EndDate></DateRange><DateRange><StartDate>2023-08-21</StartDate><EndDate>2023-08-21</EndDate></DateRange><DateRange><StartDate>2023-09-04</StartDate><EndDate>2023-09-04</EndDate></DateRange><DateRange><StartDate>2023-10-23</StartDate><EndDate>2023-10-23</EndDate></DateRange><DateRange><StartDate>2023-10-30</StartDate><EndDate>2023-10-30</EndDate></DateRange><DateRange><StartDate>2023-12-18</StartDate><EndDate>2023-12-18</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-01-03</StartDate><EndDate>2023-01-03</EndDate></DateRange><DateRange><StartDate>2023-02-14</StartDate><EndDate>2023-02-14</EndDate></DateRange><DateRange><StartDate>2023-04-04</StartDate><EndDate>2023-04-04</EndDate></DateRange><DateRange><StartDate>2023-04-11</StartDate><EndDate>2023-04-11</EndDate></DateRange><DateRange><StartDate>2023-05-30</StartDate><EndDate>2023-05-30</EndDate></DateRange><DateRange><StartDate>2023-07-25</StartDate><EndDate>2023-07-25</EndDate></DateRange><DateRange><StartDate>2023-08-01</StartDate><EndDate>2023-08-01</EndDate></DateRange><DateRange><StartDate>2023-08-08</StartDate><EndDate>2023-08-08</EndDate></DateRange><DateRange><StartDate>2023-08-15</StartDate><EndDate>2023-08-15</EndDate></DateRange><DateRange><StartDate>2023-08-22</StartDate><EndDate>2023-08-22</EndDate></DateRange><DateRange><StartDate>2023-08-29</StartDate><EndDate>2023-08-29</EndDate></DateRange><DateRange><StartDate>2023-09-05</StartDate><EndDate>2023-09-05</EndDate></DateRange><DateRange><StartDate>2023-10-24</StartDate><EndDate>2023-10-24</EndDate></DateRange><DateRange><StartDate>2023-12-19</StartDate><EndDate>2023-12-19</EndDate></DateRange><DateRange><StartDate>2024-01-02</StartDate><EndDate>2024-01-02</EndDate></DateRange><DateRange><StartDate>2023-01-04</StartDate><EndDate>2023-01-04</EndDate></DateRange><DateRange><StartDate>2023-02-15</StartDate><EndDate>2023-02-15</EndDate></DateRange><DateRange><StartDate>2023-04-05</StartDate><EndDate>2023-04-05</EndDate></DateRange><DateRange><StartDate>2023-04-12</StartDate><EndDate>2023-04-12</EndDate></DateRange><DateRange><StartDate>2023-05-31</StartDate><EndDate>2023-05-31</EndDate></DateRange><DateRange><StartDate>2023-07-26</StartDate><EndDate>2023-07-26</EndDate></DateRange><DateRange><StartDate>2023-08-02</StartDate><EndDate>2023-08-02</EndDate></DateRange><DateRange><StartDate>2023-08-09</StartDate><EndDate>2023-08-09</EndDate></DateRange><DateRange><StartDate>2023-08-16</StartDate><EndDate>2023-08-16</EndDate></DateRange><DateRange><StartDate>2023-08-23</StartDate><EndDate>2023-08-23</EndDate></DateRange><DateRange><StartDate>2023-08-30</StartDate><EndDate>2023-08-30</EndDate></DateRange><DateRange><StartDate>2023-10-25</StartDate><EndDate>2023-10-25</EndDate></DateRange><DateRange><StartDate>2023-12-20</StartDate><EndDate>2023-12-20</EndDate></DateRange><DateRange><StartDate>2023-12-27</StartDate><EndDate>2023-12-27</EndDate></DateRange><DateRange><StartDate>2024-01-03</StartDate><EndDate>2024-01-03</EndDate></DateRange><DateRange><StartDate>2023-02-16</StartDate><EndDate>2023-02-16</EndDate></DateRange><DateRange><StartDate>2023-04-06</StartDate><EndDate>2023-04-06</EndDate></DateRange><DateRange><StartDate>2023-04-13</StartDate><EndDate>2023-04-13</EndDate></DateRange><DateRange><StartDate>2023-06-01</StartDate><EndDate>2023-06-01</EndDate></DateRange><DateRange><StartDate>2023-07-27</StartDate><EndDate>2023-07-27</EndDate></DateRange><DateRange><StartDate>2023-08-03</StartDate><EndDate>2023-08-03</EndDate></DateRange><DateRange><StartDate>2023-08-10</StartDate><EndDate>2023-08-10</EndDate></DateRange><DateRange><StartDate>2023-08-17</StartDate><EndDate>2023-08-17</EndDate></DateRange><DateRange><StartDate>2023-08-24</StartDate><EndDate>2023-08-24</EndDate></DateRange><DateRange><StartDate>2023-08-31</StartDate><EndDate>2023-08-31</EndDate></DateRange><DateRange><StartDate>2023-10-26</StartDate><EndDate>2023-10-26</EndDate></DateRange><DateRange><StartDate>2023-12-21</StartDate><EndDate>2023-12-21</EndDate></DateRange><DateRange><StartDate>2023-12-28</StartDate><EndDate>2023-12-28</EndDate></DateRange><DateRange><StartDate>2023-02-17</StartDate><EndDate>2023-02-17</EndDate></DateRange><DateRange><StartDate>2023-04-14</StartDate><EndDate>2023-04-14</EndDate></DateRange><DateRange><StartDate>2023-06-02</StartDate><EndDate>2023-06-02</EndDate></DateRange><DateRange><StartDate>2023-07-21</StartDate><EndDate>2023-07-21</EndDate></DateRange><DateRange><StartDate>2023-07-28</StartDate><EndDate>2023-07-28</EndDate></DateRange><DateRange><StartDate>2023-08-04</StartDate><EndDate>2023-08-04</EndDate></DateRange><DateRange><StartDate>2023-08-11</StartDate><EndDate>2023-08-11</EndDate></DateRange><DateRange><StartDate>2023-08-18</StartDate><EndDate>2023-08-18</EndDate></DateRange><DateRange><StartDate>2023-08-25</StartDate><EndDate>2023-08-25</EndDate></DateRange><DateRange><StartDate>2023-09-01</StartDate><EndDate>2023-09-01</EndDate></DateRange><DateRange><StartDate>2023-10-20</StartDate><EndDate>2023-10-20</EndDate></DateRange><DateRange><StartDate>2023-10-27</StartDate><EndDate>2023-10-27</EndDate></DateRange><DateRange><StartDate>2023-12-22</StartDate><EndDate>2023-12-22</EndDate></DateRange><DateRange><StartDate>2023-12-29</StartDate><EndDate>2023-12-29</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><MayDay/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_2</VehicleJourneyCode>
+<ServiceRef>PF1098485:22</ServiceRef><LineRef>MSHC:PF1098485:22:700</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>15:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-03-22T15:32:31' ModificationDateTime='2023-03-22T15:32:31' Modification='revise' RevisionNumber='3'>
+
+
+<OperatorRef>MSHC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-02-13</StartDate><EndDate>2023-02-13</EndDate></DateRange><DateRange><StartDate>2023-04-03</StartDate><EndDate>2023-04-03</EndDate></DateRange><DateRange><StartDate>2023-04-17</StartDate><EndDate>2023-04-17</EndDate></DateRange><DateRange><StartDate>2023-07-24</StartDate><EndDate>2023-07-24</EndDate></DateRange><DateRange><StartDate>2023-07-31</StartDate><EndDate>2023-07-31</EndDate></DateRange><DateRange><StartDate>2023-08-07</StartDate><EndDate>2023-08-07</EndDate></DateRange><DateRange><StartDate>2023-08-14</StartDate><EndDate>2023-08-14</EndDate></DateRange><DateRange><StartDate>2023-08-21</StartDate><EndDate>2023-08-21</EndDate></DateRange><DateRange><StartDate>2023-09-04</StartDate><EndDate>2023-09-04</EndDate></DateRange><DateRange><StartDate>2023-10-23</StartDate><EndDate>2023-10-23</EndDate></DateRange><DateRange><StartDate>2023-10-30</StartDate><EndDate>2023-10-30</EndDate></DateRange><DateRange><StartDate>2023-12-18</StartDate><EndDate>2023-12-18</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-01-03</StartDate><EndDate>2023-01-03</EndDate></DateRange><DateRange><StartDate>2023-02-14</StartDate><EndDate>2023-02-14</EndDate></DateRange><DateRange><StartDate>2023-04-04</StartDate><EndDate>2023-04-04</EndDate></DateRange><DateRange><StartDate>2023-04-11</StartDate><EndDate>2023-04-11</EndDate></DateRange><DateRange><StartDate>2023-05-30</StartDate><EndDate>2023-05-30</EndDate></DateRange><DateRange><StartDate>2023-07-25</StartDate><EndDate>2023-07-25</EndDate></DateRange><DateRange><StartDate>2023-08-01</StartDate><EndDate>2023-08-01</EndDate></DateRange><DateRange><StartDate>2023-08-08</StartDate><EndDate>2023-08-08</EndDate></DateRange><DateRange><StartDate>2023-08-15</StartDate><EndDate>2023-08-15</EndDate></DateRange><DateRange><StartDate>2023-08-22</StartDate><EndDate>2023-08-22</EndDate></DateRange><DateRange><StartDate>2023-08-29</StartDate><EndDate>2023-08-29</EndDate></DateRange><DateRange><StartDate>2023-09-05</StartDate><EndDate>2023-09-05</EndDate></DateRange><DateRange><StartDate>2023-10-24</StartDate><EndDate>2023-10-24</EndDate></DateRange><DateRange><StartDate>2023-12-19</StartDate><EndDate>2023-12-19</EndDate></DateRange><DateRange><StartDate>2024-01-02</StartDate><EndDate>2024-01-02</EndDate></DateRange><DateRange><StartDate>2023-01-04</StartDate><EndDate>2023-01-04</EndDate></DateRange><DateRange><StartDate>2023-02-15</StartDate><EndDate>2023-02-15</EndDate></DateRange><DateRange><StartDate>2023-04-05</StartDate><EndDate>2023-04-05</EndDate></DateRange><DateRange><StartDate>2023-04-12</StartDate><EndDate>2023-04-12</EndDate></DateRange><DateRange><StartDate>2023-05-31</StartDate><EndDate>2023-05-31</EndDate></DateRange><DateRange><StartDate>2023-07-26</StartDate><EndDate>2023-07-26</EndDate></DateRange><DateRange><StartDate>2023-08-02</StartDate><EndDate>2023-08-02</EndDate></DateRange><DateRange><StartDate>2023-08-09</StartDate><EndDate>2023-08-09</EndDate></DateRange><DateRange><StartDate>2023-08-16</StartDate><EndDate>2023-08-16</EndDate></DateRange><DateRange><StartDate>2023-08-23</StartDate><EndDate>2023-08-23</EndDate></DateRange><DateRange><StartDate>2023-08-30</StartDate><EndDate>2023-08-30</EndDate></DateRange><DateRange><StartDate>2023-10-25</StartDate><EndDate>2023-10-25</EndDate></DateRange><DateRange><StartDate>2023-12-20</StartDate><EndDate>2023-12-20</EndDate></DateRange><DateRange><StartDate>2023-12-27</StartDate><EndDate>2023-12-27</EndDate></DateRange><DateRange><StartDate>2024-01-03</StartDate><EndDate>2024-01-03</EndDate></DateRange><DateRange><StartDate>2023-02-16</StartDate><EndDate>2023-02-16</EndDate></DateRange><DateRange><StartDate>2023-04-06</StartDate><EndDate>2023-04-06</EndDate></DateRange><DateRange><StartDate>2023-04-13</StartDate><EndDate>2023-04-13</EndDate></DateRange><DateRange><StartDate>2023-06-01</StartDate><EndDate>2023-06-01</EndDate></DateRange><DateRange><StartDate>2023-07-27</StartDate><EndDate>2023-07-27</EndDate></DateRange><DateRange><StartDate>2023-08-03</StartDate><EndDate>2023-08-03</EndDate></DateRange><DateRange><StartDate>2023-08-10</StartDate><EndDate>2023-08-10</EndDate></DateRange><DateRange><StartDate>2023-08-17</StartDate><EndDate>2023-08-17</EndDate></DateRange><DateRange><StartDate>2023-08-24</StartDate><EndDate>2023-08-24</EndDate></DateRange><DateRange><StartDate>2023-08-31</StartDate><EndDate>2023-08-31</EndDate></DateRange><DateRange><StartDate>2023-10-26</StartDate><EndDate>2023-10-26</EndDate></DateRange><DateRange><StartDate>2023-12-21</StartDate><EndDate>2023-12-21</EndDate></DateRange><DateRange><StartDate>2023-12-28</StartDate><EndDate>2023-12-28</EndDate></DateRange><DateRange><StartDate>2023-02-17</StartDate><EndDate>2023-02-17</EndDate></DateRange><DateRange><StartDate>2023-04-14</StartDate><EndDate>2023-04-14</EndDate></DateRange><DateRange><StartDate>2023-06-02</StartDate><EndDate>2023-06-02</EndDate></DateRange><DateRange><StartDate>2023-07-21</StartDate><EndDate>2023-07-21</EndDate></DateRange><DateRange><StartDate>2023-07-28</StartDate><EndDate>2023-07-28</EndDate></DateRange><DateRange><StartDate>2023-08-04</StartDate><EndDate>2023-08-04</EndDate></DateRange><DateRange><StartDate>2023-08-11</StartDate><EndDate>2023-08-11</EndDate></DateRange><DateRange><StartDate>2023-08-18</StartDate><EndDate>2023-08-18</EndDate></DateRange><DateRange><StartDate>2023-08-25</StartDate><EndDate>2023-08-25</EndDate></DateRange><DateRange><StartDate>2023-09-01</StartDate><EndDate>2023-09-01</EndDate></DateRange><DateRange><StartDate>2023-10-20</StartDate><EndDate>2023-10-20</EndDate></DateRange><DateRange><StartDate>2023-10-27</StartDate><EndDate>2023-10-27</EndDate></DateRange><DateRange><StartDate>2023-12-22</StartDate><EndDate>2023-12-22</EndDate></DateRange><DateRange><StartDate>2023-12-29</StartDate><EndDate>2023-12-29</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><MayDay/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+<ServiceRef>PF1098485:22</ServiceRef><LineRef>MSHC:PF1098485:22:700</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>07:10:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

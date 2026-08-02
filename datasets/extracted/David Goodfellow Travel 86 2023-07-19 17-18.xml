@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:15' Modification='revise' RevisionNumber='1' FileName="David Goodfellow Travel 86 2023-07-19 17-18.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>370045294</StopPointRef><CommonName>Marshland Road/Grange Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370046231</StopPointRef><CommonName>Horse Fair Green/Finkle Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370046745</StopPointRef><CommonName>Omega Boulevard/Selby Road</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_12' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:07' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_12_1'><From><StopPointRef>370045294</StopPointRef></From><To><StopPointRef>370046231</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_12_2'><From><StopPointRef>370046231</StopPointRef></From><To><StopPointRef>370046745</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_13' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:13' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_13_1'><From><StopPointRef>370046745</StopPointRef></From><To><StopPointRef>370046231</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_13_2'><From><StopPointRef>370046231</StopPointRef></From><To><StopPointRef>370045294</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_12' CreationDateTime='2023-07-05T13:26:16' ModificationDateTime='2023-07-19T16:09:07' Modification='revise' RevisionNumber='1'><Description>Marshland Road/Grange Road - Omega Boulevard/Selby Road</Description><RouteSectionRef>routeSection_12</RouteSectionRef></Route>
+<Route id='route_13' CreationDateTime='2023-07-05T13:26:16' ModificationDateTime='2023-07-19T16:09:13' Modification='revise' RevisionNumber='1'><Description>Omega Boulevard/Selby Road - Marshland Road/Grange Road</Description><RouteSectionRef>routeSection_13</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_12' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:15' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_12_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370045294</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046231</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_12_1</RouteLinkRef><RunTime>PT720S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_12_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046231</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>370046745</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_13' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:15' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_13_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370046745</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046231</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_13_1</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_13_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370046231</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>370045294</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_13_2</RouteLinkRef><RunTime>PT720S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="DGTR"><NationalOperatorCode>DGTR</NationalOperatorCode><OperatorCode>DGTR</OperatorCode><OperatorShortName>David Goodfellow Travel</OperatorShortName><LicenceNumber>PB0001898</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:09:15' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PB0001898:3</ServiceCode><Lines><Line id="DGTR:PB0001898:3:86"><LineName>86</LineName><OutboundDescription><Origin>Marshland Road/Grange Road</Origin><Destination>Omega Boulevard/Selby Road</Destination><Description>Marshland Road/Grange Road - Omega Boulevard/Selby Road</Description></OutboundDescription><InboundDescription><Origin>Omega Boulevard/Selby Road</Origin><Destination>Marshland Road/Grange Road</Destination><Description>Omega Boulevard/Selby Road - Marshland Road/Grange Road</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-07-01</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>DGTR</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Omega Boulevard/Selby Road - Marshland Road/Grange Road</Description>
+
+<StandardService>
+<Origin>Omega Boulevard/Selby Road</Origin>
+<Destination>Marshland Road/Grange Road</Destination>
+<JourneyPattern id='JP_12'><DestinationDisplay>197</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>outbound</Direction><RouteRef>route_12</RouteRef><JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_13'><DestinationDisplay>197</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>inbound</Direction><RouteRef>route_13</RouteRef><JourneyPatternSectionRefs>JPS_13</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-07-19T16:09:08' ModificationDateTime='2023-07-19T16:09:08' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_38</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>09:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:08' ModificationDateTime='2023-07-19T16:09:08' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_39</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>10:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:09' ModificationDateTime='2023-07-19T16:09:09' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_40</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>12:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:09' ModificationDateTime='2023-07-19T16:09:09' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_41</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>13:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:09' ModificationDateTime='2023-07-19T16:09:09' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_42</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>15:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:10' ModificationDateTime='2023-07-19T16:09:10' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_43</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>16:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:13' ModificationDateTime='2023-07-19T16:09:13' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_44</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>10:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:14' ModificationDateTime='2023-07-19T16:09:14' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_45</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>11:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:14' ModificationDateTime='2023-07-19T16:09:14' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_46</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>13:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:14' ModificationDateTime='2023-07-19T16:09:14' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_47</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>14:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-19T16:09:15' ModificationDateTime='2023-07-19T16:09:15' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-03</StartDate><EndDate>2023-07-03</EndDate></DateRange><DateRange><StartDate>2023-07-10</StartDate><EndDate>2023-07-10</EndDate></DateRange><DateRange><StartDate>2024-01-01</StartDate><EndDate>2024-01-01</EndDate></DateRange><DateRange><StartDate>2023-07-04</StartDate><EndDate>2023-07-04</EndDate></DateRange><DateRange><StartDate>2023-07-11</StartDate><EndDate>2023-07-11</EndDate></DateRange><DateRange><StartDate>2023-07-05</StartDate><EndDate>2023-07-05</EndDate></DateRange><DateRange><StartDate>2023-07-12</StartDate><EndDate>2023-07-12</EndDate></DateRange><DateRange><StartDate>2023-07-06</StartDate><EndDate>2023-07-06</EndDate></DateRange><DateRange><StartDate>2023-07-13</StartDate><EndDate>2023-07-13</EndDate></DateRange><DateRange><StartDate>2023-07-07</StartDate><EndDate>2023-07-07</EndDate></DateRange><DateRange><StartDate>2023-07-14</StartDate><EndDate>2023-07-14</EndDate></DateRange><DateRange><StartDate>2023-07-01</StartDate><EndDate>2023-07-01</EndDate></DateRange><DateRange><StartDate>2023-07-08</StartDate><EndDate>2023-07-08</EndDate></DateRange><DateRange><StartDate>2023-07-15</StartDate><EndDate>2023-07-15</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_48</VehicleJourneyCode>
+<ServiceRef>PB0001898:3</ServiceRef><LineRef>DGTR:PB0001898:3:86</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>16:20:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

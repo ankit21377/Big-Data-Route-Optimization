@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0' FileName="Acme Bus Co Ltd 2021-08-I 2021-08-05 14-34.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>1500IM180B</StopPointRef><CommonName>High Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150018016002</StopPointRef><CommonName>The Queen Victoria</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500PRIORS12</StopPointRef><CommonName>Warwick Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150020015005</StopPointRef><CommonName>The Four Ashes</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM186</StopPointRef><CommonName>The Green Man</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500DGK002</StopPointRef><CommonName>The Old Mill</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021305550</StopPointRef><CommonName>The Nags Head PH</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021305560</StopPointRef><CommonName>Anglo European College</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021304710</StopPointRef><CommonName>High School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021385120</StopPointRef><CommonName>St Mary's Catholic School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021307845</StopPointRef><CommonName>Anglo European College</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>210021307860</StopPointRef><CommonName>The Nags Head PH</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150020015011</StopPointRef><CommonName>The Old Mill</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM186Y</StopPointRef><CommonName>The Green Man</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>150020015004</StopPointRef><CommonName>The Four Ashes</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500PRIORS11</StopPointRef><CommonName>Warwick Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500AA228</StopPointRef><CommonName>The Queen Victoria</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1500IM180</StopPointRef><CommonName>High Street</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_14' CreationDateTime='2021-08-05T14:35:04' ModificationDateTime='2021-08-05T14:35:04' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_14_1'><From><StopPointRef>1500IM180B</StopPointRef></From><To><StopPointRef>150018016002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_2'><From><StopPointRef>150018016002</StopPointRef></From><To><StopPointRef>1500PRIORS12</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_3'><From><StopPointRef>1500PRIORS12</StopPointRef></From><To><StopPointRef>150020015005</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_4'><From><StopPointRef>150020015005</StopPointRef></From><To><StopPointRef>1500IM186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_5'><From><StopPointRef>1500IM186</StopPointRef></From><To><StopPointRef>1500DGK002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_6'><From><StopPointRef>1500DGK002</StopPointRef></From><To><StopPointRef>210021305550</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_7'><From><StopPointRef>210021305550</StopPointRef></From><To><StopPointRef>210021305560</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_8'><From><StopPointRef>210021305560</StopPointRef></From><To><StopPointRef>210021304710</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_14_9'><From><StopPointRef>210021304710</StopPointRef></From><To><StopPointRef>210021385120</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_15' CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_15_1'><From><StopPointRef>210021304710</StopPointRef></From><To><StopPointRef>210021385120</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_2'><From><StopPointRef>210021385120</StopPointRef></From><To><StopPointRef>210021307845</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_3'><From><StopPointRef>210021307845</StopPointRef></From><To><StopPointRef>210021307860</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_4'><From><StopPointRef>210021307860</StopPointRef></From><To><StopPointRef>150020015011</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_5'><From><StopPointRef>150020015011</StopPointRef></From><To><StopPointRef>1500IM186Y</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_6'><From><StopPointRef>1500IM186Y</StopPointRef></From><To><StopPointRef>150020015004</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_7'><From><StopPointRef>150020015004</StopPointRef></From><To><StopPointRef>1500PRIORS11</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_8'><From><StopPointRef>1500PRIORS11</StopPointRef></From><To><StopPointRef>1500AA228</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_15_9'><From><StopPointRef>1500AA228</StopPointRef></From><To><StopPointRef>1500IM180</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_14' CreationDateTime='2021-08-05T14:35:04' ModificationDateTime='2021-08-05T14:35:04' Modification='new' RevisionNumber='0'><Description>High Street - St Mary's Catholic School</Description><RouteSectionRef>routeSection_14</RouteSectionRef></Route>
+<Route id='route_15' CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'><Description>High School - High Street</Description><RouteSectionRef>routeSection_15</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_14' CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_14_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500IM180B</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>150018016002</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_1</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>150018016002</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500PRIORS12</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_2</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500PRIORS12</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>150020015005</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_3</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>150020015005</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500IM186</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_4</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500IM186</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500DGK002</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_5</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>1500DGK002</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021305550</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_14_6</RouteLinkRef><RunTime>PT780S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021305550</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021305560</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_14_7</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021305560</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021304710</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_14_8</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021304710</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021385120</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_14_9</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_15' CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_15_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021304710</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021385120</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_15_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021385120</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021307845</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_15_2</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>210021307845</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>210021307860</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_3</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>210021307860</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>150020015011</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_4</RouteLinkRef><RunTime>PT540S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_5'>
+<From SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>150020015011</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>1500IM186Y</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_5</RouteLinkRef><RunTime>PT0S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_6'>
+<From SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>1500IM186Y</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>150020015004</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_7'>
+<From SequenceNumber='7'><Activity>setDown</Activity><StopPointRef>150020015004</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>1500PRIORS11</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_7</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_8'>
+<From SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>1500PRIORS11</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>1500AA228</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_8</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_15_9'>
+<From SequenceNumber='9'><Activity>setDown</Activity><StopPointRef>1500AA228</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>1500IM180</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_15_9</RouteLinkRef><RunTime>PT60S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="OId_ACME"><NationalOperatorCode>ACME</NationalOperatorCode><OperatorCode>ACME</OperatorCode><OperatorShortName>Acme Bus Co Ltd</OperatorShortName><LicenceNumber>PF1102351</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'>
+<ServiceCode>PF1102351:18</ServiceCode><Lines><Line id="ACME:PF1102351:18:I"><LineName>I</LineName><OutboundDescription><Origin>High Street</Origin><Destination>St Mary's Catholic School</Destination><Description>High Street - St Mary's Catholic School</Description></OutboundDescription><InboundDescription><Origin>High School</Origin><Destination>High Street</Destination><Description>High School - High Street</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2021-09-06</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>regACME</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>High School - High Street</Description>
+
+<StandardService>
+<Origin>High School</Origin>
+<Destination>High Street</Destination>
+<JourneyPattern id='JP_14'><DestinationDisplay>St Mary's Catholic School</DestinationDisplay><OperatorRef>OId_ACME</OperatorRef><Direction>outbound</Direction><RouteRef>route_14</RouteRef><JourneyPatternSectionRefs>JPS_14</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_15'><DestinationDisplay>High Street</DestinationDisplay><OperatorRef>OId_ACME</OperatorRef><Direction>inbound</Direction><RouteRef>route_15</RouteRef><JourneyPatternSectionRefs>JPS_15</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2021-08-05T14:35:04' ModificationDateTime='2021-08-05T14:35:04' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>ACME</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-10-25</StartDate><EndDate>2021-10-25</EndDate></DateRange><DateRange><StartDate>2021-12-20</StartDate><EndDate>2021-12-20</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2022-02-14</StartDate><EndDate>2022-02-14</EndDate></DateRange><DateRange><StartDate>2022-04-04</StartDate><EndDate>2022-04-04</EndDate></DateRange><DateRange><StartDate>2022-04-11</StartDate><EndDate>2022-04-11</EndDate></DateRange><DateRange><StartDate>2022-05-30</StartDate><EndDate>2022-05-30</EndDate></DateRange><DateRange><StartDate>2022-07-25</StartDate><EndDate>2022-07-25</EndDate></DateRange><DateRange><StartDate>2022-08-01</StartDate><EndDate>2022-08-01</EndDate></DateRange><DateRange><StartDate>2022-08-08</StartDate><EndDate>2022-08-08</EndDate></DateRange><DateRange><StartDate>2022-08-15</StartDate><EndDate>2022-08-15</EndDate></DateRange><DateRange><StartDate>2022-08-22</StartDate><EndDate>2022-08-22</EndDate></DateRange><DateRange><StartDate>2022-10-24</StartDate><EndDate>2022-10-24</EndDate></DateRange><DateRange><StartDate>2021-10-26</StartDate><EndDate>2021-10-26</EndDate></DateRange><DateRange><StartDate>2021-12-21</StartDate><EndDate>2021-12-21</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2022-02-15</StartDate><EndDate>2022-02-15</EndDate></DateRange><DateRange><StartDate>2022-04-05</StartDate><EndDate>2022-04-05</EndDate></DateRange><DateRange><StartDate>2022-04-12</StartDate><EndDate>2022-04-12</EndDate></DateRange><DateRange><StartDate>2022-05-31</StartDate><EndDate>2022-05-31</EndDate></DateRange><DateRange><StartDate>2022-07-26</StartDate><EndDate>2022-07-26</EndDate></DateRange><DateRange><StartDate>2022-08-02</StartDate><EndDate>2022-08-02</EndDate></DateRange><DateRange><StartDate>2022-08-09</StartDate><EndDate>2022-08-09</EndDate></DateRange><DateRange><StartDate>2022-08-16</StartDate><EndDate>2022-08-16</EndDate></DateRange><DateRange><StartDate>2022-08-23</StartDate><EndDate>2022-08-23</EndDate></DateRange><DateRange><StartDate>2022-08-30</StartDate><EndDate>2022-08-30</EndDate></DateRange><DateRange><StartDate>2022-10-25</StartDate><EndDate>2022-10-25</EndDate></DateRange><DateRange><StartDate>2023-01-03</StartDate><EndDate>2023-01-03</EndDate></DateRange><DateRange><StartDate>2021-10-27</StartDate><EndDate>2021-10-27</EndDate></DateRange><DateRange><StartDate>2021-12-22</StartDate><EndDate>2021-12-22</EndDate></DateRange><DateRange><StartDate>2021-12-29</StartDate><EndDate>2021-12-29</EndDate></DateRange><DateRange><StartDate>2022-02-16</StartDate><EndDate>2022-02-16</EndDate></DateRange><DateRange><StartDate>2022-04-06</StartDate><EndDate>2022-04-06</EndDate></DateRange><DateRange><StartDate>2022-04-13</StartDate><EndDate>2022-04-13</EndDate></DateRange><DateRange><StartDate>2022-06-01</StartDate><EndDate>2022-06-01</EndDate></DateRange><DateRange><StartDate>2022-07-27</StartDate><EndDate>2022-07-27</EndDate></DateRange><DateRange><StartDate>2022-08-03</StartDate><EndDate>2022-08-03</EndDate></DateRange><DateRange><StartDate>2022-08-10</StartDate><EndDate>2022-08-10</EndDate></DateRange><DateRange><StartDate>2022-08-17</StartDate><EndDate>2022-08-17</EndDate></DateRange><DateRange><StartDate>2022-08-24</StartDate><EndDate>2022-08-24</EndDate></DateRange><DateRange><StartDate>2022-08-31</StartDate><EndDate>2022-08-31</EndDate></DateRange><DateRange><StartDate>2022-10-26</StartDate><EndDate>2022-10-26</EndDate></DateRange><DateRange><StartDate>2022-12-21</StartDate><EndDate>2022-12-21</EndDate></DateRange><DateRange><StartDate>2022-12-28</StartDate><EndDate>2022-12-28</EndDate></DateRange><DateRange><StartDate>2023-01-04</StartDate><EndDate>2023-01-04</EndDate></DateRange><DateRange><StartDate>2021-10-28</StartDate><EndDate>2021-10-28</EndDate></DateRange><DateRange><StartDate>2021-12-23</StartDate><EndDate>2021-12-23</EndDate></DateRange><DateRange><StartDate>2021-12-30</StartDate><EndDate>2021-12-30</EndDate></DateRange><DateRange><StartDate>2022-02-17</StartDate><EndDate>2022-02-17</EndDate></DateRange><DateRange><StartDate>2022-04-07</StartDate><EndDate>2022-04-07</EndDate></DateRange><DateRange><StartDate>2022-04-14</StartDate><EndDate>2022-04-14</EndDate></DateRange><DateRange><StartDate>2022-07-28</StartDate><EndDate>2022-07-28</EndDate></DateRange><DateRange><StartDate>2022-08-04</StartDate><EndDate>2022-08-04</EndDate></DateRange><DateRange><StartDate>2022-08-11</StartDate><EndDate>2022-08-11</EndDate></DateRange><DateRange><StartDate>2022-08-18</StartDate><EndDate>2022-08-18</EndDate></DateRange><DateRange><StartDate>2022-08-25</StartDate><EndDate>2022-08-25</EndDate></DateRange><DateRange><StartDate>2022-09-01</StartDate><EndDate>2022-09-01</EndDate></DateRange><DateRange><StartDate>2022-10-27</StartDate><EndDate>2022-10-27</EndDate></DateRange><DateRange><StartDate>2022-12-22</StartDate><EndDate>2022-12-22</EndDate></DateRange><DateRange><StartDate>2022-12-29</StartDate><EndDate>2022-12-29</EndDate></DateRange><DateRange><StartDate>2021-10-29</StartDate><EndDate>2021-10-29</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-02-18</StartDate><EndDate>2022-02-18</EndDate></DateRange><DateRange><StartDate>2022-04-08</StartDate><EndDate>2022-04-08</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange><DateRange><StartDate>2022-07-29</StartDate><EndDate>2022-07-29</EndDate></DateRange><DateRange><StartDate>2022-08-05</StartDate><EndDate>2022-08-05</EndDate></DateRange><DateRange><StartDate>2022-08-12</StartDate><EndDate>2022-08-12</EndDate></DateRange><DateRange><StartDate>2022-08-19</StartDate><EndDate>2022-08-19</EndDate></DateRange><DateRange><StartDate>2022-08-26</StartDate><EndDate>2022-08-26</EndDate></DateRange><DateRange><StartDate>2022-09-02</StartDate><EndDate>2022-09-02</EndDate></DateRange><DateRange><StartDate>2022-10-28</StartDate><EndDate>2022-10-28</EndDate></DateRange><DateRange><StartDate>2022-12-23</StartDate><EndDate>2022-12-23</EndDate></DateRange><DateRange><StartDate>2022-12-30</StartDate><EndDate>2022-12-30</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_30</VehicleJourneyCode>
+<ServiceRef>PF1102351:18</ServiceRef><LineRef>ACME:PF1102351:18:I</LineRef>
+<JourneyPatternRef>JP_14</JourneyPatternRef>
+<DepartureTime>07:42:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-08-05T14:35:06' ModificationDateTime='2021-08-05T14:35:06' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>ACME</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-10-25</StartDate><EndDate>2021-10-25</EndDate></DateRange><DateRange><StartDate>2021-12-20</StartDate><EndDate>2021-12-20</EndDate></DateRange><DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2022-02-14</StartDate><EndDate>2022-02-14</EndDate></DateRange><DateRange><StartDate>2022-04-04</StartDate><EndDate>2022-04-04</EndDate></DateRange><DateRange><StartDate>2022-04-11</StartDate><EndDate>2022-04-11</EndDate></DateRange><DateRange><StartDate>2022-05-30</StartDate><EndDate>2022-05-30</EndDate></DateRange><DateRange><StartDate>2022-07-25</StartDate><EndDate>2022-07-25</EndDate></DateRange><DateRange><StartDate>2022-08-01</StartDate><EndDate>2022-08-01</EndDate></DateRange><DateRange><StartDate>2022-08-08</StartDate><EndDate>2022-08-08</EndDate></DateRange><DateRange><StartDate>2022-08-15</StartDate><EndDate>2022-08-15</EndDate></DateRange><DateRange><StartDate>2022-08-22</StartDate><EndDate>2022-08-22</EndDate></DateRange><DateRange><StartDate>2022-10-24</StartDate><EndDate>2022-10-24</EndDate></DateRange><DateRange><StartDate>2021-10-26</StartDate><EndDate>2021-10-26</EndDate></DateRange><DateRange><StartDate>2021-12-21</StartDate><EndDate>2021-12-21</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2022-02-15</StartDate><EndDate>2022-02-15</EndDate></DateRange><DateRange><StartDate>2022-04-05</StartDate><EndDate>2022-04-05</EndDate></DateRange><DateRange><StartDate>2022-04-12</StartDate><EndDate>2022-04-12</EndDate></DateRange><DateRange><StartDate>2022-05-31</StartDate><EndDate>2022-05-31</EndDate></DateRange><DateRange><StartDate>2022-07-26</StartDate><EndDate>2022-07-26</EndDate></DateRange><DateRange><StartDate>2022-08-02</StartDate><EndDate>2022-08-02</EndDate></DateRange><DateRange><StartDate>2022-08-09</StartDate><EndDate>2022-08-09</EndDate></DateRange><DateRange><StartDate>2022-08-16</StartDate><EndDate>2022-08-16</EndDate></DateRange><DateRange><StartDate>2022-08-23</StartDate><EndDate>2022-08-23</EndDate></DateRange><DateRange><StartDate>2022-08-30</StartDate><EndDate>2022-08-30</EndDate></DateRange><DateRange><StartDate>2022-10-25</StartDate><EndDate>2022-10-25</EndDate></DateRange><DateRange><StartDate>2023-01-03</StartDate><EndDate>2023-01-03</EndDate></DateRange><DateRange><StartDate>2021-10-27</StartDate><EndDate>2021-10-27</EndDate></DateRange><DateRange><StartDate>2021-12-22</StartDate><EndDate>2021-12-22</EndDate></DateRange><DateRange><StartDate>2021-12-29</StartDate><EndDate>2021-12-29</EndDate></DateRange><DateRange><StartDate>2022-02-16</StartDate><EndDate>2022-02-16</EndDate></DateRange><DateRange><StartDate>2022-04-06</StartDate><EndDate>2022-04-06</EndDate></DateRange><DateRange><StartDate>2022-04-13</StartDate><EndDate>2022-04-13</EndDate></DateRange><DateRange><StartDate>2022-06-01</StartDate><EndDate>2022-06-01</EndDate></DateRange><DateRange><StartDate>2022-07-27</StartDate><EndDate>2022-07-27</EndDate></DateRange><DateRange><StartDate>2022-08-03</StartDate><EndDate>2022-08-03</EndDate></DateRange><DateRange><StartDate>2022-08-10</StartDate><EndDate>2022-08-10</EndDate></DateRange><DateRange><StartDate>2022-08-17</StartDate><EndDate>2022-08-17</EndDate></DateRange><DateRange><StartDate>2022-08-24</StartDate><EndDate>2022-08-24</EndDate></DateRange><DateRange><StartDate>2022-08-31</StartDate><EndDate>2022-08-31</EndDate></DateRange><DateRange><StartDate>2022-10-26</StartDate><EndDate>2022-10-26</EndDate></DateRange><DateRange><StartDate>2022-12-21</StartDate><EndDate>2022-12-21</EndDate></DateRange><DateRange><StartDate>2022-12-28</StartDate><EndDate>2022-12-28</EndDate></DateRange><DateRange><StartDate>2023-01-04</StartDate><EndDate>2023-01-04</EndDate></DateRange><DateRange><StartDate>2021-10-28</StartDate><EndDate>2021-10-28</EndDate></DateRange><DateRange><StartDate>2021-12-23</StartDate><EndDate>2021-12-23</EndDate></DateRange><DateRange><StartDate>2021-12-30</StartDate><EndDate>2021-12-30</EndDate></DateRange><DateRange><StartDate>2022-02-17</StartDate><EndDate>2022-02-17</EndDate></DateRange><DateRange><StartDate>2022-04-07</StartDate><EndDate>2022-04-07</EndDate></DateRange><DateRange><StartDate>2022-04-14</StartDate><EndDate>2022-04-14</EndDate></DateRange><DateRange><StartDate>2022-07-28</StartDate><EndDate>2022-07-28</EndDate></DateRange><DateRange><StartDate>2022-08-04</StartDate><EndDate>2022-08-04</EndDate></DateRange><DateRange><StartDate>2022-08-11</StartDate><EndDate>2022-08-11</EndDate></DateRange><DateRange><StartDate>2022-08-18</StartDate><EndDate>2022-08-18</EndDate></DateRange><DateRange><StartDate>2022-08-25</StartDate><EndDate>2022-08-25</EndDate></DateRange><DateRange><StartDate>2022-09-01</StartDate><EndDate>2022-09-01</EndDate></DateRange><DateRange><StartDate>2022-10-27</StartDate><EndDate>2022-10-27</EndDate></DateRange><DateRange><StartDate>2022-12-22</StartDate><EndDate>2022-12-22</EndDate></DateRange><DateRange><StartDate>2022-12-29</StartDate><EndDate>2022-12-29</EndDate></DateRange><DateRange><StartDate>2021-10-29</StartDate><EndDate>2021-10-29</EndDate></DateRange><DateRange><StartDate>2021-12-24</StartDate><EndDate>2021-12-24</EndDate></DateRange><DateRange><StartDate>2021-12-31</StartDate><EndDate>2021-12-31</EndDate></DateRange><DateRange><StartDate>2022-02-18</StartDate><EndDate>2022-02-18</EndDate></DateRange><DateRange><StartDate>2022-04-08</StartDate><EndDate>2022-04-08</EndDate></DateRange><DateRange><StartDate>2022-06-03</StartDate><EndDate>2022-06-03</EndDate></DateRange><DateRange><StartDate>2022-07-29</StartDate><EndDate>2022-07-29</EndDate></DateRange><DateRange><StartDate>2022-08-05</StartDate><EndDate>2022-08-05</EndDate></DateRange><DateRange><StartDate>2022-08-12</StartDate><EndDate>2022-08-12</EndDate></DateRange><DateRange><StartDate>2022-08-19</StartDate><EndDate>2022-08-19</EndDate></DateRange><DateRange><StartDate>2022-08-26</StartDate><EndDate>2022-08-26</EndDate></DateRange><DateRange><StartDate>2022-09-02</StartDate><EndDate>2022-09-02</EndDate></DateRange><DateRange><StartDate>2022-10-28</StartDate><EndDate>2022-10-28</EndDate></DateRange><DateRange><StartDate>2022-12-23</StartDate><EndDate>2022-12-23</EndDate></DateRange><DateRange><StartDate>2022-12-30</StartDate><EndDate>2022-12-30</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_31</VehicleJourneyCode>
+<ServiceRef>PF1102351:18</ServiceRef><LineRef>ACME:PF1102351:18:I</LineRef>
+<JourneyPatternRef>JP_15</JourneyPatternRef>
+<DepartureTime>15:40:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

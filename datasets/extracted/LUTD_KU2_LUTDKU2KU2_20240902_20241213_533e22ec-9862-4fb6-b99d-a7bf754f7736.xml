@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2016-09-07T16:27:58" ModificationDateTime="2024-07-11T11:16:23" Modification="revise" RevisionNumber="12" FileName="LUTD_KU2_LUTDKU2KU2_20240902_20241213_533e22ec-9862-4fb6-b99d-a7bf754f7736.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490016704S</StopPointRef>
+      <CommonName>Clayhill Halls of Residence</CommonName>
+      <Location>
+        <Longitude>-0.288533</Longitude>
+        <Latitude>51.397875</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490015165B</StopPointRef>
+      <CommonName>Surbiton StationClaremont Rd</CommonName>
+      <Location>
+        <Longitude>-0.304112</Longitude>
+        <Latitude>51.393738</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490001285E</StopPointRef>
+      <CommonName>Surbiton</CommonName>
+      <Location>
+        <Longitude>-0.303270</Longitude>
+        <Latitude>51.393582</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490008829N1</StopPointRef>
+      <CommonName>Penrhyn Campus Kingston Univ</CommonName>
+      <Location>
+        <Longitude>-0.304397</Longitude>
+        <Latitude>51.403624</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490008830S</StopPointRef>
+      <CommonName>Penrhyn Campus Kingston Univ</CommonName>
+      <Location>
+        <Longitude>-0.304291</Longitude>
+        <Latitude>51.402895</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490003493W</StopPointRef>
+      <CommonName>Fairfield South</CommonName>
+      <Location>
+        <Longitude>-0.299962</Longitude>
+        <Latitude>51.407590</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>490003493E</StopPointRef>
+      <CommonName>Fairfield South</CommonName>
+      <Location>
+        <Longitude>-0.299065</Longitude>
+        <Latitude>51.407729</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>490016704S</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490001285E</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>490001285E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490008829N1</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>490008829N1</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490003493E</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>490003493E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490016704S</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>490016704S</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490001285E</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>490001285E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490008829N1</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_3">
+        <From>
+          <StopPointRef>490008829N1</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490003493E</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_4">
+        <From>
+          <StopPointRef>490003493E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490016704S</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0002">
+      <RouteLink id="rl_0002_1">
+        <From>
+          <StopPointRef>490016704S</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490003493W</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0002_2">
+        <From>
+          <StopPointRef>490003493W</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490008830S</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0002_3">
+        <From>
+          <StopPointRef>490008830S</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490015165B</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0002_4">
+        <From>
+          <StopPointRef>490015165B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>490016704S</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+    <Route id="rt_0002">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0002</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>490001285E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>490001285E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>490008829N1</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>490008829N1</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>490003493E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>490003493E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>490001285E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="2">
+          <StopPointRef>490001285E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>490008829N1</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_7">
+        <From SequenceNumber="3">
+          <StopPointRef>490008829N1</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>490003493E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_3</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_8">
+        <From SequenceNumber="4">
+          <StopPointRef>490003493E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_4</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_3">
+      <JourneyPatternTimingLink id="jptl_9">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>490003493W</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0002_1</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_10">
+        <From SequenceNumber="2">
+          <StopPointRef>490003493W</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>490008830S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0002_2</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_11">
+        <From SequenceNumber="3">
+          <StopPointRef>490008830S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>490015165B</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0002_3</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_12">
+        <From SequenceNumber="4">
+          <StopPointRef>490015165B</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>490016704S</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0002_4</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>LUTD</NationalOperatorCode>
+      <OperatorCode>LUTD</OperatorCode>
+      <OperatorShortName>London United</OperatorShortName>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>KU2</ServiceCode>
+      <Lines>
+        <Line id="LUTD:KU2:KU2">
+          <LineName>KU2</LineName>
+          <OutboundDescription>
+            <Description>Clayhill Halls of Residence to Circular</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Circular to Clayhill Halls of Residence</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-09-02</StartDate>
+        <EndDate>2024-12-13</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Clayhill Halls of Residence</Origin>
+        <Destination>Circular</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Clayhill Halls of Residence</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>clockwise</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Clayhill Halls of Residence</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>clockwise</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_3">
+          <DestinationDisplay>Clayhill Halls of Residence</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>antiClockwise</Direction>
+          <RouteRef>rt_0002</RouteRef>
+          <JourneyPatternSectionRefs>js_3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>08:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>08:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>09:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>7</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>9</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>10:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>13</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>15</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_10</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_11</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>8</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_12</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>16:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>10</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_13</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>16:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>12</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_14</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>14</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_15</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>16</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_16</VehicleJourneyCode>
+      <ServiceRef>KU2</ServiceRef>
+      <LineRef>LUTD:KU2:KU2</LineRef>
+      <JourneyPatternRef>jp_3</JourneyPatternRef>
+      <DepartureTime>18:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2025-07-18T12:11:24" ModificationDateTime="2026-07-16T13:15:28" Modification="revise" RevisionNumber="9" FileName="THTR_TF1_THTRPH0007184130TF1_20260723_20260727_2392973.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340000176ST4</StopPointRef>
+      <CommonName>Didcot, Parkway Station</CommonName>
+      <Location>
+        <Longitude>-1.242090</Longitude>
+        <Latitude>51.610640</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340003001MGW</StopPointRef>
+      <CommonName>Milton Park, Milton Gate</CommonName>
+      <Location>
+        <Longitude>-1.297320</Longitude>
+        <Latitude>51.619860</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340003001MGE</StopPointRef>
+      <CommonName>Milton Park, Milton Gate</CommonName>
+      <Location>
+        <Longitude>-1.297850</Longitude>
+        <Latitude>51.619930</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>340017604TRK</StopPointRef>
+      <CommonName>Steventon, Truck Festival</CommonName>
+      <Location>
+        <Longitude>-1.320240</Longitude>
+        <Latitude>51.615010</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>340000176ST4</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340003001MGW</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>340003001MGW</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340017604TRK</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>340017604TRK</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340003001MGE</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>340003001MGE</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>340000176ST4</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>340000176ST4</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>340003001MGW</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>340003001MGW</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>340017604TRK</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>340017604TRK</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>340003001MGE</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="2">
+          <StopPointRef>340003001MGE</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>340000176ST4</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT9M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>THTR</NationalOperatorCode>
+      <OperatorCode>CSLB</OperatorCode>
+      <OperatorShortName>Oxford Bus</OperatorShortName>
+      <LicenceNumber>PH0007184</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PH0007184:130</ServiceCode>
+      <Lines>
+        <Line id="THTR:PH0007184:130:TF1">
+          <LineName>TF1</LineName>
+          <OutboundDescription>
+            <Description>Didcot, Parkway Station to Steventon, Truck Festival</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Steventon, Truck Festival to Didcot, Parkway Station</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-07-23</StartDate>
+        <EndDate>2026-07-27</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Didcot, Parkway Station</Origin>
+        <Destination>Steventon, Truck Festival</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Steventon, Truck Festival</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Didcot, Parkway Station</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3019</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>10:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_1">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_2">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3021</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_3">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_4">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3023</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_3</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_5">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_6">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3025</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_4</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>12:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_7">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_8">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3027</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_5</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_9">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_10">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3029</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_6</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_11">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_12">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3031</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_7</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_13">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_14">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3033</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_8</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_15">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_16">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3035</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_9</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_17">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_18">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3037</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_10</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_19">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_20">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3039</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_11</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_21">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_22">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3041</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_12</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_23">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_24">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3043</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_13</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_25">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_26">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3045</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_14</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_27">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_28">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3047</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_15</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_29">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_30">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3049</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_16</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_31">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_32">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3051</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_17</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>17:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_33">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_34">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3053</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_18</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_35">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_36">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3055</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_19</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>19:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_37">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_38">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3057</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_20</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>19:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_39">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_40">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3059</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_21</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_41">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_42">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3061</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_22</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>20:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_43">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_44">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3063</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_23</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>21:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_45">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_46">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3065</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_24</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_47">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_48">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3067</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_25</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_49">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_50">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3069</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_26</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>22:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_51">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_52">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3071</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_27</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>23:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_53">
+        <JourneyPatternTimingLinkRef>jptl_1</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_54">
+        <JourneyPatternTimingLinkRef>jptl_2</JourneyPatternTimingLinkRef>
+        <RunTime>PT10M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3020</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_28</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_55">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_56">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3022</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_29</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>11:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_57">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_58">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3024</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_30</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_59">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_60">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3026</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_31</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_61">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_62">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3028</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_32</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_63">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_64">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3030</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_33</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_65">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_66">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3032</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_34</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_67">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_68">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3034</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_35</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_69">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_70">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3036</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_36</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_71">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_72">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3038</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_37</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_73">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_74">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3040</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_38</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_75">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_76">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3042</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_39</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>15:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_77">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_78">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3044</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_40</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>16:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_79">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_80">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3046</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_41</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_81">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_82">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3048</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_42</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>16:50:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_83">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_84">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3050</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_43</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_85">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_86">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3052</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_44</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_87">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_88">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3054</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_45</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>18:45:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_89">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_90">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3056</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_46</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>19:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_91">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_92">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3058</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_47</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>19:45:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_93">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_94">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3060</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_48</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>20:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_95">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_96">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3062</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_49</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>20:45:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_97">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_98">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3064</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_50</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>21:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_99">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_100">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3066</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_51</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>21:45:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_101">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_102">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3068</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_52</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>22:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_103">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_104">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3070</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_53</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>22:45:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_105">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_106">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>3072</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_54</VehicleJourneyCode>
+      <ServiceRef>PH0007184:130</ServiceRef>
+      <LineRef>THTR:PH0007184:130:TF1</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>23:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="vjtl_107">
+        <JourneyPatternTimingLinkRef>jptl_3</JourneyPatternTimingLinkRef>
+        <RunTime>PT6M</RunTime>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="vjtl_108">
+        <JourneyPatternTimingLinkRef>jptl_4</JourneyPatternTimingLinkRef>
+        <RunTime>PT9M</RunTime>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

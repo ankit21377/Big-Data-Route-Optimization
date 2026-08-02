@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0' FileName="BENNETTS TRAVEL 2021-11-05 09-55 wem 201 serv201 2021-11-05 09-55.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>3500B424200</StopPointRef><CommonName>ASTON ST CAR PARK</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B279603</StopPointRef><CommonName>Wem Mill</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B001800</StopPointRef><CommonName>Sungrove Jct</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B424204</StopPointRef><CommonName>Church</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B002900</StopPointRef><CommonName>No. 72</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B172606</StopPointRef><CommonName>Railway Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B421500</StopPointRef><CommonName>No. 62</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B277300</StopPointRef><CommonName>No. 12</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>3500B256201</StopPointRef><CommonName>Railway Station</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_6' CreationDateTime='2021-11-05T09:57:20' ModificationDateTime='2021-11-05T09:57:20' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_6_1'><From><StopPointRef>3500B172606</StopPointRef></From><To><StopPointRef>3500B421500</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_6_2'><From><StopPointRef>3500B421500</StopPointRef></From><To><StopPointRef>3500B277300</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_6_3'><From><StopPointRef>3500B277300</StopPointRef></From><To><StopPointRef>3500B256201</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_6_4'><From><StopPointRef>3500B256201</StopPointRef></From><To><StopPointRef>3500B424200</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_7' CreationDateTime='2021-11-05T09:57:21' ModificationDateTime='2021-11-05T09:57:21' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_7_1'><From><StopPointRef>3500B424200</StopPointRef></From><To><StopPointRef>3500B279603</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_2'><From><StopPointRef>3500B279603</StopPointRef></From><To><StopPointRef>3500B001800</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_3'><From><StopPointRef>3500B001800</StopPointRef></From><To><StopPointRef>3500B424204</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_4'><From><StopPointRef>3500B424204</StopPointRef></From><To><StopPointRef>3500B002900</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_5'><From><StopPointRef>3500B002900</StopPointRef></From><To><StopPointRef>3500B172606</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_6'><From><StopPointRef>3500B172606</StopPointRef></From><To><StopPointRef>3500B421500</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_7'><From><StopPointRef>3500B421500</StopPointRef></From><To><StopPointRef>3500B277300</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_8'><From><StopPointRef>3500B277300</StopPointRef></From><To><StopPointRef>3500B256201</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_7_9'><From><StopPointRef>3500B256201</StopPointRef></From><To><StopPointRef>3500B424200</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_6' CreationDateTime='2021-11-05T09:57:20' ModificationDateTime='2021-11-05T09:57:20' Modification='new' RevisionNumber='0'><Description>ASTON ST CAR PARK - Car Park</Description><RouteSectionRef>routeSection_6</RouteSectionRef></Route>
+<Route id='route_7' CreationDateTime='2021-11-05T09:57:21' ModificationDateTime='2021-11-05T09:57:21' Modification='new' RevisionNumber='0'><Description>ASTON ST CAR PARK - Car Park</Description><RouteSectionRef>routeSection_7</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_6' CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_6_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_6_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_6_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_6_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_6_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_6_3</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_6_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_6_4</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_7' CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_7_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_3</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_4</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_5</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_7</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_8</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_7_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_9</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_8' CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_8_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_3</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_5</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_6</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_7</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_8</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_8_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_9</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_9' CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_9_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B279603</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_2</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B001800</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424204</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B002900</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_5</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B172606</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B421500</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></To><RouteLinkRef>routeSection_7_7</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B277300</StopPointRef><TimingStatus>TIP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_8</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_9_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B256201</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>3500B424200</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_7_9</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="BENC"><NationalOperatorCode>BENC</NationalOperatorCode><OperatorCode>BENC</OperatorCode><OperatorShortName>BENNETTS TRAVEL</OperatorShortName><LicenceNumber>PD0001164</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+<ServiceCode>PD0001164:69</ServiceCode><Lines><Line id="BENC:PD0001164:69:201"><LineName>201</LineName><OutboundDescription><Origin>ASTON ST CAR PARK</Origin><Destination>Car Park</Destination><Description>ASTON ST CAR PARK - Car Park</Description></OutboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2021-09-02</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>regBENC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>ASTON ST CAR PARK - Car Park</Description>
+
+<StandardService>
+<Origin>ASTON ST CAR PARK</Origin>
+<Destination>Car Park</Destination>
+<JourneyPattern id='JP_6'><DestinationDisplay>Car Park</DestinationDisplay><OperatorRef>BENC</OperatorRef><Direction>outbound</Direction><RouteRef>route_6</RouteRef><JourneyPatternSectionRefs>JPS_6</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_7'><DestinationDisplay>Car Park</DestinationDisplay><OperatorRef>BENC</OperatorRef><Direction>outbound</Direction><RouteRef>route_7</RouteRef><JourneyPatternSectionRefs>JPS_7</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_8'><DestinationDisplay>Car Park</DestinationDisplay><OperatorRef>BENC</OperatorRef><Direction>outbound</Direction><RouteRef>route_7</RouteRef><JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_9'><DestinationDisplay>Car Park</DestinationDisplay><OperatorRef>BENC</OperatorRef><Direction>outbound</Direction><RouteRef>route_7</RouteRef><JourneyPatternSectionRefs>JPS_9</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2021-11-05T09:57:20' ModificationDateTime='2021-11-05T09:57:20' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_20</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_6</JourneyPatternRef>
+<DepartureTime>09:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:21' ModificationDateTime='2021-11-05T09:57:21' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_21</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_7</JourneyPatternRef>
+<DepartureTime>09:29:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:22' ModificationDateTime='2021-11-05T09:57:22' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_22</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>10:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:23' ModificationDateTime='2021-11-05T09:57:23' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_23</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_9</JourneyPatternRef>
+<DepartureTime>10:29:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:25' ModificationDateTime='2021-11-05T09:57:25' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_24</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>11:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:26' ModificationDateTime='2021-11-05T09:57:26' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_25</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_9</JourneyPatternRef>
+<DepartureTime>12:29:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:27' ModificationDateTime='2021-11-05T09:57:27' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_26</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>13:00:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-11-05T09:57:28' ModificationDateTime='2021-11-05T09:57:28' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>BENC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Thursday/><Saturday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2021-12-27</StartDate><EndDate>2021-12-27</EndDate></DateRange><DateRange><StartDate>2022-01-03</StartDate><EndDate>2022-01-03</EndDate></DateRange><DateRange><StartDate>2021-12-28</StartDate><EndDate>2021-12-28</EndDate></DateRange><DateRange><StartDate>2021-12-25</StartDate><EndDate>2021-12-25</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_27</VehicleJourneyCode>
+<ServiceRef>PD0001164:69</ServiceRef><LineRef>BENC:PD0001164:69:201</LineRef>
+<JourneyPatternRef>JP_8</JourneyPatternRef>
+<DepartureTime>13:50:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-12-20T12:38:27" ModificationDateTime="2025-04-25T10:20:01" Modification="revise" RevisionNumber="34" FileName="SLBS_71A_SLBSPD10983502771A_20241220_20281220_2029358.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C613601</StopPointRef>
+      <CommonName>South Crescent</CommonName>
+      <Location>
+        <Longitude>-2.088851</Longitude>
+        <Latitude>52.643113</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C615802</StopPointRef>
+      <CommonName>Shepwell Gardens</CommonName>
+      <Location>
+        <Longitude>-2.087056</Longitude>
+        <Latitude>52.647187</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C629801</StopPointRef>
+      <CommonName>Community Centre</CommonName>
+      <Location>
+        <Longitude>-2.092065</Longitude>
+        <Latitude>52.646316</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C613702</StopPointRef>
+      <CommonName>Whitgreave School</CommonName>
+      <Location>
+        <Longitude>-2.092827</Longitude>
+        <Latitude>52.643344</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C614601</StopPointRef>
+      <CommonName>Plover Close</CommonName>
+      <Location>
+        <Longitude>-2.092827</Longitude>
+        <Latitude>52.643339</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C617001</StopPointRef>
+      <CommonName>Monument Drive</CommonName>
+      <Location>
+        <Longitude>-2.083450</Longitude>
+        <Latitude>52.647522</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C608600</StopPointRef>
+      <CommonName>Church Road</CommonName>
+      <Location>
+        <Longitude>-2.079100</Longitude>
+        <Latitude>52.652793</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C631300</StopPointRef>
+      <CommonName>Cheslyn Hay High School</CommonName>
+      <Location>
+        <Longitude>-2.042789</Longitude>
+        <Latitude>52.661865</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C608601</StopPointRef>
+      <CommonName>Church Road</CommonName>
+      <Location>
+        <Longitude>-2.078494</Longitude>
+        <Latitude>52.652946</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>3800C631300</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C629801</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>3800C629801</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C615802</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>3800C613601</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C631300</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C631300</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3800C629801</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT9M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>3800C629801</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C615802</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C613601</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C631300</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>SLBS</NationalOperatorCode>
+      <OperatorCode>SLBS</OperatorCode>
+      <OperatorShortName>SLBS </OperatorShortName>
+      <LicenceNumber>PD1098350</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PD1098350:27</ServiceCode>
+      <Lines>
+        <Line id="SLBS:PD1098350:27:71A">
+          <LineName>71A</LineName>
+          <OutboundDescription>
+            <Description>Wolverhampton to Cheslyn Hay High School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Cheslyn Hay High School to Wolverhampton</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-12-20</StartDate>
+        <EndDate>2028-12-20</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <Jan2ndScotland />
+            <StAndrewsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <AugustBankHolidayScotland />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <Jan2ndScotlandHoliday />
+            <StAndrewsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>StateFuneralOfQueenElizabeth</Description>
+              <Date>2022-09-19</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>QueensJubilee2022</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoronationOfKingCharlesIII</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>false</PublicUse>
+      <StandardService>
+        <Origin>Wolverhampton</Origin>
+        <Destination>Cheslyn Hay High School</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Shepwell Gardens</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Cheslyn Hay High School</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1510</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PD1098350:27</ServiceRef>
+      <LineRef>SLBS:PD1098350:27:71A</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0810</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PD1098350:27</ServiceRef>
+      <LineRef>SLBS:PD1098350:27:71A</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>08:10:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

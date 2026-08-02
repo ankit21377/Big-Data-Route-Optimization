@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-11-29T10:30:39Z" ModificationDateTime="2026-02-17T14:14:45Z" Modification="revise" RevisionNumber="31" FileName="484_17022026141450.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>School</OrganisationCode>
+      <Name>School Term</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2026-01-05</StartDate>
+          <EndDate>2026-03-27</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-13</StartDate>
+          <EndDate>2026-07-20</EndDate>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500IM2365</StopPointRef>
+      <CommonName>Bansons Ln</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500AA81</StopPointRef>
+      <CommonName>Church Road</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Kelvedon Hatch</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500NEW5</StopPointRef>
+      <CommonName>Coopers Hill</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500IM349B</StopPointRef>
+      <CommonName>Four Wantz</CommonName>
+      <Indicator>S-bound</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500210140Y6</StopPointRef>
+      <CommonName>Garden Centre</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Langford Bridge</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500HNR1428Y</StopPointRef>
+      <CommonName>Great Lawn</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500620</StopPointRef>
+      <CommonName>Kelvedon Hall</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Kelvedon Hatch</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500619</StopPointRef>
+      <CommonName>Langford Bridge Farm</CommonName>
+      <Indicator>o/s</Indicator>
+      <LocalityName>Langford Bridge</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500HNR1037Y</StopPointRef>
+      <CommonName>Long Fields</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>150021013003</StopPointRef>
+      <CommonName>Ongar Station</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500162Y0</StopPointRef>
+      <CommonName>Secret Bunker</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Kelvedon Hatch</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500HNR2365Y</StopPointRef>
+      <CommonName>Stanley Place</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500621</StopPointRef>
+      <CommonName>The Priors</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Kelvedon Hatch</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>150021014018</StopPointRef>
+      <CommonName>The Stag</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1500IM1037</StopPointRef>
+      <CommonName>Two Brewers</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Ongar</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="42_0">
+      <RouteLink id="42_0_696">
+        <From>
+          <StopPointRef>1500IM349B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500HNR1428Y</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_698">
+        <From>
+          <StopPointRef>1500HNR1428Y</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>150021013003</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_699">
+        <From>
+          <StopPointRef>150021013003</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500IM2365</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_701">
+        <From>
+          <StopPointRef>1500IM2365</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500HNR2365Y</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_702">
+        <From>
+          <StopPointRef>1500HNR2365Y</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500IM1037</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_705">
+        <From>
+          <StopPointRef>1500IM1037</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500HNR1037Y</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_707">
+        <From>
+          <StopPointRef>1500HNR1037Y</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500NEW5</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_709">
+        <From>
+          <StopPointRef>1500NEW5</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>150021014018</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_712">
+        <From>
+          <StopPointRef>150021014018</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500210140Y6</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_715">
+        <From>
+          <StopPointRef>1500210140Y6</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500619</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_716">
+        <From>
+          <StopPointRef>1500619</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500620</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_718">
+        <From>
+          <StopPointRef>1500620</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500621</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_720">
+        <From>
+          <StopPointRef>1500621</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500162Y0</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="42_0_722">
+        <From>
+          <StopPointRef>1500162Y0</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1500AA81</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="42_0">
+      <Description>Ongar - Kelvedon Hatch</Description>
+      <RouteSectionRef>42_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="42_0">
+      <JourneyPatternTimingLink id="42_0_696">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>1500IM349B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR1428Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_696</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_698">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR1428Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>150021013003</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_698</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_699">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>150021013003</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500IM2365</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_699</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_701">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500IM2365</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR2365Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_701</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_702">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR2365Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500IM1037</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_702</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_705">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500IM1037</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR1037Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_705</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_707">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500HNR1037Y</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500NEW5</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_707</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_709">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500NEW5</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>150021014018</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_709</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_712">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>150021014018</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500210140Y6</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_712</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_715">
+        <From SequenceNumber="10">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500210140Y6</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500619</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_715</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_716">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500619</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500620</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_716</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_718">
+        <From SequenceNumber="12">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500620</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500621</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_718</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_720">
+        <From SequenceNumber="13">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500621</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500162Y0</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_720</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="42_0_722">
+        <From SequenceNumber="14">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>1500162Y0</StopPointRef>
+          <TimingStatus>TIP</TimingStatus>
+        </From>
+        <To SequenceNumber="15">
+          <Activity>setDown</Activity>
+          <StopPointRef>1500AA81</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>42_0_722</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="2">
+      <NationalOperatorCode>NIBS</NationalOperatorCode>
+      <OperatorCode>NIBS</OperatorCode>
+      <OperatorShortName>NIBSbuses</OperatorShortName>
+      <OperatorNameOnLicence>NIBSbuses</OperatorNameOnLicence>
+      <TradingName>NIBSbuses</TradingName>
+      <LicenceNumber>PF0006113</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>Stephensons</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>2</GarageCode>
+          <GarageName>NIBS Buses</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>3</GarageCode>
+          <GarageName>Ely</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>4</GarageCode>
+          <GarageName>Haverhill</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>5</GarageCode>
+          <GarageName>Maldon</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>6</GarageCode>
+          <GarageName>Rochford</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>7</GarageCode>
+          <GarageName>Boreham</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>8</GarageCode>
+          <GarageName>Braintree</GarageName>
+        </Garage>
+        <Garage>
+          <GarageCode>9</GarageCode>
+          <GarageName>Clacton</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PF0006113:38</ServiceCode>
+      <Lines>
+        <Line id="NIBS:PF0006113:38:484">
+          <LineName>484</LineName>
+          <OutboundDescription>
+            <Description>Ongar - Kelvedon Hatch</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Kelvedon Hatch - Ongar</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-01-06</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>2</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Ongar - Kelvedon Hatch</Description>
+      <StandardService>
+        <Origin>Ongar</Origin>
+        <Destination>St Martin School</Destination>
+        <JourneyPattern id="42_0">
+          <DestinationDisplay>St Martin School</DestinationDisplay>
+          <OperatorRef>2</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>42_0</RouteRef>
+          <JourneyPatternSectionRefs>42_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>2</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>07:30 ONG - KEL</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>484</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>School</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2026-04-03</StartDate>
+              <EndDate>2026-04-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-04-06</StartDate>
+              <EndDate>2026-04-06</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-04</StartDate>
+              <EndDate>2026-05-04</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-05-25</StartDate>
+              <EndDate>2026-05-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-08-31</StartDate>
+              <EndDate>2026-08-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-25</StartDate>
+              <EndDate>2026-12-25</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2026-12-28</StartDate>
+              <EndDate>2026-12-28</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-01-01</StartDate>
+              <EndDate>2027-01-01</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-26</StartDate>
+              <EndDate>2027-03-26</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-03-29</StartDate>
+              <EndDate>2027-03-29</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-03</StartDate>
+              <EndDate>2027-05-03</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-05-31</StartDate>
+              <EndDate>2027-05-31</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-08-30</StartDate>
+              <EndDate>2027-08-30</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-27</StartDate>
+              <EndDate>2027-12-27</EndDate>
+            </DateRange>
+            <DateRange>
+              <StartDate>2027-12-28</StartDate>
+              <EndDate>2027-12-28</EndDate>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+      </OperatingProfile>
+      <GarageRef>2</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PF0006113:38</ServiceRef>
+      <LineRef>NIBS:PF0006113:38:484</LineRef>
+      <JourneyPatternRef>42_0</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2023-08-26T11:20:27" ModificationDateTime="2026-07-10T15:01:27" Modification="revise" RevisionNumber="21" FileName="MDBC_289_MDBCPC11294717289_20251104_-_2226546.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>069000014390</StopPointRef>
+      <CommonName>Ferry Inn</CommonName>
+      <Location>
+        <Longitude>-2.654315</Longitude>
+        <Latitude>53.383370</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>000000006OML</StopPointRef>
+      <CommonName>lingley Green</CommonName>
+      <Location>
+        <Longitude>-2.664816</Longitude>
+        <Latitude>53.395932</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>000000006OMN</StopPointRef>
+      <CommonName>Omega Blvd</CommonName>
+      <Location>
+        <Longitude>-2.663104</Longitude>
+        <Latitude>53.412892</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>000000006OMO</StopPointRef>
+      <CommonName>Sankey Station</CommonName>
+      <Location>
+        <Longitude>-2.649402</Longitude>
+        <Latitude>53.392343</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>00000000M85Y</StopPointRef>
+      <CommonName>Warrington Bank Quay, Railway Station</CommonName>
+      <Location>
+        <Longitude>-2.602530</Longitude>
+        <Latitude>53.386710</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>000000002A6X</StopPointRef>
+      <CommonName>Knutsford Rd</CommonName>
+      <Location>
+        <Longitude>-2.575071</Longitude>
+        <Latitude>53.382562</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>00000000IWOA</StopPointRef>
+      <CommonName>Newman High</CommonName>
+      <Location>
+        <Longitude>-2.561940</Longitude>
+        <Latitude>53.387419</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>00000000IWOA</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000002A6X</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>000000002A6X</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>00000000M85Y</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>00000000M85Y</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OMO</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>000000006OMO</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OMN</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>000000006OMN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OML</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_6">
+        <From>
+          <StopPointRef>000000006OML</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>069000014390</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="rsf_0001">
+      <RouteLink id="rl_0001_1">
+        <From>
+          <StopPointRef>069000014390</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OML</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_2">
+        <From>
+          <StopPointRef>000000006OML</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OMN</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_3">
+        <From>
+          <StopPointRef>000000006OMN</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000006OMO</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_4">
+        <From>
+          <StopPointRef>000000006OMO</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>00000000M85Y</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_5">
+        <From>
+          <StopPointRef>00000000M85Y</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>000000002A6X</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0001_6">
+        <From>
+          <StopPointRef>000000002A6X</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>00000000IWOA</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+    <Route id="rt_0001">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0001</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>00000000IWOA</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>000000002A6X</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>000000002A6X</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>00000000M85Y</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>00000000M85Y</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>000000006OMO</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT11M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>000000006OMO</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>000000006OMN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT14M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>000000006OMN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>000000006OML</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_6">
+        <From SequenceNumber="6">
+          <StopPointRef>000000006OML</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>069000014390</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_6</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="js_2">
+      <JourneyPatternTimingLink id="jptl_7">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>069000014390</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>000000006OML</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_1</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_8">
+        <From SequenceNumber="2">
+          <StopPointRef>000000006OML</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>000000006OMN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_2</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_9">
+        <From SequenceNumber="3">
+          <StopPointRef>000000006OMN</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>000000006OMO</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_3</RouteLinkRef>
+        <RunTime>PT10M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_10">
+        <From SequenceNumber="4">
+          <StopPointRef>000000006OMO</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>00000000M85Y</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_4</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_11">
+        <From SequenceNumber="5">
+          <StopPointRef>00000000M85Y</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>000000002A6X</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_5</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_12">
+        <From SequenceNumber="6">
+          <StopPointRef>000000002A6X</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>00000000IWOA</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0001_6</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>MDBC</NationalOperatorCode>
+      <OperatorCode>FAIC</OperatorCode>
+      <OperatorShortName>MD Bus &amp; Coach Ltd</OperatorShortName>
+      <LicenceNumber>PC112947</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PC112947:17</ServiceCode>
+      <Lines>
+        <Line id="MDBC:PC112947:17:289">
+          <LineName>289</LineName>
+          <OutboundDescription>
+            <Description>Penketh Station Road to Cardinal Newman High</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Cardinal Newman High to Penketh Station Road</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-11-04</StartDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>false</PublicUse>
+      <StandardService>
+        <Origin>Penketh Station Road</Origin>
+        <Destination>Cardinal Newman High</Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Ferry Inn</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="jp_2">
+          <DestinationDisplay>Newman High</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0001</RouteRef>
+          <JourneyPatternSectionRefs>js_2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>1510</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PC112947:17</ServiceRef>
+      <LineRef>MDBC:PC112947:17:289</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0726</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_2</VehicleJourneyCode>
+      <ServiceRef>PC112947:17</ServiceRef>
+      <LineRef>MDBC:PC112947:17:289</LineRef>
+      <JourneyPatternRef>jp_2</JourneyPatternRef>
+      <DepartureTime>07:26:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

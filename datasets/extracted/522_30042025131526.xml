@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2022-08-01T11:06:34Z" ModificationDateTime="2025-04-30T13:15:24Z" Modification="revise" RevisionNumber="7" FileName="522_30042025131526.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045307</StopPointRef>
+      <CommonName>Great North Road/Rossington Hall School</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045769</StopPointRef>
+      <CommonName>High Street/Pilgrim Rise</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Austerfield</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046058</StopPointRef>
+      <CommonName>Hurst Lane/Poplar Way</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Auckley</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="13_0">
+      <RouteLink id="13_0_193">
+        <From>
+          <StopPointRef>370046058</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045307</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="13_0_195">
+        <From>
+          <StopPointRef>370045307</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045769</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="13_0">
+      <Description>Auckley - Austerfield</Description>
+      <RouteSectionRef>13_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="13_0">
+      <JourneyPatternTimingLink id="13_0_193">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370046058</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>13_0_193</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="13_0_195">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370045307</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>370045769</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>13_0_195</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBHV</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Beehive</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>WilfredaBeehive</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0000595:93</ServiceCode>
+      <Lines>
+        <Line id="WBHV:PB0000595:93:522">
+          <LineName>522</LineName>
+          <OutboundDescription>
+            <Description>Auckley - Austerfield</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Austerfield - Auckley</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2022-09-01</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Auckley - Austerfield</Description>
+      <StandardService>
+        <Origin>Hayfield School</Origin>
+        <Destination>High Street/Pilgrim Ris</Destination>
+        <JourneyPattern id="13_0">
+          <DestinationDisplay>High Street/Pilgrim Ris</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>13_0</RouteRef>
+          <JourneyPatternSectionRefs>13_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>14:53 HUR - HIG</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>522</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB0000595:93</ServiceRef>
+      <LineRef>WBHV:PB0000595:93:522</LineRef>
+      <JourneyPatternRef>13_0</JourneyPatternRef>
+      <DepartureTime>14:53:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

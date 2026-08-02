@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="2.4" CreationDateTime="2024-12-23T09:43:36" ModificationDateTime="2026-03-13T19:50:38" Modification="revise" RevisionNumber="6" FileName="SLBS_804_SLBSPD109835037804_20210907_20261230_1278893.xml" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C403903</StopPointRef>
+      <CommonName>Lichfield Bus Station</CommonName>
+      <Location>
+        <Longitude>-1.825430</Longitude>
+        <Latitude>52.681261</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C407902</StopPointRef>
+      <CommonName>Friary Avenue</CommonName>
+      <Location>
+        <Longitude>-1.830091</Longitude>
+        <Latitude>52.677006</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C425702</StopPointRef>
+      <CommonName>Deykin Road</CommonName>
+      <Location>
+        <Longitude>-1.837633</Longitude>
+        <Latitude>52.673313</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C438101</StopPointRef>
+      <CommonName>The Whytmore</CommonName>
+      <Location>
+        <Longitude>-1.839468</Longitude>
+        <Latitude>52.672740</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C432401</StopPointRef>
+      <CommonName>Royal Oak Close</CommonName>
+      <Location>
+        <Longitude>-1.837632</Longitude>
+        <Latitude>52.673309</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C430801</StopPointRef>
+      <CommonName>Walsall Road</CommonName>
+      <Location>
+        <Longitude>-1.862109</Longitude>
+        <Latitude>52.673070</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C409901</StopPointRef>
+      <CommonName>Edial Farm</CommonName>
+      <Location>
+        <Longitude>-1.874659</Longitude>
+        <Latitude>52.674963</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C410002</StopPointRef>
+      <CommonName>Woodhouses Road</CommonName>
+      <Location>
+        <Longitude>-1.880366</Longitude>
+        <Latitude>52.675751</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C419201</StopPointRef>
+      <CommonName>Edial House Farm</CommonName>
+      <Location>
+        <Longitude>-1.892007</Longitude>
+        <Latitude>52.675150</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C428601</StopPointRef>
+      <CommonName>Acorn View</CommonName>
+      <Location>
+        <Longitude>-1.908728</Longitude>
+        <Latitude>52.678109</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C492701</StopPointRef>
+      <CommonName>High Street</CommonName>
+      <Location>
+        <Longitude>-1.933026</Longitude>
+        <Latitude>52.679918</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C604000</StopPointRef>
+      <CommonName>Spread Eagle</CommonName>
+      <Location>
+        <Longitude>-2.131346</Longitude>
+        <Latitude>52.694198</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3800C639002</StopPointRef>
+      <CommonName>Rodbaston College</CommonName>
+      <Location>
+        <Longitude>-2.128095</Longitude>
+        <Latitude>52.700548</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="rsf_0000">
+      <RouteLink id="rl_0000_1">
+        <From>
+          <StopPointRef>3800C403903</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C419201</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_2">
+        <From>
+          <StopPointRef>3800C419201</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C428601</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_3">
+        <From>
+          <StopPointRef>3800C428601</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C492701</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_4">
+        <From>
+          <StopPointRef>3800C492701</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C604000</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="rl_0000_5">
+        <From>
+          <StopPointRef>3800C604000</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3800C639002</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="rt_0000">
+      <Description>No route description available</Description>
+      <RouteSectionRef>rsf_0000</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="js_1">
+      <JourneyPatternTimingLink id="jptl_1">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3800C403903</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3800C419201</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_1</RouteLinkRef>
+        <RunTime>PT13M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_2">
+        <From SequenceNumber="2">
+          <StopPointRef>3800C419201</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3800C428601</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_2</RouteLinkRef>
+        <RunTime>PT0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_3">
+        <From SequenceNumber="3">
+          <StopPointRef>3800C428601</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3800C492701</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_3</RouteLinkRef>
+        <RunTime>PT7M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_4">
+        <From SequenceNumber="4">
+          <StopPointRef>3800C492701</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>3800C604000</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_4</RouteLinkRef>
+        <RunTime>PT30M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="jptl_5">
+        <From SequenceNumber="5">
+          <StopPointRef>3800C604000</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <Activity>setDown</Activity>
+          <StopPointRef>3800C639002</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>rl_0000_5</RouteLinkRef>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="tkt_oid">
+      <NationalOperatorCode>SLBS</NationalOperatorCode>
+      <OperatorCode>SLBS</OperatorCode>
+      <OperatorShortName>SLBS</OperatorShortName>
+      <LicenceNumber>PD1098350</LicenceNumber>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PD1098350:37</ServiceCode>
+      <Lines>
+        <Line id="SLBS:PD1098350:37:804">
+          <LineName>804</LineName>
+          <OutboundDescription>
+            <Description>Tamworth  to Rodbaston College </Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Rodbaston College  to Tamworth </Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2021-09-07</StartDate>
+        <EndDate>2026-12-30</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <Jan2ndScotland />
+            <StAndrewsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <AugustBankHolidayScotland />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <Jan2ndScotlandHoliday />
+            <StAndrewsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>QueensJubilee2022</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoronationOfKingCharlesIII</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>StateFuneralOfQueenElizabeth</Description>
+              <Date>2022-09-19</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>tkt_oid</RegisteredOperatorRef>
+      <PublicUse>false</PublicUse>
+      <StandardService>
+        <Origin>Tamworth </Origin>
+        <Destination>Rodbaston College </Destination>
+        <JourneyPattern id="jp_1">
+          <DestinationDisplay>Rodbaston College</DestinationDisplay>
+          <OperatorRef>tkt_oid</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>rt_0000</RouteRef>
+          <JourneyPatternSectionRefs>js_1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>tkt_oid</OperatorRef>
+      <Operational>
+        <TicketMachine>
+          <JourneyCode>0700</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <VehicleJourneyCode>vj_1</VehicleJourneyCode>
+      <ServiceRef>PD1098350:37</ServiceRef>
+      <LineRef>SLBS:PD1098350:37:804</LineRef>
+      <JourneyPatternRef>jp_1</JourneyPatternRef>
+      <DepartureTime>07:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2023-11-09T14:11:32Z" ModificationDateTime="2025-04-30T13:08:35Z" Modification="revise" RevisionNumber="6" FileName="442_30042025130837.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045116</StopPointRef>
+      <CommonName>Barnsley Road/Emley Drive</CommonName>
+      <Indicator>at</Indicator>
+      <LocalityName>Scawsby</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040911</StopPointRef>
+      <CommonName>Melton Road/Ingleborough Drive</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040222</StopPointRef>
+      <CommonName>Melton Road/Thorpe Lane</CommonName>
+      <Indicator>nr</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="163_11">
+      <RouteLink id="163_11_547">
+        <From>
+          <StopPointRef>370040911</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040222</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="163_11_548">
+        <From>
+          <StopPointRef>370040222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045116</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="164_0">
+      <RouteLink id="164_0_549">
+        <From>
+          <StopPointRef>370045116</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040222</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="164_0_548">
+        <From>
+          <StopPointRef>370040222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040911</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="163_11">
+      <Description>Sprotborough - Ridgewood</Description>
+      <RouteSectionRef>163_11</RouteSectionRef>
+    </Route>
+    <Route id="164_0">
+      <Description>Sprotborough - Ridgewood</Description>
+      <RouteSectionRef>164_0</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="163_11">
+      <JourneyPatternTimingLink id="163_11_547">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370040911</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>163_11_547</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="163_11_548">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>370045116</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>163_11_548</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="164_0">
+      <JourneyPatternTimingLink id="164_0_549">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045116</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>164_0_549</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="164_0_548">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <StopPointRef>370040911</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>164_0_548</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBHV</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Beehive</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>WilfredaBeehive</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0000595:45</ServiceCode>
+      <Lines>
+        <Line id="WBHV:PB0000595:45:442">
+          <LineName>442</LineName>
+          <OutboundDescription>
+            <Description>Sprotborough - Ridgewood</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Ridgewood - Sprotborough</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-09-04</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Sprotborough - Ridgewood</Description>
+      <StandardService>
+        <Origin>Ridgewood Academy</Origin>
+        <Destination>Sprotborough Melton Road</Destination>
+        <JourneyPattern id="163_11">
+          <DestinationDisplay>
+          </DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>163_11</RouteRef>
+          <JourneyPatternSectionRefs>163_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="164_0">
+          <DestinationDisplay>
+          </DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>164_0</RouteRef>
+          <JourneyPatternSectionRefs>164_0</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:04 SPRO - RID</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>442</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>PB0000595:45</ServiceRef>
+      <LineRef>WBHV:PB0000595:45:442</LineRef>
+      <JourneyPatternRef>163_11</JourneyPatternRef>
+      <DepartureTime>08:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>15:05 RIDG - SPR</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>442</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PB0000595:45</ServiceRef>
+      <LineRef>WBHV:PB0000595:45:442</LineRef>
+      <JourneyPatternRef>164_0</JourneyPatternRef>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

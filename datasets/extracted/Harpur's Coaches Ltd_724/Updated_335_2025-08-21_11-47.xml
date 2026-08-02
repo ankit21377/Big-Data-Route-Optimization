@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2' FileName="Update335 2025-08-21 11-47.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>1000DBMR5634</StopPointRef><CommonName>School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DDWR5897</StopPointRef><CommonName>New Zealand Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DWUB5666</StopPointRef><CommonName>Green Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DQCR5882</StopPointRef><CommonName>Old Church Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DDWR5895</StopPointRef><CommonName>Ecclesbourne School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBMR5635</StopPointRef><CommonName>School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1000DBMR5636</StopPointRef><CommonName>Luke Lane</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_136' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-08-21T11:48:05' Modification='revise' RevisionNumber='2'>
+<RouteLink id='routeSection_136_1'><From><StopPointRef>1000DBMR5634</StopPointRef></From><To><StopPointRef>1000DDWR5897</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_136_2'><From><StopPointRef>1000DDWR5897</StopPointRef></From><To><StopPointRef>1000DWUB5666</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_136_3'><From><StopPointRef>1000DWUB5666</StopPointRef></From><To><StopPointRef>1000DQCR5882</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_136_4'><From><StopPointRef>1000DQCR5882</StopPointRef></From><To><StopPointRef>1000DDWR5895</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_137' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'>
+<RouteLink id='routeSection_137_1'><From><StopPointRef>1000DDWR5895</StopPointRef></From><To><StopPointRef>1000DWUB5666</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_137_2'><From><StopPointRef>1000DWUB5666</StopPointRef></From><To><StopPointRef>1000DBMR5635</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_137_3'><From><StopPointRef>1000DBMR5635</StopPointRef></From><To><StopPointRef>1000DBMR5636</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_137_4'><From><StopPointRef>1000DBMR5636</StopPointRef></From><To><StopPointRef>1000DBMR5635</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_136' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-08-21T11:48:05' Modification='revise' RevisionNumber='2'><Description>School - Ecclesbourne School</Description><RouteSectionRef>routeSection_136</RouteSectionRef></Route>
+<Route id='route_137' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'><Description>Ecclesbourne School - School</Description><RouteSectionRef>routeSection_137</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_173' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'>
+
+<JourneyPatternTimingLink id='JPS_173_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>1000DBMR5634</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DDWR5897</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_136_1</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_173_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DDWR5897</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DWUB5666</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_136_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_173_3'>
+<From SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DWUB5666</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1000DQCR5882</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_136_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_173_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1000DQCR5882</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>1000DDWR5895</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_136_4</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_174' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'>
+
+<JourneyPatternTimingLink id='JPS_174_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>1000DDWR5895</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DWUB5666</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_137_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_174_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>1000DWUB5666</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DBMR5635</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_137_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_174_3'>
+<From SequenceNumber='3'><Activity>setDown</Activity><StopPointRef>1000DBMR5635</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1000DBMR5636</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_137_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_174_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>1000DBMR5636</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>1000DBMR5635</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_137_4</RouteLinkRef><RunTime>PT1200S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HASO"><NationalOperatorCode>HASO</NationalOperatorCode><OperatorCode>HASO</OperatorCode><OperatorShortName>Harpurs Coaches Ltd</OperatorShortName><LicenceNumber>PC1019835</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'>
+<ServiceCode>PC1019835:23</ServiceCode><Lines><Line id="HASO:PC1019835:23:335"><LineName>335</LineName><OutboundDescription><Origin>School</Origin><Destination>Ecclesbourne School</Destination><Description>School - Ecclesbourne School</Description></OutboundDescription><InboundDescription><Origin>Ecclesbourne School</Origin><Destination>School</Destination><Description>Ecclesbourne School - School</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2014-09-10</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HASO</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>Ecclesbourne School - School</Description>
+
+<StandardService>
+<Origin>Ecclesbourne School</Origin>
+<Destination>School</Destination>
+<JourneyPattern id='JP_173'><DestinationDisplay>199</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>outbound</Direction><RouteRef>route_136</RouteRef><JourneyPatternSectionRefs>JPS_173</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_174'><DestinationDisplay>199</DestinationDisplay><OperatorRef>HASO</OperatorRef><Direction>inbound</Direction><RouteRef>route_137</RouteRef><JourneyPatternSectionRefs>JPS_174</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-08-21T11:48:05' Modification='revise' RevisionNumber='2'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_520</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_520</VehicleJourneyCode>
+<ServiceRef>PC1019835:23</ServiceRef><LineRef>HASO:PC1019835:23:335</LineRef>
+<JourneyPatternRef>JP_173</JourneyPatternRef>
+<DepartureTime>07:35:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2025-08-21T11:48:07' Modification='revise' RevisionNumber='2'>
+
+
+<OperatorRef>HASO</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_521</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_521</VehicleJourneyCode>
+<ServiceRef>PC1019835:23</ServiceRef><LineRef>HASO:PC1019835:23:335</LineRef>
+<JourneyPatternRef>JP_174</JourneyPatternRef>
+<DepartureTime>15:50:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

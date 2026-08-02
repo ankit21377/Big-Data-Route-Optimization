@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:ns2="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" CreationDateTime="2026-07-17T12:10:22" ModificationDateTime="2026-07-17T12:10:22" Modification="new" RevisionNumber="0" FileName="EV_ER7_20260717_121020.xml" SchemaVersion="2.4">
+    <ServicedOrganisations>
+        <ServicedOrganisation>
+            <OrganisationCode>ORG1</OrganisationCode>
+            <Name>NATX ER7 ORG1</Name>
+            <WorkingDays>
+                <DateRange>
+                    <StartDate>2026-09-02</StartDate>
+                    <EndDate>2026-09-07</EndDate>
+                </DateRange>
+            </WorkingDays>
+        </ServicedOrganisation>
+    </ServicedOrganisations>
+    <StopPoints>
+        <AnnotatedStopPointRef>
+            <StopPointRef>460000643</StopPointRef>
+            <CommonName>Salisbury Rail Station: Rail Stn Forecourt, South Western Rd</CommonName>
+            <Location>
+                <Longitude>-1.8053</Longitude>
+                <Latitude>51.070194</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+        <AnnotatedStopPointRef>
+            <StopPointRef>1200DOA91270</StopPointRef>
+            <CommonName>EOTR staff Shuttle Bus: Larmer Tree Gardens</CommonName>
+            <Location>
+                <Longitude>-2.08139</Longitude>
+                <Latitude>50.951001</Latitude>
+            </Location>
+        </AnnotatedStopPointRef>
+    </StopPoints>
+    <RouteSections>
+        <RouteSection id="routeSection_11863" CreationDateTime="2026-07-17T12:10:22" ModificationDateTime="2026-07-17T12:10:22">
+            <RouteLink id="routeSection_11863_1">
+                <From>
+                    <StopPointRef>460000643</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>1200DOA91270</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+        <RouteSection id="routeSection_11862" CreationDateTime="2026-07-17T12:10:22" ModificationDateTime="2026-07-17T12:10:22">
+            <RouteLink id="routeSection_11862_1">
+                <From>
+                    <StopPointRef>1200DOA91270</StopPointRef>
+                </From>
+                <To>
+                    <StopPointRef>460000643</StopPointRef>
+                </To>
+            </RouteLink>
+        </RouteSection>
+    </RouteSections>
+    <Routes>
+        <Route id="route_1">
+            <Description>EOTR staff Shuttle Bus - Salisbury Rail Station</Description>
+            <RouteSectionRef>routeSection_11862</RouteSectionRef>
+        </Route>
+        <Route id="route_2">
+            <Description>Salisbury Rail Station - EOTR staff Shuttle Bus</Description>
+            <RouteSectionRef>routeSection_11863</RouteSectionRef>
+        </Route>
+    </Routes>
+    <JourneyPatternSections>
+        <JourneyPatternSection id="JPS_1" CreationDateTime="2026-07-17T12:10:22" ModificationDateTime="2026-07-17T12:10:22">
+            <JourneyPatternTimingLink id="JPS_1_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>1200DOA91270</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>460000643</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_11862_1</RouteLinkRef>
+                <RunTime>PT1H</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+        <JourneyPatternSection id="JPS_2" CreationDateTime="2026-07-17T12:10:22" ModificationDateTime="2026-07-17T12:10:22">
+            <JourneyPatternTimingLink id="JPS_2_1">
+                <From SequenceNumber="1">
+                    <Activity>pickUp</Activity>
+                    <StopPointRef>460000643</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </From>
+                <To SequenceNumber="2">
+                    <Activity>setDown</Activity>
+                    <StopPointRef>1200DOA91270</StopPointRef>
+                    <TimingStatus>PTP</TimingStatus>
+                </To>
+                <RouteLinkRef>routeSection_11863_1</RouteLinkRef>
+                <RunTime>PT45M</RunTime>
+            </JourneyPatternTimingLink>
+        </JourneyPatternSection>
+    </JourneyPatternSections>
+    <Operators>
+        <Operator id="NATX">
+            <NationalOperatorCode>NATX</NationalOperatorCode>
+            <OperatorCode>NATX</OperatorCode>
+            <OperatorShortName>NATX</OperatorShortName>
+            <LicenceNumber>PD0000738</LicenceNumber>
+        </Operator>
+    </Operators>
+    <Services>
+        <Service>
+            <ServiceCode>PD0000738:386</ServiceCode>
+            <Lines>
+                <Line id="NATX:PD0000738:386:ER7">
+                    <LineName>ER7</LineName>
+                    <OutboundDescription>
+                        <Origin>Salisbury Rail Station</Origin>
+                        <Destination>EOTR staff Shuttle Bus</Destination>
+                        <Description>Salisbury Rail Station - EOTR staff Shuttle Bus</Description>
+                    </OutboundDescription>
+                    <InboundDescription>
+                        <Origin>EOTR staff Shuttle Bus</Origin>
+                        <Destination>Salisbury Rail Station</Destination>
+                        <Description>EOTR staff Shuttle Bus - Salisbury Rail Station</Description>
+                    </InboundDescription>
+                </Line>
+            </Lines>
+            <OperatingPeriod>
+                <StartDate>2026-09-02</StartDate>
+                <EndDate>2026-09-07</EndDate>
+            </OperatingPeriod>
+            <RegisteredOperatorRef>NATX</RegisteredOperatorRef>
+            <StopRequirements>
+                <NoNewStopsRequired></NoNewStopsRequired>
+            </StopRequirements>
+            <Mode>bus</Mode>
+            <PublicUse>true</PublicUse>
+            <Description>Salisbury Rail Station - EOTR staff Shuttle Bus</Description>
+            <StandardService>
+                <Origin>Salisbury Rail Station</Origin>
+                <Destination>EOTR staff Shuttle Bus</Destination>
+                <JourneyPattern id="JP_1_JPS_1">
+                    <DestinationDisplay>Salisbury Rail Station</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>inbound</Direction>
+                    <RouteRef>route_1</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs>
+                </JourneyPattern>
+                <JourneyPattern id="JP_2_JPS_2">
+                    <DestinationDisplay>EOTR staff Shuttle Bus</DestinationDisplay>
+                    <OperatorRef>NATX</OperatorRef>
+                    <Direction>outbound</Direction>
+                    <RouteRef>route_2</RouteRef>
+                    <JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs>
+                </JourneyPattern>
+            </StandardService>
+        </Service>
+    </Services>
+    <VehicleJourneys>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Monday></Monday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>02</VehicleJourneyCode>
+            <ServiceRef>PD0000738:386</ServiceRef>
+            <LineRef>NATX:PD0000738:386:ER7</LineRef>
+            <JourneyPatternRef>JP_1_JPS_1</JourneyPatternRef>
+            <DepartureTime>14:00:00</DepartureTime>
+        </VehicleJourney>
+        <VehicleJourney>
+            <OperatorRef>NATX</OperatorRef>
+            <Operational/>
+            <OperatingProfile>
+                <RegularDayType>
+                    <DaysOfWeek>
+                        <Wednesday></Wednesday>
+                    </DaysOfWeek>
+                </RegularDayType>
+                <ServicedOrganisationDayType>
+                    <DaysOfOperation>
+                        <WorkingDays>
+                            <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+                        </WorkingDays>
+                    </DaysOfOperation>
+                </ServicedOrganisationDayType>
+            </OperatingProfile>
+            <VehicleJourneyCode>022</VehicleJourneyCode>
+            <ServiceRef>PD0000738:386</ServiceRef>
+            <LineRef>NATX:PD0000738:386:ER7</LineRef>
+            <JourneyPatternRef>JP_2_JPS_2</JourneyPatternRef>
+            <DepartureTime>16:00:00</DepartureTime>
+        </VehicleJourney>
+    </VehicleJourneys>
+</TransXChange>

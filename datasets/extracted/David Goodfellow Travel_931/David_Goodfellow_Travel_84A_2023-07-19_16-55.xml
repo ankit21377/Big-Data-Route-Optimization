@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:55:43' Modification='revise' RevisionNumber='1' FileName="David Goodfellow Travel 84A 2023-07-19 16-55.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>370041165</StopPointRef><CommonName>Bramwith Lane/Church Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370040524</StopPointRef><CommonName>Bramwith Lane/Low Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370040553</StopPointRef><CommonName>Church Road/Field Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370041107</StopPointRef><CommonName>Crookes Broom Lane/Millcroft Crescent</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370045302</StopPointRef><CommonName>Main Street/Bawtry Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370041103</StopPointRef><CommonName>Prison Service Road/Vulcan Way</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370045303</StopPointRef><CommonName>Main Street/Bawtry Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370041106</StopPointRef><CommonName>Crookes Broom Lane/Inverness Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370045513</StopPointRef><CommonName>Church Road/Field Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370040525</StopPointRef><CommonName>Bramwith Lane/Fox Farm</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>370041095</StopPointRef><CommonName>Church Road/Marlowe Road</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_12' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:55:33' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_12_1'><From><StopPointRef>370041165</StopPointRef></From><To><StopPointRef>370040524</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_12_2'><From><StopPointRef>370040524</StopPointRef></From><To><StopPointRef>370040553</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_12_3'><From><StopPointRef>370040553</StopPointRef></From><To><StopPointRef>370041107</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_12_4'><From><StopPointRef>370041107</StopPointRef></From><To><StopPointRef>370045302</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_12_5'><From><StopPointRef>370045302</StopPointRef></From><To><StopPointRef>370041103</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_11' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T14:05:56' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_11_1'><From><StopPointRef>370041103</StopPointRef></From><To><StopPointRef>370045303</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_11_2'><From><StopPointRef>370045303</StopPointRef></From><To><StopPointRef>370041106</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_11_3'><From><StopPointRef>370041106</StopPointRef></From><To><StopPointRef>370045513</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_11_4'><From><StopPointRef>370045513</StopPointRef></From><To><StopPointRef>370040525</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_11_5'><From><StopPointRef>370040525</StopPointRef></From><To><StopPointRef>370041095</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_12' CreationDateTime='2023-07-05T13:26:16' ModificationDateTime='2023-07-19T16:55:34' Modification='revise' RevisionNumber='1'><Description>Bramwith Lane/Church Lane - Prison Service Road/Vulcan Way</Description><RouteSectionRef>routeSection_12</RouteSectionRef></Route>
+<Route id='route_11' CreationDateTime='2023-07-05T13:26:16' ModificationDateTime='2023-07-19T14:05:56' Modification='revise' RevisionNumber='1'><Description>Prison Service Road/Vulcan Way - Church Road/Marlowe Road</Description><RouteSectionRef>routeSection_11</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_14' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:55:43' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_14_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370041165</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040524</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040524</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040553</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040553</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>370041107</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_3</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>370041107</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045302</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_4</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_14_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045302</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>370041103</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_12_5</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_13' CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:55:43' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_13_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>370041103</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045303</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_13_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045303</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370041106</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_2</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_13_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>370041106</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045513</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_3</RouteLinkRef><RunTime>PT420S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_13_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>370045513</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040525</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_4</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_13_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>370040525</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>370041095</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_5</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="DGTR"><NationalOperatorCode>DGTR</NationalOperatorCode><OperatorCode>DGTR</OperatorCode><OperatorShortName>David Goodfellow Travel</OperatorShortName><LicenceNumber>PB0001898</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-07-05T13:26:20' ModificationDateTime='2023-07-19T16:55:43' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PB0001898:2</ServiceCode><Lines><Line id="DGTR:PB0001898:2:84A"><LineName>84A</LineName><OutboundDescription><Origin>Bramwith Lane/Church Lane</Origin><Destination>Prison Service Road/Vulcan Way</Destination><Description>Bramwith Lane/Church Lane - Prison Service Road/Vulcan Way</Description></OutboundDescription><InboundDescription><Origin>Prison Service Road/Vulcan Way</Origin><Destination>Church Road/Marlowe Road</Destination><Description>Prison Service Road/Vulcan Way - Church Road/Marlowe Road</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-07-01</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>DGTR</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Prison Service Road/Vulcan Way - Church Road/Marlowe Road</Description>
+
+<StandardService>
+<Origin>Prison Service Road/Vulcan Way</Origin>
+<Destination>Church Road/Marlowe Road</Destination>
+<JourneyPattern id='JP_14'><DestinationDisplay>200</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>outbound</Direction><RouteRef>route_12</RouteRef><JourneyPatternSectionRefs>JPS_14</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_13'><DestinationDisplay>200</DestinationDisplay><OperatorRef>DGTR</OperatorRef><Direction>inbound</Direction><RouteRef>route_11</RouteRef><JourneyPatternSectionRefs>JPS_13</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:55:34' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-02</StartDate><EndDate>2023-07-02</EndDate></DateRange><DateRange><StartDate>2023-07-09</StartDate><EndDate>2023-07-09</EndDate></DateRange><DateRange><StartDate>2023-07-16</StartDate><EndDate>2023-07-16</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_43</VehicleJourneyCode>
+<ServiceRef>PB0001898:2</ServiceRef><LineRef>DGTR:PB0001898:2:84A</LineRef>
+<JourneyPatternRef>JP_14</JourneyPatternRef>
+<DepartureTime>09:23:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:55:35' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-02</StartDate><EndDate>2023-07-02</EndDate></DateRange><DateRange><StartDate>2023-07-09</StartDate><EndDate>2023-07-09</EndDate></DateRange><DateRange><StartDate>2023-07-16</StartDate><EndDate>2023-07-16</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_44</VehicleJourneyCode>
+<ServiceRef>PB0001898:2</ServiceRef><LineRef>DGTR:PB0001898:2:84A</LineRef>
+<JourneyPatternRef>JP_14</JourneyPatternRef>
+<DepartureTime>13:43:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:55:35' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-02</StartDate><EndDate>2023-07-02</EndDate></DateRange><DateRange><StartDate>2023-07-09</StartDate><EndDate>2023-07-09</EndDate></DateRange><DateRange><StartDate>2023-07-16</StartDate><EndDate>2023-07-16</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_45</VehicleJourneyCode>
+<ServiceRef>PB0001898:2</ServiceRef><LineRef>DGTR:PB0001898:2:84A</LineRef>
+<JourneyPatternRef>JP_14</JourneyPatternRef>
+<DepartureTime>16:43:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:15:54' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-02</StartDate><EndDate>2023-07-02</EndDate></DateRange><DateRange><StartDate>2023-07-09</StartDate><EndDate>2023-07-09</EndDate></DateRange><DateRange><StartDate>2023-07-16</StartDate><EndDate>2023-07-16</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_41</VehicleJourneyCode>
+<ServiceRef>PB0001898:2</ServiceRef><LineRef>DGTR:PB0001898:2:84A</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>13:10:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-07-05T13:26:17' ModificationDateTime='2023-07-19T16:15:54' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>DGTR</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Sunday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+<DaysOfNonOperation>
+<DateRange><StartDate>2023-07-02</StartDate><EndDate>2023-07-02</EndDate></DateRange><DateRange><StartDate>2023-07-09</StartDate><EndDate>2023-07-09</EndDate></DateRange><DateRange><StartDate>2023-07-16</StartDate><EndDate>2023-07-16</EndDate></DateRange>
+</DaysOfNonOperation>
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_42</VehicleJourneyCode>
+<ServiceRef>PB0001898:2</ServiceRef><LineRef>DGTR:PB0001898:2:84A</LineRef>
+<JourneyPatternRef>JP_13</JourneyPatternRef>
+<DepartureTime>16:10:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

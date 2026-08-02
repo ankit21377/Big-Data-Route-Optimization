@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2023-05-11T09:02:12Z" ModificationDateTime="2025-04-30T13:14:59Z" Modification="revise" RevisionNumber="2" FileName="521_30042025131501.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040277</StopPointRef>
+      <CommonName>Doncaster Road/Martin Lane</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045526</StopPointRef>
+      <CommonName>Doncaster Road/North Avenue</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046058</StopPointRef>
+      <CommonName>Hurst Lane/Poplar Way</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Auckley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040273</StopPointRef>
+      <CommonName>Station Road/Doncaster Road</CommonName>
+      <Indicator>nr</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040276</StopPointRef>
+      <CommonName>Thorne Road/Highfield Road</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="168_11">
+      <RouteLink id="168_11_354">
+        <From>
+          <StopPointRef>370045526</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040277</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="168_11_355">
+        <From>
+          <StopPointRef>370040277</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040273</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="168_11_356">
+        <From>
+          <StopPointRef>370040273</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040276</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+      <RouteLink id="168_11_357">
+        <From>
+          <StopPointRef>370040276</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046058</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="168_11">
+      <Description>Bawtry – Auckley</Description>
+      <RouteSectionRef>168_11</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="168_11">
+      <JourneyPatternTimingLink id="168_11_354">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <StopPointRef>370045526</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040277</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>168_11_354</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="168_11_355">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040277</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040273</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>168_11_355</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="168_11_356">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040273</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040276</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>168_11_356</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="168_11_357">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>370040276</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <Activity>setDown</Activity>
+          <StopPointRef>370046058</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>168_11_357</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBHV</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Beehive</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>1</GarageCode>
+          <GarageName>WilfredaBeehive</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PB0000595:521</ServiceCode>
+      <Lines>
+        <Line id="WBHV:PB0000595:521:521">
+          <LineName>521</LineName>
+          <OutboundDescription>
+            <Description>Bawtry - Auckley</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Auckley - Bawtry</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2022-09-06</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Bawtry – Auckley</Description>
+      <StandardService>
+        <Origin>Hayfield School</Origin>
+        <Destination>Bawtry</Destination>
+        <JourneyPattern id="168_11">
+          <DestinationDisplay>
+          </DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>168_11</RouteRef>
+          <JourneyPatternSectionRefs>168_11</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>08:07 BAW - AUC</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>521</TicketMachineServiceCode>
+          <JourneyCode>2</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation />
+      </OperatingProfile>
+      <GarageRef>1</GarageRef>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>PB0000595:521</ServiceRef>
+      <LineRef>WBHV:PB0000595:521:521</LineRef>
+      <JourneyPatternRef>168_11</JourneyPatternRef>
+      <DepartureTime>08:07:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

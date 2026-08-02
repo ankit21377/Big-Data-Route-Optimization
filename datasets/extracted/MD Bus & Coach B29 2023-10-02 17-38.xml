@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20230512) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-10-02T17:38:30' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1' FileName="MD Bus  Coach B29 2023-10-02 17-38.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02856</StopPointRef><CommonName>Bus Interchange</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02905</StopPointRef><CommonName>Orford Park Centre</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000011771</StopPointRef><CommonName>Perth Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000011545</StopPointRef><CommonName>Orange Grove</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000023940</StopPointRef><CommonName>Asda</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000014706</StopPointRef><CommonName>Marks Spencer</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>0690WNA02955</StopPointRef><CommonName>Orion Boulevard</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000020180</StopPointRef><CommonName>Chapel House</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>069000018050</StopPointRef><CommonName>The Pear Tree</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_4' CreationDateTime='2023-10-02T17:38:27' ModificationDateTime='2023-10-02T17:38:34' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_4_1'><From><StopPointRef>069000023940</StopPointRef></From><To><StopPointRef>069000014706</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_4_2'><From><StopPointRef>069000014706</StopPointRef></From><To><StopPointRef>0690WNA02955</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_4_3'><From><StopPointRef>0690WNA02955</StopPointRef></From><To><StopPointRef>069000020180</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_4_4'><From><StopPointRef>069000020180</StopPointRef></From><To><StopPointRef>069000018050</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_5' CreationDateTime='2023-10-02T17:38:27' ModificationDateTime='2023-10-02T17:38:41' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_5_1'><From><StopPointRef>069000018050</StopPointRef></From><To><StopPointRef>069000020180</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_2'><From><StopPointRef>069000020180</StopPointRef></From><To><StopPointRef>0690WNA02955</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_3'><From><StopPointRef>0690WNA02955</StopPointRef></From><To><StopPointRef>069000014706</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_5_4'><From><StopPointRef>069000014706</StopPointRef></From><To><StopPointRef>069000023940</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_4' CreationDateTime='2023-10-02T17:35:01' ModificationDateTime='2023-10-02T17:38:34' Modification='revise' RevisionNumber='1'><Description>Asda - The Pear Tree</Description><RouteSectionRef>routeSection_4</RouteSectionRef></Route>
+<Route id='route_5' CreationDateTime='2023-10-02T17:35:01' ModificationDateTime='2023-10-02T17:38:41' Modification='revise' RevisionNumber='1'><Description>The Pear Tree - Asda</Description><RouteSectionRef>routeSection_5</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_4' CreationDateTime='2023-10-02T17:38:30' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_4_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023940</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014706</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_4_1</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014706</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02955</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_4_2</RouteLinkRef><RunTime>PT360S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02955</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020180</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_4_3</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_4_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020180</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000018050</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_4_4</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_5' CreationDateTime='2023-10-02T17:38:30' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_5_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000018050</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020180</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_1</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_5_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000020180</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02955</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_2</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_5_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>0690WNA02955</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014706</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_3</RouteLinkRef><RunTime>PT660S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_5_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000014706</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>069000023940</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_5_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="MDBC"><NationalOperatorCode>MDBC</NationalOperatorCode><OperatorCode>MDBC</OperatorCode><OperatorShortName>MD Bus  Coach</OperatorShortName><LicenceNumber>PC1129471</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-10-02T17:38:30' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PC1129471:20</ServiceCode><Lines><Line id="MDBC:PC1129471:20:B29"><LineName>B29</LineName><OutboundDescription><Origin>Asda</Origin><Destination>The Pear Tree</Destination><Description>Asda - The Pear Tree</Description></OutboundDescription><InboundDescription><Origin>The Pear Tree</Origin><Destination>Asda</Destination><Description>The Pear Tree - Asda</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-09-25</StartDate><EndDate>2026-01-12</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>MDBC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>true</PublicUse><Description>The Pear Tree - Asda</Description>
+
+<StandardService>
+<Origin>The Pear Tree</Origin>
+<Destination>Asda</Destination>
+<JourneyPattern id='JP_4'><DestinationDisplay>199</DestinationDisplay><OperatorRef>MDBC</OperatorRef><Direction>outbound</Direction><RouteRef>route_4</RouteRef><JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_5'><DestinationDisplay>199</DestinationDisplay><OperatorRef>MDBC</OperatorRef><Direction>inbound</Direction><RouteRef>route_5</RouteRef><JourneyPatternSectionRefs>JPS_5</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:35' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>0950</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_13</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>09:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:35' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1050</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_14</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>10:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:36' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1150</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_15</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>11:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:36' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1250</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_16</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>12:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:37' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1350</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_17</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>13:50:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:38' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1440</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_18</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_4</JourneyPatternRef>
+<DepartureTime>14:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:41' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>0930</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_19</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>09:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:41' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1030</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_20</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>10:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:42' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1130</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_21</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>11:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:42' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1230</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_22</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>12:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1330</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_23</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>13:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-10-02T17:38:20' ModificationDateTime='2023-10-02T17:38:43' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>MDBC</OperatorRef>
+<Operational><TicketMachine><JourneyCode>1430</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_24</VehicleJourneyCode>
+<ServiceRef>PC1129471:20</ServiceRef><LineRef>MDBC:PC1129471:20:B29</LineRef>
+<JourneyPatternRef>JP_5</JourneyPatternRef>
+<DepartureTime>14:30:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

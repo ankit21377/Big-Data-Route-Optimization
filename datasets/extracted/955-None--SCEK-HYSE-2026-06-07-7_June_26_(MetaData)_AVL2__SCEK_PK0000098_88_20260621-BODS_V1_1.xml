@@ -1,0 +1,2608 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--Created by Optibus TransXChange Exporter (1.0.2)-->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361" FileName="955-None--SCEK-HYSE-2026-06-07-7_June_26_(MetaData)_AVL2-BODS_V1_1.xml" SchemaVersion="2.4" RegistrationDocument="false" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>SEHY01</OrganisationCode>
+      <Name>Schooldays Only</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2025-09-01</StartDate>
+          <EndDate>2025-10-17</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2025-10-27</StartDate>
+          <EndDate>2025-12-19</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-01-05</StartDate>
+          <EndDate>2026-02-13</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-02-23</StartDate>
+          <EndDate>2026-04-03</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-04-20</StartDate>
+          <EndDate>2026-05-22</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-06-01</StartDate>
+          <EndDate>2026-07-24</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-08-31</StartDate>
+          <EndDate>2026-10-23</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2026-11-02</StartDate>
+          <EndDate>2026-12-18</EndDate>
+          <Description>Schooldays Only</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>240099190</StopPointRef>
+      <CommonName>Canterbury Bus Station D1</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A049740A</StopPointRef>
+      <CommonName>Canterbury Waitrose</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A049750A</StopPointRef>
+      <CommonName>Canterbury St Augustine's Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A049770A</StopPointRef>
+      <CommonName>Canterbury St Lawrence Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>240096699</StopPointRef>
+      <CommonName>Canterbury Barton Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>240096963</StopPointRef>
+      <CommonName>Canterbury School Passage</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>240096691</StopPointRef>
+      <CommonName>Canterbury Old Gate Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A039660A</StopPointRef>
+      <CommonName>St Anselm's School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A039670A</StopPointRef>
+      <CommonName>Simon Langton Girls' Sch</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>240096697</StopPointRef>
+      <CommonName>St Anselm's Sch Grounds</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A039610A</StopPointRef>
+      <CommonName>Canterbury Kent Cricket Ground</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A039710A</StopPointRef>
+      <CommonName>Canterbury Cowdrey Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A049680A</StopPointRef>
+      <CommonName>Canterbury Ethelbert Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A049720A</StopPointRef>
+      <CommonName>Canterbury Health Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2400A039640A</StopPointRef>
+      <CommonName>Canterbury Bus Station</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1">
+      <RouteLink id="RL1" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>240099190</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A049740A</StopPointRef>
+        </To>
+        <Distance>283</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L1">
+              <Longitude>1.081880</Longitude>
+              <Latitude>51.276610</Latitude>
+            </Location>
+            <Location id="L2">
+              <Longitude>1.081980</Longitude>
+              <Latitude>51.276640</Latitude>
+            </Location>
+            <Location id="L3">
+              <Longitude>1.082170</Longitude>
+              <Latitude>51.276690</Latitude>
+            </Location>
+            <Location id="L4">
+              <Longitude>1.082230</Longitude>
+              <Latitude>51.276710</Latitude>
+            </Location>
+            <Location id="L5">
+              <Longitude>1.082240</Longitude>
+              <Latitude>51.276720</Latitude>
+            </Location>
+            <Location id="L6">
+              <Longitude>1.082330</Longitude>
+              <Latitude>51.276740</Latitude>
+            </Location>
+            <Location id="L7">
+              <Longitude>1.082340</Longitude>
+              <Latitude>51.276740</Latitude>
+            </Location>
+            <Location id="L8">
+              <Longitude>1.082420</Longitude>
+              <Latitude>51.276740</Latitude>
+            </Location>
+            <Location id="L9">
+              <Longitude>1.082500</Longitude>
+              <Latitude>51.276740</Latitude>
+            </Location>
+            <Location id="L10">
+              <Longitude>1.082520</Longitude>
+              <Latitude>51.276740</Latitude>
+            </Location>
+            <Location id="L11">
+              <Longitude>1.082660</Longitude>
+              <Latitude>51.276730</Latitude>
+            </Location>
+            <Location id="L12">
+              <Longitude>1.082700</Longitude>
+              <Latitude>51.276730</Latitude>
+            </Location>
+            <Location id="L13">
+              <Longitude>1.082880</Longitude>
+              <Latitude>51.276790</Latitude>
+            </Location>
+            <Location id="L14">
+              <Longitude>1.083090</Longitude>
+              <Latitude>51.276860</Latitude>
+            </Location>
+            <Location id="L15">
+              <Longitude>1.083160</Longitude>
+              <Latitude>51.276890</Latitude>
+            </Location>
+            <Location id="L16">
+              <Longitude>1.083300</Longitude>
+              <Latitude>51.276980</Latitude>
+            </Location>
+            <Location id="L17">
+              <Longitude>1.083370</Longitude>
+              <Latitude>51.277020</Latitude>
+            </Location>
+            <Location id="L18">
+              <Longitude>1.083560</Longitude>
+              <Latitude>51.277080</Latitude>
+            </Location>
+            <Location id="L19">
+              <Longitude>1.083560</Longitude>
+              <Latitude>51.277080</Latitude>
+            </Location>
+            <Location id="L20">
+              <Longitude>1.083600</Longitude>
+              <Latitude>51.277080</Latitude>
+            </Location>
+            <Location id="L21">
+              <Longitude>1.083700</Longitude>
+              <Latitude>51.277070</Latitude>
+            </Location>
+            <Location id="L22">
+              <Longitude>1.083830</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L23">
+              <Longitude>1.083830</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L24">
+              <Longitude>1.083840</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L25">
+              <Longitude>1.083850</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L26">
+              <Longitude>1.083860</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L27">
+              <Longitude>1.083870</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L28">
+              <Longitude>1.083880</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L29">
+              <Longitude>1.083890</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L30">
+              <Longitude>1.083910</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L31">
+              <Longitude>1.083930</Longitude>
+              <Latitude>51.277040</Latitude>
+            </Location>
+            <Location id="L32">
+              <Longitude>1.083960</Longitude>
+              <Latitude>51.277030</Latitude>
+            </Location>
+            <Location id="L33">
+              <Longitude>1.083980</Longitude>
+              <Latitude>51.277030</Latitude>
+            </Location>
+            <Location id="L34">
+              <Longitude>1.084000</Longitude>
+              <Latitude>51.277020</Latitude>
+            </Location>
+            <Location id="L35">
+              <Longitude>1.084020</Longitude>
+              <Latitude>51.277010</Latitude>
+            </Location>
+            <Location id="L36">
+              <Longitude>1.084040</Longitude>
+              <Latitude>51.277000</Latitude>
+            </Location>
+            <Location id="L37">
+              <Longitude>1.084060</Longitude>
+              <Latitude>51.276990</Latitude>
+            </Location>
+            <Location id="L38">
+              <Longitude>1.084090</Longitude>
+              <Latitude>51.276970</Latitude>
+            </Location>
+            <Location id="L39">
+              <Longitude>1.084090</Longitude>
+              <Latitude>51.276960</Latitude>
+            </Location>
+            <Location id="L40">
+              <Longitude>1.084100</Longitude>
+              <Latitude>51.276950</Latitude>
+            </Location>
+            <Location id="L41">
+              <Longitude>1.084110</Longitude>
+              <Latitude>51.276950</Latitude>
+            </Location>
+            <Location id="L42">
+              <Longitude>1.084110</Longitude>
+              <Latitude>51.276940</Latitude>
+            </Location>
+            <Location id="L43">
+              <Longitude>1.084120</Longitude>
+              <Latitude>51.276930</Latitude>
+            </Location>
+            <Location id="L44">
+              <Longitude>1.084120</Longitude>
+              <Latitude>51.276920</Latitude>
+            </Location>
+            <Location id="L45">
+              <Longitude>1.084120</Longitude>
+              <Latitude>51.276910</Latitude>
+            </Location>
+            <Location id="L46">
+              <Longitude>1.084130</Longitude>
+              <Latitude>51.276900</Latitude>
+            </Location>
+            <Location id="L47">
+              <Longitude>1.084230</Longitude>
+              <Latitude>51.276820</Latitude>
+            </Location>
+            <Location id="L48">
+              <Longitude>1.084270</Longitude>
+              <Latitude>51.276790</Latitude>
+            </Location>
+            <Location id="L49">
+              <Longitude>1.084310</Longitude>
+              <Latitude>51.276760</Latitude>
+            </Location>
+            <Location id="L50">
+              <Longitude>1.084500</Longitude>
+              <Latitude>51.276650</Latitude>
+            </Location>
+            <Location id="L51">
+              <Longitude>1.085230</Longitude>
+              <Latitude>51.276300</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL2" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A049740A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A049750A</StopPointRef>
+        </To>
+        <Distance>420</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L52">
+              <Longitude>1.085230</Longitude>
+              <Latitude>51.276300</Latitude>
+            </Location>
+            <Location id="L53">
+              <Longitude>1.085560</Longitude>
+              <Latitude>51.276140</Latitude>
+            </Location>
+            <Location id="L54">
+              <Longitude>1.085660</Longitude>
+              <Latitude>51.276090</Latitude>
+            </Location>
+            <Location id="L55">
+              <Longitude>1.086000</Longitude>
+              <Latitude>51.275910</Latitude>
+            </Location>
+            <Location id="L56">
+              <Longitude>1.086230</Longitude>
+              <Latitude>51.275790</Latitude>
+            </Location>
+            <Location id="L57">
+              <Longitude>1.086340</Longitude>
+              <Latitude>51.275730</Latitude>
+            </Location>
+            <Location id="L58">
+              <Longitude>1.086340</Longitude>
+              <Latitude>51.275730</Latitude>
+            </Location>
+            <Location id="L59">
+              <Longitude>1.086600</Longitude>
+              <Latitude>51.275600</Latitude>
+            </Location>
+            <Location id="L60">
+              <Longitude>1.086700</Longitude>
+              <Latitude>51.275550</Latitude>
+            </Location>
+            <Location id="L61">
+              <Longitude>1.086920</Longitude>
+              <Latitude>51.275420</Latitude>
+            </Location>
+            <Location id="L62">
+              <Longitude>1.087070</Longitude>
+              <Latitude>51.275320</Latitude>
+            </Location>
+            <Location id="L63">
+              <Longitude>1.087090</Longitude>
+              <Latitude>51.275300</Latitude>
+            </Location>
+            <Location id="L64">
+              <Longitude>1.087120</Longitude>
+              <Latitude>51.275270</Latitude>
+            </Location>
+            <Location id="L65">
+              <Longitude>1.087150</Longitude>
+              <Latitude>51.275210</Latitude>
+            </Location>
+            <Location id="L66">
+              <Longitude>1.087440</Longitude>
+              <Latitude>51.275060</Latitude>
+            </Location>
+            <Location id="L67">
+              <Longitude>1.087980</Longitude>
+              <Latitude>51.274790</Latitude>
+            </Location>
+            <Location id="L68">
+              <Longitude>1.088100</Longitude>
+              <Latitude>51.274720</Latitude>
+            </Location>
+            <Location id="L69">
+              <Longitude>1.088170</Longitude>
+              <Latitude>51.274690</Latitude>
+            </Location>
+            <Location id="L70">
+              <Longitude>1.088290</Longitude>
+              <Latitude>51.274620</Latitude>
+            </Location>
+            <Location id="L71">
+              <Longitude>1.088400</Longitude>
+              <Latitude>51.274550</Latitude>
+            </Location>
+            <Location id="L72">
+              <Longitude>1.088550</Longitude>
+              <Latitude>51.274440</Latitude>
+            </Location>
+            <Location id="L73">
+              <Longitude>1.088850</Longitude>
+              <Latitude>51.274170</Latitude>
+            </Location>
+            <Location id="L74">
+              <Longitude>1.089190</Longitude>
+              <Latitude>51.273880</Latitude>
+            </Location>
+            <Location id="L75">
+              <Longitude>1.089470</Longitude>
+              <Latitude>51.273650</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL3" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A049750A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A049770A</StopPointRef>
+        </To>
+        <Distance>430</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L76">
+              <Longitude>1.089470</Longitude>
+              <Latitude>51.273650</Latitude>
+            </Location>
+            <Location id="L77">
+              <Longitude>1.089920</Longitude>
+              <Latitude>51.273270</Latitude>
+            </Location>
+            <Location id="L78">
+              <Longitude>1.090050</Longitude>
+              <Latitude>51.273150</Latitude>
+            </Location>
+            <Location id="L79">
+              <Longitude>1.090090</Longitude>
+              <Latitude>51.273110</Latitude>
+            </Location>
+            <Location id="L80">
+              <Longitude>1.090140</Longitude>
+              <Latitude>51.273070</Latitude>
+            </Location>
+            <Location id="L81">
+              <Longitude>1.090180</Longitude>
+              <Latitude>51.273030</Latitude>
+            </Location>
+            <Location id="L82">
+              <Longitude>1.090710</Longitude>
+              <Latitude>51.272580</Latitude>
+            </Location>
+            <Location id="L83">
+              <Longitude>1.090930</Longitude>
+              <Latitude>51.272400</Latitude>
+            </Location>
+            <Location id="L84">
+              <Longitude>1.091810</Longitude>
+              <Latitude>51.271690</Latitude>
+            </Location>
+            <Location id="L85">
+              <Longitude>1.092000</Longitude>
+              <Latitude>51.271540</Latitude>
+            </Location>
+            <Location id="L86">
+              <Longitude>1.092070</Longitude>
+              <Latitude>51.271490</Latitude>
+            </Location>
+            <Location id="L87">
+              <Longitude>1.092390</Longitude>
+              <Latitude>51.271220</Latitude>
+            </Location>
+            <Location id="L88">
+              <Longitude>1.092940</Longitude>
+              <Latitude>51.270750</Latitude>
+            </Location>
+            <Location id="L89">
+              <Longitude>1.093170</Longitude>
+              <Latitude>51.270550</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL4" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A049770A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>240096699</StopPointRef>
+        </To>
+        <Distance>430</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L90">
+              <Longitude>1.093170</Longitude>
+              <Latitude>51.270550</Latitude>
+            </Location>
+            <Location id="L91">
+              <Longitude>1.093460</Longitude>
+              <Latitude>51.270310</Latitude>
+            </Location>
+            <Location id="L92">
+              <Longitude>1.093730</Longitude>
+              <Latitude>51.270080</Latitude>
+            </Location>
+            <Location id="L93">
+              <Longitude>1.093930</Longitude>
+              <Latitude>51.269900</Latitude>
+            </Location>
+            <Location id="L94">
+              <Longitude>1.094340</Longitude>
+              <Latitude>51.269530</Latitude>
+            </Location>
+            <Location id="L95">
+              <Longitude>1.094610</Longitude>
+              <Latitude>51.269280</Latitude>
+            </Location>
+            <Location id="L96">
+              <Longitude>1.094860</Longitude>
+              <Latitude>51.269060</Latitude>
+            </Location>
+            <Location id="L97">
+              <Longitude>1.095140</Longitude>
+              <Latitude>51.268840</Latitude>
+            </Location>
+            <Location id="L98">
+              <Longitude>1.095320</Longitude>
+              <Latitude>51.268710</Latitude>
+            </Location>
+            <Location id="L99">
+              <Longitude>1.095660</Longitude>
+              <Latitude>51.268410</Latitude>
+            </Location>
+            <Location id="L100">
+              <Longitude>1.096260</Longitude>
+              <Latitude>51.267890</Latitude>
+            </Location>
+            <Location id="L101">
+              <Longitude>1.096510</Longitude>
+              <Latitude>51.267680</Latitude>
+            </Location>
+            <Location id="L102">
+              <Longitude>1.096810</Longitude>
+              <Latitude>51.267420</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL5" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>240096699</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>240096963</StopPointRef>
+        </To>
+        <Distance>314</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L103">
+              <Longitude>1.096810</Longitude>
+              <Latitude>51.267420</Latitude>
+            </Location>
+            <Location id="L104">
+              <Longitude>1.097020</Longitude>
+              <Latitude>51.267240</Latitude>
+            </Location>
+            <Location id="L105">
+              <Longitude>1.097730</Longitude>
+              <Latitude>51.266710</Latitude>
+            </Location>
+            <Location id="L106">
+              <Longitude>1.097920</Longitude>
+              <Latitude>51.266570</Latitude>
+            </Location>
+            <Location id="L107">
+              <Longitude>1.098100</Longitude>
+              <Latitude>51.266440</Latitude>
+            </Location>
+            <Location id="L108">
+              <Longitude>1.098180</Longitude>
+              <Latitude>51.266370</Latitude>
+            </Location>
+            <Location id="L109">
+              <Longitude>1.098700</Longitude>
+              <Latitude>51.265940</Latitude>
+            </Location>
+            <Location id="L110">
+              <Longitude>1.098790</Longitude>
+              <Latitude>51.265860</Latitude>
+            </Location>
+            <Location id="L111">
+              <Longitude>1.098870</Longitude>
+              <Latitude>51.265790</Latitude>
+            </Location>
+            <Location id="L112">
+              <Longitude>1.098960</Longitude>
+              <Latitude>51.265720</Latitude>
+            </Location>
+            <Location id="L113">
+              <Longitude>1.099220</Longitude>
+              <Latitude>51.265510</Latitude>
+            </Location>
+            <Location id="L114">
+              <Longitude>1.099220</Longitude>
+              <Latitude>51.265500</Latitude>
+            </Location>
+            <Location id="L115">
+              <Longitude>1.099470</Longitude>
+              <Latitude>51.265290</Latitude>
+            </Location>
+            <Location id="L116">
+              <Longitude>1.099590</Longitude>
+              <Latitude>51.265190</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL6" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>240096963</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>240096691</StopPointRef>
+        </To>
+        <Distance>305</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L117">
+              <Longitude>1.099590</Longitude>
+              <Latitude>51.265190</Latitude>
+            </Location>
+            <Location id="L118">
+              <Longitude>1.099650</Longitude>
+              <Latitude>51.265150</Latitude>
+            </Location>
+            <Location id="L119">
+              <Longitude>1.100330</Longitude>
+              <Latitude>51.264570</Latitude>
+            </Location>
+            <Location id="L120">
+              <Longitude>1.101190</Longitude>
+              <Latitude>51.263850</Latitude>
+            </Location>
+            <Location id="L121">
+              <Longitude>1.101770</Longitude>
+              <Latitude>51.263360</Latitude>
+            </Location>
+            <Location id="L122">
+              <Longitude>1.101890</Longitude>
+              <Latitude>51.263270</Latitude>
+            </Location>
+            <Location id="L123">
+              <Longitude>1.101950</Longitude>
+              <Latitude>51.263220</Latitude>
+            </Location>
+            <Location id="L124">
+              <Longitude>1.102220</Longitude>
+              <Latitude>51.262990</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL7" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>240096691</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039660A</StopPointRef>
+        </To>
+        <Distance>261</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L125">
+              <Longitude>1.102220</Longitude>
+              <Latitude>51.262990</Latitude>
+            </Location>
+            <Location id="L126">
+              <Longitude>1.102280</Longitude>
+              <Latitude>51.262950</Latitude>
+            </Location>
+            <Location id="L127">
+              <Longitude>1.102510</Longitude>
+              <Latitude>51.262760</Latitude>
+            </Location>
+            <Location id="L128">
+              <Longitude>1.102560</Longitude>
+              <Latitude>51.262720</Latitude>
+            </Location>
+            <Location id="L129">
+              <Longitude>1.102580</Longitude>
+              <Latitude>51.262680</Latitude>
+            </Location>
+            <Location id="L130">
+              <Longitude>1.102600</Longitude>
+              <Latitude>51.262640</Latitude>
+            </Location>
+            <Location id="L131">
+              <Longitude>1.102590</Longitude>
+              <Latitude>51.262560</Latitude>
+            </Location>
+            <Location id="L132">
+              <Longitude>1.102590</Longitude>
+              <Latitude>51.262560</Latitude>
+            </Location>
+            <Location id="L133">
+              <Longitude>1.102610</Longitude>
+              <Latitude>51.262560</Latitude>
+            </Location>
+            <Location id="L134">
+              <Longitude>1.102620</Longitude>
+              <Latitude>51.262560</Latitude>
+            </Location>
+            <Location id="L135">
+              <Longitude>1.102630</Longitude>
+              <Latitude>51.262550</Latitude>
+            </Location>
+            <Location id="L136">
+              <Longitude>1.102640</Longitude>
+              <Latitude>51.262550</Latitude>
+            </Location>
+            <Location id="L137">
+              <Longitude>1.102650</Longitude>
+              <Latitude>51.262550</Latitude>
+            </Location>
+            <Location id="L138">
+              <Longitude>1.102670</Longitude>
+              <Latitude>51.262550</Latitude>
+            </Location>
+            <Location id="L139">
+              <Longitude>1.102680</Longitude>
+              <Latitude>51.262540</Latitude>
+            </Location>
+            <Location id="L140">
+              <Longitude>1.102690</Longitude>
+              <Latitude>51.262540</Latitude>
+            </Location>
+            <Location id="L141">
+              <Longitude>1.102700</Longitude>
+              <Latitude>51.262540</Latitude>
+            </Location>
+            <Location id="L142">
+              <Longitude>1.102710</Longitude>
+              <Latitude>51.262530</Latitude>
+            </Location>
+            <Location id="L143">
+              <Longitude>1.102720</Longitude>
+              <Latitude>51.262530</Latitude>
+            </Location>
+            <Location id="L144">
+              <Longitude>1.102730</Longitude>
+              <Latitude>51.262520</Latitude>
+            </Location>
+            <Location id="L145">
+              <Longitude>1.102740</Longitude>
+              <Latitude>51.262520</Latitude>
+            </Location>
+            <Location id="L146">
+              <Longitude>1.102740</Longitude>
+              <Latitude>51.262510</Latitude>
+            </Location>
+            <Location id="L147">
+              <Longitude>1.102750</Longitude>
+              <Latitude>51.262510</Latitude>
+            </Location>
+            <Location id="L148">
+              <Longitude>1.102760</Longitude>
+              <Latitude>51.262500</Latitude>
+            </Location>
+            <Location id="L149">
+              <Longitude>1.102770</Longitude>
+              <Latitude>51.262490</Latitude>
+            </Location>
+            <Location id="L150">
+              <Longitude>1.102780</Longitude>
+              <Latitude>51.262480</Latitude>
+            </Location>
+            <Location id="L151">
+              <Longitude>1.102780</Longitude>
+              <Latitude>51.262470</Latitude>
+            </Location>
+            <Location id="L152">
+              <Longitude>1.102790</Longitude>
+              <Latitude>51.262460</Latitude>
+            </Location>
+            <Location id="L153">
+              <Longitude>1.102790</Longitude>
+              <Latitude>51.262450</Latitude>
+            </Location>
+            <Location id="L154">
+              <Longitude>1.102790</Longitude>
+              <Latitude>51.262440</Latitude>
+            </Location>
+            <Location id="L155">
+              <Longitude>1.102800</Longitude>
+              <Latitude>51.262430</Latitude>
+            </Location>
+            <Location id="L156">
+              <Longitude>1.102800</Longitude>
+              <Latitude>51.262420</Latitude>
+            </Location>
+            <Location id="L157">
+              <Longitude>1.102800</Longitude>
+              <Latitude>51.262410</Latitude>
+            </Location>
+            <Location id="L158">
+              <Longitude>1.102790</Longitude>
+              <Latitude>51.262400</Latitude>
+            </Location>
+            <Location id="L159">
+              <Longitude>1.102790</Longitude>
+              <Latitude>51.262390</Latitude>
+            </Location>
+            <Location id="L160">
+              <Longitude>1.102780</Longitude>
+              <Latitude>51.262380</Latitude>
+            </Location>
+            <Location id="L161">
+              <Longitude>1.102780</Longitude>
+              <Latitude>51.262370</Latitude>
+            </Location>
+            <Location id="L162">
+              <Longitude>1.102770</Longitude>
+              <Latitude>51.262360</Latitude>
+            </Location>
+            <Location id="L163">
+              <Longitude>1.102760</Longitude>
+              <Latitude>51.262350</Latitude>
+            </Location>
+            <Location id="L164">
+              <Longitude>1.102750</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L165">
+              <Longitude>1.102740</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L166">
+              <Longitude>1.102730</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L167">
+              <Longitude>1.102720</Longitude>
+              <Latitude>51.262320</Latitude>
+            </Location>
+            <Location id="L168">
+              <Longitude>1.102710</Longitude>
+              <Latitude>51.262320</Latitude>
+            </Location>
+            <Location id="L169">
+              <Longitude>1.102700</Longitude>
+              <Latitude>51.262320</Latitude>
+            </Location>
+            <Location id="L170">
+              <Longitude>1.102690</Longitude>
+              <Latitude>51.262310</Latitude>
+            </Location>
+            <Location id="L171">
+              <Longitude>1.102680</Longitude>
+              <Latitude>51.262310</Latitude>
+            </Location>
+            <Location id="L172">
+              <Longitude>1.102670</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L173">
+              <Longitude>1.102660</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L174">
+              <Longitude>1.102650</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L175">
+              <Longitude>1.102640</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L176">
+              <Longitude>1.102620</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L177">
+              <Longitude>1.102600</Longitude>
+              <Latitude>51.262290</Latitude>
+            </Location>
+            <Location id="L178">
+              <Longitude>1.102580</Longitude>
+              <Latitude>51.262290</Latitude>
+            </Location>
+            <Location id="L179">
+              <Longitude>1.102570</Longitude>
+              <Latitude>51.262290</Latitude>
+            </Location>
+            <Location id="L180">
+              <Longitude>1.102560</Longitude>
+              <Latitude>51.262290</Latitude>
+            </Location>
+            <Location id="L181">
+              <Longitude>1.102550</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L182">
+              <Longitude>1.102530</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L183">
+              <Longitude>1.102520</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L184">
+              <Longitude>1.102510</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L185">
+              <Longitude>1.102500</Longitude>
+              <Latitude>51.262300</Latitude>
+            </Location>
+            <Location id="L186">
+              <Longitude>1.102490</Longitude>
+              <Latitude>51.262310</Latitude>
+            </Location>
+            <Location id="L187">
+              <Longitude>1.102480</Longitude>
+              <Latitude>51.262310</Latitude>
+            </Location>
+            <Location id="L188">
+              <Longitude>1.102470</Longitude>
+              <Latitude>51.262320</Latitude>
+            </Location>
+            <Location id="L189">
+              <Longitude>1.102460</Longitude>
+              <Latitude>51.262320</Latitude>
+            </Location>
+            <Location id="L190">
+              <Longitude>1.102450</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L191">
+              <Longitude>1.102440</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L192">
+              <Longitude>1.102430</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L193">
+              <Longitude>1.102420</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L194">
+              <Longitude>1.102410</Longitude>
+              <Latitude>51.262350</Latitude>
+            </Location>
+            <Location id="L195">
+              <Longitude>1.102400</Longitude>
+              <Latitude>51.262360</Latitude>
+            </Location>
+            <Location id="L196">
+              <Longitude>1.102400</Longitude>
+              <Latitude>51.262370</Latitude>
+            </Location>
+            <Location id="L197">
+              <Longitude>1.102390</Longitude>
+              <Latitude>51.262380</Latitude>
+            </Location>
+            <Location id="L198">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262390</Latitude>
+            </Location>
+            <Location id="L199">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262400</Latitude>
+            </Location>
+            <Location id="L200">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262410</Latitude>
+            </Location>
+            <Location id="L201">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262420</Latitude>
+            </Location>
+            <Location id="L202">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262430</Latitude>
+            </Location>
+            <Location id="L203">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262440</Latitude>
+            </Location>
+            <Location id="L204">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262450</Latitude>
+            </Location>
+            <Location id="L205">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262460</Latitude>
+            </Location>
+            <Location id="L206">
+              <Longitude>1.102390</Longitude>
+              <Latitude>51.262470</Latitude>
+            </Location>
+            <Location id="L207">
+              <Longitude>1.102270</Longitude>
+              <Latitude>51.262520</Latitude>
+            </Location>
+            <Location id="L208">
+              <Longitude>1.102110</Longitude>
+              <Latitude>51.262620</Latitude>
+            </Location>
+            <Location id="L209">
+              <Longitude>1.101700</Longitude>
+              <Latitude>51.262870</Latitude>
+            </Location>
+            <Location id="L210">
+              <Longitude>1.101490</Longitude>
+              <Latitude>51.263000</Latitude>
+            </Location>
+            <Location id="L211">
+              <Longitude>1.101290</Longitude>
+              <Latitude>51.263130</Latitude>
+            </Location>
+            <Location id="L212">
+              <Longitude>1.101090</Longitude>
+              <Latitude>51.263250</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL8" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A039660A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039670A</StopPointRef>
+        </To>
+        <Distance>335</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L213">
+              <Longitude>1.101090</Longitude>
+              <Latitude>51.263250</Latitude>
+            </Location>
+            <Location id="L214">
+              <Longitude>1.101030</Longitude>
+              <Latitude>51.263280</Latitude>
+            </Location>
+            <Location id="L215">
+              <Longitude>1.100820</Longitude>
+              <Latitude>51.263410</Latitude>
+            </Location>
+            <Location id="L216">
+              <Longitude>1.100470</Longitude>
+              <Latitude>51.263630</Latitude>
+            </Location>
+            <Location id="L217">
+              <Longitude>1.100270</Longitude>
+              <Latitude>51.263760</Latitude>
+            </Location>
+            <Location id="L218">
+              <Longitude>1.100160</Longitude>
+              <Latitude>51.263830</Latitude>
+            </Location>
+            <Location id="L219">
+              <Longitude>1.099960</Longitude>
+              <Latitude>51.263960</Latitude>
+            </Location>
+            <Location id="L220">
+              <Longitude>1.099660</Longitude>
+              <Latitude>51.264140</Latitude>
+            </Location>
+            <Location id="L221">
+              <Longitude>1.099140</Longitude>
+              <Latitude>51.264470</Latitude>
+            </Location>
+            <Location id="L222">
+              <Longitude>1.098640</Longitude>
+              <Latitude>51.264790</Latitude>
+            </Location>
+            <Location id="L223">
+              <Longitude>1.098450</Longitude>
+              <Latitude>51.264900</Latitude>
+            </Location>
+            <Location id="L224">
+              <Longitude>1.098390</Longitude>
+              <Latitude>51.264940</Latitude>
+            </Location>
+            <Location id="L225">
+              <Longitude>1.098100</Longitude>
+              <Latitude>51.265100</Latitude>
+            </Location>
+            <Location id="L226">
+              <Longitude>1.098030</Longitude>
+              <Latitude>51.265140</Latitude>
+            </Location>
+            <Location id="L227">
+              <Longitude>1.097890</Longitude>
+              <Latitude>51.265220</Latitude>
+            </Location>
+            <Location id="L228">
+              <Longitude>1.097670</Longitude>
+              <Latitude>51.265340</Latitude>
+            </Location>
+            <Location id="L229">
+              <Longitude>1.097640</Longitude>
+              <Latitude>51.265360</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS2">
+      <RouteLink id="RL9" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>240096697</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039660A</StopPointRef>
+        </To>
+        <Distance>236</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L230">
+              <Longitude>1.101320</Longitude>
+              <Latitude>51.261930</Latitude>
+            </Location>
+            <Location id="L231">
+              <Longitude>1.101370</Longitude>
+              <Latitude>51.261930</Latitude>
+            </Location>
+            <Location id="L232">
+              <Longitude>1.101510</Longitude>
+              <Latitude>51.261950</Latitude>
+            </Location>
+            <Location id="L233">
+              <Longitude>1.101650</Longitude>
+              <Latitude>51.261980</Latitude>
+            </Location>
+            <Location id="L234">
+              <Longitude>1.101830</Longitude>
+              <Latitude>51.262020</Latitude>
+            </Location>
+            <Location id="L235">
+              <Longitude>1.102000</Longitude>
+              <Latitude>51.262070</Latitude>
+            </Location>
+            <Location id="L236">
+              <Longitude>1.102120</Longitude>
+              <Latitude>51.262120</Latitude>
+            </Location>
+            <Location id="L237">
+              <Longitude>1.102250</Longitude>
+              <Latitude>51.262200</Latitude>
+            </Location>
+            <Location id="L238">
+              <Longitude>1.102360</Longitude>
+              <Latitude>51.262270</Latitude>
+            </Location>
+            <Location id="L239">
+              <Longitude>1.102450</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L240">
+              <Longitude>1.102450</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L241">
+              <Longitude>1.102440</Longitude>
+              <Latitude>51.262330</Latitude>
+            </Location>
+            <Location id="L242">
+              <Longitude>1.102430</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L243">
+              <Longitude>1.102420</Longitude>
+              <Latitude>51.262340</Latitude>
+            </Location>
+            <Location id="L244">
+              <Longitude>1.102410</Longitude>
+              <Latitude>51.262350</Latitude>
+            </Location>
+            <Location id="L245">
+              <Longitude>1.102400</Longitude>
+              <Latitude>51.262360</Latitude>
+            </Location>
+            <Location id="L246">
+              <Longitude>1.102400</Longitude>
+              <Latitude>51.262370</Latitude>
+            </Location>
+            <Location id="L247">
+              <Longitude>1.102390</Longitude>
+              <Latitude>51.262380</Latitude>
+            </Location>
+            <Location id="L248">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262390</Latitude>
+            </Location>
+            <Location id="L249">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262400</Latitude>
+            </Location>
+            <Location id="L250">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262410</Latitude>
+            </Location>
+            <Location id="L251">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262420</Latitude>
+            </Location>
+            <Location id="L252">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262430</Latitude>
+            </Location>
+            <Location id="L253">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262440</Latitude>
+            </Location>
+            <Location id="L254">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262450</Latitude>
+            </Location>
+            <Location id="L255">
+              <Longitude>1.102380</Longitude>
+              <Latitude>51.262460</Latitude>
+            </Location>
+            <Location id="L256">
+              <Longitude>1.102390</Longitude>
+              <Latitude>51.262470</Latitude>
+            </Location>
+            <Location id="L257">
+              <Longitude>1.102270</Longitude>
+              <Latitude>51.262520</Latitude>
+            </Location>
+            <Location id="L258">
+              <Longitude>1.102110</Longitude>
+              <Latitude>51.262620</Latitude>
+            </Location>
+            <Location id="L259">
+              <Longitude>1.101700</Longitude>
+              <Latitude>51.262870</Latitude>
+            </Location>
+            <Location id="L260">
+              <Longitude>1.101630</Longitude>
+              <Latitude>51.262910</Latitude>
+            </Location>
+            <Location id="L261">
+              <Longitude>1.101490</Longitude>
+              <Latitude>51.263000</Latitude>
+            </Location>
+            <Location id="L262">
+              <Longitude>1.101290</Longitude>
+              <Latitude>51.263130</Latitude>
+            </Location>
+            <Location id="L263">
+              <Longitude>1.101170</Longitude>
+              <Latitude>51.263200</Latitude>
+            </Location>
+            <Location id="L264">
+              <Longitude>1.101090</Longitude>
+              <Latitude>51.263250</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL10" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A039660A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039670A</StopPointRef>
+        </To>
+        <Distance>345</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L265">
+              <Longitude>1.101090</Longitude>
+              <Latitude>51.263250</Latitude>
+            </Location>
+            <Location id="L266">
+              <Longitude>1.101030</Longitude>
+              <Latitude>51.263280</Latitude>
+            </Location>
+            <Location id="L267">
+              <Longitude>1.100820</Longitude>
+              <Latitude>51.263410</Latitude>
+            </Location>
+            <Location id="L268">
+              <Longitude>1.100560</Longitude>
+              <Latitude>51.263580</Latitude>
+            </Location>
+            <Location id="L269">
+              <Longitude>1.100470</Longitude>
+              <Latitude>51.263630</Latitude>
+            </Location>
+            <Location id="L270">
+              <Longitude>1.100270</Longitude>
+              <Latitude>51.263760</Latitude>
+            </Location>
+            <Location id="L271">
+              <Longitude>1.100160</Longitude>
+              <Latitude>51.263830</Latitude>
+            </Location>
+            <Location id="L272">
+              <Longitude>1.099960</Longitude>
+              <Latitude>51.263960</Latitude>
+            </Location>
+            <Location id="L273">
+              <Longitude>1.099660</Longitude>
+              <Latitude>51.264140</Latitude>
+            </Location>
+            <Location id="L274">
+              <Longitude>1.099140</Longitude>
+              <Latitude>51.264470</Latitude>
+            </Location>
+            <Location id="L275">
+              <Longitude>1.098640</Longitude>
+              <Latitude>51.264790</Latitude>
+            </Location>
+            <Location id="L276">
+              <Longitude>1.098450</Longitude>
+              <Latitude>51.264900</Latitude>
+            </Location>
+            <Location id="L277">
+              <Longitude>1.098390</Longitude>
+              <Latitude>51.264940</Latitude>
+            </Location>
+            <Location id="L278">
+              <Longitude>1.098100</Longitude>
+              <Latitude>51.265100</Latitude>
+            </Location>
+            <Location id="L279">
+              <Longitude>1.098030</Longitude>
+              <Latitude>51.265140</Latitude>
+            </Location>
+            <Location id="L280">
+              <Longitude>1.097890</Longitude>
+              <Latitude>51.265220</Latitude>
+            </Location>
+            <Location id="L281">
+              <Longitude>1.097670</Longitude>
+              <Latitude>51.265340</Latitude>
+            </Location>
+            <Location id="L282">
+              <Longitude>1.097640</Longitude>
+              <Latitude>51.265360</Latitude>
+            </Location>
+            <Location id="L283">
+              <Longitude>1.097534</Longitude>
+              <Latitude>51.265297</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL11" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A039670A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039610A</StopPointRef>
+        </To>
+        <Distance>513</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L284">
+              <Longitude>1.097640</Longitude>
+              <Latitude>51.265360</Latitude>
+            </Location>
+            <Location id="L285">
+              <Longitude>1.097200</Longitude>
+              <Latitude>51.265640</Latitude>
+            </Location>
+            <Location id="L286">
+              <Longitude>1.096840</Longitude>
+              <Latitude>51.265880</Latitude>
+            </Location>
+            <Location id="L287">
+              <Longitude>1.096610</Longitude>
+              <Latitude>51.266080</Latitude>
+            </Location>
+            <Location id="L288">
+              <Longitude>1.096400</Longitude>
+              <Latitude>51.266270</Latitude>
+            </Location>
+            <Location id="L289">
+              <Longitude>1.096240</Longitude>
+              <Latitude>51.266420</Latitude>
+            </Location>
+            <Location id="L290">
+              <Longitude>1.096070</Longitude>
+              <Latitude>51.266550</Latitude>
+            </Location>
+            <Location id="L291">
+              <Longitude>1.095850</Longitude>
+              <Latitude>51.266690</Latitude>
+            </Location>
+            <Location id="L292">
+              <Longitude>1.095590</Longitude>
+              <Latitude>51.266850</Latitude>
+            </Location>
+            <Location id="L293">
+              <Longitude>1.094180</Longitude>
+              <Latitude>51.267660</Latitude>
+            </Location>
+            <Location id="L294">
+              <Longitude>1.093920</Longitude>
+              <Latitude>51.267810</Latitude>
+            </Location>
+            <Location id="L295">
+              <Longitude>1.092510</Longitude>
+              <Latitude>51.268660</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL12" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A039610A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039710A</StopPointRef>
+        </To>
+        <Distance>191</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L296">
+              <Longitude>1.092510</Longitude>
+              <Latitude>51.268660</Latitude>
+            </Location>
+            <Location id="L297">
+              <Longitude>1.091980</Longitude>
+              <Latitude>51.268980</Latitude>
+            </Location>
+            <Location id="L298">
+              <Longitude>1.091810</Longitude>
+              <Latitude>51.269080</Latitude>
+            </Location>
+            <Location id="L299">
+              <Longitude>1.091570</Longitude>
+              <Latitude>51.269220</Latitude>
+            </Location>
+            <Location id="L300">
+              <Longitude>1.091320</Longitude>
+              <Latitude>51.269380</Latitude>
+            </Location>
+            <Location id="L301">
+              <Longitude>1.090950</Longitude>
+              <Latitude>51.269600</Latitude>
+            </Location>
+            <Location id="L302">
+              <Longitude>1.090650</Longitude>
+              <Latitude>51.269780</Latitude>
+            </Location>
+            <Location id="L303">
+              <Longitude>1.090520</Longitude>
+              <Latitude>51.269850</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL13" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A039710A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A049680A</StopPointRef>
+        </To>
+        <Distance>253</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L304">
+              <Longitude>1.090520</Longitude>
+              <Latitude>51.269850</Latitude>
+            </Location>
+            <Location id="L305">
+              <Longitude>1.090310</Longitude>
+              <Latitude>51.269970</Latitude>
+            </Location>
+            <Location id="L306">
+              <Longitude>1.088820</Longitude>
+              <Latitude>51.270920</Latitude>
+            </Location>
+            <Location id="L307">
+              <Longitude>1.088240</Longitude>
+              <Latitude>51.271260</Latitude>
+            </Location>
+            <Location id="L308">
+              <Longitude>1.087920</Longitude>
+              <Latitude>51.271450</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL14" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A049680A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A049720A</StopPointRef>
+        </To>
+        <Distance>451</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L309">
+              <Longitude>1.087920</Longitude>
+              <Latitude>51.271450</Latitude>
+            </Location>
+            <Location id="L310">
+              <Longitude>1.087540</Longitude>
+              <Latitude>51.271670</Latitude>
+            </Location>
+            <Location id="L311">
+              <Longitude>1.087470</Longitude>
+              <Latitude>51.271720</Latitude>
+            </Location>
+            <Location id="L312">
+              <Longitude>1.086890</Longitude>
+              <Latitude>51.272080</Latitude>
+            </Location>
+            <Location id="L313">
+              <Longitude>1.086280</Longitude>
+              <Latitude>51.272460</Latitude>
+            </Location>
+            <Location id="L314">
+              <Longitude>1.086100</Longitude>
+              <Latitude>51.272570</Latitude>
+            </Location>
+            <Location id="L315">
+              <Longitude>1.085920</Longitude>
+              <Latitude>51.272680</Latitude>
+            </Location>
+            <Location id="L316">
+              <Longitude>1.085000</Longitude>
+              <Latitude>51.273220</Latitude>
+            </Location>
+            <Location id="L317">
+              <Longitude>1.084140</Longitude>
+              <Latitude>51.273910</Latitude>
+            </Location>
+            <Location id="L318">
+              <Longitude>1.084060</Longitude>
+              <Latitude>51.273960</Latitude>
+            </Location>
+            <Location id="L319">
+              <Longitude>1.083550</Longitude>
+              <Latitude>51.274280</Latitude>
+            </Location>
+            <Location id="L320">
+              <Longitude>1.083430</Longitude>
+              <Latitude>51.274370</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+      <RouteLink id="RL15" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+        <From>
+          <StopPointRef>2400A049720A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2400A039640A</StopPointRef>
+        </To>
+        <Distance>339</Distance>
+        <Track>
+          <Mapping>
+            <Location id="L321">
+              <Longitude>1.083430</Longitude>
+              <Latitude>51.274370</Latitude>
+            </Location>
+            <Location id="L322">
+              <Longitude>1.082990</Longitude>
+              <Latitude>51.274690</Latitude>
+            </Location>
+            <Location id="L323">
+              <Longitude>1.082580</Longitude>
+              <Latitude>51.274950</Latitude>
+            </Location>
+            <Location id="L324">
+              <Longitude>1.082390</Longitude>
+              <Latitude>51.275050</Latitude>
+            </Location>
+            <Location id="L325">
+              <Longitude>1.081890</Longitude>
+              <Latitude>51.275300</Latitude>
+            </Location>
+            <Location id="L326">
+              <Longitude>1.081830</Longitude>
+              <Latitude>51.275330</Latitude>
+            </Location>
+            <Location id="L327">
+              <Longitude>1.081770</Longitude>
+              <Latitude>51.275370</Latitude>
+            </Location>
+            <Location id="L328">
+              <Longitude>1.081560</Longitude>
+              <Latitude>51.275420</Latitude>
+            </Location>
+            <Location id="L329">
+              <Longitude>1.081530</Longitude>
+              <Latitude>51.275420</Latitude>
+            </Location>
+            <Location id="L330">
+              <Longitude>1.081270</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L331">
+              <Longitude>1.081270</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L332">
+              <Longitude>1.081260</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L333">
+              <Longitude>1.081240</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L334">
+              <Longitude>1.081220</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L335">
+              <Longitude>1.081210</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L336">
+              <Longitude>1.081190</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L337">
+              <Longitude>1.081170</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L338">
+              <Longitude>1.081150</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L339">
+              <Longitude>1.081140</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L340">
+              <Longitude>1.081120</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L341">
+              <Longitude>1.081100</Longitude>
+              <Latitude>51.275460</Latitude>
+            </Location>
+            <Location id="L342">
+              <Longitude>1.081080</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L343">
+              <Longitude>1.081060</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L344">
+              <Longitude>1.081050</Longitude>
+              <Latitude>51.275470</Latitude>
+            </Location>
+            <Location id="L345">
+              <Longitude>1.081040</Longitude>
+              <Latitude>51.275480</Latitude>
+            </Location>
+            <Location id="L346">
+              <Longitude>1.081030</Longitude>
+              <Latitude>51.275480</Latitude>
+            </Location>
+            <Location id="L347">
+              <Longitude>1.081020</Longitude>
+              <Latitude>51.275480</Latitude>
+            </Location>
+            <Location id="L348">
+              <Longitude>1.081010</Longitude>
+              <Latitude>51.275480</Latitude>
+            </Location>
+            <Location id="L349">
+              <Longitude>1.081000</Longitude>
+              <Latitude>51.275490</Latitude>
+            </Location>
+            <Location id="L350">
+              <Longitude>1.080990</Longitude>
+              <Latitude>51.275490</Latitude>
+            </Location>
+            <Location id="L351">
+              <Longitude>1.080980</Longitude>
+              <Latitude>51.275500</Latitude>
+            </Location>
+            <Location id="L352">
+              <Longitude>1.080970</Longitude>
+              <Latitude>51.275500</Latitude>
+            </Location>
+            <Location id="L353">
+              <Longitude>1.080970</Longitude>
+              <Latitude>51.275510</Latitude>
+            </Location>
+            <Location id="L354">
+              <Longitude>1.080960</Longitude>
+              <Latitude>51.275510</Latitude>
+            </Location>
+            <Location id="L355">
+              <Longitude>1.080950</Longitude>
+              <Latitude>51.275520</Latitude>
+            </Location>
+            <Location id="L356">
+              <Longitude>1.080940</Longitude>
+              <Latitude>51.275530</Latitude>
+            </Location>
+            <Location id="L357">
+              <Longitude>1.080930</Longitude>
+              <Latitude>51.275540</Latitude>
+            </Location>
+            <Location id="L358">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275550</Latitude>
+            </Location>
+            <Location id="L359">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275560</Latitude>
+            </Location>
+            <Location id="L360">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275570</Latitude>
+            </Location>
+            <Location id="L361">
+              <Longitude>1.080910</Longitude>
+              <Latitude>51.275580</Latitude>
+            </Location>
+            <Location id="L362">
+              <Longitude>1.080910</Longitude>
+              <Latitude>51.275590</Latitude>
+            </Location>
+            <Location id="L363">
+              <Longitude>1.080910</Longitude>
+              <Latitude>51.275600</Latitude>
+            </Location>
+            <Location id="L364">
+              <Longitude>1.080910</Longitude>
+              <Latitude>51.275610</Latitude>
+            </Location>
+            <Location id="L365">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275620</Latitude>
+            </Location>
+            <Location id="L366">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275630</Latitude>
+            </Location>
+            <Location id="L367">
+              <Longitude>1.080920</Longitude>
+              <Latitude>51.275640</Latitude>
+            </Location>
+            <Location id="L368">
+              <Longitude>1.080930</Longitude>
+              <Latitude>51.275640</Latitude>
+            </Location>
+            <Location id="L369">
+              <Longitude>1.080930</Longitude>
+              <Latitude>51.275650</Latitude>
+            </Location>
+            <Location id="L370">
+              <Longitude>1.080940</Longitude>
+              <Latitude>51.275660</Latitude>
+            </Location>
+            <Location id="L371">
+              <Longitude>1.080890</Longitude>
+              <Latitude>51.275790</Latitude>
+            </Location>
+            <Location id="L372">
+              <Longitude>1.080790</Longitude>
+              <Latitude>51.275840</Latitude>
+            </Location>
+            <Location id="L373">
+              <Longitude>1.080570</Longitude>
+              <Latitude>51.275960</Latitude>
+            </Location>
+            <Location id="L374">
+              <Longitude>1.080410</Longitude>
+              <Latitude>51.276030</Latitude>
+            </Location>
+            <Location id="L375">
+              <Longitude>1.080410</Longitude>
+              <Latitude>51.276030</Latitude>
+            </Location>
+            <Location id="L376">
+              <Longitude>1.080480</Longitude>
+              <Latitude>51.276080</Latitude>
+            </Location>
+            <Location id="L377">
+              <Longitude>1.080650</Longitude>
+              <Latitude>51.276140</Latitude>
+            </Location>
+            <Location id="L378">
+              <Longitude>1.080650</Longitude>
+              <Latitude>51.276140</Latitude>
+            </Location>
+            <Location id="L379">
+              <Longitude>1.080740</Longitude>
+              <Latitude>51.276120</Latitude>
+            </Location>
+            <Location id="L380">
+              <Longitude>1.080890</Longitude>
+              <Latitude>51.276060</Latitude>
+            </Location>
+          </Mapping>
+        </Track>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT104" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <PrivateCode>955-104</PrivateCode>
+      <Description>Bus Stn - St Anselms - SLGS</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+    </Route>
+    <Route id="RT105" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <PrivateCode>955-105</PrivateCode>
+      <Description>Bus Stn - St Anselms - SLGS</Description>
+      <RouteSectionRef>RS2</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS340">
+      <JourneyPatternTimingLink id="JPTL1">
+        <From id="JPSU1" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240099190</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>1</FareStageNumber>
+        </From>
+        <To id="JPSU2" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049740A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL2">
+        <From id="JPSU3" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049740A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049750A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL2</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL3">
+        <From id="JPSU5" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049750A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049770A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL3</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL4">
+        <From id="JPSU7" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A049770A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096699</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL5">
+        <From id="JPSU9" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096699</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096963</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL6">
+        <From id="JPSU11" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096963</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096691</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL7">
+        <From id="JPSU13" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>240096691</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A039660A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>3</FareStageNumber>
+        </To>
+        <RouteLinkRef>RL7</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL8">
+        <From id="JPSU15" SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A039660A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>3</FareStageNumber>
+        </From>
+        <To id="JPSU16" SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>S Langton Girls Sch</DynamicDestinationDisplay>
+          <StopPointRef>2400A039670A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>2</FareStageNumber>
+        </To>
+        <RouteLinkRef>RL8</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS341">
+      <JourneyPatternTimingLink id="JPTL9">
+        <From id="JPSU17" SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>240096697</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>3</FareStageNumber>
+        </From>
+        <To id="JPSU18" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039660A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL9</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL10">
+        <From id="JPSU19" SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039660A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU20" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039670A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>2</FareStageNumber>
+        </To>
+        <RouteLinkRef>RL10</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL11">
+        <From id="JPSU21" SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039670A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>2</FareStageNumber>
+        </From>
+        <To id="JPSU22" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039610A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL11</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL12">
+        <From id="JPSU23" SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039610A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU24" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039710A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL12</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL13">
+        <From id="JPSU25" SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039710A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU26" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A049680A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL13</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL14">
+        <From id="JPSU27" SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A049680A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU28" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A049720A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RL14</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL15">
+        <From id="JPSU29" SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A049720A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU30" SequenceNumber="8">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>City Centre</DynamicDestinationDisplay>
+          <StopPointRef>2400A039640A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+          <FareStageNumber>1</FareStageNumber>
+        </To>
+        <RouteLinkRef>RL15</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="1" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <NationalOperatorCode>SCEK</NationalOperatorCode>
+      <OperatorCode>EK</OperatorCode>
+      <OperatorShortName>Stagecoach</OperatorShortName>
+      <OperatorNameOnLicence>East Kent Road Car Co Ltd</OperatorNameOnLicence>
+      <TradingName>Stagecoach South East</TradingName>
+      <LicenceNumber>PK0000098</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>ASSE</GarageCode>
+          <GarageName>Ashford Depot</GarageName>
+          <Location id="L381">
+            <Longitude>0.852083</Longitude>
+            <Latitude>51.149712</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>CYSE</GarageCode>
+          <GarageName>Canterbury Depot</GarageName>
+          <Location id="L382">
+            <Longitude>1.079866</Longitude>
+            <Latitude>51.284294</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>DVSE</GarageCode>
+          <GarageName>Dover Garage</GarageName>
+          <Location id="L383">
+            <Longitude>1.287196</Longitude>
+            <Latitude>51.148982</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>EBSE</GarageCode>
+          <GarageName>Eastbourne Depot</GarageName>
+          <Location id="L384">
+            <Longitude>0.303001</Longitude>
+            <Latitude>50.789895</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>FKSE</GarageCode>
+          <GarageName>Folkestone Depot</GarageName>
+          <Location id="L385">
+            <Longitude>1.145697</Longitude>
+            <Latitude>51.091575</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>SVSE</GarageCode>
+          <GarageName>Hastings Depot</GarageName>
+          <Location id="L386">
+            <Longitude>0.558255</Longitude>
+            <Latitude>50.867453</Latitude>
+          </Location>
+        </Garage>
+        <Garage>
+          <GarageCode>THSE</GarageCode>
+          <GarageName>Thanet Depot</GarageName>
+          <Location id="L387">
+            <Longitude>1.397428</Longitude>
+            <Latitude>51.357521</Latitude>
+          </Location>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <ServiceCode>PK0000098:88</ServiceCode>
+      <Lines>
+        <Line id="SCEK:PK0000098:88:955">
+          <LineName>955</LineName>
+          <OutboundDescription>
+            <Origin>Canterbury Bus Station</Origin>
+            <Destination>Canterbury Simon Langton Girls' School</Destination>
+            <Description>Canterbury Bus Station - Canterbury Simon Langton Girls' School</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Origin>Canterbury St Anselm's School Grounds</Origin>
+            <Destination>Canterbury Bus Station</Destination>
+            <Description>Canterbury St Anselm's School Grounds - Canterbury Bus Station</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-06-21</StartDate>
+      </OperatingPeriod>
+      <TicketMachineServiceCode>3559</TicketMachineServiceCode>
+      <RegisteredOperatorRef>1</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Canterbury</Origin>
+        <Destination>St Anselms and Simon Langton Girls Schools</Destination>
+        <UseAllStopPoints>false</UseAllStopPoints>
+        <JourneyPattern id="JP1" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+          <DestinationDisplay>Canterbury Simon Langton Girls' School</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT104</RouteRef>
+          <JourneyPatternSectionRefs>JPS340</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+          <DestinationDisplay>Canterbury Bus Station</DestinationDisplay>
+          <OperatorRef>1</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT105</RouteRef>
+          <JourneyPatternSectionRefs>JPS341</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="2395" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <PrivateCode>955MTWHF:I:69:1:Friday-WD-r4lq47j</PrivateCode>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>TH30</Description>
+          <BlockNumber>TH30</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>13</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday/>
+            <Tuesday/>
+            <Wednesday/>
+            <Thursday/>
+            <Friday/>
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>SEHY01</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay/>
+            <BoxingDay/>
+            <GoodFriday/>
+            <NewYearsDay/>
+            <LateSummerBankHolidayNotScotland/>
+            <MayDay/>
+            <EasterMonday/>
+            <SpringBank/>
+            <ChristmasDayHoliday/>
+            <BoxingDayHoliday/>
+            <NewYearsDayHoliday/>
+            <ChristmasEve/>
+            <NewYearsEve/>
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>THSE</GarageRef>
+      <VehicleJourneyCode>VJ2395</VehicleJourneyCode>
+      <ServiceRef>PK0000098:88</ServiceRef>
+      <LineRef>SCEK:PK0000098:88:955</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:20:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUp</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>setDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2396" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <PrivateCode>955MTWHF:I:71:1:Friday-WD-r4lq47j</PrivateCode>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>TH63</Description>
+          <BlockNumber>TH63</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>3</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday/>
+            <Tuesday/>
+            <Wednesday/>
+            <Thursday/>
+            <Friday/>
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>SEHY01</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay/>
+            <BoxingDay/>
+            <GoodFriday/>
+            <NewYearsDay/>
+            <LateSummerBankHolidayNotScotland/>
+            <MayDay/>
+            <EasterMonday/>
+            <SpringBank/>
+            <ChristmasDayHoliday/>
+            <BoxingDayHoliday/>
+            <NewYearsDayHoliday/>
+            <ChristmasEve/>
+            <NewYearsEve/>
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>THSE</GarageRef>
+      <VehicleJourneyCode>VJ2396</VehicleJourneyCode>
+      <ServiceRef>PK0000098:88</ServiceRef>
+      <LineRef>SCEK:PK0000098:88:955</LineRef>
+      <JourneyPatternRef>JP1</JourneyPatternRef>
+      <DepartureTime>08:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL9">
+        <JourneyPatternTimingLinkRef>JPTL1</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUp</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL10">
+        <JourneyPatternTimingLinkRef>JPTL2</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL11">
+        <JourneyPatternTimingLinkRef>JPTL3</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL12">
+        <JourneyPatternTimingLinkRef>JPTL4</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL13">
+        <JourneyPatternTimingLinkRef>JPTL5</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL14">
+        <JourneyPatternTimingLinkRef>JPTL6</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL15">
+        <JourneyPatternTimingLinkRef>JPTL7</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL16">
+        <JourneyPatternTimingLinkRef>JPTL8</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>setDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="2397" CreationDateTime="2022-04-29T15:44:43" ModificationDateTime="2026-06-08T16:43:31" Modification="revise" RevisionNumber="2361">
+      <PrivateCode>955MTWHF:O:67:1:Friday-WD-r4lq47j</PrivateCode>
+      <OperatorRef>1</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>DO61</Description>
+          <BlockNumber>DO61</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <JourneyCode>4</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday/>
+            <Tuesday/>
+            <Wednesday/>
+            <Thursday/>
+            <Friday/>
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>SEHY01</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay/>
+            <BoxingDay/>
+            <GoodFriday/>
+            <NewYearsDay/>
+            <LateSummerBankHolidayNotScotland/>
+            <MayDay/>
+            <EasterMonday/>
+            <SpringBank/>
+            <ChristmasDayHoliday/>
+            <BoxingDayHoliday/>
+            <NewYearsDayHoliday/>
+            <ChristmasEve/>
+            <NewYearsEve/>
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>DVSE</GarageRef>
+      <VehicleJourneyCode>VJ2397</VehicleJourneyCode>
+      <ServiceRef>PK0000098:88</ServiceRef>
+      <LineRef>SCEK:PK0000098:88:955</LineRef>
+      <JourneyPatternRef>JP2</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL17">
+        <JourneyPatternTimingLinkRef>JPTL9</JourneyPatternTimingLinkRef>
+        <RunTime>PT0M0S</RunTime>
+        <From>
+          <Activity>pickUp</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL18">
+        <JourneyPatternTimingLinkRef>JPTL10</JourneyPatternTimingLinkRef>
+        <RunTime>PT5M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL19">
+        <JourneyPatternTimingLinkRef>JPTL11</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL20">
+        <JourneyPatternTimingLinkRef>JPTL12</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL21">
+        <JourneyPatternTimingLinkRef>JPTL13</JourneyPatternTimingLinkRef>
+        <RunTime>PT1M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL22">
+        <JourneyPatternTimingLinkRef>JPTL14</JourneyPatternTimingLinkRef>
+        <RunTime>PT3M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="VJTL23">
+        <JourneyPatternTimingLinkRef>JPTL15</JourneyPatternTimingLinkRef>
+        <RunTime>PT2M0S</RunTime>
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+        </From>
+        <To>
+          <Activity>setDown</Activity>
+        </To>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,3811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.1/TransXChange_general.xsd" CreationDateTime="2025-12-04T13:55:54Z" ModificationDateTime="2026-07-03T15:01:49Z" Modification="revise" RevisionNumber="28" FileName="731_20260703150149143.xml" SchemaVersion="2.4" RegistrationDocument="false" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403121B</StopPointRef>
+      <CommonName>Frimley, Frimley Railway Station</CommonName>
+      <Indicator>adj</Indicator>
+      <LocalityName>Frimley</LocalityName>
+      <Location id="L1">
+        <Longitude>-0.7455685597</Longitude>
+        <Latitude>51.3129977501</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>40004403121A</StopPointRef>
+      <CommonName>Frimley, Frimley Railway Station</CommonName>
+      <Indicator>opp</Indicator>
+      <LocalityName>Frimley</LocalityName>
+      <Location id="L2">
+        <Longitude>-0.7460438745</Longitude>
+        <Latitude>51.3129309019</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1900HA010340</StopPointRef>
+      <CommonName>Old Basing, The Hatch</CommonName>
+      <Indicator>NE-bound</Indicator>
+      <LocalityName>Old Basing</LocalityName>
+      <Location id="L3">
+        <Longitude>-1.0328726444</Longitude>
+        <Latitude>51.2646292390</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1900HA010341</StopPointRef>
+      <CommonName>Old Basing, The Hatch</CommonName>
+      <Indicator>SW-bound</Indicator>
+      <LocalityName>Old Basing</LocalityName>
+      <Location id="L4">
+        <Longitude>-1.0328334263</Longitude>
+        <Latitude>51.2644490730</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>1900HAA92034</StopPointRef>
+      <CommonName>Basingstoke, The Malls (NatX)</CommonName>
+      <Indicator>Stop Z</Indicator>
+      <LocalityName>Basingstoke</LocalityName>
+      <Location id="L5">
+        <Longitude>-1.0882224243</Longitude>
+        <Latitude>51.2677169524</Latitude>
+      </Location>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS38157">
+      <RouteLink id="RL38157_3225">
+        <From>
+          <StopPointRef>1900HAA92034</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HA010340</StopPointRef>
+        </To>
+        <Distance>5385</Distance>
+      </RouteLink>
+      <RouteLink id="RL38157_3223">
+        <From>
+          <StopPointRef>1900HA010340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403121A</StopPointRef>
+        </To>
+        <Distance>22544</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS38158">
+      <RouteLink id="RL38158_3225">
+        <From>
+          <StopPointRef>1900HAA92034</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HA010340</StopPointRef>
+        </To>
+        <Distance>5385</Distance>
+      </RouteLink>
+      <RouteLink id="RL38158_3223">
+        <From>
+          <StopPointRef>1900HA010340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>40004403121A</StopPointRef>
+        </To>
+        <Distance>22544</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS38159">
+      <RouteLink id="RL38159_451">
+        <From>
+          <StopPointRef>40004403121B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </To>
+        <Distance>22643</Distance>
+      </RouteLink>
+      <RouteLink id="RL38159_3224">
+        <From>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HAA92034</StopPointRef>
+        </To>
+        <Distance>4373</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS38160">
+      <RouteLink id="RL38160_451">
+        <From>
+          <StopPointRef>40004403121B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </To>
+        <Distance>22643</Distance>
+      </RouteLink>
+      <RouteLink id="RL38160_3224">
+        <From>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HAA92034</StopPointRef>
+        </To>
+        <Distance>4373</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS38161">
+      <RouteLink id="RL38161_451">
+        <From>
+          <StopPointRef>40004403121B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </To>
+        <Distance>22643</Distance>
+      </RouteLink>
+      <RouteLink id="RL38161_3224">
+        <From>
+          <StopPointRef>1900HA010341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>1900HAA92034</StopPointRef>
+        </To>
+        <Distance>4373</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT38157">
+      <Description>Basingstoke - Frimley</Description>
+      <RouteSectionRef>RS38157</RouteSectionRef>
+    </Route>
+    <Route id="RT38158">
+      <Description>Basingstoke - Frimley</Description>
+      <RouteSectionRef>RS38158</RouteSectionRef>
+    </Route>
+    <Route id="RT38159">
+      <Description>Basingstoke - Frimley</Description>
+      <RouteSectionRef>RS38159</RouteSectionRef>
+    </Route>
+    <Route id="RT38160">
+      <Description>Basingstoke - Frimley</Description>
+      <RouteSectionRef>RS38160</RouteSectionRef>
+    </Route>
+    <Route id="RT38161">
+      <Description>Basingstoke - Frimley</Description>
+      <RouteSectionRef>RS38161</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS38157">
+      <JourneyPatternTimingLink id="JPTL38157_3225">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HAA92034</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38157_3225</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38157_3223">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>40004403121A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38157_3223</RouteLinkRef>
+        <RunTime>PT17M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS38158">
+      <JourneyPatternTimingLink id="JPTL38158_3225">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HAA92034</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38158_3225</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38158_3223">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010340</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Frimley Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>40004403121A</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38158_3223</RouteLinkRef>
+        <RunTime>PT22M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS38159">
+      <JourneyPatternTimingLink id="JPTL38159_451">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>40004403121B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38159_451</RouteLinkRef>
+        <RunTime>PT20M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38159_3224">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HAA92034</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38159_3224</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS38160">
+      <JourneyPatternTimingLink id="JPTL38160_451">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>40004403121B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38160_451</RouteLinkRef>
+        <RunTime>PT17M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38160_3224">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HAA92034</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38160_3224</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS38161">
+      <JourneyPatternTimingLink id="JPTL38161_451">
+        <From SequenceNumber="1">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>40004403121B</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38161_451</RouteLinkRef>
+        <RunTime>PT20M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38161_3224">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HA010341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Basingstoke, Railway Station</DynamicDestinationDisplay>
+          <StopPointRef>1900HAA92034</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL38161_3224</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP89">
+      <NationalOperatorCode>NADS</NationalOperatorCode>
+      <OperatorShortName>Newbury &amp; District</OperatorShortName>
+      <LicenceNumber>PH1108688</LicenceNumber>
+      <Garages>
+        <Garage>
+          <GarageCode>3</GarageCode>
+          <GarageName>Newbury &amp; District</GarageName>
+        </Garage>
+      </Garages>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>PH1108688:43</ServiceCode>
+      <Lines>
+        <Line id="NADS:PH1108688:43:731">
+          <LineName>731</LineName>
+          <OutboundDescription>
+            <Description>Basingstoke - Frimley</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description>Frimley - Basingstoke</Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2026-07-20</StartDate>
+        <EndDate>2026-08-02</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP89</RegisteredOperatorRef>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <StandardService>
+        <Origin>Basingstoke</Origin>
+        <Destination>Frimley</Destination>
+        <JourneyPattern id="JP38157">
+          <DestinationDisplay>Frimley Railway Station</DestinationDisplay>
+          <OperatorRef>OP89</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT38157</RouteRef>
+          <JourneyPatternSectionRefs>JPS38157</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP38158">
+          <DestinationDisplay>Frimley Railway Station</DestinationDisplay>
+          <OperatorRef>OP89</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT38158</RouteRef>
+          <JourneyPatternSectionRefs>JPS38158</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP38159">
+          <DestinationDisplay>Basingstoke, Railway Station</DestinationDisplay>
+          <OperatorRef>OP89</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT38159</RouteRef>
+          <JourneyPatternSectionRefs>JPS38159</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP38160">
+          <DestinationDisplay>Basingstoke, Railway Station</DestinationDisplay>
+          <OperatorRef>OP89</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT38160</RouteRef>
+          <JourneyPatternSectionRefs>JPS38160</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP38161">
+          <DestinationDisplay>Basingstoke, Railway Station</DestinationDisplay>
+          <OperatorRef>OP89</OperatorRef>
+          <Direction>inbound</Direction>
+          <RouteRef>RT38161</RouteRef>
+          <JourneyPatternSectionRefs>JPS38161</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>1</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113034</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>02:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>5</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113035</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>04:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>11</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113036</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>15</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113066</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>07:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>19</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113067</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>25</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113037</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>29</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113038</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>35</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113039</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>39</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113040</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>43</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113041</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>47</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113042</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>51</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113043</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>55</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113044</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>19:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>61</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113045</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>21:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>6</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113107</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38160</JourneyPatternRef>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>10</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113072</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>14</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113109</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38161</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>20</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113073</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>24</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113074</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>30</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113075</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>34</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113076</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>38</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113077</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>42</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113078</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>17:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>46</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113079</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>18:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>50</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113080</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>19:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>56</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113081</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>60</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113082</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>22:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>66</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113083</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>01:05:00</DepartureTime>
+      <DepartureDayShift>1</DepartureDayShift>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>401</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113046</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>02:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>405</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113047</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>04:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>411</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113048</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>415</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113068</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>07:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>419</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113069</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>425</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113049</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>429</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113050</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>435</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113051</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>439</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113052</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>443</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113053</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>447</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113054</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>18:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>451</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113055</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>457</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113056</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>21:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>406</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113108</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38160</JourneyPatternRef>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>410</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113084</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>414</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113085</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>420</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113086</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>424</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113087</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>430</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113088</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>434</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113089</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>438</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113090</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>442</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113091</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>446</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113092</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>19:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>452</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113093</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>456</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113094</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>22:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>462</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113095</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>01:05:00</DepartureTime>
+      <DepartureDayShift>1</DepartureDayShift>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>701</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113057</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>02:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>707</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113058</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>06:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>711</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113070</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>07:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>715</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113071</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38158</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>721</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113059</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>725</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113060</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>731</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113061</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>735</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113062</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>739</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113063</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>17:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>743</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113064</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>19:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>747</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113065</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38157</JourneyPatternRef>
+      <DepartureTime>21:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>706</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113096</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>710</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113097</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>716</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113098</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>720</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113099</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>726</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113100</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>730</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113101</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNB</Description>
+          <BlockNumber>FLNB</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>734</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113102</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>738</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113103</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>742</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113104</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>19:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNA</Description>
+          <BlockNumber>FLNA</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>746</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113105</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>21:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>OP89</OperatorRef>
+      <Operational>
+        <Block>
+          <Description>FLNC</Description>
+          <BlockNumber>FLNC</BlockNumber>
+        </Block>
+        <TicketMachine>
+          <TicketMachineServiceCode>731</TicketMachineServiceCode>
+          <JourneyCode>752</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <GarageRef>3</GarageRef>
+      <VehicleJourneyCode>113106</VehicleJourneyCode>
+      <ServiceRef>PH1108688:43</ServiceRef>
+      <LineRef>NADS:PH1108688:43:731</LineRef>
+      <JourneyPatternRef>JP38159</JourneyPatternRef>
+      <DepartureTime>01:05:00</DepartureTime>
+      <DepartureDayShift>1</DepartureDayShift>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

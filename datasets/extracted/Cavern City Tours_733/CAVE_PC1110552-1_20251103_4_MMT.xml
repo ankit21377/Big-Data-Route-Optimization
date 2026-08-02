@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- File written by elydium | Bus Data API v4.0.30319 using PTI Profile v1.1.A -->
+<TransXChange xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" CreationDateTime="2025-05-19T11:50:31" ModificationDateTime="2026-01-29T14:23:44" Modification="revise" RevisionNumber="4" SchemaVersion="2.4" FileName="TXC - PC1110552-1_V0_R4_20251103_MMT.xml" RegistrationDocument="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S41186B</StopPointRef>
+      <CommonName>Salthouse Quay</CommonName>
+      <LocalityName>Liverpool</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S41056E</StopPointRef>
+      <CommonName>Beaconsfield Street</CommonName>
+      <LocalityName>Toxteth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S43054C</StopPointRef>
+      <CommonName>Grenbank Road</CommonName>
+      <LocalityName>Mossley Hill</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S41060A</StopPointRef>
+      <CommonName>Mill Lane</CommonName>
+      <LocalityName>Wavertree</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S43090A</StopPointRef>
+      <CommonName>Beaconsfield Road</CommonName>
+      <LocalityName>Woolton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S43103A</StopPointRef>
+      <CommonName>Forthlin Road</CommonName>
+      <LocalityName>Allerton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S41055A</StopPointRef>
+      <CommonName>Upper Stanhope Street</CommonName>
+      <LocalityName>Toxteth</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S41200A</StopPointRef>
+      <CommonName>Maryland Street</CommonName>
+      <LocalityName>Liverpool</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S42055A</StopPointRef>
+      <CommonName>Dale Street</CommonName>
+      <LocalityName>Liverpool</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2800S42022E</StopPointRef>
+      <CommonName>Derby Square</CommonName>
+      <LocalityName>Liverpool</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS1">
+      <RouteLink id="RS1RL1">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S41186B</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S41056E</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL2">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S41056E</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S43054C</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL3">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S43054C</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S41060A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL4">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S41060A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S43090A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL5">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S43090A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S43103A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL6">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S43103A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S41055A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL7">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S41055A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S41200A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL8">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S41200A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S42055A</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="RS1RL9">
+        <ParentRouteRef>RS1</ParentRouteRef>
+        <From>
+          <StopPointRef>2800S42055A</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2800S42022E</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT1">
+      <PrivateCode>RT1</PrivateCode>
+      <Description>RT1</Description>
+      <RouteSectionRef>RS1</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+      <JourneyPatternTimingLink id="JP1TL1" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU1" SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <StopPointRef>2800S41186B</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU2" SequenceNumber="1">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41056E</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL1</RouteLinkRef>
+        <RunTime>PT9M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL2" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU3" SequenceNumber="1">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41056E</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU4" SequenceNumber="2">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43054C</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL2</RouteLinkRef>
+        <RunTime>PT14M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL3" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU5" SequenceNumber="2">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43054C</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU6" SequenceNumber="3">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41060A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL3</RouteLinkRef>
+        <RunTime>PT12M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL4" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU7" SequenceNumber="3">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41060A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU8" SequenceNumber="4">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43090A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL4</RouteLinkRef>
+        <RunTime>PT24M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL5" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU9" SequenceNumber="4">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43090A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU10" SequenceNumber="5">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43103A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL5</RouteLinkRef>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL6" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU11" SequenceNumber="5">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S43103A</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To id="JPSU12" SequenceNumber="6">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41055A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL6</RouteLinkRef>
+        <RunTime>PT33M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL7" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU13" SequenceNumber="6">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41055A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU14" SequenceNumber="7">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41200A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL7</RouteLinkRef>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL8" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU15" SequenceNumber="7">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S41200A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU16" SequenceNumber="8">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S42055A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL8</RouteLinkRef>
+        <RunTime>PT6M</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JP1TL9" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+        <From id="JPSU17" SequenceNumber="8">
+          <WaitTime>PT0S</WaitTime>
+          <Activity>pass</Activity>
+          <StopPointRef>2800S42055A</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To id="JPSU18" SequenceNumber="9">
+          <Activity>setDown</Activity>
+          <StopPointRef>2800S42022E</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS1RL9</RouteLinkRef>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="OP1">
+      <NationalOperatorCode>CAVE</NationalOperatorCode>
+      <OperatorCode>CAVE</OperatorCode>
+      <OperatorShortName>Cavern City Tours</OperatorShortName>
+      <OperatorNameOnLicence>Cavern City Tours</OperatorNameOnLicence>
+      <TradingName>Cavern City Tours</TradingName>
+      <LicenceNumber>PC1110552</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service CreationDateTime="2025-05-19T11:50:31" ModificationDateTime="2026-01-29T14:23:44" Modification="revise" RevisionNumber="4">
+      <ServiceCode>PC1110552:1</ServiceCode>
+      <PrivateCode>CAVE|PC1110552:1|20251103</PrivateCode>
+      <Lines>
+        <Line id="CAVE:PC1110552:1:MMT">
+          <LineName>MMT</LineName>
+          <OutboundDescription>
+            <Description>Gower Street / Salthouse Quay - Lord Street/Castle Street</Description>
+          </OutboundDescription>
+          <InboundDescription>
+            <Description> - </Description>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2025-11-03</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>OP1</RegisteredOperatorRef>
+      <PublicUse>true</PublicUse>
+      <Description>Gower Street / Salthouse Quay - Lord Street/Castle Street</Description>
+      <StandardService>
+        <Origin>Gower Street / Salthouse Quay</Origin>
+        <Destination>Lord Street/Castle Street</Destination>
+        <JourneyPattern id="JPS1" CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0">
+          <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+          <OperatorRef>CAVE</OperatorRef>
+          <Direction>outbound</Direction>
+          <RouteRef>RT1</RouteRef>
+          <JourneyPatternSectionRefs>JPS1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+      <Direction>inboundAndOutbound</Direction>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="1">
+      <PrivateCode>|O|1</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1000</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="2">
+      <PrivateCode>|O|2</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1100</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="3">
+      <PrivateCode>|O|3</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1300</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="4">
+      <PrivateCode>|O|4</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1400</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <GoodFriday />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <NewYearsDay />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="5">
+      <PrivateCode>|O|5</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1000</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="6">
+      <PrivateCode>|O|6</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1030</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="7">
+      <PrivateCode>|O|7</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>3</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1100</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="8">
+      <PrivateCode>|O|8</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1300</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="9">
+      <PrivateCode>|O|9</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1330</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="10">
+      <PrivateCode>|O|10</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>3</Description>
+          <BlockNumber>3</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1400</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="11">
+      <PrivateCode>|O|11</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1000</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="12">
+      <PrivateCode>|O|12</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1100</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="13">
+      <PrivateCode>|O|13</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>1</Description>
+          <BlockNumber>1</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1300</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney CreationDateTime="2026-01-29T14:23:44" Modification="new" RevisionNumber="0" SequenceNumber="14">
+      <PrivateCode>|O|14</PrivateCode>
+      <DestinationDisplay>Magical Mystery Tour</DestinationDisplay>
+      <OperatorRef>OP1</OperatorRef>
+      <Direction>outbound</Direction>
+      <Operational>
+        <Block>
+          <Description>2</Description>
+          <BlockNumber>2</BlockNumber>
+        </Block>
+        <VehicleType>
+          <VehicleEquipment />
+        </VehicleType>
+        <TicketMachine>
+          <JourneyCode>1400</JourneyCode>
+        </TicketMachine>
+      </Operational>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>PC1110552:1</ServiceRef>
+      <LineRef>CAVE:PC1110552:1:MMT</LineRef>
+      <JourneyPatternRef>JPS1</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

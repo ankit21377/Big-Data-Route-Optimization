@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1' FileName="Golden Tours Sightseeing Ltd. Windsor_And_Eton 2026-05-22 09-48.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>36006218220</StopPointRef><CommonName>Windsor Castle</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006216216</StopPointRef><CommonName>Parish Church</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006218218</StopPointRef><CommonName>Windsor Castle</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006227227</StopPointRef><CommonName>Riverside Rail Station</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006230230</StopPointRef><CommonName>The Green</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006739739</StopPointRef><CommonName>Eton College</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006002179</StopPointRef><CommonName>Windsor Bridge</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006739740</StopPointRef><CommonName>Eton College</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006230231</StopPointRef><CommonName>The Green</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>36006002157</StopPointRef><CommonName>Queens Terrace</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_141' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2026-05-22T09:31:14' Modification='revise' RevisionNumber='1'>
+<RouteLink id='routeSection_141_1'><From><StopPointRef>36006218220</StopPointRef></From><To><StopPointRef>36006216216</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_2'><From><StopPointRef>36006216216</StopPointRef></From><To><StopPointRef>36006218218</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_3'><From><StopPointRef>36006218218</StopPointRef></From><To><StopPointRef>36006227227</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_4'><From><StopPointRef>36006227227</StopPointRef></From><To><StopPointRef>36006230230</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_5'><From><StopPointRef>36006230230</StopPointRef></From><To><StopPointRef>36006739739</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_6'><From><StopPointRef>36006739739</StopPointRef></From><To><StopPointRef>36006002179</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_7'><From><StopPointRef>36006002179</StopPointRef></From><To><StopPointRef>36006739740</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_8'><From><StopPointRef>36006739740</StopPointRef></From><To><StopPointRef>36006230231</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_9'><From><StopPointRef>36006230231</StopPointRef></From><To><StopPointRef>36006002157</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_10'><From><StopPointRef>36006002157</StopPointRef></From><To><StopPointRef>36006216216</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_11'><From><StopPointRef>36006216216</StopPointRef></From><To><StopPointRef>36006218218</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_141_12'><From><StopPointRef>36006218218</StopPointRef></From><To><StopPointRef>36006218220</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_141' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2026-05-22T09:31:14' Modification='revise' RevisionNumber='1'><Description>Windsor Castle - Windsor Castle</Description><RouteSectionRef>routeSection_141</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_178' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+<JourneyPatternTimingLink id='JPS_178_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006218220</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006216216</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_1</RouteLinkRef><RunTime>PT540S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_2'>
+<From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006216216</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006218218</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_2</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006218218</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006227227</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_3</RouteLinkRef><RunTime>PT240S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_4'>
+<From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006227227</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006230230</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_4</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006230230</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006739739</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_5</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_6'>
+<From SequenceNumber='6'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006739739</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006002179</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_6</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006002179</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006739740</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_7</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_8'>
+<From SequenceNumber='8'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006739740</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006230231</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_8</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006230231</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006002157</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_9</RouteLinkRef><RunTime>PT480S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_10'>
+<From SequenceNumber='10'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006002157</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006216216</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_10</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_11'>
+<From SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006216216</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='12'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006218218</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_11</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_178_12'>
+<From SequenceNumber='12'><Activity>pickUpAndSetDown</Activity><StopPointRef>36006218218</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></From>
+<To SequenceNumber='13'><Activity>setDown</Activity><StopPointRef>36006218220</StopPointRef><TimingStatus>timeInfoPoint</TimingStatus></To><RouteLinkRef>routeSection_141_12</RouteLinkRef><RunTime>PT120S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="GTSL"><NationalOperatorCode>GTSL</NationalOperatorCode><OperatorCode>GTSL</OperatorCode><OperatorShortName>Golden Tours Sightseeing Ltd.</OperatorShortName><LicenceNumber>PK0001979</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+<ServiceCode>PK0001979:2</ServiceCode><Lines><Line id="GTSL:PK0001979:2:Windsor_And_Eton"><LineName>Windsor_And_Eton</LineName><InboundDescription><Origin>Windsor Castle</Origin><Destination>Windsor Castle</Destination><Description>Windsor Castle - Windsor Castle</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2026-03-27</StartDate><EndDate>2026-11-01</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>GTSL</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>true</PublicUse><Description>Windsor Castle - Windsor Castle</Description>
+
+<StandardService>
+<Origin>Windsor Castle</Origin>
+<Destination>Windsor Castle</Destination>
+<JourneyPattern id='JP_178'><DestinationDisplay>207</DestinationDisplay><OperatorRef>GTSL</OperatorRef><Direction>inbound</Direction><RouteRef>route_141</RouteRef><JourneyPatternSectionRefs>JPS_178</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_545</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_545</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>09:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_546</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_546</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>10:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_547</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_547</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>11:40:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_548</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_548</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>13:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_549</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_549</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>14:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_550</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_550</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>15:30:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2026-05-22T09:48:21' Modification='revise' RevisionNumber='1'>
+
+
+<OperatorRef>GTSL</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_551</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_551</VehicleJourneyCode>
+<ServiceRef>PK0001979:2</ServiceRef><LineRef>GTSL:PK0001979:2:Windsor_And_Eton</LineRef>
+<JourneyPatternRef>JP_178</JourneyPatternRef>
+<DepartureTime>16:30:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

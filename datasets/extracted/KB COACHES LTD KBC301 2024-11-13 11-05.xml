@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20231031) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2024-11-13T11:06:00' Modification='revise' RevisionNumber='2' FileName="KB COACHES LTD KBC301 2024-11-13 11-05.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>1600GLC002</StopPointRef><CommonName>The Forum</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GL1271</StopPointRef><CommonName>Beeches Car Park</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GLC190</StopPointRef><CommonName>Bowling Green Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GL4542</StopPointRef><CommonName>The Plough</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GL3754</StopPointRef><CommonName>Pates Grammar School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GLC218</StopPointRef><CommonName>The Watermark Spring Lake</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GL4306</StopPointRef><CommonName>Cross</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GLC534</StopPointRef><CommonName>Village Hall</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GLC129</StopPointRef><CommonName>Hospital</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1600GLA06115</StopPointRef><CommonName>Beard's Lane</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_114' CreationDateTime='2024-01-29T17:12:25' ModificationDateTime='2024-11-13T11:01:52' Modification='revise' RevisionNumber='2'>
+<RouteLink id='routeSection_114_1'><From><StopPointRef>1600GLC218</StopPointRef></From><To><StopPointRef>1600GL4306</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_114_2'><From><StopPointRef>1600GL4306</StopPointRef></From><To><StopPointRef>1600GLC534</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_114_3'><From><StopPointRef>1600GLC534</StopPointRef></From><To><StopPointRef>1600GLC129</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_114_4'><From><StopPointRef>1600GLC129</StopPointRef></From><To><StopPointRef>1600GLA06115</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_114' CreationDateTime='2024-01-29T17:11:38' ModificationDateTime='2024-11-13T11:01:52' Modification='revise' RevisionNumber='2'><Description>The Watermark Spring Lake - Beard's Lane</Description><RouteSectionRef>routeSection_114</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_141' CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2024-11-13T11:06:00' Modification='revise' RevisionNumber='2'>
+
+<JourneyPatternTimingLink id='JPS_141_1'>
+<HailAndRide>true</HailAndRide><From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GLC218</StopPointRef><TimingStatus>otherPoint</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GL4306</StopPointRef><TimingStatus>otherPoint</TimingStatus></To><RouteLinkRef>routeSection_114_1</RouteLinkRef><RunTime>PT180S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_141_2'>
+<HailAndRide>true</HailAndRide><From SequenceNumber='2'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GL4306</StopPointRef><TimingStatus>otherPoint</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GLC534</StopPointRef><TimingStatus>otherPoint</TimingStatus></To><RouteLinkRef>routeSection_114_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_141_3'>
+<HailAndRide>true</HailAndRide><From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GLC534</StopPointRef><TimingStatus>otherPoint</TimingStatus></From>
+<To SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GLC129</StopPointRef><TimingStatus>otherPoint</TimingStatus></To><RouteLinkRef>routeSection_114_3</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_141_4'>
+<HailAndRide>true</HailAndRide><From SequenceNumber='4'><Activity>pickUpAndSetDown</Activity><StopPointRef>1600GLC129</StopPointRef><TimingStatus>otherPoint</TimingStatus></From>
+<To SequenceNumber='5'><Activity>setDown</Activity><StopPointRef>1600GLA06115</StopPointRef><TimingStatus>principalTimingPoint</TimingStatus></To><RouteLinkRef>routeSection_114_4</RouteLinkRef><RunTime>PT2100S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="KBCO"><NationalOperatorCode>KBCO</NationalOperatorCode><OperatorCode>KBCO</OperatorCode><OperatorShortName>KB COACHES LTD</OperatorShortName><LicenceNumber>PH1145323</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2024-01-29T17:19:51' ModificationDateTime='2024-11-13T11:06:00' Modification='revise' RevisionNumber='2'>
+<ServiceCode>PH1145323:5</ServiceCode><Lines><Line id="KBCO:PH1145323:5:KBC301"><LineName>KBC301</LineName><InboundDescription><Origin>The Watermark Spring Lake</Origin><Destination>Beard's Lane</Destination><Description>The Watermark Spring Lake - Beard's Lane</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2024-04-08</StartDate><EndDate>2025-05-05</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>KBCO</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>false</PublicUse><Description>The Watermark Spring Lake - Beard's Lane</Description>
+
+<StandardService>
+<Origin>The Watermark Spring Lake</Origin>
+<Destination>Beard's Lane</Destination>
+<JourneyPattern id='JP_141'><DestinationDisplay>199</DestinationDisplay><OperatorRef>KBCO</OperatorRef><Direction>inbound</Direction><RouteRef>route_114</RouteRef><JourneyPatternSectionRefs>JPS_141</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2024-01-29T17:12:07' ModificationDateTime='2024-11-13T11:06:00' Modification='revise' RevisionNumber='2'>
+
+
+<OperatorRef>KBCO</OperatorRef>
+<Operational><TicketMachine><JourneyCode>VJ_380</JourneyCode></TicketMachine></Operational>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Monday/><Tuesday/><Wednesday/><Thursday/><Friday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfOperation>
+
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_380</VehicleJourneyCode>
+<ServiceRef>PH1145323:5</ServiceRef><LineRef>KBCO:PH1145323:5:KBC301</LineRef>
+<JourneyPatternRef>JP_141</JourneyPatternRef>
+<DepartureTime>07:37:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

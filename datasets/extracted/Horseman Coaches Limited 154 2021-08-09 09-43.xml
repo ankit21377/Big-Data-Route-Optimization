@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2021-08-09T09:44:45' ModificationDateTime='2021-08-09T09:44:45' Modification='new' RevisionNumber='0' FileName="Horseman Coaches Limited 154 2021-08-09 09-43.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>035075240002</StopPointRef><CommonName>Winnersh Cross Roads</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035077220001</StopPointRef><CommonName>The Swan</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035077280002</StopPointRef><CommonName>Rickman Close</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035077580001</StopPointRef><CommonName>The Bull</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035075400002</StopPointRef><CommonName>Broad Street</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035076200001</StopPointRef><CommonName>Two Poplars</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035076340001</StopPointRef><CommonName>Ratepayers Hall</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035078660002</StopPointRef><CommonName>Longwater Lane</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1900HA060348</StopPointRef><CommonName>The Chequers</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>1900HA060354</StopPointRef><CommonName>Eversley School</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035078580003</StopPointRef><CommonName>The Tally Ho</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035080320002</StopPointRef><CommonName>The Crown</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035080420002</StopPointRef><CommonName>The Bull</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035080220002</StopPointRef><CommonName>Post Office</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035080140002</StopPointRef><CommonName>Three Mile Cross Post Office</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>039027320002</StopPointRef><CommonName>St Marys Butts</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035090640002</StopPointRef><CommonName>Station Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>039025920004</StopPointRef><CommonName>Kings Road</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>039025390002</StopPointRef><CommonName>Buckland Road Junction</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>035080260001</StopPointRef><CommonName>Lambs Lane</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_10' CreationDateTime='2021-08-09T09:21:29' ModificationDateTime='2021-08-09T09:21:29' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_10_1'><From><StopPointRef>039027320002</StopPointRef></From><To><StopPointRef>039025390002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_10_2'><From><StopPointRef>039025390002</StopPointRef></From><To><StopPointRef>035080260001</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_11' CreationDateTime='2021-08-09T09:21:32' ModificationDateTime='2021-08-09T09:21:32' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_11_1'><From><StopPointRef>035080260001</StopPointRef></From><To><StopPointRef>039025390002</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_11_2'><From><StopPointRef>039025390002</StopPointRef></From><To><StopPointRef>039027320002</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_11' CreationDateTime='2021-08-09T09:21:29' ModificationDateTime='2021-08-09T09:21:29' Modification='new' RevisionNumber='0'><Description>St Marys Butts - Lambs Lane</Description><RouteSectionRef>routeSection_10</RouteSectionRef></Route>
+<Route id='route_12' CreationDateTime='2021-08-09T09:21:32' ModificationDateTime='2021-08-09T09:21:32' Modification='new' RevisionNumber='0'><Description>Lambs Lane - St Marys Butts</Description><RouteSectionRef>routeSection_11</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_11' CreationDateTime='2021-08-09T09:44:45' ModificationDateTime='2021-08-09T09:44:45' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_11_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>039027320002</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>039025390002</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_10_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_11_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>039025390002</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>035080260001</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_10_2</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_12' CreationDateTime='2021-08-09T09:44:45' ModificationDateTime='2021-08-09T09:44:45' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_12_1'>
+<From SequenceNumber='1'><Activity>pickUp</Activity><StopPointRef>035080260001</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>039025390002</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_1</RouteLinkRef><RunTime>PT900S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_12_2'>
+<From SequenceNumber='2'><Activity>pickUp</Activity><StopPointRef>039025390002</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>039027320002</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_11_2</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="OId_HRSC"><NationalOperatorCode>HRSC</NationalOperatorCode><OperatorCode>HRSC</OperatorCode><OperatorShortName>Horseman Coaches Limited</OperatorShortName><LicenceNumber>PH0005860</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2021-08-09T09:44:45' ModificationDateTime='2021-08-09T09:44:45' Modification='new' RevisionNumber='0'>
+<ServiceCode>PH0005860:9</ServiceCode><Lines><Line id="HRSC:PH0005860:9:154"><LineName>154</LineName><OutboundDescription><Origin>St Marys Butts</Origin><Destination>Lambs Lane</Destination><Description>St Marys Butts - Lambs Lane</Description></OutboundDescription><InboundDescription><Origin>Lambs Lane</Origin><Destination>St Marys Butts</Destination><Description>Lambs Lane - St Marys Butts</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2021-06-10</StartDate><EndDate>2022-06-09</EndDate></OperatingPeriod>
+
+<RegisteredOperatorRef>regHRSC</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Lambs Lane - St Marys Butts</Description>
+
+<StandardService>
+<Origin>Lambs Lane</Origin>
+<Destination>St Marys Butts</Destination>
+<JourneyPattern id='JP_11'><DestinationDisplay>Lambs Lane</DestinationDisplay><OperatorRef>OId_HRSC</OperatorRef><Direction>outbound</Direction><RouteRef>route_11</RouteRef><JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_12'><DestinationDisplay>St Marys Butts</DestinationDisplay><OperatorRef>OId_HRSC</OperatorRef><Direction>inbound</Direction><RouteRef>route_12</RouteRef><JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2021-08-09T09:21:29' ModificationDateTime='2021-08-09T09:21:29' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HRSC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Thursday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><Jan2ndScotland/><StAndrewsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><AugustBankHolidayScotland/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><Jan2ndScotlandHoliday/><StAndrewsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_16</VehicleJourneyCode>
+<ServiceRef>PH0005860:9</ServiceRef><LineRef>HRSC:PH0005860:9:154</LineRef>
+<JourneyPatternRef>JP_11</JourneyPatternRef>
+<DepartureTime>12:15:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2021-08-09T09:21:32' ModificationDateTime='2021-08-09T09:21:32' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HRSC</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek><Thursday/></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><Jan2ndScotland/><StAndrewsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><AugustBankHolidayScotland/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><Jan2ndScotlandHoliday/><StAndrewsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_17</VehicleJourneyCode>
+<ServiceRef>PH0005860:9</ServiceRef><LineRef>HRSC:PH0005860:9:154</LineRef>
+<JourneyPatternRef>JP_12</JourneyPatternRef>
+<DepartureTime>09:50:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

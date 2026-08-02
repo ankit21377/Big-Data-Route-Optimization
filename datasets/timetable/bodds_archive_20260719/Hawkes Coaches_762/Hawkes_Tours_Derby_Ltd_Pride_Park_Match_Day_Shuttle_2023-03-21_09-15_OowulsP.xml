@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by BODS TransXChange Tool (20220318) -->
+<TransXChange xmlns="http://www.transxchange.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_registration.xsd" CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0' FileName="Hawkes Tours (Derby) Ltd Pride Park Match Day Shuttle 2023-03-21 09-15.xml" SchemaVersion="2.4" RegistrationDocument="false">
+
+<StopPoints>
+<AnnotatedStopPointRef><StopPointRef>109054186</StopPointRef><CommonName>Football Stadium</CommonName></AnnotatedStopPointRef>
+<AnnotatedStopPointRef><StopPointRef>109000022150</StopPointRef><CommonName>Morledge</CommonName></AnnotatedStopPointRef></StopPoints>
+
+<RouteSections>
+<RouteSection id='routeSection_2' CreationDateTime='2023-03-21T09:15:37' ModificationDateTime='2023-03-21T09:15:37' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_2_1'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+</RouteSection>
+<RouteSection id='routeSection_3' CreationDateTime='2023-03-21T09:15:53' ModificationDateTime='2023-03-21T09:15:53' Modification='new' RevisionNumber='0'>
+<RouteLink id='routeSection_3_1'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_2'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_3'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_4'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_5'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_6'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_7'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_8'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_9'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_10'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_11'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_12'><From><StopPointRef>109054186</StopPointRef></From><To><StopPointRef>109000022150</StopPointRef></To></RouteLink>
+<RouteLink id='routeSection_3_13'><From><StopPointRef>109000022150</StopPointRef></From><To><StopPointRef>109054186</StopPointRef></To></RouteLink>
+</RouteSection>
+</RouteSections>
+
+<Routes>
+<Route id='route_2' CreationDateTime='2023-03-21T09:15:37' ModificationDateTime='2023-03-21T09:15:37' Modification='new' RevisionNumber='0'><Description>Football Stadium - Morledge</Description><RouteSectionRef>routeSection_2</RouteSectionRef></Route>
+<Route id='route_3' CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'><Description>Morledge - Football Stadium</Description><RouteSectionRef>routeSection_3</RouteSectionRef></Route>
+</Routes>
+
+<JourneyPatternSections>
+<JourneyPatternSection id='JPS_2' CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_2_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_2_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+
+<JourneyPatternSection id='JPS_3' CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'>
+
+<JourneyPatternTimingLink id='JPS_3_1'>
+<From SequenceNumber='1'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_1</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_2'>
+<From SequenceNumber='2'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_2</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_3'>
+<From SequenceNumber='3'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_3</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_4'>
+<From SequenceNumber='4'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_4</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_5'>
+<From SequenceNumber='5'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_5</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_6'>
+<From SequenceNumber='6'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_6</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_7'>
+<From SequenceNumber='7'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_7</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_8'>
+<From SequenceNumber='8'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_8</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_9'>
+<From SequenceNumber='9'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_9</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_10'>
+<From SequenceNumber='10'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_10</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_11'>
+<From SequenceNumber='11'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='12'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_11</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_12'>
+<From SequenceNumber='12'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='13'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_12</RouteLinkRef><RunTime>PT300S</RunTime>
+</JourneyPatternTimingLink>
+<JourneyPatternTimingLink id='JPS_3_13'>
+<From SequenceNumber='13'><Activity>pickUpAndSetDown</Activity><StopPointRef>109000022150</StopPointRef><TimingStatus>PTP</TimingStatus></From>
+<To SequenceNumber='14'><Activity>setDown</Activity><StopPointRef>109054186</StopPointRef><TimingStatus>PTP</TimingStatus></To><RouteLinkRef>routeSection_3_13</RouteLinkRef><RunTime>PT600S</RunTime>
+</JourneyPatternTimingLink>
+</JourneyPatternSection>
+</JourneyPatternSections>
+
+<Operators><Operator id="HWKS"><NationalOperatorCode>HWKS</NationalOperatorCode><OperatorCode>HWKS</OperatorCode><OperatorShortName>Hawkes Tours (Derby) Ltd</OperatorShortName><LicenceNumber>PC1117162</LicenceNumber></Operator></Operators>
+
+<Services>
+<Service CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'>
+<ServiceCode>PC1117162:1</ServiceCode><Lines><Line id="HWKS:PC1117162:1:PrideParkMatchDayShuttle"><LineName>Pride Park Match Day Shuttle</LineName><OutboundDescription><Origin>Football Stadium</Origin><Destination>Morledge</Destination><Description>Football Stadium - Morledge - </Description></OutboundDescription><InboundDescription><Origin>Morledge</Origin><Destination>Football Stadium</Destination><Description>Morledge - Football Stadium</Description></InboundDescription></Line></Lines>
+<OperatingPeriod><StartDate>2023-03-18</StartDate></OperatingPeriod>
+
+<RegisteredOperatorRef>HWKS</RegisteredOperatorRef>
+
+<StopRequirements>
+<NoNewStopsRequired/>
+</StopRequirements>
+
+<Mode>bus</Mode><PublicUse>1</PublicUse><Description>Morledge - Football Stadium</Description>
+
+<StandardService>
+<Origin>Morledge</Origin>
+<Destination>Football Stadium</Destination>
+<JourneyPattern id='JP_2'><DestinationDisplay>196</DestinationDisplay><OperatorRef>HWKS</OperatorRef><Direction>outbound</Direction><RouteRef>route_2</RouteRef><JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs></JourneyPattern>
+<JourneyPattern id='JP_3'><DestinationDisplay>208</DestinationDisplay><OperatorRef>HWKS</OperatorRef><Direction>inbound</Direction><RouteRef>route_3</RouteRef><JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs></JourneyPattern>
+
+</StandardService>
+</Service>
+
+</Services>
+
+<VehicleJourneys>
+<VehicleJourney CreationDateTime='2023-03-21T09:15:38' ModificationDateTime='2023-03-21T09:15:38' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-04-29</StartDate><EndDate>2023-04-29</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_2</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>14:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-03-21T09:15:38' ModificationDateTime='2023-03-21T09:15:38' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-03-18</StartDate><EndDate>2023-03-18</EndDate></DateRange><DateRange><StartDate>2023-04-01</StartDate><EndDate>2023-04-01</EndDate></DateRange><DateRange><StartDate>2023-04-22</StartDate><EndDate>2023-04-22</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><EasterMonday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_3</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_2</JourneyPatternRef>
+<DepartureTime>17:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-04-29</StartDate><EndDate>2023-04-29</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><EasterMonday/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_4</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>10:20:00</DepartureTime>
+</VehicleJourney>
+
+<VehicleJourney CreationDateTime='2023-03-21T09:15:54' ModificationDateTime='2023-03-21T09:15:54' Modification='new' RevisionNumber='0'>
+
+
+<OperatorRef>HWKS</OperatorRef>
+<OperatingProfile>
+<RegularDayType><DaysOfWeek></DaysOfWeek></RegularDayType>
+<SpecialDaysOperation>
+<DaysOfOperation>
+<DateRange><StartDate>2023-03-18</StartDate><EndDate>2023-03-18</EndDate></DateRange><DateRange><StartDate>2023-04-01</StartDate><EndDate>2023-04-01</EndDate></DateRange><DateRange><StartDate>2023-04-22</StartDate><EndDate>2023-04-22</EndDate></DateRange>
+</DaysOfOperation>
+
+
+</SpecialDaysOperation>
+<BankHolidayOperation>
+<DaysOfOperation><EasterMonday/></DaysOfOperation>
+<DaysOfNonOperation><ChristmasDay/><BoxingDay/><GoodFriday/><NewYearsDay/><LateSummerBankHolidayNotScotland/><MayDay/><SpringBank/><ChristmasDayHoliday/><BoxingDayHoliday/><NewYearsDayHoliday/><ChristmasEve/><NewYearsEve/></DaysOfNonOperation>
+</BankHolidayOperation>
+</OperatingProfile>
+
+<VehicleJourneyCode>VJ_5</VehicleJourneyCode>
+<ServiceRef>PC1117162:1</ServiceRef><LineRef>HWKS:PC1117162:1:PrideParkMatchDayShuttle</LineRef>
+<JourneyPatternRef>JP_3</JourneyPatternRef>
+<DepartureTime>13:20:00</DepartureTime>
+</VehicleJourney>
+
+
+</VehicleJourneys>
+</TransXChange>

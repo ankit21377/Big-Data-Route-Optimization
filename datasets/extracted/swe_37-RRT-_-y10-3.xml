@@ -1,0 +1,4948 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TransXChange CreationDateTime="2023-01-11T09:30:41" ModificationDateTime="2026-06-08T09:02:59" Modification="revise" FileName="swe_37-RRT-_-y10-3.xml" RevisionNumber="75" SchemaVersion="2.4" xml:lang="en" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.4/TransXChange_general.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.transxchange.org.uk/">
+	<StopPoints>
+		<AnnotatedStopPointRef>
+			<StopPointRef>1100DEY38489</StopPointRef>
+			<CommonName>Steamer Quay</CommonName>
+			<Indicator>NW-bound</Indicator>
+			<LocalityName>Bridgetown</LocalityName>
+			<LocalityQualifier>Devon</LocalityQualifier>
+		</AnnotatedStopPointRef>
+		<AnnotatedStopPointRef>
+			<StopPointRef>1190TOA51575</StopPointRef>
+			<CommonName>Bus Station</CommonName>
+			<Indicator>Stand 4</Indicator>
+			<LocalityName>Paignton</LocalityName>
+			<LocalityQualifier>Torbay</LocalityQualifier>
+		</AnnotatedStopPointRef>
+	</StopPoints>
+	<RouteSections>
+		<RouteSection id="RS_37-RRT-_-y10-3-O-1">
+			<RouteLink id="RL_37-RRT-_-y10-3-O-1-1">
+				<From>
+					<StopPointRef>1190TOA51575</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>1100DEY38489</StopPointRef>
+				</To>
+				<Distance>9701</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-3.566615</Longitude>
+							<Latitude>50.434591</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566598</Longitude>
+							<Latitude>50.434589</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566533</Longitude>
+							<Latitude>50.434586</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566468</Longitude>
+							<Latitude>50.434585</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.5664</Longitude>
+							<Latitude>50.43458</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566334</Longitude>
+							<Latitude>50.434576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566273</Longitude>
+							<Latitude>50.434571</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566195</Longitude>
+							<Latitude>50.434568</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566124</Longitude>
+							<Latitude>50.434565</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566046</Longitude>
+							<Latitude>50.434559</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565975</Longitude>
+							<Latitude>50.434556</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565913</Longitude>
+							<Latitude>50.434553</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56585</Longitude>
+							<Latitude>50.434548</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565613</Longitude>
+							<Latitude>50.434576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565435</Longitude>
+							<Latitude>50.434537</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565509</Longitude>
+							<Latitude>50.434422</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565534</Longitude>
+							<Latitude>50.434393</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565692</Longitude>
+							<Latitude>50.434256</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.565778</Longitude>
+							<Latitude>50.434192</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56591</Longitude>
+							<Latitude>50.434119</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566066</Longitude>
+							<Latitude>50.434058</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566231</Longitude>
+							<Latitude>50.434006</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566446</Longitude>
+							<Latitude>50.433946</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566856</Longitude>
+							<Latitude>50.433838</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566976</Longitude>
+							<Latitude>50.433849</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567093</Longitude>
+							<Latitude>50.433907</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56737</Longitude>
+							<Latitude>50.434357</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567448</Longitude>
+							<Latitude>50.43449</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567477</Longitude>
+							<Latitude>50.434539</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567677</Longitude>
+							<Latitude>50.434881</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567731</Longitude>
+							<Latitude>50.43493</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567803</Longitude>
+							<Latitude>50.434951</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567886</Longitude>
+							<Latitude>50.43496</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568047</Longitude>
+							<Latitude>50.434955</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568175</Longitude>
+							<Latitude>50.434936</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568292</Longitude>
+							<Latitude>50.434893</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568533</Longitude>
+							<Latitude>50.434495</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56857</Longitude>
+							<Latitude>50.434438</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568677</Longitude>
+							<Latitude>50.434273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568863</Longitude>
+							<Latitude>50.434037</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569074</Longitude>
+							<Latitude>50.433889</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56933</Longitude>
+							<Latitude>50.433787</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569466</Longitude>
+							<Latitude>50.433743</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569709</Longitude>
+							<Latitude>50.433692</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.570025</Longitude>
+							<Latitude>50.433634</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.570903</Longitude>
+							<Latitude>50.433515</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571351</Longitude>
+							<Latitude>50.433454</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571717</Longitude>
+							<Latitude>50.433399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571919</Longitude>
+							<Latitude>50.433301</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572456</Longitude>
+							<Latitude>50.432805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572641</Longitude>
+							<Latitude>50.432625</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572798</Longitude>
+							<Latitude>50.432419</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572827</Longitude>
+							<Latitude>50.432386</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572918</Longitude>
+							<Latitude>50.432264</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57316</Longitude>
+							<Latitude>50.432087</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573286</Longitude>
+							<Latitude>50.43201</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573598</Longitude>
+							<Latitude>50.43182</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573855</Longitude>
+							<Latitude>50.431672</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574141</Longitude>
+							<Latitude>50.431503</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574264</Longitude>
+							<Latitude>50.431436</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57464</Longitude>
+							<Latitude>50.431278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574895</Longitude>
+							<Latitude>50.43119</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575089</Longitude>
+							<Latitude>50.431121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575393</Longitude>
+							<Latitude>50.431023</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575637</Longitude>
+							<Latitude>50.430963</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575745</Longitude>
+							<Latitude>50.430937</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575968</Longitude>
+							<Latitude>50.430882</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57615</Longitude>
+							<Latitude>50.43084</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576328</Longitude>
+							<Latitude>50.430805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576471</Longitude>
+							<Latitude>50.430776</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576949</Longitude>
+							<Latitude>50.430677</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577243</Longitude>
+							<Latitude>50.430623</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577384</Longitude>
+							<Latitude>50.430595</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577461</Longitude>
+							<Latitude>50.430578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577831</Longitude>
+							<Latitude>50.430497</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.578341</Longitude>
+							<Latitude>50.43036</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.578717</Longitude>
+							<Latitude>50.430279</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.579177</Longitude>
+							<Latitude>50.430194</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.579846</Longitude>
+							<Latitude>50.430069</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.580193</Longitude>
+							<Latitude>50.430004</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.580672</Longitude>
+							<Latitude>50.429889</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.581218</Longitude>
+							<Latitude>50.429762</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.581833</Longitude>
+							<Latitude>50.429615</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.582159</Longitude>
+							<Latitude>50.429529</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.583784</Longitude>
+							<Latitude>50.429093</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.583915</Longitude>
+							<Latitude>50.429015</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584181</Longitude>
+							<Latitude>50.42889</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.58432</Longitude>
+							<Latitude>50.428798</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584391</Longitude>
+							<Latitude>50.428764</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584461</Longitude>
+							<Latitude>50.428731</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584489</Longitude>
+							<Latitude>50.428721</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584571</Longitude>
+							<Latitude>50.428706</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584656</Longitude>
+							<Latitude>50.428689</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585041</Longitude>
+							<Latitude>50.428612</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585298</Longitude>
+							<Latitude>50.428585</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585542</Longitude>
+							<Latitude>50.428605</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585791</Longitude>
+							<Latitude>50.428608</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585993</Longitude>
+							<Latitude>50.428617</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586324</Longitude>
+							<Latitude>50.42863</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586733</Longitude>
+							<Latitude>50.428665</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586971</Longitude>
+							<Latitude>50.428716</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587241</Longitude>
+							<Latitude>50.428737</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587522</Longitude>
+							<Latitude>50.428755</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587702</Longitude>
+							<Latitude>50.428753</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587893</Longitude>
+							<Latitude>50.428752</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588178</Longitude>
+							<Latitude>50.428717</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588262</Longitude>
+							<Latitude>50.428746</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588531</Longitude>
+							<Latitude>50.428726</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588934</Longitude>
+							<Latitude>50.42863</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.589302</Longitude>
+							<Latitude>50.428572</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.589758</Longitude>
+							<Latitude>50.428517</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.590456</Longitude>
+							<Latitude>50.428453</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59092</Longitude>
+							<Latitude>50.428428</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.591495</Longitude>
+							<Latitude>50.428402</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.592261</Longitude>
+							<Latitude>50.428383</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.592623</Longitude>
+							<Latitude>50.428364</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.593381</Longitude>
+							<Latitude>50.428291</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.593732</Longitude>
+							<Latitude>50.42827</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.594109</Longitude>
+							<Latitude>50.428284</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.594491</Longitude>
+							<Latitude>50.428329</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.595607</Longitude>
+							<Latitude>50.428486</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596165</Longitude>
+							<Latitude>50.428546</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596583</Longitude>
+							<Latitude>50.428588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596812</Longitude>
+							<Latitude>50.428622</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.597036</Longitude>
+							<Latitude>50.428689</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59742</Longitude>
+							<Latitude>50.428763</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.597895</Longitude>
+							<Latitude>50.428885</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.598735</Longitude>
+							<Latitude>50.429096</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.599431</Longitude>
+							<Latitude>50.429302</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59955</Longitude>
+							<Latitude>50.429337</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.599971</Longitude>
+							<Latitude>50.429493</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600211</Longitude>
+							<Latitude>50.429566</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600367</Longitude>
+							<Latitude>50.429588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600498</Longitude>
+							<Latitude>50.429582</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600576</Longitude>
+							<Latitude>50.429576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600709</Longitude>
+							<Latitude>50.429551</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600877</Longitude>
+							<Latitude>50.429512</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60121</Longitude>
+							<Latitude>50.429438</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.601556</Longitude>
+							<Latitude>50.429368</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.602069</Longitude>
+							<Latitude>50.429281</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60272</Longitude>
+							<Latitude>50.429221</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603218</Longitude>
+							<Latitude>50.429185</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603564</Longitude>
+							<Latitude>50.42916</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603773</Longitude>
+							<Latitude>50.429148</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.604367</Longitude>
+							<Latitude>50.429114</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.604807</Longitude>
+							<Latitude>50.429088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.605244</Longitude>
+							<Latitude>50.429067</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60535</Longitude>
+							<Latitude>50.429063</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.605853</Longitude>
+							<Latitude>50.42904</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606169</Longitude>
+							<Latitude>50.429028</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606274</Longitude>
+							<Latitude>50.429025</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60673</Longitude>
+							<Latitude>50.429003</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606893</Longitude>
+							<Latitude>50.428993</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.607355</Longitude>
+							<Latitude>50.428965</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.608413</Longitude>
+							<Latitude>50.428894</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.608557</Longitude>
+							<Latitude>50.428884</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.609005</Longitude>
+							<Latitude>50.428864</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.609708</Longitude>
+							<Latitude>50.428853</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.610398</Longitude>
+							<Latitude>50.428867</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.610995</Longitude>
+							<Latitude>50.42887</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61125</Longitude>
+							<Latitude>50.428864</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.611459</Longitude>
+							<Latitude>50.428845</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61171</Longitude>
+							<Latitude>50.428808</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.612226</Longitude>
+							<Latitude>50.42871</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.612655</Longitude>
+							<Latitude>50.428604</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613008</Longitude>
+							<Latitude>50.428515</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613176</Longitude>
+							<Latitude>50.428476</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613282</Longitude>
+							<Latitude>50.428455</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613551</Longitude>
+							<Latitude>50.428421</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613835</Longitude>
+							<Latitude>50.42841</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613914</Longitude>
+							<Latitude>50.428407</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614165</Longitude>
+							<Latitude>50.428411</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614402</Longitude>
+							<Latitude>50.428425</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614651</Longitude>
+							<Latitude>50.428449</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614865</Longitude>
+							<Latitude>50.428475</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.615323</Longitude>
+							<Latitude>50.428514</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.615907</Longitude>
+							<Latitude>50.428554</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616294</Longitude>
+							<Latitude>50.428576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616686</Longitude>
+							<Latitude>50.428613</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616886</Longitude>
+							<Latitude>50.428649</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61715</Longitude>
+							<Latitude>50.428718</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617306</Longitude>
+							<Latitude>50.428778</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617408</Longitude>
+							<Latitude>50.428839</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617483</Longitude>
+							<Latitude>50.428924</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617534</Longitude>
+							<Latitude>50.429054</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617613</Longitude>
+							<Latitude>50.429269</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617662</Longitude>
+							<Latitude>50.429377</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617721</Longitude>
+							<Latitude>50.429478</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617821</Longitude>
+							<Latitude>50.429573</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617864</Longitude>
+							<Latitude>50.429607</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617942</Longitude>
+							<Latitude>50.429668</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618129</Longitude>
+							<Latitude>50.429757</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618295</Longitude>
+							<Latitude>50.429816</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618472</Longitude>
+							<Latitude>50.429867</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618886</Longitude>
+							<Latitude>50.429967</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619199</Longitude>
+							<Latitude>50.430044</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619512</Longitude>
+							<Latitude>50.430121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619746</Longitude>
+							<Latitude>50.430161</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620043</Longitude>
+							<Latitude>50.430188</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620332</Longitude>
+							<Latitude>50.430214</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620526</Longitude>
+							<Latitude>50.430246</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620674</Longitude>
+							<Latitude>50.430276</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620886</Longitude>
+							<Latitude>50.430321</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.621543</Longitude>
+							<Latitude>50.430496</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.621942</Longitude>
+							<Latitude>50.430561</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.622146</Longitude>
+							<Latitude>50.430615</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62242</Longitude>
+							<Latitude>50.430688</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62316</Longitude>
+							<Latitude>50.430927</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.623435</Longitude>
+							<Latitude>50.431022</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.623794</Longitude>
+							<Latitude>50.431146</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624144</Longitude>
+							<Latitude>50.43127</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624355</Longitude>
+							<Latitude>50.431345</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624497</Longitude>
+							<Latitude>50.431399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624893</Longitude>
+							<Latitude>50.431545</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62511</Longitude>
+							<Latitude>50.431616</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.625391</Longitude>
+							<Latitude>50.431684</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.625651</Longitude>
+							<Latitude>50.431721</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62593</Longitude>
+							<Latitude>50.431739</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.626534</Longitude>
+							<Latitude>50.431779</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.627333</Longitude>
+							<Latitude>50.431851</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.627696</Longitude>
+							<Latitude>50.431891</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.628104</Longitude>
+							<Latitude>50.431928</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.628605</Longitude>
+							<Latitude>50.431992</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629108</Longitude>
+							<Latitude>50.432081</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629464</Longitude>
+							<Latitude>50.432166</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629757</Longitude>
+							<Latitude>50.432253</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629929</Longitude>
+							<Latitude>50.432336</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630133</Longitude>
+							<Latitude>50.432462</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630309</Longitude>
+							<Latitude>50.432583</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630484</Longitude>
+							<Latitude>50.432741</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630635</Longitude>
+							<Latitude>50.43286</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630801</Longitude>
+							<Latitude>50.432961</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630984</Longitude>
+							<Latitude>50.433059</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631181</Longitude>
+							<Latitude>50.433129</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631423</Longitude>
+							<Latitude>50.43318</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631669</Longitude>
+							<Latitude>50.433214</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631903</Longitude>
+							<Latitude>50.433225</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632113</Longitude>
+							<Latitude>50.433215</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632308</Longitude>
+							<Latitude>50.433191</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632505</Longitude>
+							<Latitude>50.433152</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632685</Longitude>
+							<Latitude>50.433089</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632841</Longitude>
+							<Latitude>50.433019</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632983</Longitude>
+							<Latitude>50.432932</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.633967</Longitude>
+							<Latitude>50.432314</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.634309</Longitude>
+							<Latitude>50.432092</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.634755</Longitude>
+							<Latitude>50.431799</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.635294</Longitude>
+							<Latitude>50.431447</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.635933</Longitude>
+							<Latitude>50.431065</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.636535</Longitude>
+							<Latitude>50.430753</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637005</Longitude>
+							<Latitude>50.430536</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637293</Longitude>
+							<Latitude>50.430426</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637551</Longitude>
+							<Latitude>50.430347</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.638523</Longitude>
+							<Latitude>50.430117</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.640455</Longitude>
+							<Latitude>50.42971</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.641983</Longitude>
+							<Latitude>50.429401</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642403</Longitude>
+							<Latitude>50.429323</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642619</Longitude>
+							<Latitude>50.429298</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642739</Longitude>
+							<Latitude>50.429296</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642855</Longitude>
+							<Latitude>50.429302</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643017</Longitude>
+							<Latitude>50.429326</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643172</Longitude>
+							<Latitude>50.429358</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643781</Longitude>
+							<Latitude>50.429501</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644116</Longitude>
+							<Latitude>50.429577</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644391</Longitude>
+							<Latitude>50.429633</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64465</Longitude>
+							<Latitude>50.429682</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644943</Longitude>
+							<Latitude>50.429719</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64532</Longitude>
+							<Latitude>50.429749</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645623</Longitude>
+							<Latitude>50.429755</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645777</Longitude>
+							<Latitude>50.429752</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645977</Longitude>
+							<Latitude>50.429742</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.646161</Longitude>
+							<Latitude>50.429727</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647024</Longitude>
+							<Latitude>50.429599</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64734</Longitude>
+							<Latitude>50.429556</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647558</Longitude>
+							<Latitude>50.429542</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647778</Longitude>
+							<Latitude>50.429539</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64803</Longitude>
+							<Latitude>50.429547</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.648484</Longitude>
+							<Latitude>50.429581</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649047</Longitude>
+							<Latitude>50.42963</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649515</Longitude>
+							<Latitude>50.429681</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649897</Longitude>
+							<Latitude>50.429731</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.650186</Longitude>
+							<Latitude>50.429775</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.650881</Longitude>
+							<Latitude>50.429908</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651165</Longitude>
+							<Latitude>50.429961</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651646</Longitude>
+							<Latitude>50.430048</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651894</Longitude>
+							<Latitude>50.430088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.652194</Longitude>
+							<Latitude>50.430135</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.652481</Longitude>
+							<Latitude>50.430175</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.653078</Longitude>
+							<Latitude>50.430254</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.653495</Longitude>
+							<Latitude>50.430311</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654001</Longitude>
+							<Latitude>50.430378</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654399</Longitude>
+							<Latitude>50.430439</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654762</Longitude>
+							<Latitude>50.430501</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.655109</Longitude>
+							<Latitude>50.430578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.65546</Longitude>
+							<Latitude>50.430662</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.655822</Longitude>
+							<Latitude>50.43077</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656173</Longitude>
+							<Latitude>50.430887</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656589</Longitude>
+							<Latitude>50.43106</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656885</Longitude>
+							<Latitude>50.43121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.657294</Longitude>
+							<Latitude>50.431445</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.657677</Longitude>
+							<Latitude>50.431685</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659027</Longitude>
+							<Latitude>50.432579</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659436</Longitude>
+							<Latitude>50.432846</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.65982</Longitude>
+							<Latitude>50.433071</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659993</Longitude>
+							<Latitude>50.433158</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660246</Longitude>
+							<Latitude>50.433263</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660535</Longitude>
+							<Latitude>50.433351</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660769</Longitude>
+							<Latitude>50.433409</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660962</Longitude>
+							<Latitude>50.433429</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661139</Longitude>
+							<Latitude>50.433434</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661276</Longitude>
+							<Latitude>50.433425</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661412</Longitude>
+							<Latitude>50.433399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661623</Longitude>
+							<Latitude>50.433332</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661843</Longitude>
+							<Latitude>50.433273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661823</Longitude>
+							<Latitude>50.433229</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661826</Longitude>
+							<Latitude>50.433161</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.662497</Longitude>
+							<Latitude>50.432498</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.663257</Longitude>
+							<Latitude>50.431868</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.663383</Longitude>
+							<Latitude>50.431777</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.663589</Longitude>
+							<Latitude>50.431811</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.664766</Longitude>
+							<Latitude>50.4318</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.665632</Longitude>
+							<Latitude>50.431812</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.665859</Longitude>
+							<Latitude>50.431805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.666673</Longitude>
+							<Latitude>50.431784</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.6669</Longitude>
+							<Latitude>50.431805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.667213</Longitude>
+							<Latitude>50.4318</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.667878</Longitude>
+							<Latitude>50.431933</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668395</Longitude>
+							<Latitude>50.432044</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668429</Longitude>
+							<Latitude>50.431944</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668515</Longitude>
+							<Latitude>50.431823</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668621</Longitude>
+							<Latitude>50.431675</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668802</Longitude>
+							<Latitude>50.431603</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.66907</Longitude>
+							<Latitude>50.431588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.669502</Longitude>
+							<Latitude>50.43157</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670129</Longitude>
+							<Latitude>50.43159</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670282</Longitude>
+							<Latitude>50.431587</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670598</Longitude>
+							<Latitude>50.43159</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670827</Longitude>
+							<Latitude>50.431596</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671043</Longitude>
+							<Latitude>50.431595</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67126</Longitude>
+							<Latitude>50.431581</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671469</Longitude>
+							<Latitude>50.431562</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671588</Longitude>
+							<Latitude>50.431545</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671773</Longitude>
+							<Latitude>50.431483</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671983</Longitude>
+							<Latitude>50.431408</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672184</Longitude>
+							<Latitude>50.431331</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672369</Longitude>
+							<Latitude>50.43126</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672581</Longitude>
+							<Latitude>50.431146</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672789</Longitude>
+							<Latitude>50.431025</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673055</Longitude>
+							<Latitude>50.43086</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673223</Longitude>
+							<Latitude>50.430729</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67332</Longitude>
+							<Latitude>50.430654</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673376</Longitude>
+							<Latitude>50.430608</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673421</Longitude>
+							<Latitude>50.430574</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67345</Longitude>
+							<Latitude>50.430517</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673519</Longitude>
+							<Latitude>50.430402</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673506</Longitude>
+							<Latitude>50.430276</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67341</Longitude>
+							<Latitude>50.430148</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673249</Longitude>
+							<Latitude>50.430051</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673193</Longitude>
+							<Latitude>50.429983</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67319</Longitude>
+							<Latitude>50.429942</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673241</Longitude>
+							<Latitude>50.429863</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673549</Longitude>
+							<Latitude>50.429805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673837</Longitude>
+							<Latitude>50.429753</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674361</Longitude>
+							<Latitude>50.42973</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674477</Longitude>
+							<Latitude>50.42976</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67471</Longitude>
+							<Latitude>50.429826</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674813</Longitude>
+							<Latitude>50.42983</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674986</Longitude>
+							<Latitude>50.429761</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.675189</Longitude>
+							<Latitude>50.429675</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.675459</Longitude>
+							<Latitude>50.429561</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676015</Longitude>
+							<Latitude>50.429314</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676261</Longitude>
+							<Latitude>50.429198</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676333</Longitude>
+							<Latitude>50.42907</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676391</Longitude>
+							<Latitude>50.428988</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676428</Longitude>
+							<Latitude>50.42895</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676482</Longitude>
+							<Latitude>50.428923</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676849</Longitude>
+							<Latitude>50.428884</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677289</Longitude>
+							<Latitude>50.42886</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677777</Longitude>
+							<Latitude>50.42886</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678258</Longitude>
+							<Latitude>50.42888</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678659</Longitude>
+							<Latitude>50.428903</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678913</Longitude>
+							<Latitude>50.428931</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679262</Longitude>
+							<Latitude>50.428998</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679499</Longitude>
+							<Latitude>50.429066</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679663</Longitude>
+							<Latitude>50.42913</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67981</Longitude>
+							<Latitude>50.42921</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.68005</Longitude>
+							<Latitude>50.429349</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680145</Longitude>
+							<Latitude>50.429435</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680279</Longitude>
+							<Latitude>50.429654</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680696</Longitude>
+							<Latitude>50.429546</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680809</Longitude>
+							<Latitude>50.429478</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680849</Longitude>
+							<Latitude>50.429436</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680927</Longitude>
+							<Latitude>50.429355</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681158</Longitude>
+							<Latitude>50.428721</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681242</Longitude>
+							<Latitude>50.428533</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681373</Longitude>
+							<Latitude>50.428066</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681348</Longitude>
+							<Latitude>50.427953</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681257</Longitude>
+							<Latitude>50.427842</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681214</Longitude>
+							<Latitude>50.427804</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+		</RouteSection>
+		<RouteSection id="RS_37-RRT-_-y10-3-I-2">
+			<RouteLink id="RL_37-RRT-_-y10-3-I-2-1">
+				<From>
+					<StopPointRef>1100DEY38489</StopPointRef>
+				</From>
+				<To>
+					<StopPointRef>1190TOA51575</StopPointRef>
+				</To>
+				<Distance>9584</Distance>
+				<Track>
+					<Mapping>
+						<Location>
+							<Longitude>-3.681214</Longitude>
+							<Latitude>50.427804</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681257</Longitude>
+							<Latitude>50.427842</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681348</Longitude>
+							<Latitude>50.427953</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681373</Longitude>
+							<Latitude>50.428066</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681242</Longitude>
+							<Latitude>50.428533</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.681158</Longitude>
+							<Latitude>50.428721</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680927</Longitude>
+							<Latitude>50.429355</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680849</Longitude>
+							<Latitude>50.429436</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680809</Longitude>
+							<Latitude>50.429478</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680696</Longitude>
+							<Latitude>50.429546</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680279</Longitude>
+							<Latitude>50.429654</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680381</Longitude>
+							<Latitude>50.429838</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680569</Longitude>
+							<Latitude>50.430248</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680587</Longitude>
+							<Latitude>50.430297</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.680191</Longitude>
+							<Latitude>50.430323</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679682</Longitude>
+							<Latitude>50.430331</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679276</Longitude>
+							<Latitude>50.430368</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.679216</Longitude>
+							<Latitude>50.430377</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678986</Longitude>
+							<Latitude>50.430412</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678776</Longitude>
+							<Latitude>50.430449</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678594</Longitude>
+							<Latitude>50.430499</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67843</Longitude>
+							<Latitude>50.430559</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678297</Longitude>
+							<Latitude>50.430616</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.678172</Longitude>
+							<Latitude>50.430687</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677925</Longitude>
+							<Latitude>50.430847</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677741</Longitude>
+							<Latitude>50.431017</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677684</Longitude>
+							<Latitude>50.431096</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677667</Longitude>
+							<Latitude>50.431147</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677674</Longitude>
+							<Latitude>50.431215</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677544</Longitude>
+							<Latitude>50.431244</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677404</Longitude>
+							<Latitude>50.431307</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677324</Longitude>
+							<Latitude>50.431373</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677242</Longitude>
+							<Latitude>50.431443</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.677148</Longitude>
+							<Latitude>50.431522</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676704</Longitude>
+							<Latitude>50.431881</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676568</Longitude>
+							<Latitude>50.431976</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676503</Longitude>
+							<Latitude>50.432013</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676275</Longitude>
+							<Latitude>50.432124</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676083</Longitude>
+							<Latitude>50.432206</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.676037</Longitude>
+							<Latitude>50.432224</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.675303</Longitude>
+							<Latitude>50.432523</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.675081</Longitude>
+							<Latitude>50.432606</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674932</Longitude>
+							<Latitude>50.43265</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674742</Longitude>
+							<Latitude>50.432689</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.674532</Longitude>
+							<Latitude>50.432715</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67414</Longitude>
+							<Latitude>50.43277</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673851</Longitude>
+							<Latitude>50.432815</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673386</Longitude>
+							<Latitude>50.432884</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.67328</Longitude>
+							<Latitude>50.432898</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673117</Longitude>
+							<Latitude>50.4329</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.673088</Longitude>
+							<Latitude>50.4329</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672917</Longitude>
+							<Latitude>50.432892</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672741</Longitude>
+							<Latitude>50.43287</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672261</Longitude>
+							<Latitude>50.432802</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.672009</Longitude>
+							<Latitude>50.432771</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671787</Longitude>
+							<Latitude>50.432751</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671504</Longitude>
+							<Latitude>50.432745</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.671185</Longitude>
+							<Latitude>50.43275</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670836</Longitude>
+							<Latitude>50.43278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670643</Longitude>
+							<Latitude>50.432785</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670372</Longitude>
+							<Latitude>50.432781</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.670051</Longitude>
+							<Latitude>50.432758</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.669732</Longitude>
+							<Latitude>50.432734</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.669455</Longitude>
+							<Latitude>50.432703</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.669031</Longitude>
+							<Latitude>50.432662</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668443</Longitude>
+							<Latitude>50.432628</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.668049</Longitude>
+							<Latitude>50.432623</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.667794</Longitude>
+							<Latitude>50.432632</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.667547</Longitude>
+							<Latitude>50.432648</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.66726</Longitude>
+							<Latitude>50.432671</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.66708</Longitude>
+							<Latitude>50.432679</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.666966</Longitude>
+							<Latitude>50.432691</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.666373</Longitude>
+							<Latitude>50.432684</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.666044</Longitude>
+							<Latitude>50.432678</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.665711</Longitude>
+							<Latitude>50.4327</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.663427</Longitude>
+							<Latitude>50.433027</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.662209</Longitude>
+							<Latitude>50.433209</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661843</Longitude>
+							<Latitude>50.433273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661623</Longitude>
+							<Latitude>50.433332</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661412</Longitude>
+							<Latitude>50.433399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661276</Longitude>
+							<Latitude>50.433425</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.661139</Longitude>
+							<Latitude>50.433434</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660962</Longitude>
+							<Latitude>50.433429</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660769</Longitude>
+							<Latitude>50.433409</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660535</Longitude>
+							<Latitude>50.433351</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.660246</Longitude>
+							<Latitude>50.433263</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659993</Longitude>
+							<Latitude>50.433158</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.65982</Longitude>
+							<Latitude>50.433071</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659436</Longitude>
+							<Latitude>50.432846</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.659027</Longitude>
+							<Latitude>50.432579</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.657677</Longitude>
+							<Latitude>50.431685</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.657294</Longitude>
+							<Latitude>50.431445</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656885</Longitude>
+							<Latitude>50.43121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656589</Longitude>
+							<Latitude>50.43106</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.656173</Longitude>
+							<Latitude>50.430887</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.655822</Longitude>
+							<Latitude>50.43077</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.65546</Longitude>
+							<Latitude>50.430662</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.655109</Longitude>
+							<Latitude>50.430578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654762</Longitude>
+							<Latitude>50.430501</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654399</Longitude>
+							<Latitude>50.430439</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.654001</Longitude>
+							<Latitude>50.430378</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.653495</Longitude>
+							<Latitude>50.430311</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.653078</Longitude>
+							<Latitude>50.430254</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.652481</Longitude>
+							<Latitude>50.430175</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.652194</Longitude>
+							<Latitude>50.430135</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651894</Longitude>
+							<Latitude>50.430088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651646</Longitude>
+							<Latitude>50.430048</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.651165</Longitude>
+							<Latitude>50.429961</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.650881</Longitude>
+							<Latitude>50.429908</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.650186</Longitude>
+							<Latitude>50.429775</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649897</Longitude>
+							<Latitude>50.429731</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649515</Longitude>
+							<Latitude>50.429681</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.649047</Longitude>
+							<Latitude>50.42963</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.648484</Longitude>
+							<Latitude>50.429581</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64803</Longitude>
+							<Latitude>50.429547</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647778</Longitude>
+							<Latitude>50.429539</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647558</Longitude>
+							<Latitude>50.429542</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64734</Longitude>
+							<Latitude>50.429556</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.647024</Longitude>
+							<Latitude>50.429599</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.646161</Longitude>
+							<Latitude>50.429727</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645977</Longitude>
+							<Latitude>50.429742</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645777</Longitude>
+							<Latitude>50.429752</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.645623</Longitude>
+							<Latitude>50.429755</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64532</Longitude>
+							<Latitude>50.429749</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644943</Longitude>
+							<Latitude>50.429719</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.64465</Longitude>
+							<Latitude>50.429682</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644391</Longitude>
+							<Latitude>50.429633</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.644116</Longitude>
+							<Latitude>50.429577</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643781</Longitude>
+							<Latitude>50.429501</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643172</Longitude>
+							<Latitude>50.429358</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.643017</Longitude>
+							<Latitude>50.429326</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642855</Longitude>
+							<Latitude>50.429302</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642739</Longitude>
+							<Latitude>50.429296</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642619</Longitude>
+							<Latitude>50.429298</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.642403</Longitude>
+							<Latitude>50.429323</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.641983</Longitude>
+							<Latitude>50.429401</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.640455</Longitude>
+							<Latitude>50.42971</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.638523</Longitude>
+							<Latitude>50.430117</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637551</Longitude>
+							<Latitude>50.430347</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637293</Longitude>
+							<Latitude>50.430426</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.637005</Longitude>
+							<Latitude>50.430536</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.636535</Longitude>
+							<Latitude>50.430753</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.635933</Longitude>
+							<Latitude>50.431065</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.635294</Longitude>
+							<Latitude>50.431447</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.634755</Longitude>
+							<Latitude>50.431799</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.634309</Longitude>
+							<Latitude>50.432092</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.633967</Longitude>
+							<Latitude>50.432314</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632983</Longitude>
+							<Latitude>50.432932</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632841</Longitude>
+							<Latitude>50.433019</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632685</Longitude>
+							<Latitude>50.433089</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632505</Longitude>
+							<Latitude>50.433152</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632308</Longitude>
+							<Latitude>50.433191</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.632113</Longitude>
+							<Latitude>50.433215</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631903</Longitude>
+							<Latitude>50.433225</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631669</Longitude>
+							<Latitude>50.433214</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631423</Longitude>
+							<Latitude>50.43318</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.631181</Longitude>
+							<Latitude>50.433129</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630984</Longitude>
+							<Latitude>50.433059</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630801</Longitude>
+							<Latitude>50.432961</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630635</Longitude>
+							<Latitude>50.43286</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630484</Longitude>
+							<Latitude>50.432741</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630309</Longitude>
+							<Latitude>50.432583</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.630133</Longitude>
+							<Latitude>50.432462</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629929</Longitude>
+							<Latitude>50.432336</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629757</Longitude>
+							<Latitude>50.432253</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629464</Longitude>
+							<Latitude>50.432166</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.629108</Longitude>
+							<Latitude>50.432081</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.628605</Longitude>
+							<Latitude>50.431992</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.628104</Longitude>
+							<Latitude>50.431928</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.627696</Longitude>
+							<Latitude>50.431891</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.627333</Longitude>
+							<Latitude>50.431851</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.626534</Longitude>
+							<Latitude>50.431779</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62593</Longitude>
+							<Latitude>50.431739</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.625651</Longitude>
+							<Latitude>50.431721</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.625391</Longitude>
+							<Latitude>50.431684</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62511</Longitude>
+							<Latitude>50.431616</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624893</Longitude>
+							<Latitude>50.431545</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624497</Longitude>
+							<Latitude>50.431399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624355</Longitude>
+							<Latitude>50.431345</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.624144</Longitude>
+							<Latitude>50.43127</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.623794</Longitude>
+							<Latitude>50.431146</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.623435</Longitude>
+							<Latitude>50.431022</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62316</Longitude>
+							<Latitude>50.430927</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.62242</Longitude>
+							<Latitude>50.430688</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.622146</Longitude>
+							<Latitude>50.430615</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.621942</Longitude>
+							<Latitude>50.430561</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.621543</Longitude>
+							<Latitude>50.430496</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620886</Longitude>
+							<Latitude>50.430321</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620674</Longitude>
+							<Latitude>50.430276</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620526</Longitude>
+							<Latitude>50.430246</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620332</Longitude>
+							<Latitude>50.430214</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.620043</Longitude>
+							<Latitude>50.430188</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619746</Longitude>
+							<Latitude>50.430161</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619512</Longitude>
+							<Latitude>50.430121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.619199</Longitude>
+							<Latitude>50.430044</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618886</Longitude>
+							<Latitude>50.429967</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618472</Longitude>
+							<Latitude>50.429867</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618295</Longitude>
+							<Latitude>50.429816</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.618129</Longitude>
+							<Latitude>50.429757</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617942</Longitude>
+							<Latitude>50.429668</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617864</Longitude>
+							<Latitude>50.429607</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617821</Longitude>
+							<Latitude>50.429573</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617721</Longitude>
+							<Latitude>50.429478</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617662</Longitude>
+							<Latitude>50.429377</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617613</Longitude>
+							<Latitude>50.429269</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617534</Longitude>
+							<Latitude>50.429054</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617483</Longitude>
+							<Latitude>50.428924</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617408</Longitude>
+							<Latitude>50.428839</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.617306</Longitude>
+							<Latitude>50.428778</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61715</Longitude>
+							<Latitude>50.428718</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616886</Longitude>
+							<Latitude>50.428649</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616686</Longitude>
+							<Latitude>50.428613</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.616294</Longitude>
+							<Latitude>50.428576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.615907</Longitude>
+							<Latitude>50.428554</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.615323</Longitude>
+							<Latitude>50.428514</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614865</Longitude>
+							<Latitude>50.428475</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614651</Longitude>
+							<Latitude>50.428449</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614402</Longitude>
+							<Latitude>50.428425</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.614165</Longitude>
+							<Latitude>50.428411</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613914</Longitude>
+							<Latitude>50.428407</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613835</Longitude>
+							<Latitude>50.42841</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613551</Longitude>
+							<Latitude>50.428421</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613282</Longitude>
+							<Latitude>50.428455</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613176</Longitude>
+							<Latitude>50.428476</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.613008</Longitude>
+							<Latitude>50.428515</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.612655</Longitude>
+							<Latitude>50.428604</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.612226</Longitude>
+							<Latitude>50.42871</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61171</Longitude>
+							<Latitude>50.428808</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.611459</Longitude>
+							<Latitude>50.428845</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.61125</Longitude>
+							<Latitude>50.428864</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.610995</Longitude>
+							<Latitude>50.42887</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.610398</Longitude>
+							<Latitude>50.428867</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.609708</Longitude>
+							<Latitude>50.428853</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.609005</Longitude>
+							<Latitude>50.428864</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.608557</Longitude>
+							<Latitude>50.428884</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.608413</Longitude>
+							<Latitude>50.428894</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.607355</Longitude>
+							<Latitude>50.428965</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606893</Longitude>
+							<Latitude>50.428993</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60673</Longitude>
+							<Latitude>50.429003</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606274</Longitude>
+							<Latitude>50.429025</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.606169</Longitude>
+							<Latitude>50.429028</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.605853</Longitude>
+							<Latitude>50.42904</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60535</Longitude>
+							<Latitude>50.429063</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.605244</Longitude>
+							<Latitude>50.429067</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.604807</Longitude>
+							<Latitude>50.429088</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.604367</Longitude>
+							<Latitude>50.429114</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603773</Longitude>
+							<Latitude>50.429148</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603564</Longitude>
+							<Latitude>50.42916</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.603218</Longitude>
+							<Latitude>50.429185</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60272</Longitude>
+							<Latitude>50.429221</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.602069</Longitude>
+							<Latitude>50.429281</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.601556</Longitude>
+							<Latitude>50.429368</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.60121</Longitude>
+							<Latitude>50.429438</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600877</Longitude>
+							<Latitude>50.429512</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600709</Longitude>
+							<Latitude>50.429551</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600576</Longitude>
+							<Latitude>50.429576</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600498</Longitude>
+							<Latitude>50.429582</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600367</Longitude>
+							<Latitude>50.429588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.600211</Longitude>
+							<Latitude>50.429566</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.599971</Longitude>
+							<Latitude>50.429493</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59955</Longitude>
+							<Latitude>50.429337</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.599431</Longitude>
+							<Latitude>50.429302</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.598735</Longitude>
+							<Latitude>50.429096</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.597895</Longitude>
+							<Latitude>50.428885</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59742</Longitude>
+							<Latitude>50.428763</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.597036</Longitude>
+							<Latitude>50.428689</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596812</Longitude>
+							<Latitude>50.428622</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596583</Longitude>
+							<Latitude>50.428588</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.596165</Longitude>
+							<Latitude>50.428546</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.595607</Longitude>
+							<Latitude>50.428486</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.594491</Longitude>
+							<Latitude>50.428329</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.594109</Longitude>
+							<Latitude>50.428284</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.593732</Longitude>
+							<Latitude>50.42827</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.593381</Longitude>
+							<Latitude>50.428291</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.592623</Longitude>
+							<Latitude>50.428364</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.592261</Longitude>
+							<Latitude>50.428383</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.591495</Longitude>
+							<Latitude>50.428402</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.59092</Longitude>
+							<Latitude>50.428428</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.590456</Longitude>
+							<Latitude>50.428453</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.589758</Longitude>
+							<Latitude>50.428517</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.589302</Longitude>
+							<Latitude>50.428572</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588934</Longitude>
+							<Latitude>50.42863</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588531</Longitude>
+							<Latitude>50.428726</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588262</Longitude>
+							<Latitude>50.428746</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.588178</Longitude>
+							<Latitude>50.428717</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587893</Longitude>
+							<Latitude>50.428752</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587702</Longitude>
+							<Latitude>50.428753</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587522</Longitude>
+							<Latitude>50.428755</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.587241</Longitude>
+							<Latitude>50.428737</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586971</Longitude>
+							<Latitude>50.428716</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586733</Longitude>
+							<Latitude>50.428665</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.586324</Longitude>
+							<Latitude>50.42863</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585993</Longitude>
+							<Latitude>50.428617</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585791</Longitude>
+							<Latitude>50.428608</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.585542</Longitude>
+							<Latitude>50.428605</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.58521</Longitude>
+							<Latitude>50.428653</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584884</Longitude>
+							<Latitude>50.428717</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584699</Longitude>
+							<Latitude>50.428782</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584669</Longitude>
+							<Latitude>50.428794</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584463</Longitude>
+							<Latitude>50.428877</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584382</Longitude>
+							<Latitude>50.42891</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584243</Longitude>
+							<Latitude>50.428972</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.584041</Longitude>
+							<Latitude>50.429041</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.583784</Longitude>
+							<Latitude>50.429093</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.582159</Longitude>
+							<Latitude>50.429529</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.581833</Longitude>
+							<Latitude>50.429615</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.581218</Longitude>
+							<Latitude>50.429762</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.580672</Longitude>
+							<Latitude>50.429889</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.580193</Longitude>
+							<Latitude>50.430004</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.579846</Longitude>
+							<Latitude>50.430069</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.579177</Longitude>
+							<Latitude>50.430194</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.578717</Longitude>
+							<Latitude>50.430279</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.578341</Longitude>
+							<Latitude>50.43036</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577831</Longitude>
+							<Latitude>50.430497</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577461</Longitude>
+							<Latitude>50.430578</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577384</Longitude>
+							<Latitude>50.430595</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.577243</Longitude>
+							<Latitude>50.430623</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576949</Longitude>
+							<Latitude>50.430677</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576471</Longitude>
+							<Latitude>50.430776</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.576328</Longitude>
+							<Latitude>50.430805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57615</Longitude>
+							<Latitude>50.43084</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575968</Longitude>
+							<Latitude>50.430882</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575745</Longitude>
+							<Latitude>50.430937</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575637</Longitude>
+							<Latitude>50.430963</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575393</Longitude>
+							<Latitude>50.431023</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.575089</Longitude>
+							<Latitude>50.431121</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574895</Longitude>
+							<Latitude>50.43119</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57464</Longitude>
+							<Latitude>50.431278</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574264</Longitude>
+							<Latitude>50.431436</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.574141</Longitude>
+							<Latitude>50.431503</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573855</Longitude>
+							<Latitude>50.431672</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573598</Longitude>
+							<Latitude>50.43182</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.573286</Longitude>
+							<Latitude>50.43201</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.57316</Longitude>
+							<Latitude>50.432087</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572918</Longitude>
+							<Latitude>50.432264</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572827</Longitude>
+							<Latitude>50.432386</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572798</Longitude>
+							<Latitude>50.432419</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572641</Longitude>
+							<Latitude>50.432625</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.572456</Longitude>
+							<Latitude>50.432805</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571919</Longitude>
+							<Latitude>50.433301</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571717</Longitude>
+							<Latitude>50.433399</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.571351</Longitude>
+							<Latitude>50.433454</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.570903</Longitude>
+							<Latitude>50.433515</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.570025</Longitude>
+							<Latitude>50.433634</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569709</Longitude>
+							<Latitude>50.433692</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569466</Longitude>
+							<Latitude>50.433743</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56933</Longitude>
+							<Latitude>50.433787</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.569074</Longitude>
+							<Latitude>50.433889</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568863</Longitude>
+							<Latitude>50.434037</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568677</Longitude>
+							<Latitude>50.434273</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568456</Longitude>
+							<Latitude>50.434044</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568291</Longitude>
+							<Latitude>50.433718</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.568281</Longitude>
+							<Latitude>50.433702</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567896</Longitude>
+							<Latitude>50.432992</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567419</Longitude>
+							<Latitude>50.433122</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56732</Longitude>
+							<Latitude>50.433146</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567234</Longitude>
+							<Latitude>50.433154</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567157</Longitude>
+							<Latitude>50.433153</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567059</Longitude>
+							<Latitude>50.433129</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566828</Longitude>
+							<Latitude>50.433053</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566664</Longitude>
+							<Latitude>50.433022</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566539</Longitude>
+							<Latitude>50.433022</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566973</Longitude>
+							<Latitude>50.433719</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567027</Longitude>
+							<Latitude>50.433811</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567093</Longitude>
+							<Latitude>50.433907</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56737</Longitude>
+							<Latitude>50.434357</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.567448</Longitude>
+							<Latitude>50.43449</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.56701</Longitude>
+							<Latitude>50.434602</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566947</Longitude>
+							<Latitude>50.434604</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566886</Longitude>
+							<Latitude>50.434591</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566833</Longitude>
+							<Latitude>50.434548</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566781</Longitude>
+							<Latitude>50.434601</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566731</Longitude>
+							<Latitude>50.434597</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566666</Longitude>
+							<Latitude>50.434595</Latitude>
+						</Location>
+						<Location>
+							<Longitude>-3.566615</Longitude>
+							<Latitude>50.434591</Latitude>
+						</Location>
+					</Mapping>
+				</Track>
+			</RouteLink>
+		</RouteSection>
+	</RouteSections>
+	<Routes>
+		<Route id="R_37-RRT-_-y10-3-O-1">
+			<PrivateCode>R_37-RRT-_-y10-3-O-1</PrivateCode>
+			<Description>Paignton Bus Station - Steamer Quay</Description>
+			<RouteSectionRef>RS_37-RRT-_-y10-3-O-1</RouteSectionRef>
+		</Route>
+		<Route id="R_37-RRT-_-y10-3-I-2">
+			<PrivateCode>R_37-RRT-_-y10-3-I-2</PrivateCode>
+			<Description>Steamer Quay - Paignton Bus Station</Description>
+			<RouteSectionRef>RS_37-RRT-_-y10-3-I-2</RouteSectionRef>
+		</Route>
+	</Routes>
+	<JourneyPatternSections>
+		<JourneyPatternSection id="JPS_37-RRT-_-y10-3-1-O-1">
+			<JourneyPatternTimingLink id="JPL_37-RRT-_-y10-3-1-O-1-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>1190TOA51575</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<StopPointRef>1100DEY38489</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_37-RRT-_-y10-3-O-1-1</RouteLinkRef>
+				<RunTime>PT20M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+		<JourneyPatternSection id="JPS_37-RRT-_-y10-3-2-I-2">
+			<JourneyPatternTimingLink id="JPL_37-RRT-_-y10-3-2-I-2-1">
+				<From SequenceNumber="1">
+					<Activity>pickUp</Activity>
+					<StopPointRef>1100DEY38489</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</From>
+				<To SequenceNumber="2">
+					<Activity>setDown</Activity>
+					<StopPointRef>1190TOA51575</StopPointRef>
+					<TimingStatus>PTP</TimingStatus>
+				</To>
+				<RouteLinkRef>RL_37-RRT-_-y10-3-I-2-1</RouteLinkRef>
+				<RunTime>PT25M</RunTime>
+			</JourneyPatternTimingLink>
+		</JourneyPatternSection>
+	</JourneyPatternSections>
+	<Operators>
+		<Operator id="OId_DP">
+			<NationalOperatorCode>DPCR</NationalOperatorCode>
+			<OperatorCode>DP</OperatorCode>
+			<OperatorShortName>Dartmouth Steam Railway</OperatorShortName>
+			<OperatorNameOnLicence>Dartmouth Steam Railway And River Boat Company</OperatorNameOnLicence>
+			<TradingName>Dartmouth Steam Railway And River Boat Company</TradingName>
+			<LicenceNumber>PH0007025</LicenceNumber>
+			<LicenceClassification>standardNational</LicenceClassification>
+			<OperatorAddresses>
+				<CorrespondenceAddress>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Queens Park Station</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Torbay Road</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">Paignton</Line>
+					<Line xmlns="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails">TQ4 6AF</Line>
+				</CorrespondenceAddress>
+			</OperatorAddresses>
+		</Operator>
+	</Operators>
+	<Services>
+		<Service RevisionNumber="75" Modification="revise" CreationDateTime="2023-01-11T09:30:41" ModificationDateTime="2026-06-08T09:02:59" Status="active">
+			<ServiceCode>PH0007025:52</ServiceCode>
+			<PrivateCode>37-RRT-_-y10-3</PrivateCode>
+			<Lines>
+				<Line id="DPCR:PH0007025:52:Round_Robin_Tours">
+					<LineName>Round_Robin_Tours</LineName>
+					<OutboundDescription>
+						<Description> Paignton - Totnes, Round Robin Tickets Holders Only</Description>
+					</OutboundDescription>
+					<InboundDescription>
+						<Description>Totnes - Paiginton, Round Robin Tickets Holders Only</Description>
+					</InboundDescription>
+				</Line>
+			</Lines>
+			<OperatingPeriod>
+				<StartDate>2026-08-31</StartDate>
+				<EndDate>2026-09-29</EndDate>
+			</OperatingPeriod>
+			<RegisteredOperatorRef>OId_DP</RegisteredOperatorRef>
+			<StopRequirements>
+				<NoNewStopsRequired />
+			</StopRequirements>
+			<Mode>bus</Mode>
+			<PublicUse>true</PublicUse>
+			<Description> Paignton - Totnes</Description>
+			<StandardService>
+				<Origin>Paignton Bus Station</Origin>
+				<Destination>Steamer Quay</Destination>
+				<JourneyPattern id="JP_37-RRT-_-y10-3-1-O-1">
+					<DestinationDisplay>Bridgetown (Totnes)</DestinationDisplay>
+					<OperatorRef>OId_DP</OperatorRef>
+					<Direction>outbound</Direction>
+					<RouteRef>R_37-RRT-_-y10-3-O-1</RouteRef>
+					<JourneyPatternSectionRefs>JPS_37-RRT-_-y10-3-1-O-1</JourneyPatternSectionRefs>
+				</JourneyPattern>
+				<JourneyPattern id="JP_37-RRT-_-y10-3-2-I-2">
+					<DestinationDisplay>Paignton</DestinationDisplay>
+					<OperatorRef>OId_DP</OperatorRef>
+					<Direction>inbound</Direction>
+					<RouteRef>R_37-RRT-_-y10-3-I-2</RouteRef>
+					<JourneyPatternSectionRefs>JPS_37-RRT-_-y10-3-2-I-2</JourneyPatternSectionRefs>
+				</JourneyPattern>
+			</StandardService>
+		</Service>
+	</Services>
+	<VehicleJourneys>
+		<VehicleJourney SequenceNumber="1">
+			<PrivateCode>swe-37-RRT-_-y10-3-1-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0900</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-1-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>09:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="3">
+			<PrivateCode>swe-37-RRT-_-y10-3-3-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1100</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-3-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>11:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="4">
+			<PrivateCode>swe-37-RRT-_-y10-3-4-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1200</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-4-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>12:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="5">
+			<PrivateCode>swe-37-RRT-_-y10-3-5-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1300</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-5-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>13:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="6">
+			<PrivateCode>swe-37-RRT-_-y10-3-6-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1400</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-6-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>14:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="7">
+			<PrivateCode>swe-37-RRT-_-y10-3-7-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1500</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-7-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>15:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="8">
+			<PrivateCode>swe-37-RRT-_-y10-3-8-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1600</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-8-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>16:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="9">
+			<PrivateCode>swe-37-RRT-_-y10-3-9-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1715</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-9-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>17:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="2">
+			<PrivateCode>swe-37-RRT-_-y10-3-10-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1000</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-10-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>10:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="19">
+			<PrivateCode>swe-37-RRT-_-y10-3-12-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0930</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-12-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>09:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="20">
+			<PrivateCode>swe-37-RRT-_-y10-3-13-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1030</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-13-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>10:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="21">
+			<PrivateCode>swe-37-RRT-_-y10-3-14-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1130</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-14-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>11:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="22">
+			<PrivateCode>swe-37-RRT-_-y10-3-15-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1230</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-15-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>12:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="23">
+			<PrivateCode>swe-37-RRT-_-y10-3-16-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1330</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-16-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>13:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="24">
+			<PrivateCode>swe-37-RRT-_-y10-3-17-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1430</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-17-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>14:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="25">
+			<PrivateCode>swe-37-RRT-_-y10-3-18-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1530</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-18-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>15:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="26">
+			<PrivateCode>swe-37-RRT-_-y10-3-19-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1630</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-19-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>16:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="27">
+			<PrivateCode>swe-37-RRT-_-y10-3-20-T0</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1735</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Tuesday />
+						<Wednesday />
+						<Thursday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-20-T0</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>17:35:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="10">
+			<PrivateCode>swe-37-RRT-_-y10-3-1-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0900</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-1-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>09:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="12">
+			<PrivateCode>swe-37-RRT-_-y10-3-3-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1100</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-3-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>11:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="13">
+			<PrivateCode>swe-37-RRT-_-y10-3-4-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1200</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-4-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>12:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="14">
+			<PrivateCode>swe-37-RRT-_-y10-3-5-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1300</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-5-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>13:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="15">
+			<PrivateCode>swe-37-RRT-_-y10-3-6-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1400</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-6-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>14:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="16">
+			<PrivateCode>swe-37-RRT-_-y10-3-7-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1500</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-7-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>15:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="17">
+			<PrivateCode>swe-37-RRT-_-y10-3-8-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1600</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-8-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>16:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="18">
+			<PrivateCode>swe-37-RRT-_-y10-3-9-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1715</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-9-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>17:15:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="11">
+			<PrivateCode>swe-37-RRT-_-y10-3-10-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1000</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-10-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-1-O-1</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>10:00:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="28">
+			<PrivateCode>swe-37-RRT-_-y10-3-12-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>0930</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-12-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>09:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="29">
+			<PrivateCode>swe-37-RRT-_-y10-3-13-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1030</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-13-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>10:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="30">
+			<PrivateCode>swe-37-RRT-_-y10-3-14-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1130</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-14-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>11:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="31">
+			<PrivateCode>swe-37-RRT-_-y10-3-15-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1230</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-15-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>12:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="32">
+			<PrivateCode>swe-37-RRT-_-y10-3-16-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1330</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-16-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>13:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="33">
+			<PrivateCode>swe-37-RRT-_-y10-3-17-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1430</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-17-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>14:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="34">
+			<PrivateCode>swe-37-RRT-_-y10-3-18-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1530</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-18-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>15:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="35">
+			<PrivateCode>swe-37-RRT-_-y10-3-19-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1630</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-19-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>16:30:00</DepartureTime>
+		</VehicleJourney>
+		<VehicleJourney SequenceNumber="36">
+			<PrivateCode>swe-37-RRT-_-y10-3-20-T2</PrivateCode>
+			<OperatorRef>OId_DP</OperatorRef>
+			<Operational>
+				<Block>
+					<Description>RRT</Description>
+					<BlockNumber>RRT</BlockNumber>
+				</Block>
+				<TicketMachine>
+					<JourneyCode>1735</JourneyCode>
+				</TicketMachine>
+			</Operational>
+			<OperatingProfile>
+				<RegularDayType>
+					<DaysOfWeek>
+						<Saturday />
+					</DaysOfWeek>
+				</RegularDayType>
+				<BankHolidayOperation>
+					<DaysOfNonOperation>
+						<ChristmasDay />
+						<BoxingDay />
+						<GoodFriday />
+						<NewYearsDay />
+						<LateSummerBankHolidayNotScotland />
+						<MayDay />
+						<EasterMonday />
+						<SpringBank />
+						<ChristmasDayHoliday />
+						<BoxingDayHoliday />
+						<NewYearsDayHoliday />
+						<ChristmasEve />
+						<NewYearsEve />
+					</DaysOfNonOperation>
+				</BankHolidayOperation>
+			</OperatingProfile>
+			<VehicleJourneyCode>VJ_37-RRT-_-y10-3-20-T2</VehicleJourneyCode>
+			<ServiceRef>PH0007025:52</ServiceRef>
+			<LineRef>DPCR:PH0007025:52:Round_Robin_Tours</LineRef>
+			<JourneyPatternRef>JP_37-RRT-_-y10-3-2-I-2</JourneyPatternRef>
+			<Note>
+				<NoteCode>TORRT</NoteCode>
+				<NoteText>Round Robin tickets holders only</NoteText>
+			</Note>
+			<DepartureTime>17:35:00</DepartureTime>
+		</VehicleJourney>
+	</VehicleJourneys>
+</TransXChange>
